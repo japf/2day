@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Vercors_Description" xml:space="preserve">
+    <value>Almacena toda tu información en el cloud de 2Day y sincroniza con todos los temrinales Windows!</value>
+  </data>
+  <data name="Vercors_Headline" xml:space="preserve">
+    <value>Sincronizar con 2Day Cloud</value>
+  </data>
+  <data name="Vercors_LoggedAsFormat" xml:space="preserve">
+    <value>Conectado como {0} {1}</value>
+  </data>
+  <data name="Vercors_ProviderName" xml:space="preserve">
+    <value>2Day Cloud</value>
+  </data>
+  <data name="Vercors_UnableToLogin" xml:space="preserve">
+    <value>No es posible iniciar sesión con tu cuenta de Microsoft. Please check internet connectivity and restart 2Day.</value>
+  </data>
+</root>

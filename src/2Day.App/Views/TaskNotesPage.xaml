@@ -1,0 +1,47 @@
+﻿<Page
+    x:Class="Chartreuse.Today.App.Views.TaskNotesPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:controls="using:Chartreuse.Today.App.Controls"
+    mc:Ignorable="d">
+
+    <Grid 
+        x:Name="root"
+        Background="{ThemeResource AppHubSectionBackgroundBrush}"
+        BorderBrush="{StaticResource ApplicationAccentDarkerBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <Border
+            Grid.Row="0"
+            Background="{StaticResource ApplicationAccentDarkerBrush}"
+            MinHeight="50">
+            <TextBlock
+                Text="{x:Bind Path=ViewModel.PageTitle, Converter={StaticResource TextUppercaseConverter}, Mode=OneWay}"
+                Style="{StaticResource PageHeaderTextBlockStyle}" />
+        </Border>
+
+        <controls:NotesEditor
+            Grid.Row="1"
+            TaskViewModel="{x:Bind Path=ViewModel}"/>
+        
+        <controls:FlyoutAppBar Grid.Row="2"/>
+    </Grid>
+
+    <Page.BottomAppBar>
+        <CommandBar
+            x:Name="CommandBar"
+            Style="{StaticResource ModernCommandBarStyle}">
+            <AppBarButton
+                Icon="Accept"
+                Label="{x:Bind Path=Strings.Action_Save, Mode=OneTime}"
+                ToolTipService.ToolTip="{x:Bind Path=Strings.Action_Save_Tooltip, Mode=OneTime}"
+                Command="{x:Bind Path=ViewModel.SaveCommand}" />
+        </CommandBar>
+    </Page.BottomAppBar>
+</Page>

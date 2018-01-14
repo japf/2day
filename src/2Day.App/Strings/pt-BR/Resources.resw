@@ -1,0 +1,566 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AboutPage_Title.Text" xml:space="preserve">
+    <value>Sobre</value>
+  </data>
+  <data name="ActiveSyncSettingsPage_AppPassword.Text" xml:space="preserve">
+    <value>Se estiver usando autenticação de dois fatores, você deverá usar uma senha de aplicativo para o 2Day.</value>
+  </data>
+  <data name="ActiveSyncSettingsPage_AppPasswordLink.Text" xml:space="preserve">
+    <value>Criar uma senha de aplicativo</value>
+  </data>
+  <data name="ActiveSyncSettingsPage_Email.Text" xml:space="preserve">
+    <value>E-mail</value>
+  </data>
+  <data name="ActiveSyncSettingsPage_Password.Text" xml:space="preserve">
+    <value>Senha</value>
+  </data>
+  <data name="ActiveSyncSettingsPage_ServerUri.Text" xml:space="preserve">
+    <value>Url do servidor</value>
+  </data>
+  <data name="ActiveSyncSettingsPage_ServerUriExplanation.Text" xml:space="preserve">
+    <value>Deixe este campo vazio se você quiser que o aplicativo tente detectar automaticamente seu servidor.</value>
+  </data>
+  <data name="OutlookSyncSettingsPage_Title.Text" xml:space="preserve">
+    <value>Outlook.com</value>
+  </data>
+  <data name="AddContext_Title" xml:space="preserve">
+    <value>Criar contexto</value>
+  </data>
+  <data name="AppBar_Add.Label" xml:space="preserve">
+    <value>Adicionar</value>
+  </data>
+  <data name="AppBar_AddContext.Text" xml:space="preserve">
+    <value>Contexto</value>
+  </data>
+  <data name="AppBar_AddEdit.Label" xml:space="preserve">
+    <value>Editar</value>
+  </data>
+  <data name="AppBar_AddFolder.Text" xml:space="preserve">
+    <value>Pasta</value>
+  </data>
+  <data name="AppBar_AddSmartView.Text" xml:space="preserve">
+    <value>Visualização inteligente</value>
+  </data>
+  <data name="AppBar_AddTask.Text" xml:space="preserve">
+    <value>Tarefa</value>
+  </data>
+  <data name="AppBar_AddView.Text" xml:space="preserve">
+    <value>Vista</value>
+  </data>
+  <data name="AppBar_Complete.Label" xml:space="preserve">
+    <value>Completar</value>
+  </data>
+  <data name="AppBar_Delete.Label" xml:space="preserve">
+    <value>Excluir</value>
+  </data>
+  <data name="AppBar_Filter.Label" xml:space="preserve">
+    <value>Ordem</value>
+  </data>
+  <data name="AppBar_NoDueDate.Content" xml:space="preserve">
+    <value>Sem data devida</value>
+  </data>
+  <data name="AppBar_Postpone.Label" xml:space="preserve">
+    <value>Adiar</value>
+  </data>
+  <data name="AppBar_Print.Text" xml:space="preserve">
+    <value>Imprimir</value>
+  </data>
+  <data name="AppBar_Priority.Label" xml:space="preserve">
+    <value>Prioridade</value>
+  </data>
+  <data name="AppBar_Priority_High.Text" xml:space="preserve">
+    <value>Alta</value>
+  </data>
+  <data name="AppBar_Priority_Low.Text" xml:space="preserve">
+    <value>Baixa</value>
+  </data>
+  <data name="AppBar_Priority_Medium.Text" xml:space="preserve">
+    <value>Médio</value>
+  </data>
+  <data name="AppBar_Priority_None.Text" xml:space="preserve">
+    <value>Nenhum</value>
+  </data>
+  <data name="AppBar_Priority_Star.Text" xml:space="preserve">
+    <value>Estrela</value>
+  </data>
+  <data name="AppBar_QuickAdd.Label" xml:space="preserve">
+    <value>Adicionar rápido</value>
+  </data>
+  <data name="AppBar_Settings.Label" xml:space="preserve">
+    <value>Configurações</value>
+  </data>
+  <data name="AppBar_Share.Text" xml:space="preserve">
+    <value>Compartilhar</value>
+  </data>
+  <data name="AppBar_Speech.Label" xml:space="preserve">
+    <value>Reconhecimento de voz</value>
+  </data>
+  <data name="AppBar_Sync.Label" xml:space="preserve">
+    <value>Sincronização</value>
+  </data>
+  <data name="AppMenu_ContextMenu_Folder_Delete" xml:space="preserve">
+    <value>Excluir</value>
+  </data>
+  <data name="AppMenu_ContextMenu_Folder_Edit" xml:space="preserve">
+    <value>Editar</value>
+  </data>
+  <data name="AppMenu_ContextMenu_Folder_Pin" xml:space="preserve">
+    <value>PIN</value>
+  </data>
+  <data name="AppMenu_ContextMenu_Folder_Share" xml:space="preserve">
+    <value>Compartilhar</value>
+  </data>
+  <data name="AppMenu_ContextMenu_Folder_Unpin" xml:space="preserve">
+    <value>Desafixar</value>
+  </data>
+  <data name="AppMenu_ContextMenu_Hide" xml:space="preserve">
+    <value>Ocultar</value>
+  </data>
+  <data name="ChooseSyncPage_Title.Title" xml:space="preserve">
+    <value>Escolha seu provedor de sincronização</value>
+  </data>
+  <data name="ContextSettingsPage_Intro.Text" xml:space="preserve">
+    <value>O Contexto ajuda a organizar as tarefas para onde você está e o que está fazendo.</value>
+  </data>
+  <data name="ContextSettingsPage_Title.Text" xml:space="preserve">
+    <value>Contextos</value>
+  </data>
+  <data name="ContextSettings_ContextName.PlaceholderText" xml:space="preserve">
+    <value>Nome do contexto</value>
+  </data>
+  <data name="CreateEditFolderPage_FolderNamePlaceholder.PlaceholderText" xml:space="preserve">
+    <value>Nome da pasta</value>
+  </data>
+  <data name="CreateEditFolder_Color.Header" xml:space="preserve">
+    <value>Cor</value>
+  </data>
+  <data name="CreateEditFolder_General.Header" xml:space="preserve">
+    <value>Geral</value>
+  </data>
+  <data name="CreateEditFolder_Options.Header" xml:space="preserve">
+    <value>Opções</value>
+  </data>
+  <data name="CreateEditFolder_ShowInViews.Text" xml:space="preserve">
+    <value>Mostrar em todas as visões</value>
+  </data>
+  <data name="CreateEditTaskPage_Context.Text" xml:space="preserve">
+    <value>Contexto</value>
+  </data>
+  <data name="CreateEditTaskPage_Due.Text" xml:space="preserve">
+    <value>Devido</value>
+  </data>
+  <data name="CreateEditTaskPage_DueNone.Content" xml:space="preserve">
+    <value>Nenhum</value>
+  </data>
+  <data name="CreateEditTaskPage_DueOther.Content" xml:space="preserve">
+    <value>Outros</value>
+  </data>
+  <data name="CreateEditTaskPage_DueToday.Content" xml:space="preserve">
+    <value>Hoje</value>
+  </data>
+  <data name="CreateEditTaskPage_DueTomorrow.Content" xml:space="preserve">
+    <value>Amanhã</value>
+  </data>
+  <data name="CreateEditTaskPage_EditHtmlNote.Text" xml:space="preserve">
+    <value>A nota contém formatação HTML. Você pode editá-la, mas isso irá remover a formatação. Toque aqui para entrar no modo de edição.</value>
+  </data>
+  <data name="CreateEditTaskPage_Folder.Text" xml:space="preserve">
+    <value>Pasta</value>
+  </data>
+  <data name="CreateEditTaskPage_Frequency.Text" xml:space="preserve">
+    <value>Frequência</value>
+  </data>
+  <data name="CreateEditTaskPage_HeaderAdvanced.Header" xml:space="preserve">
+    <value>Avançado</value>
+  </data>
+  <data name="CreateEditTaskPage_HeaderGeneral.Header" xml:space="preserve">
+    <value>Geral</value>
+  </data>
+  <data name="CreateEditTaskPage_HeaderNotes.Header" xml:space="preserve">
+    <value>Notas</value>
+  </data>
+  <data name="CreateEditTaskPage_Notes.Text" xml:space="preserve">
+    <value>Notas</value>
+  </data>
+  <data name="CreateEditTaskPage_NotesPlaceholder.PlaceholderText" xml:space="preserve">
+    <value>Notas...</value>
+  </data>
+  <data name="CreateEditTaskPage_Priority.Text" xml:space="preserve">
+    <value>Prioridade</value>
+  </data>
+  <data name="CreateEditTaskPage_Progress.Text" xml:space="preserve">
+    <value>Progresso</value>
+  </data>
+  <data name="CreateEditTaskPage_Reminder.Text" xml:space="preserve">
+    <value>Lembrete</value>
+  </data>
+  <data name="CreateEditTaskPage_StartDate.Text" xml:space="preserve">
+    <value>Data de início</value>
+  </data>
+  <data name="CreateEditTaskPage_TagPlaceholder.Watermark" xml:space="preserve">
+    <value>Nome da marca...</value>
+  </data>
+  <data name="CreateEditTaskPage_Tags.Text" xml:space="preserve">
+    <value>Marcas</value>
+  </data>
+  <data name="CreateEditTaskPage_TaskNamePlaceholder.PlaceholderText" xml:space="preserve">
+    <value>Nome da tarefa...</value>
+  </data>
+  <data name="CreateEditTaskPage_Title.Text" xml:space="preserve">
+    <value>Título</value>
+  </data>
+  <data name="DisplaySettingsPage_BackgroundImage.Content" xml:space="preserve">
+    <value>Imagem</value>
+  </data>
+  <data name="DisplaySettingsPage_BackgroundNone.Content" xml:space="preserve">
+    <value>Nenhum</value>
+  </data>
+  <data name="DisplaySettingsPage_BackgroundPattern.Content" xml:space="preserve">
+    <value>Padrão</value>
+  </data>
+  <data name="DisplaySettingsPage_Image.Text" xml:space="preserve">
+    <value>Imagem</value>
+  </data>
+  <data name="DisplaySettingsPage_ImagePreview.Text" xml:space="preserve">
+    <value>Visualizar</value>
+  </data>
+  <data name="DisplaySettingsPage_Opacity.Text" xml:space="preserve">
+    <value>Opacidade</value>
+  </data>
+  <data name="DisplaySettingsPage_Pattern.Text" xml:space="preserve">
+    <value>Padrão</value>
+  </data>
+  <data name="DisplaySettingsPage_PickImage.Content" xml:space="preserve">
+    <value>Escolher imagem</value>
+  </data>
+  <data name="DisplaySettingsPage_Title.Text" xml:space="preserve">
+    <value>Exibir</value>
+  </data>
+  <data name="EditBox_Ok.Content" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="ExchangeSettingsPage_Advanced.Text" xml:space="preserve">
+    <value>Avançado</value>
+  </data>
+  <data name="ExchangeSettingsPage_Domain.Text" xml:space="preserve">
+    <value>Domínio</value>
+  </data>
+  <data name="ExchangeSettingsPage_Email.Text" xml:space="preserve">
+    <value>E-mail</value>
+  </data>
+  <data name="ExchangeSettingsPage_Help.Content" xml:space="preserve">
+    <value>Ajuda</value>
+  </data>
+  <data name="ExchangeSettingsPage_Password.Text" xml:space="preserve">
+    <value>Senha</value>
+  </data>
+  <data name="ExchangeSettingsPage_ServerUri.Text" xml:space="preserve">
+    <value>Uri do servidor</value>
+  </data>
+  <data name="ExchangeSettingsPage_Title.Text" xml:space="preserve">
+    <value>Exchange</value>
+  </data>
+  <data name="ExchangeSettingsPage_UserName.Text" xml:space="preserve">
+    <value>Nome de usuário</value>
+  </data>
+  <data name="ExchangeSettingsPage_UseSSL.Text" xml:space="preserve">
+    <value>Uso SSL</value>
+  </data>
+  <data name="ExchangeSettingsPage_Version.Text" xml:space="preserve">
+    <value>Versão</value>
+  </data>
+  <data name="FolderGroup_Ascending.Content" xml:space="preserve">
+    <value>Ascendente</value>
+  </data>
+  <data name="FolderGroup_Descending.Content" xml:space="preserve">
+    <value>Decrescente</value>
+  </data>
+  <data name="FolderGroup_Group.Text" xml:space="preserve">
+    <value>Agrupar por</value>
+  </data>
+  <data name="FolderGroup_GroupAction.Content" xml:space="preserve">
+    <value>Ação</value>
+  </data>
+  <data name="FolderGroup_GroupBy.Content" xml:space="preserve">
+    <value>Agrupar por</value>
+  </data>
+  <data name="FolderGroup_GroupContext.Content" xml:space="preserve">
+    <value>Contexto</value>
+  </data>
+  <data name="FolderGroup_GroupDue.Content" xml:space="preserve">
+    <value>Devido</value>
+  </data>
+  <data name="FolderGroup_GroupFolder.Content" xml:space="preserve">
+    <value>Pasta</value>
+  </data>
+  <data name="FolderGroup_GroupPriority.Content" xml:space="preserve">
+    <value>Prioridade</value>
+  </data>
+  <data name="FolderGroup_GroupProgress.Content" xml:space="preserve">
+    <value>Progresso</value>
+  </data>
+  <data name="FolderGroup_GroupStartDate.Content" xml:space="preserve">
+    <value>Data de início</value>
+  </data>
+  <data name="FolderGroup_GroupStatus.Content" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="FolderGroup_Order.Text" xml:space="preserve">
+    <value>Ordem</value>
+  </data>
+  <data name="FolderSettingsPage_Intro.Text" xml:space="preserve">
+    <value>Pastas lhe ajudam a organizar suas tarefas. Excluir pastas existentes ou criar novas.</value>
+  </data>
+  <data name="FolderSettingsPage_Title.Text" xml:space="preserve">
+    <value>Pastas</value>
+  </data>
+  <data name="FrequencyPicker_AsSoonAs.Text" xml:space="preserve">
+    <value>Criar uma nova tarefa a partir de:</value>
+  </data>
+  <data name="FrequencyPicker_DueDateOver.Text" xml:space="preserve">
+    <value>a partir da data de vencimento anterior</value>
+  </data>
+  <data name="FrequencyPicker_TaskCompleted.Text" xml:space="preserve">
+    <value>Data de conclusão da tarefa</value>
+  </data>
+  <data name="GeneralSettingsPage_AutoDelete.Text" xml:space="preserve">
+    <value>Remoção automática de tarefas concluídas</value>
+  </data>
+  <data name="GeneralSettingsPage_Background.Text" xml:space="preserve">
+    <value>Plano de fundo</value>
+  </data>
+  <data name="GeneralSettingsPage_CompletedTasks.Text" xml:space="preserve">
+    <value>Tarefas completadas</value>
+  </data>
+  <data name="GeneralSettingsPage_DefaultContext.Text" xml:space="preserve">
+    <value>Contexto-padrão</value>
+  </data>
+  <data name="GeneralSettingsPage_DefaultDueDate.Text" xml:space="preserve">
+    <value>Prazo padrão</value>
+  </data>
+  <data name="GeneralSettingsPage_DefaultStartDate.Text" xml:space="preserve">
+    <value>Data de início padrão</value>
+  </data>
+  <data name="GeneralSettingsPage_DefaultTaskPriority.Text" xml:space="preserve">
+    <value>Prioridade padrão</value>
+  </data>
+  <data name="GeneralSettingsPage_FirstDayOfTheWeek.Text" xml:space="preserve">
+    <value>Primeiro dia da semana</value>
+  </data>
+  <data name="GeneralSettingsPage_GroupedDateDescription.Text" xml:space="preserve">
+    <value>Quando a opção estiver ativada, as datas em serão agrupadas da seguinte forma: "Tarde", "Hoje", "Próximos 7 dias"... em vez de estar cada data como grupo separado.</value>
+  </data>
+  <data name="GeneralSettingsPage_ShowFutureStartDates.Text" xml:space="preserve">
+    <value>Mostrar tarefas com data de início no futuro</value>
+  </data>
+  <data name="GeneralSettingsPage_ShowNoDueWithOther.Text" xml:space="preserve">
+    <value>Mostrar tarefas sem datas devidas como outros</value>
+  </data>
+  <data name="GeneralSettingsPage_ShowNoDueWithOtherDescription.Text" xml:space="preserve">
+    <value>Quando a opção estiver ativada, as tarefas sem o devido prazo serão mostrados como aqueles que têm prazo  com o modo de exibição "hoje", "amanhã" e "semana"</value>
+  </data>
+  <data name="GeneralSettingsPage_SyncOnStartup.Text" xml:space="preserve">
+    <value>Sincronizar ao iniciar</value>
+  </data>
+  <data name="GeneralSettingsPage_Theme.Text" xml:space="preserve">
+    <value>Tema</value>
+  </data>
+  <data name="GeneralSettingsPage_Title.Text" xml:space="preserve">
+    <value>Geral</value>
+  </data>
+  <data name="GeneralSettingsPage_UseGroupedDates.Text" xml:space="preserve">
+    <value>Usar datas agrupadas</value>
+  </data>
+  <data name="HomePage_AppBarEdit.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Editar</value>
+  </data>
+  <data name="HomePage_AppBarSettings.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Configurações</value>
+  </data>
+  <data name="HomePage_AppBarSync.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Sincronização</value>
+  </data>
+  <data name="LogViewerSettingsPage_Title.Text" xml:space="preserve">
+    <value>Logs</value>
+  </data>
+  <data name="MainPage_SearchBox_QuickAdd.PlaceholderText" xml:space="preserve">
+    <value>Nome da tarefa...</value>
+  </data>
+  <data name="MainPage_SearchBox_Search.PlaceholderText" xml:space="preserve">
+    <value>Busca...</value>
+  </data>
+  <data name="MiscSettingsPage_Language.Text" xml:space="preserve">
+    <value>Linguagem (é necessário reiniciar)</value>
+  </data>
+  <data name="MiscSettingsPage_SendAnalytics.Header" xml:space="preserve">
+    <value>Enviar estatísticas de uso anônimas</value>
+  </data>
+  <data name="MiscSettingsPage_ShowAnalyticsQuestion.Header" xml:space="preserve">
+    <value>Exibir ocasionalmente perguntas sobre a maneira como você usa o 2Day</value>
+  </data>
+  <data name="MiscSettingsPage_Title.Text" xml:space="preserve">
+    <value>Miscelânea</value>
+  </data>
+  <data name="OptionsSettingsPage_Title.Text" xml:space="preserve">
+    <value>Opções</value>
+  </data>
+  <data name="QuickAddTaskPage_Date.Text" xml:space="preserve">
+    <value>Data</value>
+  </data>
+  <data name="QuickAddTaskPage_Folder.Text" xml:space="preserve">
+    <value>Pasta</value>
+  </data>
+  <data name="QuickAddTaskPage_Name.Text" xml:space="preserve">
+    <value>Adicionar Rápido</value>
+  </data>
+  <data name="QuickAddTaskPage_NamePlaceholder.PlaceholderText" xml:space="preserve">
+    <value>Nome da tarefa</value>
+  </data>
+  <data name="QuickAddTaskPage_NoDueDate.Header" xml:space="preserve">
+    <value>sem data devida</value>
+  </data>
+  <data name="QuickAddTaskPage_Title.Text" xml:space="preserve">
+    <value>Título</value>
+  </data>
+  <data name="SettingsPage_Log.Text" xml:space="preserve">
+    <value>Logs</value>
+  </data>
+  <data name="SettingsPage_Log_Detail.Text" xml:space="preserve">
+    <value>Capturar logs durante a sincronização</value>
+  </data>
+  <data name="SettingsPage_SyncAuto.Text" xml:space="preserve">
+    <value>Sincronização automática</value>
+  </data>
+  <data name="SettingsPage_SyncAuto_Detail.Text" xml:space="preserve">
+    <value>Sincronização após cada alteração</value>
+  </data>
+  <data name="SettingsPage_SyncBackground.Text" xml:space="preserve">
+    <value>Sincronização em segundo plano</value>
+  </data>
+  <data name="SettingsPage_SyncBackground_Detail.Text" xml:space="preserve">
+    <value>Sincronização em segundo plano quando você não usar o 2Day</value>
+  </data>
+  <data name="SettingsPage_SyncOnStartup.Text" xml:space="preserve">
+    <value>Sincronizar ao iniciar</value>
+  </data>
+  <data name="SettingsPage_SyncOnStartup_Detail.Text" xml:space="preserve">
+    <value>Iniciar uma sincronização quando o aplicativo começar</value>
+  </data>
+  <data name="SyncSettingsPage_AddAccount.Text" xml:space="preserve">
+    <value>Adicionar uma nova conta</value>
+  </data>
+  <data name="SyncSettingsPage_HowToChoose.Content" xml:space="preserve">
+    <value>Como escolher o seu provedor de sincronização?</value>
+  </data>
+  <data name="SyncSettingsPage_LastSync.Text" xml:space="preserve">
+    <value>Última sincronização</value>
+  </data>
+  <data name="SyncSettingsPage_LastSyncNever" xml:space="preserve">
+    <value>Nunca</value>
+  </data>
+  <data name="SyncSettingsPage_Title.Text" xml:space="preserve">
+    <value>Sincronização</value>
+  </data>
+  <data name="TaskOrderSettingsPage_Ascending.Content" xml:space="preserve">
+    <value>Ascendente</value>
+  </data>
+  <data name="TaskOrderSettingsPage_Descending.Content" xml:space="preserve">
+    <value>Decrescente</value>
+  </data>
+  <data name="TaskOrderSettingsPage_OrderingType1.Text" xml:space="preserve">
+    <value>classificar por</value>
+  </data>
+  <data name="TaskOrderSettingsPage_OrderingType2.Text" xml:space="preserve">
+    <value>em seguida por</value>
+  </data>
+  <data name="TaskOrderSettingsPage_OrderingType3.Text" xml:space="preserve">
+    <value>e, finalmente, por</value>
+  </data>
+  <data name="TaskOrderSettingsPage_Title.Text" xml:space="preserve">
+    <value>Ordenando tarefas</value>
+  </data>
+  <data name="ToodleDoSettingsPage_Email.Text" xml:space="preserve">
+    <value>E-mail</value>
+  </data>
+  <data name="ToodleDoSettingsPage_Password.Text" xml:space="preserve">
+    <value>Senha</value>
+  </data>
+  <data name="ToodleDoSettingsPage_Title.Text" xml:space="preserve">
+    <value>ToodleDo</value>
+  </data>
+  <data name="VercorsSettingsPage_Title.Text" xml:space="preserve">
+    <value>Nuvem do 2Day</value>
+  </data>
+  <data name="ViewSettingsPage_Intro.Text" xml:space="preserve">
+    <value>Escolha as visões que deseja exibir.</value>
+  </data>
+  <data name="ViewSettingsPage_Title.Text" xml:space="preserve">
+    <value>Modos de exibição</value>
+  </data>
+  <data name="WelcomePage_LetsGo.Text" xml:space="preserve">
+    <value>Ok, vamos lá</value>
+  </data>
+  <data name="AppBar_ShareLabel.Label" xml:space="preserve">
+    <value>Compartilhar</value>
+  </data>
+  <data name="SettingsPage_Title.Text" xml:space="preserve">
+    <value>Configurações</value>
+  </data>
+  <data name="GeneralSettingsPage_SecondaryQuickAddTile.Text" xml:space="preserve">
+    <value>Bloco de adicionar tarefas rapidamente</value>
+  </data>
+  <data name="FolderGroup_GroupCompleted.Content" xml:space="preserve">
+    <value>Concluído</value>
+  </data>
+  <data name="FolderGroup_GroupModified.Content" xml:space="preserve">
+    <value>Modificado</value>
+  </data>
+  <data name="ActiveSyncSyncSettingsPage_Title.Text" xml:space="preserve">
+    <value>ActiveSync</value>
+  </data>
+  <data name="ExchangeSettingsPage_UseLegacyEngine.Text" xml:space="preserve">
+    <value>Usar o velho motor de sincronização</value>
+  </data>
+  <data name="GeneralSettingsPage_BadgeValue.Text" xml:space="preserve">
+    <value>Valor distintivo da telha</value>
+  </data>
+  <data name="GeneralSettingsPage_AutoDeleteTags.Text" xml:space="preserve">
+    <value>Auto excluir tags</value>
+  </data>
+  <data name="GeneralSettingsPage_AutoDeleteTagsDescription.Text" xml:space="preserve">
+    <value>Quando a opção estiver ativada, uma marca que não é mais usado em qualquer tarefa é automaticamente eliminado.</value>
+  </data>
+  <data name="MiscSettingsPage_Log.Header" xml:space="preserve">
+    <value>Logs</value>
+  </data>
+  <data name="ExchangeSettingsPage_SetupMicrosoftAccount.Text" xml:space="preserve">
+    <value>Os funcionários da Microsoft deve usar a seguinte configuração para sincronizar 2Day com a sua conta Microsoft corporativa:
+
+-E-mail: endereço de e-mail completo (firstname.lastname@microsoft.com)
+-username: endereço de e-mail original (conhecido no alias ou endereço UPN) - não o endereço de e-mail completo
+domínio de utilizador (por exemplo:: “Europa”) -domain
+-version: Office 365</value>
+  </data>
+  <data name="ExchangeSettingsPage_SyncFlaggedItems.Text" xml:space="preserve">
+    <value>Sincronização marcado e-mails (experimental)</value>
+  </data>
+  <data name="MiscSettingsPage_NewTaskUI.Header" xml:space="preserve">
+    <value>Use nova interface para adicionar e editar tarefas</value>
+  </data>
+  <data name="GeneralSettingsPage_CompleteTaskSetsProgress.Text" xml:space="preserve">
+    <value>Definir progresso quando uma tarefa é concluída</value>
+  </data>
+</root>

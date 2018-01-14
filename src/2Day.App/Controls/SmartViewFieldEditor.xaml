@@ -1,0 +1,146 @@
+﻿<UserControl
+    x:Class="Chartreuse.Today.App.Controls.SmartViewFieldEditor"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Chartreuse.Today.App.Controls"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:views="using:Chartreuse.Today.App.Views"
+    xmlns:behavior="using:Chartreuse.Today.App.Tools.Behavior"
+    mc:Ignorable="d"
+    d:DesignHeight="50"
+    d:DesignWidth="400"
+    x:Name="Root">
+    
+    <UserControl.Resources>
+        <DataTemplate x:Key="EmptyTemplate">
+        </DataTemplate>
+        
+        <DataTemplate x:Key="DateTemplate">
+            <Grid>
+                <Button
+                    Content="{Binding Value, Converter={StaticResource LongDateConverter}}"
+                    Style="{StaticResource ModernButtonNextIconStyle}"
+                    Height="40"
+                    Margin="0"
+                    behavior:OpenPopupOnTap.IsEnabled="True"/>
+                <Popup 
+                    VerticalOffset="60"  
+                    IsLightDismissEnabled="True">
+                    <local:DateTimePicker
+                        Date="{Binding Value, Mode=TwoWay}"
+                        ShowTime="False"/>
+                </Popup>
+            </Grid>
+        </DataTemplate>
+        
+        <DataTemplate x:Key="NumericTemplate">
+            <TextBox 
+                Text="{Binding Path=Value, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                HorizontalContentAlignment="Stretch"/>
+        </DataTemplate>
+        
+        <DataTemplate x:Key="TextTemplate">
+            <TextBox 
+                Text="{Binding Path=Value, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                HorizontalContentAlignment="Stretch"/>
+        </DataTemplate>
+
+        <DataTemplate x:Key="TagTemplate">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+                <AutoSuggestBox
+                    Grid.Column="0"
+                    Margin="0"
+                    BorderThickness="0"                    
+                    Height="40"
+                    Text="{Binding Value, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                    behavior:FilterAutoSuggestBox.SuggestionsSource="{Binding ElementName=Root, Path=TagsName}"
+                    Style="{StaticResource ModernAutoSuggestBoxStyle}"/>
+                <local:IconButton
+                    Grid.Column="1"
+                    Margin="0"
+                    BorderThickness="1,0,0,0"
+                    Icon="CommonMagnify"
+                    Height="40">
+                    <local:IconButton.Flyout>
+                        <Flyout FlyoutPresenterStyle="{StaticResource ModernFlyoutPresenterStyle}">
+                            <Grid>
+                                <local:TagPicker Tags="{Binding ElementName=Root, Path=AvailableTags}"/>
+                            </Grid>
+                        </Flyout>
+                    </local:IconButton.Flyout>
+                </local:IconButton>
+            </Grid>
+        </DataTemplate>
+
+        <DataTemplate x:Key="ListTemplate">
+            <ComboBox
+                ItemsSource="{Binding Path=Values}"
+                SelectedValue="{Binding Path=Value, Mode=TwoWay}"
+                HorizontalContentAlignment="Stretch"/>
+        </DataTemplate>
+        
+        <views:SmartViewRuleValueTemplateSelector 
+            x:Key="SmartViewRuleValueTemplateSelector"
+            EmptyTemplate="{StaticResource EmptyTemplate}"
+            TagTemplate="{StaticResource TagTemplate}"
+            DateTemplate="{StaticResource DateTemplate}"
+            NumericTemplate="{StaticResource NumericTemplate}"
+            TextTemplate="{StaticResource TextTemplate}"
+            FolderTemplate="{StaticResource ListTemplate}"
+            ContextTemplate="{StaticResource ListTemplate}"
+            PriorityTemplate="{StaticResource ListTemplate}"/>
+    </UserControl.Resources>
+    
+    <Grid x:Name="LayoutRoot">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="Auto"/>
+        </Grid.ColumnDefinitions>
+        <ComboBox
+            x:Name="CbFields"
+            Grid.Column="0"
+            MinWidth="120"
+            Margin="5"
+            ItemsSource="{Binding Path=Fields, Converter={StaticResource EnumConverter}}"
+            SelectedItem="{Binding Path=SelectedField, Mode=TwoWay, Converter={StaticResource EnumConverter}}"
+            SelectionChanged="OnSelectedFieldChanged"/>
+        <ComboBox
+            x:Name="CbFilters"
+            Grid.Column="1"
+            MinWidth="120"
+            Margin="5"
+            ItemsSource="{Binding Path=Filters, Converter={StaticResource EnumConverter}}"
+            SelectedItem="{Binding Path=SelectedFilter, Mode=TwoWay, Converter={StaticResource EnumConverter}}"/>
+        <ContentControl
+            Grid.Column="2"
+            Margin="5"
+            Visibility="{Binding Path=CanEditValue, Converter={StaticResource BooleanToVisibilityConverter}}"
+            HorizontalAlignment="Stretch"
+            HorizontalContentAlignment="Stretch"
+            Content="{Binding Path=Value}"
+            ContentTemplateSelector="{StaticResource SmartViewRuleValueTemplateSelector}"/>
+        <TextBlock
+            Grid.Column="3"
+            Margin="5"
+            Text="{Binding Suffix}"
+            Visibility="{Binding Path=Suffix, Converter={StaticResource StringVisibilityConverter}}"
+            VerticalAlignment="Center"/>
+        <local:IconButton 
+            Grid.Column="4"
+            Style="{StaticResource LightIconButtonStyle}"
+            Width="40" Height="40"
+            FontSize="24"
+            Command="{Binding RemoveRuleCommand}"
+            Icon="CommonClear"
+            HorizontalAlignment="Center"/>
+ 
+    </Grid>
+</UserControl>

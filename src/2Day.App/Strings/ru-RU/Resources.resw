@@ -1,0 +1,566 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AboutPage_Title.Text" xml:space="preserve">
+    <value>О программе</value>
+  </data>
+  <data name="ActiveSyncSettingsPage_AppPassword.Text" xml:space="preserve">
+    <value>Если вы используете двухфакторную проверку подлинности, вы должны использовать пароль приложения для 2Day.</value>
+  </data>
+  <data name="ActiveSyncSettingsPage_AppPasswordLink.Text" xml:space="preserve">
+    <value>Создать пароль приложения</value>
+  </data>
+  <data name="ActiveSyncSettingsPage_Email.Text" xml:space="preserve">
+    <value>Эл. почта</value>
+  </data>
+  <data name="ActiveSyncSettingsPage_Password.Text" xml:space="preserve">
+    <value>Пароль</value>
+  </data>
+  <data name="ActiveSyncSettingsPage_ServerUri.Text" xml:space="preserve">
+    <value>Сервер</value>
+  </data>
+  <data name="ActiveSyncSettingsPage_ServerUriExplanation.Text" xml:space="preserve">
+    <value>Оставьте это поле пустым, если вы хотите чтобы программа автоматически обнаружила сервер.</value>
+  </data>
+  <data name="OutlookSyncSettingsPage_Title.Text" xml:space="preserve">
+    <value>Outlook.com</value>
+  </data>
+  <data name="AddContext_Title" xml:space="preserve">
+    <value>Создать контекст</value>
+  </data>
+  <data name="AppBar_Add.Label" xml:space="preserve">
+    <value>Добавить</value>
+  </data>
+  <data name="AppBar_AddContext.Text" xml:space="preserve">
+    <value>Контекст</value>
+  </data>
+  <data name="AppBar_AddEdit.Label" xml:space="preserve">
+    <value>Изменить</value>
+  </data>
+  <data name="AppBar_AddFolder.Text" xml:space="preserve">
+    <value>Папка</value>
+  </data>
+  <data name="AppBar_AddSmartView.Text" xml:space="preserve">
+    <value>Интеллектуальный просмотр</value>
+  </data>
+  <data name="AppBar_AddTask.Text" xml:space="preserve">
+    <value>Задача</value>
+  </data>
+  <data name="AppBar_AddView.Text" xml:space="preserve">
+    <value>Вкладка</value>
+  </data>
+  <data name="AppBar_Complete.Label" xml:space="preserve">
+    <value>Выполнено</value>
+  </data>
+  <data name="AppBar_Delete.Label" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="AppBar_Filter.Label" xml:space="preserve">
+    <value>Порядок</value>
+  </data>
+  <data name="AppBar_NoDueDate.Content" xml:space="preserve">
+    <value>Нет даты выполнения</value>
+  </data>
+  <data name="AppBar_Postpone.Label" xml:space="preserve">
+    <value>Отложить</value>
+  </data>
+  <data name="AppBar_Print.Text" xml:space="preserve">
+    <value>Печатать</value>
+  </data>
+  <data name="AppBar_Priority.Label" xml:space="preserve">
+    <value>Приоритет</value>
+  </data>
+  <data name="AppBar_Priority_High.Text" xml:space="preserve">
+    <value>Высокий</value>
+  </data>
+  <data name="AppBar_Priority_Low.Text" xml:space="preserve">
+    <value>Низкий</value>
+  </data>
+  <data name="AppBar_Priority_Medium.Text" xml:space="preserve">
+    <value>Средний</value>
+  </data>
+  <data name="AppBar_Priority_None.Text" xml:space="preserve">
+    <value>Ничего</value>
+  </data>
+  <data name="AppBar_Priority_Star.Text" xml:space="preserve">
+    <value>Избранное</value>
+  </data>
+  <data name="AppBar_QuickAdd.Label" xml:space="preserve">
+    <value>Быстрое добавление</value>
+  </data>
+  <data name="AppBar_Settings.Label" xml:space="preserve">
+    <value>Настройки</value>
+  </data>
+  <data name="AppBar_Share.Text" xml:space="preserve">
+    <value>Поделиться</value>
+  </data>
+  <data name="AppBar_Speech.Label" xml:space="preserve">
+    <value>Речь</value>
+  </data>
+  <data name="AppBar_Sync.Label" xml:space="preserve">
+    <value>Синхронизация</value>
+  </data>
+  <data name="AppMenu_ContextMenu_Folder_Delete" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="AppMenu_ContextMenu_Folder_Edit" xml:space="preserve">
+    <value>Изменить</value>
+  </data>
+  <data name="AppMenu_ContextMenu_Folder_Pin" xml:space="preserve">
+    <value>Закрепить</value>
+  </data>
+  <data name="AppMenu_ContextMenu_Folder_Share" xml:space="preserve">
+    <value>Поделиться</value>
+  </data>
+  <data name="AppMenu_ContextMenu_Folder_Unpin" xml:space="preserve">
+    <value>Открепить</value>
+  </data>
+  <data name="AppMenu_ContextMenu_Hide" xml:space="preserve">
+    <value>Скрыть</value>
+  </data>
+  <data name="ChooseSyncPage_Title.Title" xml:space="preserve">
+    <value>выбор вашей службы синхронизации</value>
+  </data>
+  <data name="ContextSettingsPage_Intro.Text" xml:space="preserve">
+    <value>Контексты помогают вам организовать ваши задания смотря где вы находитесь и что вы делаете.</value>
+  </data>
+  <data name="ContextSettingsPage_Title.Text" xml:space="preserve">
+    <value>Kонтексты</value>
+  </data>
+  <data name="ContextSettings_ContextName.PlaceholderText" xml:space="preserve">
+    <value>Название контекста</value>
+  </data>
+  <data name="CreateEditFolderPage_FolderNamePlaceholder.PlaceholderText" xml:space="preserve">
+    <value>Имя папки</value>
+  </data>
+  <data name="CreateEditFolder_Color.Header" xml:space="preserve">
+    <value>Цвет</value>
+  </data>
+  <data name="CreateEditFolder_General.Header" xml:space="preserve">
+    <value>Главная</value>
+  </data>
+  <data name="CreateEditFolder_Options.Header" xml:space="preserve">
+    <value>Опции</value>
+  </data>
+  <data name="CreateEditFolder_ShowInViews.Text" xml:space="preserve">
+    <value>Показывать в вкладке "все"</value>
+  </data>
+  <data name="CreateEditTaskPage_Context.Text" xml:space="preserve">
+    <value>Контекст</value>
+  </data>
+  <data name="CreateEditTaskPage_Due.Text" xml:space="preserve">
+    <value>Срок</value>
+  </data>
+  <data name="CreateEditTaskPage_DueNone.Content" xml:space="preserve">
+    <value>Ничего</value>
+  </data>
+  <data name="CreateEditTaskPage_DueOther.Content" xml:space="preserve">
+    <value>Другое</value>
+  </data>
+  <data name="CreateEditTaskPage_DueToday.Content" xml:space="preserve">
+    <value>Сегодня</value>
+  </data>
+  <data name="CreateEditTaskPage_DueTomorrow.Content" xml:space="preserve">
+    <value>Завтра</value>
+  </data>
+  <data name="CreateEditTaskPage_EditHtmlNote.Text" xml:space="preserve">
+    <value>Заметка содержит HTML форматирование. Вы можете изменить заметку, но это удалить форматирование. Нажмите здесь, чтобы войти в режим редактирования.</value>
+  </data>
+  <data name="CreateEditTaskPage_Folder.Text" xml:space="preserve">
+    <value>Папка</value>
+  </data>
+  <data name="CreateEditTaskPage_Frequency.Text" xml:space="preserve">
+    <value>Повторение</value>
+  </data>
+  <data name="CreateEditTaskPage_HeaderAdvanced.Header" xml:space="preserve">
+    <value>Дополнительное</value>
+  </data>
+  <data name="CreateEditTaskPage_HeaderGeneral.Header" xml:space="preserve">
+    <value>Главная</value>
+  </data>
+  <data name="CreateEditTaskPage_HeaderNotes.Header" xml:space="preserve">
+    <value>Заметки</value>
+  </data>
+  <data name="CreateEditTaskPage_Notes.Text" xml:space="preserve">
+    <value>Заметки</value>
+  </data>
+  <data name="CreateEditTaskPage_NotesPlaceholder.PlaceholderText" xml:space="preserve">
+    <value>Заметки...</value>
+  </data>
+  <data name="CreateEditTaskPage_Priority.Text" xml:space="preserve">
+    <value>Приоритет</value>
+  </data>
+  <data name="CreateEditTaskPage_Progress.Text" xml:space="preserve">
+    <value>Процесс выполнения</value>
+  </data>
+  <data name="CreateEditTaskPage_Reminder.Text" xml:space="preserve">
+    <value>Напоминание</value>
+  </data>
+  <data name="CreateEditTaskPage_StartDate.Text" xml:space="preserve">
+    <value>Дата начала</value>
+  </data>
+  <data name="CreateEditTaskPage_TagPlaceholder.Watermark" xml:space="preserve">
+    <value>Название метки...</value>
+  </data>
+  <data name="CreateEditTaskPage_Tags.Text" xml:space="preserve">
+    <value>Метки</value>
+  </data>
+  <data name="CreateEditTaskPage_TaskNamePlaceholder.PlaceholderText" xml:space="preserve">
+    <value>Название задачи...</value>
+  </data>
+  <data name="CreateEditTaskPage_Title.Text" xml:space="preserve">
+    <value>Название</value>
+  </data>
+  <data name="DisplaySettingsPage_BackgroundImage.Content" xml:space="preserve">
+    <value>Изображение</value>
+  </data>
+  <data name="DisplaySettingsPage_BackgroundNone.Content" xml:space="preserve">
+    <value>Нет</value>
+  </data>
+  <data name="DisplaySettingsPage_BackgroundPattern.Content" xml:space="preserve">
+    <value>Шаблон</value>
+  </data>
+  <data name="DisplaySettingsPage_Image.Text" xml:space="preserve">
+    <value>Изображение</value>
+  </data>
+  <data name="DisplaySettingsPage_ImagePreview.Text" xml:space="preserve">
+    <value>Предварительный просмотр</value>
+  </data>
+  <data name="DisplaySettingsPage_Opacity.Text" xml:space="preserve">
+    <value>Непрозрачность</value>
+  </data>
+  <data name="DisplaySettingsPage_Pattern.Text" xml:space="preserve">
+    <value>Шаблон</value>
+  </data>
+  <data name="DisplaySettingsPage_PickImage.Content" xml:space="preserve">
+    <value>Выбрать изображение</value>
+  </data>
+  <data name="DisplaySettingsPage_Title.Text" xml:space="preserve">
+    <value>Отображение</value>
+  </data>
+  <data name="EditBox_Ok.Content" xml:space="preserve">
+    <value>Ок</value>
+  </data>
+  <data name="ExchangeSettingsPage_Advanced.Text" xml:space="preserve">
+    <value>Дополнительное</value>
+  </data>
+  <data name="ExchangeSettingsPage_Domain.Text" xml:space="preserve">
+    <value>Домен</value>
+  </data>
+  <data name="ExchangeSettingsPage_Email.Text" xml:space="preserve">
+    <value>Эл. почта</value>
+  </data>
+  <data name="ExchangeSettingsPage_Help.Content" xml:space="preserve">
+    <value>Помощь</value>
+  </data>
+  <data name="ExchangeSettingsPage_Password.Text" xml:space="preserve">
+    <value>Пароль</value>
+  </data>
+  <data name="ExchangeSettingsPage_ServerUri.Text" xml:space="preserve">
+    <value>URI-адрес сервера</value>
+  </data>
+  <data name="ExchangeSettingsPage_Title.Text" xml:space="preserve">
+    <value>Exchange</value>
+  </data>
+  <data name="ExchangeSettingsPage_UserName.Text" xml:space="preserve">
+    <value>Имя пользователя</value>
+  </data>
+  <data name="ExchangeSettingsPage_UseSSL.Text" xml:space="preserve">
+    <value>Использовать SSL</value>
+  </data>
+  <data name="ExchangeSettingsPage_Version.Text" xml:space="preserve">
+    <value>Версия</value>
+  </data>
+  <data name="FolderGroup_Ascending.Content" xml:space="preserve">
+    <value>По возрастанию</value>
+  </data>
+  <data name="FolderGroup_Descending.Content" xml:space="preserve">
+    <value>По убыванию</value>
+  </data>
+  <data name="FolderGroup_Group.Text" xml:space="preserve">
+    <value>Группировать по:</value>
+  </data>
+  <data name="FolderGroup_GroupAction.Content" xml:space="preserve">
+    <value>Действие</value>
+  </data>
+  <data name="FolderGroup_GroupBy.Content" xml:space="preserve">
+    <value>Группировать по:</value>
+  </data>
+  <data name="FolderGroup_GroupContext.Content" xml:space="preserve">
+    <value>Контекст</value>
+  </data>
+  <data name="FolderGroup_GroupDue.Content" xml:space="preserve">
+    <value>Срок</value>
+  </data>
+  <data name="FolderGroup_GroupFolder.Content" xml:space="preserve">
+    <value>Папка</value>
+  </data>
+  <data name="FolderGroup_GroupPriority.Content" xml:space="preserve">
+    <value>Приоритет</value>
+  </data>
+  <data name="FolderGroup_GroupProgress.Content" xml:space="preserve">
+    <value>Прогресс</value>
+  </data>
+  <data name="FolderGroup_GroupStartDate.Content" xml:space="preserve">
+    <value>Дата начала</value>
+  </data>
+  <data name="FolderGroup_GroupStatus.Content" xml:space="preserve">
+    <value>Статус</value>
+  </data>
+  <data name="FolderGroup_Order.Text" xml:space="preserve">
+    <value>Порядок</value>
+  </data>
+  <data name="FolderSettingsPage_Intro.Text" xml:space="preserve">
+    <value>Папки помогают организовать задачи. Удаляйте существующие и создавайте новые папки.</value>
+  </data>
+  <data name="FolderSettingsPage_Title.Text" xml:space="preserve">
+    <value>Папки</value>
+  </data>
+  <data name="FrequencyPicker_AsSoonAs.Text" xml:space="preserve">
+    <value>Создать новое задание от:</value>
+  </data>
+  <data name="FrequencyPicker_DueDateOver.Text" xml:space="preserve">
+    <value>от предыдущей даты выполнения</value>
+  </data>
+  <data name="FrequencyPicker_TaskCompleted.Text" xml:space="preserve">
+    <value>даты выполнения задачи</value>
+  </data>
+  <data name="GeneralSettingsPage_AutoDelete.Text" xml:space="preserve">
+    <value>Автоматическое удаление выполненных задач</value>
+  </data>
+  <data name="GeneralSettingsPage_Background.Text" xml:space="preserve">
+    <value>Фон</value>
+  </data>
+  <data name="GeneralSettingsPage_CompletedTasks.Text" xml:space="preserve">
+    <value>Завершенные задачи</value>
+  </data>
+  <data name="GeneralSettingsPage_DefaultContext.Text" xml:space="preserve">
+    <value>Контекст по умолчанию</value>
+  </data>
+  <data name="GeneralSettingsPage_DefaultDueDate.Text" xml:space="preserve">
+    <value>Дата выполнения по умолчанию</value>
+  </data>
+  <data name="GeneralSettingsPage_DefaultStartDate.Text" xml:space="preserve">
+    <value>Дата начала по умолчанию</value>
+  </data>
+  <data name="GeneralSettingsPage_DefaultTaskPriority.Text" xml:space="preserve">
+    <value>Приоритет по умолчанию</value>
+  </data>
+  <data name="GeneralSettingsPage_FirstDayOfTheWeek.Text" xml:space="preserve">
+    <value>Первый день недели</value>
+  </data>
+  <data name="GeneralSettingsPage_GroupedDateDescription.Text" xml:space="preserve">
+    <value>Когда опция включена, даты будут отображатся как: Просрочено, Сегодня, Следующие 7 дней, вместо отображения каждой даты в качестве отдельной группы.</value>
+  </data>
+  <data name="GeneralSettingsPage_ShowFutureStartDates.Text" xml:space="preserve">
+    <value>Показывать задачи с датой начала в будущем</value>
+  </data>
+  <data name="GeneralSettingsPage_ShowNoDueWithOther.Text" xml:space="preserve">
+    <value>Показывать задачи без даты выполнения вместе с остальными</value>
+  </data>
+  <data name="GeneralSettingsPage_ShowNoDueWithOtherDescription.Text" xml:space="preserve">
+    <value>Когда опция включена, задачи без даты выполнения отображаются со всеми остальными.</value>
+  </data>
+  <data name="GeneralSettingsPage_SyncOnStartup.Text" xml:space="preserve">
+    <value>Синхронизировать при запуске</value>
+  </data>
+  <data name="GeneralSettingsPage_Theme.Text" xml:space="preserve">
+    <value>Тема</value>
+  </data>
+  <data name="GeneralSettingsPage_Title.Text" xml:space="preserve">
+    <value>Главная</value>
+  </data>
+  <data name="GeneralSettingsPage_UseGroupedDates.Text" xml:space="preserve">
+    <value>Использовать сгруппированные даты</value>
+  </data>
+  <data name="HomePage_AppBarEdit.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Изменить</value>
+  </data>
+  <data name="HomePage_AppBarSettings.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Настройки</value>
+  </data>
+  <data name="HomePage_AppBarSync.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Синхронизация</value>
+  </data>
+  <data name="LogViewerSettingsPage_Title.Text" xml:space="preserve">
+    <value>Журналы</value>
+  </data>
+  <data name="MainPage_SearchBox_QuickAdd.PlaceholderText" xml:space="preserve">
+    <value>Название задачи...</value>
+  </data>
+  <data name="MainPage_SearchBox_Search.PlaceholderText" xml:space="preserve">
+    <value>Поиск...</value>
+  </data>
+  <data name="MiscSettingsPage_Language.Text" xml:space="preserve">
+    <value>Язык (требуется перезагрузка)</value>
+  </data>
+  <data name="MiscSettingsPage_SendAnalytics.Header" xml:space="preserve">
+    <value>Отправить статистику анонимного пользования</value>
+  </data>
+  <data name="MiscSettingsPage_ShowAnalyticsQuestion.Header" xml:space="preserve">
+    <value>Периодически показывать вопрос относительно способа, которым вы используете 2Day</value>
+  </data>
+  <data name="MiscSettingsPage_Title.Text" xml:space="preserve">
+    <value>Разное</value>
+  </data>
+  <data name="OptionsSettingsPage_Title.Text" xml:space="preserve">
+    <value>Опции</value>
+  </data>
+  <data name="QuickAddTaskPage_Date.Text" xml:space="preserve">
+    <value>Дата</value>
+  </data>
+  <data name="QuickAddTaskPage_Folder.Text" xml:space="preserve">
+    <value>Папка</value>
+  </data>
+  <data name="QuickAddTaskPage_Name.Text" xml:space="preserve">
+    <value>Быстрое добавление</value>
+  </data>
+  <data name="QuickAddTaskPage_NamePlaceholder.PlaceholderText" xml:space="preserve">
+    <value>Название задачи</value>
+  </data>
+  <data name="QuickAddTaskPage_NoDueDate.Header" xml:space="preserve">
+    <value>нет даты выполнения</value>
+  </data>
+  <data name="QuickAddTaskPage_Title.Text" xml:space="preserve">
+    <value>Название</value>
+  </data>
+  <data name="SettingsPage_Log.Text" xml:space="preserve">
+    <value>Журналы</value>
+  </data>
+  <data name="SettingsPage_Log_Detail.Text" xml:space="preserve">
+    <value>Собирать журналы во время синхронизации</value>
+  </data>
+  <data name="SettingsPage_SyncAuto.Text" xml:space="preserve">
+    <value>Автоматическая синхронизация</value>
+  </data>
+  <data name="SettingsPage_SyncAuto_Detail.Text" xml:space="preserve">
+    <value>Производить фоновую синхронизацию после каждого изменения</value>
+  </data>
+  <data name="SettingsPage_SyncBackground.Text" xml:space="preserve">
+    <value>Синхронизация в фоновом режиме</value>
+  </data>
+  <data name="SettingsPage_SyncBackground_Detail.Text" xml:space="preserve">
+    <value>Синхронизация в фоновом режиме, когда вы не используете 2Day</value>
+  </data>
+  <data name="SettingsPage_SyncOnStartup.Text" xml:space="preserve">
+    <value>Синхронизация при запуске</value>
+  </data>
+  <data name="SettingsPage_SyncOnStartup_Detail.Text" xml:space="preserve">
+    <value>Производить синхронизацию как только приложение включается</value>
+  </data>
+  <data name="SyncSettingsPage_AddAccount.Text" xml:space="preserve">
+    <value>Добавить новую учетную запись</value>
+  </data>
+  <data name="SyncSettingsPage_HowToChoose.Content" xml:space="preserve">
+    <value>Как выбрать Вашу службу синхронизации?</value>
+  </data>
+  <data name="SyncSettingsPage_LastSync.Text" xml:space="preserve">
+    <value>Последняя синхронизация</value>
+  </data>
+  <data name="SyncSettingsPage_LastSyncNever" xml:space="preserve">
+    <value>Никогда</value>
+  </data>
+  <data name="SyncSettingsPage_Title.Text" xml:space="preserve">
+    <value>Синхронизация</value>
+  </data>
+  <data name="TaskOrderSettingsPage_Ascending.Content" xml:space="preserve">
+    <value>По возрастанию</value>
+  </data>
+  <data name="TaskOrderSettingsPage_Descending.Content" xml:space="preserve">
+    <value>По убыванию</value>
+  </data>
+  <data name="TaskOrderSettingsPage_OrderingType1.Text" xml:space="preserve">
+    <value>сортировать по</value>
+  </data>
+  <data name="TaskOrderSettingsPage_OrderingType2.Text" xml:space="preserve">
+    <value>затем по</value>
+  </data>
+  <data name="TaskOrderSettingsPage_OrderingType3.Text" xml:space="preserve">
+    <value>и наконец по</value>
+  </data>
+  <data name="TaskOrderSettingsPage_Title.Text" xml:space="preserve">
+    <value>Сортировка задач</value>
+  </data>
+  <data name="ToodleDoSettingsPage_Email.Text" xml:space="preserve">
+    <value>Эл. почта</value>
+  </data>
+  <data name="ToodleDoSettingsPage_Password.Text" xml:space="preserve">
+    <value>Пароль</value>
+  </data>
+  <data name="ToodleDoSettingsPage_Title.Text" xml:space="preserve">
+    <value>Toodledo</value>
+  </data>
+  <data name="VercorsSettingsPage_Title.Text" xml:space="preserve">
+    <value>Облако 2Day</value>
+  </data>
+  <data name="ViewSettingsPage_Intro.Text" xml:space="preserve">
+    <value>Выберите вкладки, которые вы хотите отобразить.</value>
+  </data>
+  <data name="ViewSettingsPage_Title.Text" xml:space="preserve">
+    <value>Вкладки</value>
+  </data>
+  <data name="WelcomePage_LetsGo.Text" xml:space="preserve">
+    <value>Окей, начинаем</value>
+  </data>
+  <data name="AppBar_ShareLabel.Label" xml:space="preserve">
+    <value>Поделиться</value>
+  </data>
+  <data name="SettingsPage_Title.Text" xml:space="preserve">
+    <value>Настройки</value>
+  </data>
+  <data name="GeneralSettingsPage_SecondaryQuickAddTile.Text" xml:space="preserve">
+    <value>Плитка для быстрого добавления задачи</value>
+  </data>
+  <data name="FolderGroup_GroupCompleted.Content" xml:space="preserve">
+    <value>завершенные</value>
+  </data>
+  <data name="FolderGroup_GroupModified.Content" xml:space="preserve">
+    <value>Изменено</value>
+  </data>
+  <data name="ActiveSyncSyncSettingsPage_Title.Text" xml:space="preserve">
+    <value>ActiveSync</value>
+  </data>
+  <data name="ExchangeSettingsPage_UseLegacyEngine.Text" xml:space="preserve">
+    <value>Используйте старый двигатель синхронизации</value>
+  </data>
+  <data name="GeneralSettingsPage_BadgeValue.Text" xml:space="preserve">
+    <value>Значение значок Tile</value>
+  </data>
+  <data name="GeneralSettingsPage_AutoDeleteTags.Text" xml:space="preserve">
+    <value>Автоматическое удаление тегов</value>
+  </data>
+  <data name="GeneralSettingsPage_AutoDeleteTagsDescription.Text" xml:space="preserve">
+    <value>Если опция включена, то тег, который больше не используется на любых задач автоматически удаляется.</value>
+  </data>
+  <data name="MiscSettingsPage_Log.Header" xml:space="preserve">
+    <value>Журналы</value>
+  </data>
+  <data name="ExchangeSettingsPage_SetupMicrosoftAccount.Text" xml:space="preserve">
+    <value>Сотрудники Microsoft должны использовать следующую конфигурацию для синхронизации 2Day с корпоративной учетной записью Майкрософт:
+
+-Email: полный адрес электронной почты (firstname.lastname@microsoft.com)
+-username: оригинальный адрес электронной почты (известный по псевдониму или UPN-адрес) - не полный адрес электронной почты
+домен пользователя (например: «Европа») -области
+-Version: Офис 365</value>
+  </data>
+  <data name="ExchangeSettingsPage_SyncFlaggedItems.Text" xml:space="preserve">
+    <value>Синхронизация сообщений электронной почты помечено (экспериментальный)</value>
+  </data>
+  <data name="MiscSettingsPage_NewTaskUI.Header" xml:space="preserve">
+    <value>Используйте новый пользовательский интерфейс для добавления и редактирования заданий</value>
+  </data>
+  <data name="GeneralSettingsPage_CompleteTaskSetsProgress.Text" xml:space="preserve">
+    <value>Установить прогресс при выполнении задачи</value>
+  </data>
+</root>

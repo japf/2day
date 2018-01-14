@@ -1,0 +1,20 @@
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011">
+  <Metadata>
+    <Identity Id="SQLite.UAP.2015" Version="3.8.11.1" Language="en-US" Publisher="SQLite Development Team" />
+    <DisplayName>SQLite for Universal App Platform</DisplayName>
+    <Description>SQLite is a software library that implements a self-contained, serverless, zero-configuration, transactional SQL database engine.</Description>
+    <GettingStartedGuide>http://www.sqlite.org/docs.html</GettingStartedGuide>
+    <ReleaseNotes>http://www.sqlite.org/releaselog/3_8_11_1.html</ReleaseNotes>
+    <MoreInfo>http://www.sqlite.org/</MoreInfo>
+    <License>license.txt</License>
+    <Icon>icon.png</Icon>
+    <PreviewImage>preview.png</PreviewImage>
+    <Tags>sqlite, sql, database</Tags>
+  </Metadata>
+  <Installation AllUsers="true" Scope="Global">
+    <InstallationTarget Id="Microsoft.ExtensionSDK" TargetPlatformIdentifier="UAP" TargetPlatformVersion="v0.8.0.0" SdkName="SQLite.UAP.2015" SdkVersion="3.8.11.1" />
+  </Installation>
+  <Assets>
+    <Asset Type="Microsoft.ExtensionSDK" Path="SDKManifest.xml" />
+  </Assets>
+</PackageManifest>

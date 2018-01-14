@@ -1,0 +1,45 @@
+﻿<Page
+    x:Class="Chartreuse.Today.App.Views.Settings.FolderSettingsPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:controls="using:Chartreuse.Today.App.Controls"
+    mc:Ignorable="d">
+
+    <controls:FlyoutHost x:Uid="FolderSettingsPage_Title" Text="FolderSettingsPage_Title">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+
+            <Grid Grid.Row="0" Margin="0,0,0,10">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+                <TextBlock
+                    Grid.Column="0"
+                    x:Uid="FolderSettingsPage_Intro"
+                    Text="FolderSettingsPage_Intro"
+                    FontSize="14"
+                    TextWrapping="Wrap"
+                    VerticalAlignment="Center"/>
+                <controls:IconButton
+                    Grid.Column="1"
+                    Icon="CommonAdd"
+                    Margin="5,0,-7,0"
+                    Style="{StaticResource TransparentIconButtonStyle}"
+                    Command="{x:Bind Path=ViewModel.CreateItemCommand}"/>
+            </Grid>
+
+            <ListView
+                x:Name="listview"
+                Grid.Row="1"
+                Style="{StaticResource FlyoutListViewStyle}"
+                ItemsSource="{x:Bind Path=ViewModel.CollectionView}"
+                ItemTemplate="{StaticResource SettingsFolderBaseItemTemplate}"/>
+        </Grid>
+    </controls:FlyoutHost>
+</Page>

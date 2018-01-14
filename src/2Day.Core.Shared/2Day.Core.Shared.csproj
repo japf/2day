@@ -1,0 +1,403 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <MinimumVisualStudioVersion>10.0</MinimumVisualStudioVersion>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{552731F9-5444-41D5-B3B9-D3817154E349}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Chartreuse.Today.Core.Shared</RootNamespace>
+    <AssemblyName>2Day.Core.Shared</AssemblyName>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Profile44</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{786C830F-07A1-408B-BD7F-6EE04809D6DB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>4.0</OldToolsVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <NoWarn>4014;1998</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <NoWarn>4014;1998</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'ReleaseNoApp'">
+    <OutputPath>bin\ReleaseNoApp\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <NoWarn>4014;1998</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <!-- A reference to the entire .NET Framework is automatically included -->
+    <EmbeddedResource Include="Resources\MarketplaceResources.es-ES.resx">
+      <LastGenOutput>MarketplaceResources.es-ES.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\MarketplaceResources.de-DE.resx">
+      <LastGenOutput>MarketplaceResources.de-DE.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\MarketplaceResources.hu-HU.resx" />
+    <EmbeddedResource Include="Resources\MarketplaceResources.pt-BR.resx">
+      <LastGenOutput>MarketplaceResources.pt-BR.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\MarketplaceResources.pt-PT.resx" />
+    <EmbeddedResource Include="Resources\MarketplaceResources.pl-PL.resx" />
+    <EmbeddedResource Include="Resources\MarketplaceResources.sv-SE.resx" />
+    <EmbeddedResource Include="Resources\MarketplaceResources.ru-RU.resx" />
+    <EmbeddedResource Include="Resources\MarketplaceResources.it-IT.resx" />
+    <EmbeddedResource Include="Resources\MarketplaceResources.zh-CN.resx" />
+    <EmbeddedResource Include="Resources\MarketplaceResources.cs-CZ.resx" />
+    <EmbeddedResource Include="Resources\MarketplaceResources.fr-FR.resx" />
+    <EmbeddedResource Include="Resources\MarketplaceResources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>MarketplaceResources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\StringResources.sv-SE.resx" />
+    <EmbeddedResource Include="Resources\StringResources.pt-BR.resx">
+      <LastGenOutput>StringResources.pt-BR.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\StringResources.cs-CZ.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\StringResources.pl-PL.resx" />
+    <EmbeddedResource Include="Resources\StringResources.hu-HU.resx" />
+    <EmbeddedResource Include="Resources\StringResources.ru-RU.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\StringResources.es-ES.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\StringResources.pt-PT.resx" />
+    <EmbeddedResource Include="Resources\StringResources.it-IT.resx" />
+    <EmbeddedResource Include="Resources\StringResources.fr-FR.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\StringResources.de-DE.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\StringResources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>StringResources1.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\StringResources.zh-CN.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Constants.cs" />
+    <Compile Include="EventArgs.cs" />
+    <Compile Include="IO\IPersistenceLayer.cs" />
+    <Compile Include="IO\DatabaseContext.cs" />
+    <Compile Include="Manager\ISelectionManager.cs" />
+    <Compile Include="Manager\ITileManager.cs" />
+    <Compile Include="Manager\StartupManager.cs" />
+    <Compile Include="Model\AutoDeleteFrequency.cs" />
+    <Compile Include="Model\AutoDeleteFrequencyConverter.cs" />
+    <Compile Include="Model\BackgroundExecutionStatus.cs" />
+    <Compile Include="Model\CompletedTaskMode.cs" />
+    <Compile Include="Model\Groups\Factory\CompletedDateGroupBuilderFactory.cs" />
+    <Compile Include="Model\Groups\Factory\ModifiedGroupBuilderFactory.cs" />
+    <Compile Include="Model\Impl\Context.cs" />
+    <Compile Include="Model\Impl\Folder.cs" />
+    <Compile Include="Model\Impl\ModelEntityBase.cs" />
+    <Compile Include="Model\Impl\SmartView.cs" />
+    <Compile Include="Model\Impl\SystemView.cs" />
+    <Compile Include="Model\Impl\Tag.cs" />
+    <Compile Include="Model\Impl\Task.cs" />
+    <Compile Include="Model\ISystemView.cs" />
+    <Compile Include="Model\ITag.cs" />
+    <Compile Include="Model\Recurrence\CustomFrequencyDisplayOnly.cs" />
+    <Compile Include="Model\RecurringTaskHelper.cs" />
+    <Compile Include="Model\ISmartView.cs" />
+    <Compile Include="Model\Smart\SmartView.cs" />
+    <Compile Include="Model\Smart\SmartViewBlockRule.cs" />
+    <Compile Include="Model\Smart\SmartViewBoolRule.cs" />
+    <Compile Include="Model\Smart\SmartViewContextRule.cs" />
+    <Compile Include="Model\Smart\SmartViewDateParameter.cs" />
+    <Compile Include="Model\Smart\SmartViewDateRule.cs" />
+    <Compile Include="Model\Smart\SmartViewEditMode.cs" />
+    <Compile Include="Model\Smart\SmartViewEditType.cs" />
+    <Compile Include="Model\Smart\SmartViewField.cs" />
+    <Compile Include="Model\Smart\SmartViewFilter.cs" />
+    <Compile Include="Model\Smart\SmartViewFolderRule.cs" />
+    <Compile Include="Model\Smart\SmartViewHandler.cs" />
+    <Compile Include="Model\Smart\SmartViewHelper.cs" />
+    <Compile Include="Model\Smart\SmartViewMatchType.cs" />
+    <Compile Include="Model\Smart\SmartViewPriorityRule.cs" />
+    <Compile Include="Model\Smart\SmartViewProgressRule.cs" />
+    <Compile Include="Model\Smart\SmartViewStringRule.cs" />
+    <Compile Include="Model\Smart\SmartViewRule.cs" />
+    <Compile Include="Model\Smart\SmartViewTagRule.cs" />
+    <Compile Include="Model\SortOrder.cs" />
+    <Compile Include="Model\TaskCreationParameters.cs" />
+    <Compile Include="Model\TaskGroupConverter.cs" />
+    <Compile Include="Model\TaskOrderingConverter.cs" />
+    <Compile Include="Model\IContext.cs" />
+    <Compile Include="Model\IDatabaseContext.cs" />
+    <Compile Include="Model\CoreSettings.cs" />
+    <Compile Include="Model\ReminderDisplayMode.cs" />
+    <Compile Include="Model\ReminderDisplayModeConverter.cs" />
+    <Compile Include="Model\TaskOrdering.cs" />
+    <Compile Include="Model\Recurrence\CustomFrequencyBase.cs" />
+    <Compile Include="Model\Recurrence\FrequencyFactory.cs" />
+    <Compile Include="Model\Recurrence\CustomFrequencyScale.cs" />
+    <Compile Include="Model\Recurrence\DailyFrequency.cs" />
+    <Compile Include="Model\Recurrence\DaysOfWeekFrequency.cs" />
+    <Compile Include="Model\DefaultDate.cs" />
+    <Compile Include="Model\Recurrence\EveryXPeriodFrequency.cs" />
+    <Compile Include="Model\Recurrence\Frequency.cs" />
+    <Compile Include="Model\Recurrence\FrequencyHelper.cs" />
+    <Compile Include="Model\Recurrence\FrequencyItem.cs" />
+    <Compile Include="Model\Recurrence\FrequencyMetadata.cs" />
+    <Compile Include="Model\Recurrence\FrequencyType.cs" />
+    <Compile Include="Model\Recurrence\ICustomFrequency.cs" />
+    <Compile Include="Model\IFolder.cs" />
+    <Compile Include="Model\IAbstractFolder.cs" />
+    <Compile Include="Model\IModelEntity.cs" />
+    <Compile Include="Model\ISettings.cs" />
+    <Compile Include="Model\IView.cs" />
+    <Compile Include="Model\ITask.cs" />
+    <Compile Include="Model\IWorkbook.cs" />
+    <Compile Include="Model\Recurrence\OnceOnlyFrequency.cs" />
+    <Compile Include="Model\SettingsKeyChanged.cs" />
+    <Compile Include="Model\ViewKind.cs" />
+    <Compile Include="Model\TaskAction.cs" />
+    <Compile Include="Model\TaskGroup.cs" />
+    <Compile Include="Model\TaskPriority.cs" />
+    <Compile Include="Model\TaskPriorityConverter.cs" />
+    <Compile Include="Model\TaskProperties.cs" />
+    <Compile Include="Model\Recurrence\MonthlyFrequency.cs" />
+    <Compile Include="Model\Recurrence\OnXDayFrequency.cs" />
+    <Compile Include="Model\Recurrence\RankingPosition.cs" />
+    <Compile Include="Model\Recurrence\WeeklyFrequency.cs" />
+    <Compile Include="Model\Recurrence\YearlyFrequency.cs" />
+    <Compile Include="Model\ValueChangedEventArgs.cs" />
+    <Compile Include="Model\ValueChangedEventHandler.cs" />
+    <Compile Include="Model\IViewTag.cs" />
+    <Compile Include="Model\View\SystemDefinedView.cs" />
+    <Compile Include="Model\View\SystemViewOrfan.cs" />
+    <Compile Include="Model\View\ViewAll.cs" />
+    <Compile Include="Model\View\ViewBase.cs" />
+    <Compile Include="Model\View\ViewCompleted.cs" />
+    <Compile Include="Model\View\ViewFactory.cs" />
+    <Compile Include="Model\View\ViewLate.cs" />
+    <Compile Include="Model\View\ViewNoDate.cs" />
+    <Compile Include="Model\View\ViewNonCompleted.cs" />
+    <Compile Include="Model\View\ViewReminder.cs" />
+    <Compile Include="Model\View\ViewTag.cs" />
+    <Compile Include="Model\View\ViewSearch.cs" />
+    <Compile Include="Model\View\ViewStarred.cs" />
+    <Compile Include="Model\View\ViewStartDate.cs" />
+    <Compile Include="Model\View\ViewToday.cs" />
+    <Compile Include="Model\View\ViewTomorrow.cs" />
+    <Compile Include="Model\View\ViewToSync.cs" />
+    <Compile Include="Model\View\ViewWeek.cs" />
+    <Compile Include="Model\Workbook.cs" />
+    <Compile Include="Net\IHttpClient.cs" />
+    <Compile Include="Net\SystemNetHttpRequestResult.cs" />
+    <Compile Include="Net\WebRequestBuilder.cs" />
+    <Compile Include="Net\WebRequestDefaultBuilder.cs" />
+    <Compile Include="Net\WebRequestInterceptorEventArgs.cs" />
+    <Compile Include="Net\WebRequestResponse.cs" />
+    <Compile Include="NotifyPropertyChangedBase.cs" />
+    <Compile Include="Icons\AppIconType.cs" />
+    <Compile Include="Icons\FontIconHelper.cs" />
+    <Compile Include="SafeUri.cs" />
+    <Compile Include="Services\AppPlatform.cs" />
+    <Compile Include="Properties\Annotations.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resources\MarketplaceResources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MarketplaceResources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\ResourcesLocator.cs" />
+    <Compile Include="Resources\StringResources1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>StringResources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Services\BootstraperBase.cs" />
+    <Compile Include="Services\DeviceFamily.cs" />
+    <Compile Include="Services\ICryptoService.cs" />
+    <Compile Include="Services\INotificationService.cs" />
+    <Compile Include="Services\IPlatformService.cs" />
+    <Compile Include="Services\IStartupManager.cs" />
+    <Compile Include="Model\SortOrderConverter.cs" />
+    <Compile Include="Services\ToastEventArgs.cs" />
+    <Compile Include="Services\ToastType.cs" />
+    <Compile Include="Speech\ISpeechService.cs" />
+    <Compile Include="Speech\SpeechResult.cs" />
+    <Compile Include="Sync\AdvancedReplaceSyncronizationManager.cs" />
+    <Compile Include="Sync\AdvancedSyncronizationManagerBase.cs" />
+    <Compile Include="Sync\DeletedEntry.cs" />
+    <Compile Include="Sync\IAdvancedSyncronizationManager.cs" />
+    <Compile Include="Sync\ISynchronizationManager.cs" />
+    <Compile Include="Sync\ISynchronizationMetadata.cs" />
+    <Compile Include="Sync\ISynchronizationProvider.cs" />
+    <Compile Include="Sync\ISyncItem.cs" />
+    <Compile Include="Sync\ISyncTask.cs" />
+    <Compile Include="Sync\SyncPrioritySupport.cs" />
+    <Compile Include="Sync\SyncAdvancedMode.cs" />
+    <Compile Include="Sync\SyncFailedEventArgs.cs" />
+    <Compile Include="Sync\SyncFeatures.cs" />
+    <Compile Include="Sync\SynchronizationChanges.cs" />
+    <Compile Include="Sync\SynchronizationManager.cs" />
+    <Compile Include="Sync\SynchronizationMetadata.cs" />
+    <Compile Include="Sync\SynchronizationProviderBase.cs" />
+    <Compile Include="Sync\SynchronizationService.cs" />
+    <Compile Include="Model\TaskPicker.cs" />
+    <Compile Include="StaticTestOverrides.cs" />
+    <Compile Include="Tools\DefaultDataCreator.cs" />
+    <Compile Include="Tools\Dialog\ICustomDialogContent.cs" />
+    <Compile Include="Tools\EnumDisplayAttribute.cs" />
+    <Compile Include="Tools\EnumHelper.cs" />
+    <Compile Include="Tools\EnumLocalizedValue.cs" />
+    <Compile Include="Tools\Extensions\MonthDisplay.cs" />
+    <Compile Include="Tools\Extensions\UriHelper.cs" />
+    <Compile Include="Tools\LaunchArguments\LaunchArgumentDescriptor.cs" />
+    <Compile Include="Tools\LaunchArguments\LaunchArgumentsHelper.cs" />
+    <Compile Include="Tools\LaunchArguments\LaunchArgumentType.cs" />
+    <Compile Include="Tools\Logging\ILogHandler.cs" />
+    <Compile Include="Tools\Collection\GenericComparer.cs" />
+    <Compile Include="Tools\DisposableAction.cs" />
+    <Compile Include="Model\Groups\Factory\ActionGroupBuilderFactory.cs" />
+    <Compile Include="Model\Groups\Factory\ContextGroupBuilderFactory.cs" />
+    <Compile Include="Model\Groups\Factory\DueDateGroupBuilderFactory.cs" />
+    <Compile Include="Model\Groups\Factory\FolderGroupBuilderFactory.cs" />
+    <Compile Include="Model\Groups\Group.cs" />
+    <Compile Include="Model\Groups\GroupBuilder.cs" />
+    <Compile Include="Model\Groups\GroupBuilderFactory.cs" />
+    <Compile Include="Tools\Collection\SmartCollection.cs" />
+    <Compile Include="Tools\Collection\SortableObservableCollection.cs" />
+    <Compile Include="Tools\ColorChooser.cs" />
+    <Compile Include="Model\Groups\Factory\GroupBuilderFactoryBase.cs" />
+    <Compile Include="Model\Groups\Factory\PriorityGroupBuilderFactory.cs" />
+    <Compile Include="Tools\Converter\RelativeDateConverter.cs" />
+    <Compile Include="Tools\Extensions\ExceptionExtension.cs" />
+    <Compile Include="Tools\Extensions\DateTimeExtensions.cs" />
+    <Compile Include="Tools\Extensions\CollectionExtension.cs" />
+    <Compile Include="Tools\Extensions\EventExtension.cs" />
+    <Compile Include="Tools\Extensions\StringExtension.cs" />
+    <Compile Include="Tools\Extensions\XElementExtension.cs" />
+    <Compile Include="Model\Groups\Factory\ProgressGroupBuilderFactory.cs" />
+    <Compile Include="Model\Groups\Factory\StartDateGroupBuilderFactory.cs" />
+    <Compile Include="Model\Groups\Factory\StatusGroupBuilderFactory.cs" />
+    <Compile Include="Model\Groups\TaskComparer.cs" />
+    <Compile Include="Tools\HttpClientHelper.cs" />
+    <Compile Include="Tools\Ioc.cs" />
+    <Compile Include="Tools\Logging\LogLevel.cs" />
+    <Compile Include="Tools\Logging\LogMessage.cs" />
+    <Compile Include="Tools\Logging\LogService.cs" />
+    <Compile Include="Tools\Dialog\IMessageBoxContent.cs" />
+    <Compile Include="Tools\Dialog\IMessageBoxService.cs" />
+    <Compile Include="Tools\Dialog\DialogButton.cs" />
+    <Compile Include="Tools\Dialog\DialogClosedEventArgs.cs" />
+    <Compile Include="Tools\Dialog\DialogResult.cs" />
+    <Compile Include="Model\ModelHelper.cs" />
+    <Compile Include="Tools\Navigation\INavigationService.cs" />
+    <Compile Include="Tools\NetworkType.cs" />
+    <Compile Include="Tools\RegexHelper.cs" />
+    <Compile Include="Tools\SampleData.cs" />
+    <Compile Include="Tools\Security\MD5.cs" />
+    <Compile Include="Tools\Security\MD5CryptoServiceProvider.cs" />
+    <Compile Include="Tools\SupportedCultures.cs" />
+    <Compile Include="Tools\Text\LongText.cs" />
+    <Compile Include="Tools\Text\TextItem.cs" />
+    <Compile Include="Tools\Tracking\ITrackingManager.cs" />
+    <Compile Include="Tools\Tracking\TrackingManagerHelper.cs" />
+    <Compile Include="Tools\Tracking\TrackingLevel.cs" />
+    <Compile Include="Tools\Tracking\TrackingPoints.cs" />
+    <Compile Include="Tools\Tracking\TrackingSource.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="packages.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.10.0.2\lib\portable-net45+win8+wpa81+wp8\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="SQLite.Net, Version=3.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\SQLite.Net-PCL.3.1.1\lib\portable-win8+net45+wp8+wpa81+MonoAndroid1+MonoTouch1\SQLite.Net.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

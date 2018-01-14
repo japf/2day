@@ -1,0 +1,57 @@
+﻿<UserControl
+    x:Class="Chartreuse.Today.App.Controls.EmbeddedQuickAdd"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Chartreuse.Today.App.Controls"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    d:DesignHeight="40"
+    d:DesignWidth="400"
+    x:Name="root">
+
+    <Grid 
+        Background="{Binding ElementName=root, Path=Background}"
+        BorderThickness="{Binding ElementName=root, Path=BorderThickness}"
+        BorderBrush="{Binding ElementName=root, Path=BorderBrush}">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="Auto"/>
+        </Grid.ColumnDefinitions>
+        <TextBox 
+            Grid.Column="0"
+            Style="{StaticResource ModernTextBoxStyle}"
+            Background="Transparent"
+            Margin="0"
+            Height="40"
+            MinHeight="40"
+            Padding="8"
+            BorderThickness="0,0,1,0"
+            Text="{x:Bind Path=ViewModel.Title, Mode=TwoWay}"/>
+        <local:IconButton 
+            Grid.Column="1"
+            Margin="0"
+            Height="40"
+            MinHeight="40"
+            BorderThickness="0,0,1,0"
+            Icon="Folder07">
+            <local:IconButton.Flyout>
+                <Flyout>
+                    <local:DateTimePicker
+                        Date="{x:Bind Path=ViewModel.DueDate, Mode=TwoWay}"
+                        ShowTime="False"
+                        NoDateSelectionOnLoad="True"/>
+                </Flyout>
+            </local:IconButton.Flyout>
+        </local:IconButton>
+        <local:IconButton
+            Grid.Column="2"
+            Margin="0"
+            Height="40"
+            MinHeight="40"
+            BorderThickness="0,0,0,0"
+            Icon="CommonAdd"
+            Command="{x:Bind Path=ViewModel.SaveCommand}"/>
+    </Grid>
+</UserControl>

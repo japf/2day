@@ -1,0 +1,80 @@
+﻿<UserControl
+    x:Class="Chartreuse.Today.App.Controls.ProgressPicker"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:controls="using:Chartreuse.Today.App.Controls"
+    mc:Ignorable="d"
+    d:DesignHeight="100"
+    d:DesignWidth="360">
+    
+    <Grid x:Name="grid">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="Auto"/>
+        </Grid.ColumnDefinitions>
+        <RadioButton 
+            x:Name="buttonNone"
+            Grid.Column="0"
+            Style="{StaticResource ModernTextRadioButtonStyle}"
+            Click="OnButtonProgressClick"/>
+        <RadioButton 
+            x:Name="button0"
+            Grid.Column="1"
+            Style="{StaticResource ModernTextRadioButtonStyle}"
+            Click="OnButtonProgressClick"
+            Content="0"/>
+        <RadioButton 
+            x:Name="button25"
+            Grid.Column="2"
+            Style="{StaticResource ModernTextRadioButtonStyle}"
+            Click="OnButtonProgressClick"
+            Content="25"/>
+        <RadioButton 
+            x:Name="button50"
+            Grid.Column="3"
+            Style="{StaticResource ModernTextRadioButtonStyle}"
+            Click="OnButtonProgressClick"
+            Content="50"/>
+        <RadioButton 
+            x:Name="button75"
+            Grid.Column="4"
+            Style="{StaticResource ModernTextRadioButtonStyle}"
+            Click="OnButtonProgressClick"
+            Content="75"/>
+        <RadioButton 
+            x:Name="button100"
+            Grid.Column="5"
+            Style="{StaticResource ModernTextRadioButtonStyle}"
+            Click="OnButtonProgressClick"
+            Content="100"/>
+        <controls:IconButton 
+            x:Name="buttonCustom"
+            Grid.Column="6"
+            Icon="CommonConfigure"
+            IsFullWidthFlyoutEnabled="False">
+            <FlyoutBase.AttachedFlyout>
+                <Flyout FlyoutPresenterStyle="{StaticResource ModernFlyoutPresenterStyle }">
+                    <TextBox
+                        x:Name="tbCustomProgress"
+                        InputScope="Number"
+                        Text="{Binding Progress, Mode=TwoWay, Converter={StaticResource NumericConverter}}"/>
+                </Flyout>
+            </FlyoutBase.AttachedFlyout>
+        </controls:IconButton>
+        
+        <!-- hack to grab keyboard focus and hide virtual keyboard -->
+        <Button 
+            x:Name="buttonHidden" 
+            Opacity="0"
+            Width="1"
+            Height="1"
+            IsTabStop="False"/>
+    </Grid>
+</UserControl>

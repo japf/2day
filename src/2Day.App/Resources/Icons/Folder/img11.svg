@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   overflow="visible"
+   id="svg3095"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   width="100%"
+   height="100%"
+   sodipodi:docname="img11.svg">
+  <metadata
+     id="metadata3103">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs3101" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="640"
+     inkscape:window-height="480"
+     id="namedview3099"
+     showgrid="false"
+     inkscape:zoom="5.0743654"
+     inkscape:cx="36.429857"
+     inkscape:cy="1036.123"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg3095" />
+  <path
+     d="m 30.164678,4.6749984 c 4.3722,0 7.9167,3.5444 7.9167,7.9165996 0,4.3723 -3.6277,7.8333 -8,7.8334 l -25.9999998,10e-5 c -2.1861,-10e-5 -3.99999996,-1.689 -3.99999996,-3.8751 0,-1.9384 1.39309996,-3.5513 3.23269996,-3.892 -0.0435,-0.2797 -0.066,-0.5663 -0.066,-0.8581 0,-2.9755996 2.3455,-5.4036996 5.2886,-5.5359996 1.3026,-3.6927 4.8228998,-6.33900001 8.9613998,-6.33900001 3.9291,0 7.3012,2.38540001 8.747,5.78690001 1.1556,-0.6598 2.4936,-1.0368 3.9196,-1.0368 z"
+     id="path3097"
+     inkscape:connector-curvature="0"
+     style="fill:#000000;fill-rule:nonzero" />
+</svg>

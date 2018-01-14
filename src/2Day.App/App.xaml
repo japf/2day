@@ -1,0 +1,72 @@
+﻿<Application
+    x:Class="Chartreuse.Today.App.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:converter="using:Chartreuse.Today.App.Tools.Converter"
+    xmlns:resources="using:Chartreuse.Today.App.Resources">
+
+    <Application.Resources>
+        
+        <ResourceDictionary>
+            <resources:ApplicationResources x:Key="Resources"/>
+            
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Theme/PerDeviceResources.xaml"/>
+                <ResourceDictionary Source="Theme/Theme.xaml"/>
+				<ResourceDictionary Source="Theme/CustomControlStyles.xaml"/>
+				<ResourceDictionary Source="Theme/GeneralControlStyles.xaml"/>
+				<ResourceDictionary Source="Theme/ModernControlStyles.xaml"/>
+                <ResourceDictionary Source="Theme/Clock.xaml"/>
+                <ResourceDictionary Source="Theme/ItemTemplates.xaml"/>
+				<ResourceDictionary Source="Theme/MainPageStyles.xaml"/>
+				
+                <ResourceDictionary>
+                    <converter:DebugConverter                 x:Key="DebugConverter"/>
+                    <converter:EnumConverter                  x:Key="EnumConverter"/>
+                    <converter:BooleanToVisibilityConverter   x:Key="BooleanToVisibilityConverter"/>
+                    <converter:BooleanToInvertVisibilityConverter   x:Key="BooleanToInvertVisibilityConverter"/>
+                    <converter:BooleanNegationConverter       x:Key="BooleanNegationConverter"/>
+                    <converter:BooleanConverter               x:Key="BooleanConverter"/>
+                    <converter:BooleanToForegroundConverter   x:Key="BooleanToForegroundConverter"/>
+                    <converter:OpacityMaskConverter           x:Key="OpacityConverter"/>
+                    
+                    <converter:FolderToIconConverter          x:Key="FolderToIconConverter"/>
+                    <converter:PriorityToIconConverter        x:Key="PriorityToIconConverter"/>
+                    <converter:TaskGroupToIconConverter       x:Key="TaskGroupToIconConverter"/>
+                    
+                    <converter:NavigationMenuHitTestConverter x:Key="NavigationMenuHitTestConverter"/>
+                    <converter:ShortDateConverter             x:Key="ShortDateConverter"/>
+                    <converter:LongDateConverter              x:Key="LongDateConverter"/>
+                    <converter:StringFormatConverter          x:Key="StringFormatConverter"/>
+                    <converter:TaskGroupConverter             x:Key="TaskGroupConverter"/>
+                    <converter:SortOrderConverter             x:Key="SortOrderConverter"/>
+                    <converter:TaskLateConverter              x:Key="TaskLateConverter"/>
+                    <converter:SortMenuConverter              x:Key="SortMenuConverter"/>
+                    <converter:NumericConverter               x:Key="NumericConverter"/>
+                    <converter:TaskForegroundConverter        x:Key="TaskForegroundConverter"/>
+                    <converter:MessageWarningForegroundConverter x:Key="MessageWarningForegroundConverter"/>
+                    <converter:TaskProgressConverter          x:Key="TaskProgressConverter"/>
+                    <converter:WinRelativeDateConverter       x:Key="RelativeDateConverter"/>
+                    <converter:AlarmIconConverter             x:Key="AlarmIconConverter"/>
+                    <converter:NullableToVisibilityConverter  x:Key="NullableToVisibilityConverter"/>
+                    <converter:StringVisibilityConverter      x:Key="StringVisibilityConverter"/>
+                    <converter:StringInvertVisibilityConverter x:Key="StringInvertVisibilityConverter"/>
+                    <converter:PinIconConverter               x:Key="PinIconConverter"/>
+                    <converter:GroupHeaderTitleConverter      x:Key="GroupHeaderTitleConverter"/>
+                    <converter:LightToDarkConverter           x:Key="LightToDarkConverter"/>
+                    <converter:TextUppercaseConverter         x:Key="TextUppercaseConverter"/>
+                    <converter:CompleteTaskConverter          x:Key="CompleteTaskConverter"/>
+                    <converter:TaskSwipeBackgroundConverter   x:Key="TaskSwipeBackgroundConverter"/>
+                    <converter:CollectionViewConverter        x:Key="CollectionViewConverter"/>
+                    <converter:IsFolderToVisibilityConverter  x:Key="IsFolderToVisibilityConverter"/>
+                    <converter:FolderRealTaskCountConverter   x:Key="FolderRealTaskCountConverter"/>
+                    <converter:StartDateConverter             x:Key="StartDateConverter"/>
+                    <converter:StringPlusConverter            x:Key="StringPlusConverter"/>
+                    
+                </ResourceDictionary>
+            </ResourceDictionary.MergedDictionaries>
+            
+        </ResourceDictionary>
+        
+    </Application.Resources>
+</Application>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AppBar_Cancel" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="AppBar_Save" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="ToodleDo_CheckingCredentials" xml:space="preserve">
+    <value>正在检查证书…</value>
+  </data>
+  <data name="ToodleDo_Description" xml:space="preserve">
+    <value>从www.toodledo.com获取免费账户</value>
+  </data>
+  <data name="ToodleDo_EmptyPassword" xml:space="preserve">
+    <value>密码为空</value>
+  </data>
+  <data name="ToodleDo_EmptyUsername" xml:space="preserve">
+    <value>用户名为空</value>
+  </data>
+  <data name="ToodleDo_Headline" xml:space="preserve">
+    <value>与ToodleDo服务器同步</value>
+  </data>
+  <data name="ToodleDo_InvalidCredentialsFormat" xml:space="preserve">
+    <value>无效的证书 ({0})</value>
+  </data>
+  <data name="ToodleDo_LoginInProgress" xml:space="preserve">
+    <value>正在登陆…</value>
+  </data>
+  <data name="ToodleDo_Progress_ErrorWhileGettingData" xml:space="preserve">
+    <value>从服务器获取数据时遇到错误</value>
+  </data>
+  <data name="ToodleDo_Progress_LoginErrorFormat" xml:space="preserve">
+    <value>登陆时遇到错误 ({0})</value>
+  </data>
+  <data name="ToodleDo_Progress_SyncInProgress" xml:space="preserve">
+    <value>同步进行中…</value>
+  </data>
+  <data name="ToodleDo_ProviderName" xml:space="preserve">
+    <value>ToodleDo</value>
+  </data>
+  <data name="ToodleDo_SyncErrorFormat" xml:space="preserve">
+    <value>同步时遇到错误 ({0})</value>
+  </data>
+</root>

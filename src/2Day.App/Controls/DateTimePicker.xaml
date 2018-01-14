@@ -1,0 +1,200 @@
+﻿<UserControl
+    x:Class="Chartreuse.Today.App.Controls.DateTimePicker"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    x:Name="root"
+    mc:Ignorable="d"
+    d:DesignHeight="500"
+    d:DesignWidth="300">
+    <UserControl.Resources>
+        <Style x:Key="TextblockDayStyle" TargetType="TextBlock">
+            <Setter Property="HorizontalAlignment" Value="Center"/>
+            <Setter Property="FontWeight" Value="Normal"/>
+            <Setter Property="FontSize" Value="15"/>
+        </Style>
+
+        <Style x:Key="TextblockDateStyle" TargetType="TextBlock">
+            <Setter Property="HorizontalAlignment" Value="Center"/>
+            <Setter Property="FontWeight" Value="SemiLight"/>
+            <Setter Property="FontSize" Value="11"/>
+        </Style>
+
+        <Style x:Key="ShiftButtonStyle" TargetType="Button">
+            <Setter Property="Padding" Value="0,4,0,4"/>
+            <Setter Property="HorizontalAlignment" Value="Stretch"/>
+            <Setter Property="Margin" Value="0"></Setter>
+            <Setter Property="Background" Value="{StaticResource AppFlyoutButtonBackgroundBrush}"/>
+            <Setter Property="Foreground" Value="{ThemeResource AppFlyoutButtonForegroundBrush}"/>
+            <Setter Property="BorderBrush" Value="{StaticResource AppFlyoutBorderBrush}"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="FontFamily" Value="{ThemeResource ContentControlThemeFontFamily}"/>
+            <Setter Property="FontWeight" Value="SemiBold"/>
+            <Setter Property="FontSize" Value="{ThemeResource ControlContentThemeFontSize}"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Grid>
+                            <VisualStateManager.VisualStateGroups>
+                                <VisualStateGroup x:Name="CommonStates">
+                                    <VisualState x:Name="Normal"/>
+                                    <VisualState x:Name="PointerOver">
+                                        <Storyboard>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Background" Storyboard.TargetName="Border">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource AppFlyoutButtonHighlightBrush}"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Foreground" Storyboard.TargetName="ContentPresenter">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource Foreground}"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                        </Storyboard>
+                                    </VisualState>
+                                    <VisualState x:Name="Pressed">
+                                        <Storyboard>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Background" Storyboard.TargetName="Border">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource ButtonPressedBackgroundThemeBrush}"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Foreground" Storyboard.TargetName="ContentPresenter">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource ButtonPressedForegroundThemeBrush}"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                        </Storyboard>
+                                    </VisualState>
+                                    <VisualState x:Name="Disabled">
+                                        <Storyboard>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Background" Storyboard.TargetName="Border">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource ButtonDisabledBackgroundThemeBrush}"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="BorderBrush" Storyboard.TargetName="Border">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource ButtonDisabledBorderThemeBrush}"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Foreground" Storyboard.TargetName="ContentPresenter">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource ButtonDisabledForegroundThemeBrush}"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                        </Storyboard>
+                                    </VisualState>
+                                </VisualStateGroup>
+                                <VisualStateGroup x:Name="FocusStates">
+                                    <VisualState x:Name="Focused">
+                                        <Storyboard>
+                                            <DoubleAnimation Duration="0" To="1" Storyboard.TargetProperty="Opacity" Storyboard.TargetName="FocusVisualWhite"/>
+                                            <DoubleAnimation Duration="0" To="1" Storyboard.TargetProperty="Opacity" Storyboard.TargetName="FocusVisualBlack"/>
+                                        </Storyboard>
+                                    </VisualState>
+                                    <VisualState x:Name="Unfocused"/>
+                                    <VisualState x:Name="PointerFocused"/>
+                                </VisualStateGroup>
+                            </VisualStateManager.VisualStateGroups>
+                            <Border x:Name="Border" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Background="{TemplateBinding Background}" Margin="0">
+                                <ContentPresenter x:Name="ContentPresenter" Foreground="{TemplateBinding Foreground}" AutomationProperties.AccessibilityView="Raw" ContentTemplate="{TemplateBinding ContentTemplate}" ContentTransitions="{TemplateBinding ContentTransitions}" Content="{TemplateBinding Content}" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" Margin="{TemplateBinding Padding}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                            </Border>
+                            <Rectangle x:Name="FocusVisualWhite" IsHitTestVisible="False" Opacity="0" StrokeDashOffset="1.5" StrokeEndLineCap="Square" Stroke="{ThemeResource FocusVisualWhiteStrokeThemeBrush}" StrokeDashArray="1,1"/>
+                            <Rectangle x:Name="FocusVisualBlack" IsHitTestVisible="False" Opacity="0" StrokeDashOffset="0.5" StrokeEndLineCap="Square" Stroke="{ThemeResource FocusVisualBlackStrokeThemeBrush}" StrokeDashArray="1,1"/>
+                        </Grid>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <Style TargetType="CalendarViewDayItem">
+            <Setter Property="MinWidth" Value="40"/>
+            <Setter Property="MinHeight" Value="40"/>
+            <Setter Property="Margin" Value="0"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Padding" Value="0, 0, 0, 4"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="CalendarViewDayItem"/>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </UserControl.Resources>
+
+    <Grid 
+        x:Name="panel" 
+        MinWidth="{StaticResource DateTimePickerMinWidth}" 
+        Background="{StaticResource AppFlyoutBackgroundBrush}" 
+        BorderThickness="1" 
+        BorderBrush="{StaticResource AppFlyoutBorderBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <TimePicker
+            x:Name="TimePicker"
+            Grid.Row="0"
+            Visibility="{Binding ElementName=root, Path=ShowTime, Converter={StaticResource BooleanToVisibilityConverter}}"
+            Style="{StaticResource ModernTimePicker}"
+            HorizontalAlignment="Stretch"/>
+        <CalendarView 
+            x:Name="CalendarView"
+            Grid.Row="1"
+            HorizontalAlignment="Stretch "
+            Background="{StaticResource AppFlyoutButtonBackgroundBrush}"
+            CalendarItemBackground="{StaticResource AppFlyoutButtonBackgroundBrush}"
+            OutOfScopeBackground="{StaticResource AppFlyoutButtonBackgroundBrush}"
+            OutOfScopeForeground="{StaticResource CalendarOutOfScopeForeground}"
+            BorderThickness="0"
+            DayItemFontSize="14"/>
+        <Grid Grid.Row="2">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Button Grid.Row="0" Grid.Column="0" Style="{StaticResource ShiftButtonStyle}" BorderThickness="0,1,1,1" Tapped="ButtonShiftToday_Click">
+                <StackPanel>
+                    <TextBlock Style="{StaticResource TextblockDayStyle}" x:Name="textblockDayToday"/>
+                    <TextBlock Style="{StaticResource TextblockDateStyle}" x:Name="textblockDateToday"/>
+                </StackPanel>
+            </Button>
+            <Button Grid.Row="0" Grid.Column="1" Style="{StaticResource ShiftButtonStyle}" BorderThickness="0,1,1,1" Tapped="ButtonShift1Day_Click">
+                <StackPanel>
+                    <TextBlock Style="{StaticResource TextblockDayStyle}" x:Name="textblockDay1Day"/>
+                    <TextBlock Style="{StaticResource TextblockDateStyle}" x:Name="textblockDate1Day"/>
+                </StackPanel>
+            </Button>
+            <Button Grid.Row="0" Grid.Column="2" Style="{StaticResource ShiftButtonStyle}" BorderThickness="0,1,1,1" Tapped="ButtonShift2Days_Click">
+                <StackPanel>
+                    <TextBlock Style="{StaticResource TextblockDayStyle}" x:Name="textblockDay2Days"/>
+                    <TextBlock Style="{StaticResource TextblockDateStyle}" x:Name="textblockDate2Days"/>
+                </StackPanel>
+            </Button>
+            <Button Grid.Row="0" Grid.Column="3" Style="{StaticResource ShiftButtonStyle}" BorderThickness="0,1,0,1" Tapped="ButtonShift3Days_Click">
+                <StackPanel>
+                    <TextBlock Style="{StaticResource TextblockDayStyle}" x:Name="textblockDay3Days"/>
+                    <TextBlock Style="{StaticResource TextblockDateStyle}" x:Name="textblockDate3Days"/>
+                </StackPanel>
+            </Button>
+            <Button Grid.Row="1" Grid.Column="0" Style="{StaticResource ShiftButtonStyle}" BorderThickness="0,0,1,0" Tapped="ButtonShift1Week_Click">
+                <StackPanel>
+                    <TextBlock Style="{StaticResource TextblockDayStyle}" x:Name="textblockDay1Week"/>
+                    <TextBlock Style="{StaticResource TextblockDateStyle}" x:Name="textblockDate1Week"/>
+                </StackPanel>
+            </Button>
+            <Button Grid.Row="1" Grid.Column="1" Style="{StaticResource ShiftButtonStyle}" BorderThickness="0,0,1,0" Tapped="ButtonShift2Weeks_Click">
+                <StackPanel>
+                    <TextBlock Style="{StaticResource TextblockDayStyle}" x:Name="textblockDay2Weeks"/>
+                    <TextBlock Style="{StaticResource TextblockDateStyle}" x:Name="textblockDate2Weeks"/>
+                </StackPanel>
+            </Button>
+            <Button Grid.Row="1" Grid.Column="2" Style="{StaticResource ShiftButtonStyle}" BorderThickness="0,0,1,0" Tapped="ButtonShift1Month_Click">
+                <StackPanel>
+                    <TextBlock Style="{StaticResource TextblockDayStyle}" x:Name="textblockDay1Month"/>
+                    <TextBlock Style="{StaticResource TextblockDateStyle}" x:Name="textblockDate1Month"/>
+                </StackPanel>
+            </Button>
+            <Button Grid.Row="1" Grid.Column="3" Style="{StaticResource ShiftButtonStyle}" BorderThickness="0,0,0,0" Tapped="ButtonShiftNone_Click">
+                <StackPanel>
+                    <TextBlock Style="{StaticResource TextblockDayStyle}" x:Name="textblockDayNone"/>
+                    <TextBlock Style="{StaticResource TextblockDateStyle}" x:Name="textblockDateNone"/>
+                </StackPanel>
+            </Button>
+        </Grid>
+    </Grid>
+</UserControl>

@@ -1,0 +1,46 @@
+﻿<#@ template debug="false" hostspecific="true" language="C#" #>
+<#@ assembly name="System.Core" #>
+<#@ assembly name="System.Xml" #>
+<#@ assembly name="System.Xml.Linq" #>
+<#@ import namespace="System.Linq" #>
+<#@ import namespace="System.Text" #>
+<#@ import namespace="System.IO" #>
+<#@ import namespace="System.Text.RegularExpressions" #>
+<#@ import namespace="System.Collections.Generic" #>
+<#@ import namespace="Microsoft.CSharp" #>
+
+<#@ output extension=".cs" #>
+<#
+	Directory.SetCurrentDirectory(Host.ResolvePath(""));
+#>
+using System.Collections.Generic;
+
+namespace Chartreuse.Today.App.Resources
+{
+	public static class ApplicationBrushes 
+	{
+		public static List<string> GetKeys()
+		{
+			var brushes = new List<string> 
+			{
+<#
+	var regex = new Regex(@"SolidColorBrush x:Key=""([a-zA-Z]*)""");
+	var lines = File.ReadAllLines(@"../Theme/Theme.xaml");
+	foreach(var line in lines) 
+	{
+		var matches = regex.Matches(line);		
+		if (matches.Count == 1)
+		{
+			var name = matches[0].Groups[1].Value;
+			#> 
+				"<#= name #>",		
+			<#			
+		}	
+	}
+#>
+			};
+
+			return brushes;
+		}
+	}
+}

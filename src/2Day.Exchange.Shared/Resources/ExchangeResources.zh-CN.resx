@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="OutlookActiveSync_Description" xml:space="preserve">
+    <value>您可以在outlook.com网站或使用Outlook软件访问您的任务。</value>
+  </data>
+  <data name="ExchangeActiveSync_DomainNotSupported" xml:space="preserve">
+    <value>请为 Office 365 使用同步设置中的 “Microsoft Exchange”</value>
+  </data>
+  <data name="OutlookActiveSync_Headline" xml:space="preserve">
+    <value>与 Outlook.com 同步</value>
+  </data>
+  <data name="ExchangeActiveSync_InvalidCredentialsMessage" xml:space="preserve">
+    <value>无效的证书，或无法找到服务器。</value>
+  </data>
+  <data name="ExchangeActiveSync_NoTasksFolder" xml:space="preserve">
+    <value>没有在服务器上找到任务文件夹</value>
+  </data>
+  <data name="OutlookActiveSync_ProviderName" xml:space="preserve">
+    <value>Outlook.com</value>
+  </data>
+  <data name="Exchange_AuthAutoDiscoveryNotFound" xml:space="preserve">
+    <value>没有找到自动搜索连接，请尝试使用手动指定的服务器uri。</value>
+  </data>
+  <data name="Exchange_AuthInvalidCredential" xml:space="preserve">
+    <value>无效的证书</value>
+  </data>
+  <data name="Exchange_AuthOk" xml:space="preserve">
+    <value>有效的证书</value>
+  </data>
+  <data name="Exchange_AuthProblemFormat" xml:space="preserve">
+    <value>授权问题：{0} ({1})</value>
+  </data>
+  <data name="Exchange_AuthServerAccessForbiden" xml:space="preserve">
+    <value>禁止服务器访问</value>
+  </data>
+  <data name="Exchange_AuthServerMethodNotAllowed" xml:space="preserve">
+    <value>不允许服务器方式</value>
+  </data>
+  <data name="Exchange_AuthServerUrlNotFound" xml:space="preserve">
+    <value>没有找到服务器uri</value>
+  </data>
+  <data name="Exchange_AuthTrustFailure" xml:space="preserve">
+    <value>信任失败</value>
+  </data>
+  <data name="Exchange_AuthUnkown" xml:space="preserve">
+    <value>未知状态</value>
+  </data>
+  <data name="Exchange_CheckingCredentials" xml:space="preserve">
+    <value>正在检查证书…</value>
+  </data>
+  <data name="Exchange_Description" xml:space="preserve">
+    <value>2007、2010或2013</value>
+  </data>
+  <data name="Exchange_EmptyEmail" xml:space="preserve">
+    <value>电子邮件为空</value>
+  </data>
+  <data name="Exchange_EmptyPassword" xml:space="preserve">
+    <value>密码为空</value>
+  </data>
+  <data name="Exchange_EmptyUsername" xml:space="preserve">
+    <value>用户名为空</value>
+  </data>
+  <data name="Exchange_ExceptionFormat" xml:space="preserve">
+    <value>同步失败 ({0})</value>
+  </data>
+  <data name="Exchange_Headline" xml:space="preserve">
+    <value>与Microsoft Exchange同步</value>
+  </data>
+  <data name="Exchange_InvalidCredentialsFormat" xml:space="preserve">
+    <value>无法登陆 ({0})</value>
+  </data>
+  <data name="Exchange_InvalidServerUri" xml:space="preserve">
+    <value>无效的服务器uri</value>
+  </data>
+  <data name="Exchange_SyncErrorFormat" xml:space="preserve">
+    <value>同步时遇到错误 ({0})</value>
+  </data>
+  <data name="ExchangeOffice365_Description" xml:space="preserve">
+    <value>Office 365</value>
+  </data>
+  <data name="ExchangeOffice365_Headline" xml:space="preserve">
+    <value>与Microsoft Office 365同步</value>
+  </data>
+  <data name="ExchangeOffice365_SettingsTitle" xml:space="preserve">
+    <value>Office 365</value>
+  </data>
+  <data name="ActiveSync_ProviderName" xml:space="preserve">
+    <value>ActiveSync</value>
+  </data>
+  <data name="ActiveSync_Description" xml:space="preserve">
+    <value>使用ActiveSync协议来同步您的任务</value>
+  </data>
+  <data name="ActiveSync_Headline" xml:space="preserve">
+    <value>与ActiveSync服务器同步</value>
+  </data>
+  <data name="Exchange_RemoveExistingContent" xml:space="preserve">
+    <value>请尝试配置同步之前从服务2Day所有现有的内容。</value>
+  </data>
+</root>

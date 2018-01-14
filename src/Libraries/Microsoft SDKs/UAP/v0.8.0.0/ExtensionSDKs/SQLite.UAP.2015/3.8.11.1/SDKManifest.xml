@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<FileList
+    DisplayName="SQLite for Universal App Platform"
+    ProductFamilyName="SQLite.UAP.2015"
+    MoreInfo="http://www.sqlite.org/"
+    MinVSVersion="14.0"
+    AppliesTo="WindowsAppContainer"
+    DependsOn="Microsoft.VCLibs, version=14.0"
+    SupportsMultipleVersions="Error"
+    SupportedArchitectures="x86;x64;ARM">
+</FileList>

@@ -1,0 +1,1689 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="About_ContactUs" xml:space="preserve">
+    <value>Írjon nekünk angolul vagy franciául</value>
+  </data>
+  <data name="About_Facebook" xml:space="preserve">
+    <value>Facebook</value>
+  </data>
+  <data name="About_FollowUs" xml:space="preserve">
+    <value>Kövessen minket</value>
+  </data>
+  <data name="About_Help" xml:space="preserve">
+    <value>Súgó</value>
+  </data>
+  <data name="About_HelpDetail" xml:space="preserve">
+    <value>Látogassa meg támogatási oldalunkat</value>
+  </data>
+  <data name="About_ReviewTheApp" xml:space="preserve">
+    <value>A 2Day értékelése</value>
+  </data>
+  <data name="About_ShareEnthousiasm" xml:space="preserve">
+    <value>Ajánlja másoknak is</value>
+  </data>
+  <data name="About_SubmitIdeas" xml:space="preserve">
+    <value>Írja meg a javaslatait</value>
+  </data>
+  <data name="About_Updates" xml:space="preserve">
+    <value>Frissítés</value>
+  </data>
+  <data name="About_UpdatesDetail" xml:space="preserve">
+    <value>Verzióelőzmények</value>
+  </data>
+  <data name="About_WindowsStoreDesktop" xml:space="preserve">
+    <value>Próbája ki a Windows-t futtató asztali és táblagépekre készített alkalmazást.</value>
+  </data>
+  <data name="About_WindowsStorePhone" xml:space="preserve">
+    <value>Próbálja ki a Windows Phone-ra készített alkalmazást.</value>
+  </data>
+  <data name="Action_Cancel" xml:space="preserve">
+    <value>Mégse</value>
+  </data>
+  <data name="Action_Complete" xml:space="preserve">
+    <value>Befejezés</value>
+  </data>
+  <data name="Action_Delete" xml:space="preserve">
+    <value>Törlés</value>
+  </data>
+  <data name="Action_Pin" xml:space="preserve">
+    <value>Kitűzés</value>
+  </data>
+  <data name="Action_Postpone" xml:space="preserve">
+    <value>Elhalasztás</value>
+  </data>
+  <data name="Action_Save" xml:space="preserve">
+    <value>Mentés</value>
+  </data>
+  <data name="Action_SaveAndContinue" xml:space="preserve">
+    <value>Mentés és létrehozás</value>
+  </data>
+  <data name="Action_Unpin" xml:space="preserve">
+    <value>Levétel</value>
+  </data>
+  <data name="AddContext_Title" xml:space="preserve">
+    <value>Kategória létrehozása</value>
+  </data>
+  <data name="Analytics_Comments" xml:space="preserve">
+    <value>Megjegyzések</value>
+  </data>
+  <data name="Analytics_DisableQuestion" xml:space="preserve">
+    <value>Ne tegyen fel kérdéseket a 2Day használatáról</value>
+  </data>
+  <data name="Analytics_DoNoShowAgain" xml:space="preserve">
+    <value>Ne mutasson hasonló üzeneteket</value>
+  </data>
+  <data name="Analytics_Email" xml:space="preserve">
+    <value>E-mail cím (nem kötelező)</value>
+  </data>
+  <data name="Analytics_NotificationTest" xml:space="preserve">
+    <value>Kérem, szánjon ránk fél percet, és válaszoljon meg egy rövid kérdést</value>
+  </data>
+  <data name="Analytics_Title" xml:space="preserve">
+    <value>Rövid kérdés a 2Day továbbfejlesztése érdekében!</value>
+  </data>
+  <data name="AppBar_EditContext" xml:space="preserve">
+    <value>Kategória szerkesztése</value>
+  </data>
+  <data name="AppBar_EditFolder" xml:space="preserve">
+    <value>Mappa szerkesztése</value>
+  </data>
+  <data name="AppBar_EditView" xml:space="preserve">
+    <value>Nézet szerkesztése</value>
+  </data>
+  <data name="AppMenu_ContextMenu_Folder_Delete" xml:space="preserve">
+    <value>Törlés</value>
+  </data>
+  <data name="AppMenu_ContextMenu_Folder_Edit" xml:space="preserve">
+    <value>Szerkesztés</value>
+  </data>
+  <data name="AppMenu_ContextMenu_Folder_Pin" xml:space="preserve">
+    <value>Kitűzés</value>
+  </data>
+  <data name="AppMenu_ContextMenu_Folder_Share" xml:space="preserve">
+    <value>Megosztás</value>
+  </data>
+  <data name="AppMenu_ContextMenu_Folder_Unpin" xml:space="preserve">
+    <value>Levétel</value>
+  </data>
+  <data name="AppMenu_ContextMenu_Hide" xml:space="preserve">
+    <value>Elrejtés</value>
+  </data>
+  <data name="AutoDelete_Never" xml:space="preserve">
+    <value>Soha</value>
+  </data>
+  <data name="AutoDelete_OneDay" xml:space="preserve">
+    <value>1 nap</value>
+  </data>
+  <data name="AutoDelete_OneMonth" xml:space="preserve">
+    <value>1 hónap</value>
+  </data>
+  <data name="AutoDelete_OneWeek" xml:space="preserve">
+    <value>1 hét</value>
+  </data>
+  <data name="AutoDelete_ThreeDays" xml:space="preserve">
+    <value>3 nap</value>
+  </data>
+  <data name="AutoDelete_ThreeMonths" xml:space="preserve">
+    <value>3 hónap</value>
+  </data>
+  <data name="AutoDelete_TwoWeeks" xml:space="preserve">
+    <value>2 hét</value>
+  </data>
+  <data name="BootstrapDragTaskNote" xml:space="preserve">
+    <value>Húzza a tennivalót a bal oldali menübe vagy egy másik csoportba</value>
+  </data>
+  <data name="BootstrapDragTaskTitle" xml:space="preserve">
+    <value>Próbálja ki a húzás funkciót ("drag'n'drop").</value>
+  </data>
+  <data name="BootstrapVoiceCommandTaskNote" xml:space="preserve">
+    <value>Tudta, hogy angol nyelvű hangutasítással is létrehozhat tennivalókat és emlékeztetőket? Ehhez nem kell mást tennie, mint a Windows Phone telefonjának kezdőképernyőjén lenyomva tartania a Keresés gombot, és például azt mondania, hogy "today, add a task for tomorrow". Ha a hangfelismerés során megérinti a "?" vagy "see more" gombot, láthatja a 2Day által támogatott valamennyi hangutasítást. Figyelem, ez a funkció csak angolul működik!</value>
+  </data>
+  <data name="BootstrapVoiceCommandTaskTitle" xml:space="preserve">
+    <value>Hangvezérlés használata</value>
+  </data>
+  <data name="BootstrapWelcomeTaskNote" xml:space="preserve">
+    <value>Élvezze a 2Day által nyújtott lehetőségeket!</value>
+  </data>
+  <data name="BootstrapWelcomeTaskTitle" xml:space="preserve">
+    <value>Üdvözöljük</value>
+  </data>
+  <data name="CompletedTaskMode_Group" xml:space="preserve">
+    <value>Tegye a lista végére</value>
+  </data>
+  <data name="CompletedTaskMode_Hide" xml:space="preserve">
+    <value>Rejtse el</value>
+  </data>
+  <data name="CompletedTaskMode_Show" xml:space="preserve">
+    <value>Mutassa</value>
+  </data>
+  <data name="Context_EmptyHeader" xml:space="preserve">
+    <value>Nincs megadva kategória</value>
+  </data>
+  <data name="Context_EmptyHint" xml:space="preserve">
+    <value>Adjon feladatot ehhez a kategóriához</value>
+  </data>
+  <data name="ConverterAction_Call" xml:space="preserve">
+    <value>Telefon</value>
+  </data>
+  <data name="ConverterAction_Email" xml:space="preserve">
+    <value>E-mail</value>
+  </data>
+  <data name="ConverterAction_None" xml:space="preserve">
+    <value>Nincs megadva</value>
+  </data>
+  <data name="ConverterAction_Sms" xml:space="preserve">
+    <value>Sms</value>
+  </data>
+  <data name="ConverterAction_Visit" xml:space="preserve">
+    <value>Látogatás</value>
+  </data>
+  <data name="ConverterContext_None" xml:space="preserve">
+    <value>Nincs megadva</value>
+  </data>
+  <data name="ConverterDate_Future" xml:space="preserve">
+    <value>Később</value>
+  </data>
+  <data name="ConverterDate_Late" xml:space="preserve">
+    <value>Lejárt</value>
+  </data>
+  <data name="ConverterDate_Next7Days" xml:space="preserve">
+    <value>A következő 7 napban</value>
+  </data>
+  <data name="ConverterDate_NoDate" xml:space="preserve">
+    <value>Nincs megadva</value>
+  </data>
+  <data name="ConverterDate_Today" xml:space="preserve">
+    <value>Ma</value>
+  </data>
+  <data name="ConverterDate_Tomorrow" xml:space="preserve">
+    <value>Holnap</value>
+  </data>
+  <data name="ConverterDate_Yesterday" xml:space="preserve">
+    <value>Tegnap</value>
+  </data>
+  <data name="ConverterPriority_High" xml:space="preserve">
+    <value>Magas</value>
+  </data>
+  <data name="ConverterPriority_Low" xml:space="preserve">
+    <value>Alacsony</value>
+  </data>
+  <data name="ConverterPriority_Medium" xml:space="preserve">
+    <value>Átlagos</value>
+  </data>
+  <data name="ConverterPriority_Star" xml:space="preserve">
+    <value>Kiemelt</value>
+  </data>
+  <data name="ConverterProgress_None" xml:space="preserve">
+    <value>Nincs megadva</value>
+  </data>
+  <data name="ConverterStatus_Completed" xml:space="preserve">
+    <value>Befejezve</value>
+  </data>
+  <data name="ConverterStatus_Todo" xml:space="preserve">
+    <value>Teendő</value>
+  </data>
+  <data name="Crash_MessageContent" xml:space="preserve">
+    <value>Elnézést, hiba történt. Szeretné elküldeni a hiba részleteit a fejlesztőknek?</value>
+  </data>
+  <data name="CreateEditFolder_FolderNameAlreadyUsedNotification" xml:space="preserve">
+    <value>A mappanév már használatban van</value>
+  </data>
+  <data name="CreateEditTaskPage_NotifyFormat" xml:space="preserve">
+    <value>{0}' feladat létrehozva a {1} mappában</value>
+  </data>
+  <data name="CreateEditTaskPage_NotifyWithDueDateFormat" xml:space="preserve">
+    <value>{0}' feladat létrehozva a {1} mappában {2} határidővel</value>
+  </data>
+  <data name="CreateEditTask_TagAlreadyExists" xml:space="preserve">
+    <value>A címke már létezik</value>
+  </data>
+  <data name="CreateEditTask_TagCannotBeEmptyMsg" xml:space="preserve">
+    <value>Meg kell adni egy címkét</value>
+  </data>
+  <data name="CreateFolderPage_Title" xml:space="preserve">
+    <value>Mappa létrehozása</value>
+  </data>
+  <data name="CreateTaskPage_Title" xml:space="preserve">
+    <value>Feladat létrehozása</value>
+  </data>
+  <data name="CustomFrequency_Custom" xml:space="preserve">
+    <value>Egyéni</value>
+  </data>
+  <data name="CustomFrequency_Daily" xml:space="preserve">
+    <value>Naponta</value>
+  </data>
+  <data name="CustomFrequency_Day" xml:space="preserve">
+    <value>napon</value>
+  </data>
+  <data name="CustomFrequency_Days" xml:space="preserve">
+    <value>napon</value>
+  </data>
+  <data name="CustomFrequency_DaysOfWeekTitle" xml:space="preserve">
+    <value>A hét meghatározott napján</value>
+  </data>
+  <data name="CustomFrequency_Each" xml:space="preserve">
+    <value>minden egyes {0}</value>
+  </data>
+  <data name="CustomFrequency_Every" xml:space="preserve">
+    <value>minden {0}</value>
+  </data>
+  <data name="CustomFrequency_EveryXPeriodTitle" xml:space="preserve">
+    <value>Minden...</value>
+  </data>
+  <data name="CustomFrequency_First" xml:space="preserve">
+    <value>első</value>
+  </data>
+  <data name="CustomFrequency_Fourth" xml:space="preserve">
+    <value>negyedik</value>
+  </data>
+  <data name="CustomFrequency_Last" xml:space="preserve">
+    <value>utolsó</value>
+  </data>
+  <data name="CustomFrequency_Month" xml:space="preserve">
+    <value>hónapban</value>
+  </data>
+  <data name="CustomFrequency_Monthly" xml:space="preserve">
+    <value>Havonta</value>
+  </data>
+  <data name="CustomFrequency_Months" xml:space="preserve">
+    <value>hónapban</value>
+  </data>
+  <data name="CustomFrequency_Once" xml:space="preserve">
+    <value>Nincs ismétlődés</value>
+  </data>
+  <data name="CustomFrequency_Second" xml:space="preserve">
+    <value>második</value>
+  </data>
+  <data name="CustomFrequency_Third" xml:space="preserve">
+    <value>harmadik</value>
+  </data>
+  <data name="CustomFrequency_Week" xml:space="preserve">
+    <value>héten</value>
+  </data>
+  <data name="CustomFrequency_Weekday" xml:space="preserve">
+    <value>munkanap</value>
+  </data>
+  <data name="CustomFrequency_Weekend" xml:space="preserve">
+    <value>hétvége</value>
+  </data>
+  <data name="CustomFrequency_Weekly" xml:space="preserve">
+    <value>Hetente</value>
+  </data>
+  <data name="CustomFrequency_Weeks" xml:space="preserve">
+    <value>hét</value>
+  </data>
+  <data name="CustomFrequency_XthDayOfTheMonth" xml:space="preserve">
+    <value>A hónap {0} {1}</value>
+  </data>
+  <data name="CustomFrequency_XthDayOfTheMonthTitle" xml:space="preserve">
+    <value>A hónap meghatározott napján</value>
+  </data>
+  <data name="CustomFrequency_Year" xml:space="preserve">
+    <value>évben</value>
+  </data>
+  <data name="CustomFrequency_Yearly" xml:space="preserve">
+    <value>Évente</value>
+  </data>
+  <data name="CustomFrequency_Years" xml:space="preserve">
+    <value>évben</value>
+  </data>
+  <data name="DefaultDate_None" xml:space="preserve">
+    <value>Nincs megadva</value>
+  </data>
+  <data name="DefaultDate_Today" xml:space="preserve">
+    <value>Ma</value>
+  </data>
+  <data name="DefaultDate_Tomorrow" xml:space="preserve">
+    <value>Holnap</value>
+  </data>
+  <data name="DefaultFolderName_Personal" xml:space="preserve">
+    <value>Személyes</value>
+  </data>
+  <data name="DefaultFolderName_Work" xml:space="preserve">
+    <value>Munkahelyi</value>
+  </data>
+  <data name="Dialog_AreYouSure" xml:space="preserve">
+    <value>Biztos benne?</value>
+  </data>
+  <data name="Dialog_DeleteContextText" xml:space="preserve">
+    <value>Biztosan törli akarja ezt a kategóriát? A kategória összes feladata elveszíti a besorolását.</value>
+  </data>
+  <data name="Dialog_DeleteFolderText" xml:space="preserve">
+    <value>Biztosan törölni akarja ezt a mappát? Ezzel a mappában található összes feladatot is törli. A művelet nem vonható vissza.</value>
+  </data>
+  <data name="Dialog_DeleteSmartViewText" xml:space="preserve">
+    <value>Biztosan törölni akarja ezt az egyéni nézetet?</value>
+  </data>
+  <data name="Dialog_DeleteTagText" xml:space="preserve">
+    <value>Biztosan törölni akarja ezt a címkét?</value>
+  </data>
+  <data name="Dialog_DeleteTask" xml:space="preserve">
+    <value>Biztosan törölni akarja ezt a feladatot?</value>
+  </data>
+  <data name="Dialog_LooseChangesContent" xml:space="preserve">
+    <value>Elveti a módosításokat?</value>
+  </data>
+  <data name="Dialog_RemindersUpdated" xml:space="preserve">
+    <value>Emlékeztetők frissítve</value>
+  </data>
+  <data name="Dialog_ReminderUpdatedDateFormat" xml:space="preserve">
+    <value>Emlékeztető frissítve: {0}</value>
+  </data>
+  <data name="Dialog_RestartToApply" xml:space="preserve">
+    <value>A módosítások érvényesítéséhez újra kell indítania a 2Day-t. Szeretne most kilépni az alkalmazásból?</value>
+  </data>
+  <data name="Dialog_StartingApp" xml:space="preserve">
+    <value>A 2Day indítása</value>
+  </data>
+  <data name="Dialog_SyncContextsNotSupported" xml:space="preserve">
+    <value>Az Ön által válaszotott szinkronizálási mód nem támogatja a kategóriákat. A kategóriák nem fognak szinkronizálódni az eszközei között. Szeretne többet tudni a kategóriák szinkronizálásáról?</value>
+  </data>
+  <data name="Dialog_TitleConfirmation" xml:space="preserve">
+    <value>Megerősítés</value>
+  </data>
+  <data name="EditContext_Add" xml:space="preserve">
+    <value>Kategória létrehozása</value>
+  </data>
+  <data name="EditContext_Placeholder" xml:space="preserve">
+    <value>Kategória neve</value>
+  </data>
+  <data name="EditContext_Title" xml:space="preserve">
+    <value>Kategória szerkesztése</value>
+  </data>
+  <data name="EditFolderPage_ColorUsageCount" xml:space="preserve">
+    <value>Mappák száma ugyanezzel a színnel</value>
+  </data>
+  <data name="EditFolderPage_Title" xml:space="preserve">
+    <value>Mappa szerkesztése</value>
+  </data>
+  <data name="EditTag_Placeholder" xml:space="preserve">
+    <value>Címke neve</value>
+  </data>
+  <data name="EditTag_Title" xml:space="preserve">
+    <value>Címke szerkesztése</value>
+  </data>
+  <data name="EditTaskPage_Title" xml:space="preserve">
+    <value>Feladat szerkesztése</value>
+  </data>
+  <data name="EditViewPage_Title" xml:space="preserve">
+    <value>Nézet szerkesztése</value>
+  </data>
+  <data name="FocusFilter_NoDue" xml:space="preserve">
+    <value>Határidő nélküli</value>
+  </data>
+  <data name="FocusFilter_Starred" xml:space="preserve">
+    <value>Kedvencek</value>
+  </data>
+  <data name="FocusFilter_ThisWeek" xml:space="preserve">
+    <value>Következő 7 nap</value>
+  </data>
+  <data name="FocusFilter_Today" xml:space="preserve">
+    <value>Mai</value>
+  </data>
+  <data name="FocusFilter_TodayNoDue" xml:space="preserve">
+    <value>Mai vagy Határidő nélkül</value>
+  </data>
+  <data name="FocusFilter_TodayTomorrow" xml:space="preserve">
+    <value>Mai vagy Holnapi</value>
+  </data>
+  <data name="FocusFilter_TodayTomorrowStarPriority" xml:space="preserve">
+    <value>Mai, Holnapi vagy Kedvencek</value>
+  </data>
+  <data name="FolderDisplayMode_Icon" xml:space="preserve">
+    <value>ikon</value>
+  </data>
+  <data name="FolderDisplayMode_None" xml:space="preserve">
+    <value>nincs megadva</value>
+  </data>
+  <data name="FolderDisplayMode_Text" xml:space="preserve">
+    <value>szöveg</value>
+  </data>
+  <data name="FolderDisplayMode_TextAndIcon" xml:space="preserve">
+    <value>szöveg és ikon</value>
+  </data>
+  <data name="Folder_EmptyHeader" xml:space="preserve">
+    <value>A mappa üres</value>
+  </data>
+  <data name="Folder_EmptyHint" xml:space="preserve">
+    <value>Hozzon létre egy feladatot</value>
+  </data>
+  <data name="Frequency_First" xml:space="preserve">
+    <value>első</value>
+  </data>
+  <data name="Frequency_Fourth" xml:space="preserve">
+    <value>negyedik</value>
+  </data>
+  <data name="Frequency_Last" xml:space="preserve">
+    <value>utolsó</value>
+  </data>
+  <data name="Frequency_Rate1" xml:space="preserve">
+    <value>minden egyes</value>
+  </data>
+  <data name="Frequency_RateFormat" xml:space="preserve">
+    <value>minden {0}</value>
+  </data>
+  <data name="Frequency_Scale_Day" xml:space="preserve">
+    <value>napon</value>
+  </data>
+  <data name="Frequency_Scale_Month" xml:space="preserve">
+    <value>hónapban</value>
+  </data>
+  <data name="Frequency_Scale_Week" xml:space="preserve">
+    <value>héten</value>
+  </data>
+  <data name="Frequency_Scale_Year" xml:space="preserve">
+    <value>évben</value>
+  </data>
+  <data name="Frequency_Second" xml:space="preserve">
+    <value>második</value>
+  </data>
+  <data name="Frequency_Third" xml:space="preserve">
+    <value>harmadik</value>
+  </data>
+  <data name="General_LabelCancel" xml:space="preserve">
+    <value>Mégse</value>
+  </data>
+  <data name="General_LabelDetails" xml:space="preserve">
+    <value>Részletek</value>
+  </data>
+  <data name="General_LabelError" xml:space="preserve">
+    <value>Hiba</value>
+  </data>
+  <data name="General_LabelNo" xml:space="preserve">
+    <value>Nem</value>
+  </data>
+  <data name="General_LabelOk" xml:space="preserve">
+    <value>Rendben</value>
+  </data>
+  <data name="General_LabelYes" xml:space="preserve">
+    <value>Igen</value>
+  </data>
+  <data name="HomePage_SyncCompletedSystrayMessage" xml:space="preserve">
+    <value>Szinkronizálva.</value>
+  </data>
+  <data name="LogViewer_Clear" xml:space="preserve">
+    <value>Törlés</value>
+  </data>
+  <data name="MessageReview_AlreadyDone" xml:space="preserve">
+    <value>Már készen is van. :-)</value>
+  </data>
+  <data name="MessageReview_Body" xml:space="preserve">
+    <value>Úgy látszik, szívesen használja a 2Day-t. Kérjük segítse a munkánkat, és értékelje az alkalmazást.</value>
+  </data>
+  <data name="MessageReview_CreateTask" xml:space="preserve">
+    <value>Feladat létrehozása</value>
+  </data>
+  <data name="MessageReview_Later" xml:space="preserve">
+    <value>Később emlékeztessen</value>
+  </data>
+  <data name="MessageReview_No" xml:space="preserve">
+    <value>Nem, köszönöm</value>
+  </data>
+  <data name="MessageReview_TaskNote" xml:space="preserve">
+    <value>Köszönjük a segítségét. :-)</value>
+  </data>
+  <data name="MessageReview_TaskTitle" xml:space="preserve">
+    <value>A 2Day értékelése</value>
+  </data>
+  <data name="MessageReview_Title" xml:space="preserve">
+    <value>Értékelés</value>
+  </data>
+  <data name="MessageReview_Yes" xml:space="preserve">
+    <value>Hogyne</value>
+  </data>
+  <data name="Message_CannotCreateTaskNoFolderMessage" xml:space="preserve">
+    <value>Új feladat létrehozásához legalább egy mappára szükség van. Létre kíván most hozni egy mappát?</value>
+  </data>
+  <data name="Message_CleanupTaskConfirmationFormat" xml:space="preserve">
+    <value>Biztosan törölni akar {0} feladatot?</value>
+  </data>
+  <data name="Message_CleanupTaskNoRemove" xml:space="preserve">
+    <value>Nincs eltávolítható befejezett feladat.</value>
+  </data>
+  <data name="Message_DeleteAllMessage" xml:space="preserve">
+    <value>Biztosan törölni akarja az összes feladatot, mappát és kategóriát? A művelet nem vonható vissza.</value>
+  </data>
+  <data name="Message_Information" xml:space="preserve">
+    <value>Információ</value>
+  </data>
+  <data name="Message_Recommended" xml:space="preserve">
+    <value>javasolt</value>
+  </data>
+  <data name="Message_SpeechExceptionFormat" xml:space="preserve">
+    <value>Hiba lépett fel a hangfelismerés használata közben. ({0})</value>
+  </data>
+  <data name="Message_TitleCannotBeEmpty" xml:space="preserve">
+    <value>A tárgy/elnevezés mező nem maradhat üresen.</value>
+  </data>
+  <data name="Message_Warning" xml:space="preserve">
+    <value>Figyelem</value>
+  </data>
+  <data name="MiscClearSearchHistory" xml:space="preserve">
+    <value>Keresési előzmények törlése</value>
+  </data>
+  <data name="MiscCompleteTasks" xml:space="preserve">
+    <value>Jelölje befejezettnek az összes feladatot</value>
+  </data>
+  <data name="MiscDeleteAll" xml:space="preserve">
+    <value>Minden feladat, mappa és kategória törlése</value>
+  </data>
+  <data name="MiscDeleteCompletedTasks" xml:space="preserve">
+    <value>Befejezett feladatok törlése</value>
+  </data>
+  <data name="MiscDeleteTasks" xml:space="preserve">
+    <value>Minden feladat törlése</value>
+  </data>
+  <data name="MiscOpenWelcomeScreen" xml:space="preserve">
+    <value>Az üdvözlőképernyő megnyitása</value>
+  </data>
+  <data name="Notification_Done" xml:space="preserve">
+    <value>Kész</value>
+  </data>
+  <data name="Notification_DueCannotBeNull" xml:space="preserve">
+    <value>Ismétlődő feladathoz meg kell adnia határidőt vagy kezdési időt.</value>
+  </data>
+  <data name="Notification_DueDateRemoved" xml:space="preserve">
+    <value>A határidőt töröltük</value>
+  </data>
+  <data name="Notification_DueDateUpdatedFormat" xml:space="preserve">
+    <value>Új határidő: {0}</value>
+  </data>
+  <data name="Notification_Edit" xml:space="preserve">
+    <value>Szerkesztés</value>
+  </data>
+  <data name="Notification_FolderNameAlreadyUsed" xml:space="preserve">
+    <value>A mappa neve már használatban van.</value>
+  </data>
+  <data name="Notification_FolderPinnedFormat" xml:space="preserve">
+    <value>A(z) {0} mappa ki lett tűzve  a start menübe/kezdőképernyőre.</value>
+  </data>
+  <data name="Notification_FolderUnpinnedFormat" xml:space="preserve">
+    <value>A(z) {0} mappa le lett véve a start menüről/kezdőképernyőről.</value>
+  </data>
+  <data name="Notification_InvalidSelection" xml:space="preserve">
+    <value>Érvénytelen kiválasztás</value>
+  </data>
+  <data name="Notification_SearchHistoryCleared" xml:space="preserve">
+    <value>A keresési előzményeket töröltük.</value>
+  </data>
+  <data name="Notification_TagAlreadyExists" xml:space="preserve">
+    <value>Ez a címke már létezik</value>
+  </data>
+  <data name="Notification_TagCannotBeEmptyMsg" xml:space="preserve">
+    <value>Meg kell adni egy címkét</value>
+  </data>
+  <data name="Notification_TaskPinnedFormat" xml:space="preserve">
+    <value>A(z) {0} feladat ki lett tűzve  a start menübe/kezdőképernyőre.</value>
+  </data>
+  <data name="Notification_TaskUnpinnedFormat" xml:space="preserve">
+    <value>A(z) {0} feladat le lett véve a start menüről/kezdőképernyőről.</value>
+  </data>
+  <data name="Notification_TitleCannotBeEmpty" xml:space="preserve">
+    <value>A tárgy/elnevezés mező nem maradhat üresen.</value>
+  </data>
+  <data name="OptionSettingsPage_DescriptionOff" xml:space="preserve">
+    <value>ki</value>
+  </data>
+  <data name="OptionSettingsPage_DescriptionOn" xml:space="preserve">
+    <value>be</value>
+  </data>
+  <data name="OptionSettingsPage_DescriptionTasksFormat" xml:space="preserve">
+    <value>Automatikus törlés {0} nap után, befejezett feladatokat {1}</value>
+  </data>
+  <data name="OptionSettingsPage_SectionAbout" xml:space="preserve">
+    <value>Névjegy</value>
+  </data>
+  <data name="OptionSettingsPage_SectionBackup" xml:space="preserve">
+    <value>Biztonsági másolat</value>
+  </data>
+  <data name="OptionSettingsPage_SectionContexts" xml:space="preserve">
+    <value>Kategóriák</value>
+  </data>
+  <data name="OptionSettingsPage_SectionContextsFormat" xml:space="preserve">
+    <value>{0} kategória érhető el</value>
+  </data>
+  <data name="OptionSettingsPage_SectionDisplay" xml:space="preserve">
+    <value>Megjelenítés</value>
+  </data>
+  <data name="OptionSettingsPage_SectionFolders" xml:space="preserve">
+    <value>Mappák</value>
+  </data>
+  <data name="OptionSettingsPage_SectionFoldersFormat" xml:space="preserve">
+    <value>{0} mappa</value>
+  </data>
+  <data name="OptionSettingsPage_SectionGeneral" xml:space="preserve">
+    <value>Általános</value>
+  </data>
+  <data name="OptionSettingsPage_SectionMisc" xml:space="preserve">
+    <value>Egyebek</value>
+  </data>
+  <data name="OptionSettingsPage_SectionMiscFormat" xml:space="preserve">
+    <value>további beállítások</value>
+  </data>
+  <data name="OptionSettingsPage_SectionOrderingFormat" xml:space="preserve">
+    <value>rendezés {0}, majd {1}, végül {2} szerint</value>
+  </data>
+  <data name="OptionSettingsPage_SectionSync" xml:space="preserve">
+    <value>Szinkronizálás</value>
+  </data>
+  <data name="OptionSettingsPage_SectionTaskOrder" xml:space="preserve">
+    <value>Feladatok rendezése</value>
+  </data>
+  <data name="OptionSettingsPage_SectionVersionFormat" xml:space="preserve">
+    <value>2Day {0}</value>
+  </data>
+  <data name="OptionSettingsPage_SectionViews" xml:space="preserve">
+    <value>Nézetek</value>
+  </data>
+  <data name="OptionSettingsPage_SectionViewsFormat" xml:space="preserve">
+    <value>a {1} nézetből {0} érhető el</value>
+  </data>
+  <data name="OptionSettingsPage_SyncConfiguredFormat" xml:space="preserve">
+    <value>{0} beállítva, utoljára szinkronizálva: {1}</value>
+  </data>
+  <data name="OptionSettingsPage_SyncNoConfigured" xml:space="preserve">
+    <value>Nincs beállítva szinkronizálás. Beállítja most?</value>
+  </data>
+  <data name="ReminderDisplayMode_Icon" xml:space="preserve">
+    <value>ikon</value>
+  </data>
+  <data name="ReminderDisplayMode_IconAndTime" xml:space="preserve">
+    <value>ikon és időpont</value>
+  </data>
+  <data name="ReminderDisplayMode_None" xml:space="preserve">
+    <value>nincs</value>
+  </data>
+  <data name="ReminderDisplayMode_Time" xml:space="preserve">
+    <value>időpont</value>
+  </data>
+  <data name="SampleData_FolderHobbies" xml:space="preserve">
+    <value>hobbi</value>
+  </data>
+  <data name="SampleData_FolderHobbies_Task1" xml:space="preserve">
+    <value>lefoglalni a teniszpályát</value>
+  </data>
+  <data name="SampleData_FolderHobbies_Task2" xml:space="preserve">
+    <value>kipróbálni az új éttermet</value>
+  </data>
+  <data name="SampleData_FolderHobbies_Task3" xml:space="preserve">
+    <value>koncertjegyet venni</value>
+  </data>
+  <data name="SampleData_FolderPersonal_Task1" xml:space="preserve">
+    <value>felhivni a vízvezeték-szerelőt</value>
+  </data>
+  <data name="SampleData_FolderPersonal_Task1_Note" xml:space="preserve">
+    <value>csőrepedés a fürdőszobában</value>
+  </data>
+  <data name="SampleData_FolderPersonal_Task2" xml:space="preserve">
+    <value>kicserélni a konyhai villanykörtét</value>
+  </data>
+  <data name="SampleData_FolderPersonal_Task3" xml:space="preserve">
+    <value>kifizetni a telefonszámlát</value>
+  </data>
+  <data name="SampleData_FolderShopping" xml:space="preserve">
+    <value>vásárlás</value>
+  </data>
+  <data name="SampleData_FolderShopping_Task1" xml:space="preserve">
+    <value>ajándék anyunak</value>
+  </data>
+  <data name="SampleData_FolderShopping_Task2" xml:space="preserve">
+    <value>nadrág</value>
+  </data>
+  <data name="SampleData_FolderWork_Task1" xml:space="preserve">
+    <value>emlékeztető</value>
+  </data>
+  <data name="SampleData_FolderWork_Task2" xml:space="preserve">
+    <value>dokumentum véleményezése</value>
+  </data>
+  <data name="SampleData_FolderWork_Task2_Description" xml:space="preserve">
+    <value>12-38. oldal</value>
+  </data>
+  <data name="SampleData_FolderWork_Task3" xml:space="preserve">
+    <value>továbbképzés</value>
+  </data>
+  <data name="SampleData_FolderWork_Task4" xml:space="preserve">
+    <value>bemutató elkészítése</value>
+  </data>
+  <data name="SampleDate_FolderMovies" xml:space="preserve">
+    <value>filmek</value>
+  </data>
+  <data name="Settings_OptionTheme" xml:space="preserve">
+    <value>Téma</value>
+  </data>
+  <data name="Settings_SmartView_DescriptionFormat" xml:space="preserve">
+    <value>{0} egyéni nézet érhető el</value>
+  </data>
+  <data name="Settings_ThemeDark" xml:space="preserve">
+    <value>Sötét</value>
+  </data>
+  <data name="Settings_ThemeLight" xml:space="preserve">
+    <value>Világos</value>
+  </data>
+  <data name="Settings_TitleAbout" xml:space="preserve">
+    <value>Névjegy</value>
+  </data>
+  <data name="Settings_TitleHelp" xml:space="preserve">
+    <value>Súgó</value>
+  </data>
+  <data name="Settings_TitleOptions" xml:space="preserve">
+    <value>Lehetőségek</value>
+  </data>
+  <data name="Settings_TitlePrivacy" xml:space="preserve">
+    <value>Adatvédelmi szabályok</value>
+  </data>
+  <data name="Settings_TitleSync" xml:space="preserve">
+    <value>Szinkronizálás</value>
+  </data>
+  <data name="SmartView_AddBlock" xml:space="preserve">
+    <value>Szabálycsoport létrehozása</value>
+  </data>
+  <data name="SmartView_AddRule" xml:space="preserve">
+    <value>Szabály létrehozása</value>
+  </data>
+  <data name="SmartView_And" xml:space="preserve">
+    <value>és</value>
+  </data>
+  <data name="SmartView_Create" xml:space="preserve">
+    <value>Egyéni nézet létrehozása</value>
+  </data>
+  <data name="SmartView_Edit" xml:space="preserve">
+    <value>Egyéni nézet szerkesztése</value>
+  </data>
+  <data name="SmartView_EmptyHeader" xml:space="preserve">
+    <value>Nincs feladat ebben nézetben.</value>
+  </data>
+  <data name="SmartView_EmptyHint" xml:space="preserve">
+    <value>Módosítsa az egyéni nézetet, vagy hozzon létre olyan feladatot, amely megfelel az egyéni nézet beállításainak</value>
+  </data>
+  <data name="SmartView_FieldTitle" xml:space="preserve">
+    <value>Tárgy</value>
+  </data>
+  <data name="SmartView_FilterAdded" xml:space="preserve">
+    <value>Létrehozás ideje</value>
+  </data>
+  <data name="SmartView_FilterBeginsWith" xml:space="preserve">
+    <value>eleje</value>
+  </data>
+  <data name="SmartView_FilterCompleted" xml:space="preserve">
+    <value>Befejezés ideje</value>
+  </data>
+  <data name="SmartView_FilterContains" xml:space="preserve">
+    <value>tartalmazza</value>
+  </data>
+  <data name="SmartView_FilterContext" xml:space="preserve">
+    <value>Kategória</value>
+  </data>
+  <data name="SmartView_FilterDoesNotContains" xml:space="preserve">
+    <value>nem tartalmazza</value>
+  </data>
+  <data name="SmartView_FilterDoesNotExist" xml:space="preserve">
+    <value>nincs megadva</value>
+  </data>
+  <data name="SmartView_FilterDue" xml:space="preserve">
+    <value>Határidő</value>
+  </data>
+  <data name="SmartView_FilterEndsWith" xml:space="preserve">
+    <value>vége</value>
+  </data>
+  <data name="SmartView_FilterExists" xml:space="preserve">
+    <value>meg van adva</value>
+  </data>
+  <data name="SmartView_FilterFolder" xml:space="preserve">
+    <value>Mappa neve</value>
+  </data>
+  <data name="SmartView_FilterHasAlarm" xml:space="preserve">
+    <value>Emlékeztető</value>
+  </data>
+  <data name="SmartView_FilterHasRecurrence" xml:space="preserve">
+    <value>Ismétlődés</value>
+  </data>
+  <data name="SmartView_FilterIs" xml:space="preserve">
+    <value>egyenlő</value>
+  </data>
+  <data name="SmartView_FilterIsAfter" xml:space="preserve">
+    <value>későbbi, mint</value>
+  </data>
+  <data name="SmartView_FilterIsBefore" xml:space="preserve">
+    <value>korábbi, mint</value>
+  </data>
+  <data name="SmartView_FilterIsIn" xml:space="preserve">
+    <value>lesz</value>
+  </data>
+  <data name="SmartView_FilterIsInTheNext" xml:space="preserve">
+    <value>a következő</value>
+  </data>
+  <data name="SmartView_FilterIsLessThan" xml:space="preserve">
+    <value>alacsonyabb, mint</value>
+  </data>
+  <data name="SmartView_FilterIsMoreThan" xml:space="preserve">
+    <value>magasabb, mint</value>
+  </data>
+  <data name="SmartView_FilterIsNot" xml:space="preserve">
+    <value>nem egyenlő</value>
+  </data>
+  <data name="SmartView_FilterIsNotIn" xml:space="preserve">
+    <value>nem lesz</value>
+  </data>
+  <data name="SmartView_FilterIsNotInTheNext" xml:space="preserve">
+    <value>nem a következő</value>
+  </data>
+  <data name="SmartView_FilterModified" xml:space="preserve">
+    <value>Módosítás ideje</value>
+  </data>
+  <data name="SmartView_FilterNo" xml:space="preserve">
+    <value>nincs beállítva</value>
+  </data>
+  <data name="SmartView_FilterNote" xml:space="preserve">
+    <value>Jegyzet</value>
+  </data>
+  <data name="SmartView_FilterPriority" xml:space="preserve">
+    <value>Fontosság</value>
+  </data>
+  <data name="SmartView_FilterProgress" xml:space="preserve">
+    <value>Készültségi fok</value>
+  </data>
+  <data name="SmartView_FilterStart" xml:space="preserve">
+    <value>Kezdési idő</value>
+  </data>
+  <data name="SmartView_FilterTags" xml:space="preserve">
+    <value>Címke</value>
+  </data>
+  <data name="SmartView_FilterWas" xml:space="preserve">
+    <value>volt</value>
+  </data>
+  <data name="SmartView_FilterWasInTheLast" xml:space="preserve">
+    <value>a legutóbbi</value>
+  </data>
+  <data name="SmartView_FilterWasNot" xml:space="preserve">
+    <value>nem volt</value>
+  </data>
+  <data name="SmartView_FilterWasNotInTheLast" xml:space="preserve">
+    <value>nem a legutóbbi</value>
+  </data>
+  <data name="SmartView_FilterYes" xml:space="preserve">
+    <value>be van állítva</value>
+  </data>
+  <data name="SmartView_HelpReadMore" xml:space="preserve">
+    <value>Ismerje meg az egyéni nézeteket</value>
+  </data>
+  <data name="SmartView_IntroDescription" xml:space="preserve">
+    <value>A szabályok segítségével szűrőket állíthat be, hogy csak az Önt érdeklő feladatokat lássa.</value>
+  </data>
+  <data name="SmartView_LabelName" xml:space="preserve">
+    <value>Név</value>
+  </data>
+  <data name="SmartView_LabelRules" xml:space="preserve">
+    <value>Szabályok</value>
+  </data>
+  <data name="SmartView_LabelSmartView" xml:space="preserve">
+    <value>Egyéni nézetek</value>
+  </data>
+  <data name="SmartView_MatchAll" xml:space="preserve">
+    <value>valamennyi</value>
+  </data>
+  <data name="SmartView_MatchAny" xml:space="preserve">
+    <value>bármely</value>
+  </data>
+  <data name="SmartView_MessageCannotLoadFormat" xml:space="preserve">
+    <value>Az egyéni nézet betöltése közben hiba lépett fel ({0})</value>
+  </data>
+  <data name="SmartView_MessageCannotSave" xml:space="preserve">
+    <value>Az egyéni nézet érvénytelen szabályt tartalmaz</value>
+  </data>
+  <data name="SmartView_Or" xml:space="preserve">
+    <value>vagy</value>
+  </data>
+  <data name="SmartView_Warning_OneBlockMin" xml:space="preserve">
+    <value>Az egyéni nézetnek legalább egy szabálycsoportot tartalmaznia kell</value>
+  </data>
+  <data name="SmartView_Warning_OneRuleMin" xml:space="preserve">
+    <value>Az egyéni nézetnek legalább egy szabályt tartalmaznia kell</value>
+  </data>
+  <data name="SortOrder_Ascending" xml:space="preserve">
+    <value>Növekvő</value>
+  </data>
+  <data name="SortOrder_Descending" xml:space="preserve">
+    <value>Csökkenő</value>
+  </data>
+  <data name="Speech_ErrorDuringRecognitionFormat" xml:space="preserve">
+    <value>Hiba történt a hangfelismerés során ({0})</value>
+  </data>
+  <data name="Speech_NoAudioDevice" xml:space="preserve">
+    <value>Nem található hangbemeneti eszköz </value>
+  </data>
+  <data name="Speech_ReviewPermission" xml:space="preserve">
+    <value>A 2Day-nek nincs engedélye a mikrofon használatára. Kérem, módosítsa a Windows beállításait</value>
+  </data>
+  <data name="StartDate_FirstTimeMessage" xml:space="preserve">
+    <value>A kezdési idővel rendelkező feladatok megjelenítési módját az általános beállítások között tudja módosítani.</value>
+  </data>
+  <data name="StartDate_FirstTimeTitle" xml:space="preserve">
+    <value>Információ</value>
+  </data>
+  <data name="Startup_DefaultContextHome" xml:space="preserve">
+    <value>@otthon</value>
+  </data>
+  <data name="Startup_DefaultContextPhone" xml:space="preserve">
+    <value>@telefon</value>
+  </data>
+  <data name="Startup_DefaultContextQuick" xml:space="preserve">
+    <value>@sürgős</value>
+  </data>
+  <data name="Startup_DefaultFolderName_Personal" xml:space="preserve">
+    <value>személyes</value>
+  </data>
+  <data name="Startup_DefaultFolderName_Work" xml:space="preserve">
+    <value>munka</value>
+  </data>
+  <data name="SyncAdvanced_CollectLogFirst" xml:space="preserve">
+    <value>Kérjük, engedélyezze a naplózást, majd kísérlje meg újra a szinkronizálást a hibaelhárításhoz szükséges adatok összegyűjtése érdekében.</value>
+  </data>
+  <data name="SyncAdvanced_DeleteAccountDescription" xml:space="preserve">
+    <value>Törli a fiókot a szinkronizálandók közül, és eltávolítja a szinkronizálási beállításokat.</value>
+  </data>
+  <data name="SyncAdvanced_DeleteAccountTitle" xml:space="preserve">
+    <value>Fiók törlése</value>
+  </data>
+  <data name="SyncAdvanced_DiagnosticsDescription" xml:space="preserve">
+    <value>Ellenőrzi a szinkronizálás állapotát, és előkészít egy e-mailt a termékktámogatási csapat számára.</value>
+  </data>
+  <data name="SyncAdvanced_DiagnosticsTitle" xml:space="preserve">
+    <value>Diagnosztika</value>
+  </data>
+  <data name="SyncAdvanced_EmailDetail" xml:space="preserve">
+    <value>Kérjük, a lehető legrészletesebben írja le nekünk a szinkronizálással kapcsolatos problémáját.</value>
+  </data>
+  <data name="SyncAdvanced_MergeDescription" xml:space="preserve">
+    <value>Minden távoli tartalmat letölt a kiszolgálóról, majd összevonja a helyi és a távoli tartalmat. A módosítási dátum segítségével megállapítható, hogy melyik változat a helyes.</value>
+  </data>
+  <data name="SyncAdvanced_MergeTitle" xml:space="preserve">
+    <value>Összevonás</value>
+  </data>
+  <data name="SyncAdvanced_ReplaceDescription" xml:space="preserve">
+    <value>Törli a 2Day teljes tartalmát (mappák, kategóriák, feladatok), majd mindent újra letölt a kiszolgálóról.</value>
+  </data>
+  <data name="SyncAdvanced_ReplaceTitle" xml:space="preserve">
+    <value>Csere</value>
+  </data>
+  <data name="SyncAdvanced_Title" xml:space="preserve">
+    <value>Haladó szinkronizálási beállítások</value>
+  </data>
+  <data name="SyncFeatures_Color" xml:space="preserve">
+    <value>Szín</value>
+  </data>
+  <data name="SyncFeatures_Context" xml:space="preserve">
+    <value>Kategória</value>
+  </data>
+  <data name="SyncFeatures_DueDate" xml:space="preserve">
+    <value>Határidő</value>
+  </data>
+  <data name="SyncFeatures_Folder" xml:space="preserve">
+    <value>Mappa</value>
+  </data>
+  <data name="SyncFeatures_Icon" xml:space="preserve">
+    <value>Ikon</value>
+  </data>
+  <data name="SyncFeatures_Note" xml:space="preserve">
+    <value>Jegyzet</value>
+  </data>
+  <data name="SyncFeatures_Priority" xml:space="preserve">
+    <value>Fontosság</value>
+  </data>
+  <data name="SyncFeatures_Progress" xml:space="preserve">
+    <value>Készültségi fok</value>
+  </data>
+  <data name="SyncFeatures_Recurrence" xml:space="preserve">
+    <value>Ismétlődés</value>
+  </data>
+  <data name="SyncFeatures_Reminder" xml:space="preserve">
+    <value>Emlékeztető</value>
+  </data>
+  <data name="SyncFeatures_StartDate" xml:space="preserve">
+    <value>Kezdési idő</value>
+  </data>
+  <data name="SyncFeatures_Title" xml:space="preserve">
+    <value>Tárgy</value>
+  </data>
+  <data name="SyncProgress_AddingContextFormat" xml:space="preserve">
+    <value>{0} kategória létrehozása…</value>
+  </data>
+  <data name="SyncProgress_AddingFolderFormat" xml:space="preserve">
+    <value>{0} mappa létrehozása…</value>
+  </data>
+  <data name="SyncProgress_AddingSmartViewFormat" xml:space="preserve">
+    <value>{0} egyéni nézet létrehozása…</value>
+  </data>
+  <data name="SyncProgress_AddingTaskFormat" xml:space="preserve">
+    <value>{0} feladat létrehozása…</value>
+  </data>
+  <data name="SyncProgress_DeletingContext" xml:space="preserve">
+    <value>Kategória törlése…</value>
+  </data>
+  <data name="SyncProgress_DeletingFolder" xml:space="preserve">
+    <value>Mappa törlése…</value>
+  </data>
+  <data name="SyncProgress_DeletingSmartView" xml:space="preserve">
+    <value>Egyéni nézet törlése…</value>
+  </data>
+  <data name="SyncProgress_DeletingTaskFormat" xml:space="preserve">
+    <value>{0} feladat törlése…</value>
+  </data>
+  <data name="SyncProgress_GettingContexts" xml:space="preserve">
+    <value>Kategóriák lekérése…</value>
+  </data>
+  <data name="SyncProgress_GettingFolders" xml:space="preserve">
+    <value>Mappák lekérése…</value>
+  </data>
+  <data name="SyncProgress_GettingSmartViews" xml:space="preserve">
+    <value>Egyéni nézetek lekérése…</value>
+  </data>
+  <data name="SyncProgress_GettingTasks" xml:space="preserve">
+    <value>Feladatok lekérése…</value>
+  </data>
+  <data name="SyncProgress_SignInIn" xml:space="preserve">
+    <value>Bejelentkezés…</value>
+  </data>
+  <data name="SyncProgress_SyncInProgress" xml:space="preserve">
+    <value>Szinkronizálás…</value>
+  </data>
+  <data name="SyncProgress_UpdatingContextFormat" xml:space="preserve">
+    <value>{0} kategória frissítése…</value>
+  </data>
+  <data name="SyncProgress_UpdatingFolderFormat" xml:space="preserve">
+    <value>{0} mappa frissítése…</value>
+  </data>
+  <data name="SyncProgress_UpdatingSmartViewFormat" xml:space="preserve">
+    <value>{0} egyéni nézet frissítése…</value>
+  </data>
+  <data name="SyncProgress_UpdatingTaskFormat" xml:space="preserve">
+    <value>{0} feladat frissítése…</value>
+  </data>
+  <data name="SyncProgress_UpdatingTasks" xml:space="preserve">
+    <value>Feladatok frissítése…</value>
+  </data>
+  <data name="SyncSettingsPage_ConfirmDeleteMessage" xml:space="preserve">
+    <value>Biztosan törölni akarja a szinkronizálási beállításokat?</value>
+  </data>
+  <data name="SyncSettingsPage_LastSyncNever" xml:space="preserve">
+    <value>Soha</value>
+  </data>
+  <data name="Sync_Cancelled" xml:space="preserve">
+    <value>Szinkronizálás leállítva</value>
+  </data>
+  <data name="Sync_DeleteAccount_ErrorFormat" xml:space="preserve">
+    <value>Hiba lépett fel a fiók törlése közben ({0})</value>
+  </data>
+  <data name="Sync_DeleteAccount_Message" xml:space="preserve">
+    <value>Biztosan törolni akarja ezt a fiókot?</value>
+  </data>
+  <data name="Sync_DeleteAccount_Success" xml:space="preserve">
+    <value>A fiókot sikeresen töröltük.</value>
+  </data>
+  <data name="Sync_FailedMessage" xml:space="preserve">
+    <value>A szinkronizálás sikertelen</value>
+  </data>
+  <data name="Sync_Misconfigured" xml:space="preserve">
+    <value>A szinkronizálás nincs megfelelően beállítva</value>
+  </data>
+  <data name="Sync_NoNetworkConnectivity" xml:space="preserve">
+    <value>Nincs hálózati kapcsolat</value>
+  </data>
+  <data name="Sync_PreparingSync" xml:space="preserve">
+    <value>Szinkronizálás előkészítése</value>
+  </data>
+  <data name="Sync_ViewLogs" xml:space="preserve">
+    <value>Naplók megjelenítése</value>
+  </data>
+  <data name="SystemView_All_EmptyHeader" xml:space="preserve">
+    <value>Nincs feladat</value>
+  </data>
+  <data name="SystemView_All_EmptyHint" xml:space="preserve">
+    <value>Először hozzon létre egy új feladatot valamelyik mappában</value>
+  </data>
+  <data name="SystemView_Completed_EmptyHeader" xml:space="preserve">
+    <value>Nincs befejezett feladat</value>
+  </data>
+  <data name="SystemView_Completed_EmptyHint" xml:space="preserve">
+    <value>Mindennel végzett?</value>
+  </data>
+  <data name="SystemView_Late_EmptyHeader" xml:space="preserve">
+    <value>Nincs lejárt határidejű feladat</value>
+  </data>
+  <data name="SystemView_Late_EmptyHint" xml:space="preserve">
+    <value>Minden feladattal időben végzett.</value>
+  </data>
+  <data name="SystemView_NoDate_EmptyHeader" xml:space="preserve">
+    <value>Nincs határidő nélküli feladat.</value>
+  </data>
+  <data name="SystemView_NoDate_EmptyHint" xml:space="preserve">
+    <value>Minden ütemezve van.</value>
+  </data>
+  <data name="SystemView_Reminder_EmptyHeader" xml:space="preserve">
+    <value>Nincs beállítva emlékeztető </value>
+  </data>
+  <data name="SystemView_Reminder_EmptyHint" xml:space="preserve">
+    <value>Ha emlékeztetőt állít be, a feladat meg fog jelenni ebben a listában</value>
+  </data>
+  <data name="SystemView_Starred_EmptyHeader" xml:space="preserve">
+    <value>Nincs kiemelt feladat.</value>
+  </data>
+  <data name="SystemView_Starred_EmptyHint" xml:space="preserve">
+    <value>Azok a a feladatok jelennek meg ebben a nézetben, amelyeknek fontosságát kiemeltre állítja be.</value>
+  </data>
+  <data name="SystemView_StartDate_EmptyHeader" xml:space="preserve">
+    <value>Nincs későbbre tervezett feladat.</value>
+  </data>
+  <data name="SystemView_StartDate_EmptyHint" xml:space="preserve">
+    <value>A később kezdődő feladatok jelennek meg ebben a nézetben.</value>
+  </data>
+  <data name="SystemView_TitleAll" xml:space="preserve">
+    <value>összes</value>
+  </data>
+  <data name="SystemView_TitleCompleted" xml:space="preserve">
+    <value>befejezett</value>
+  </data>
+  <data name="SystemView_TitleLate" xml:space="preserve">
+    <value>lejárt</value>
+  </data>
+  <data name="SystemView_TitleNoDate" xml:space="preserve">
+    <value>határidő nélküli</value>
+  </data>
+  <data name="SystemView_TitleNonCompleted" xml:space="preserve">
+    <value>teendők</value>
+  </data>
+  <data name="SystemView_TitleReminder" xml:space="preserve">
+    <value>emlékeztetők</value>
+  </data>
+  <data name="SystemView_TitleStarred" xml:space="preserve">
+    <value>kedvencek</value>
+  </data>
+  <data name="SystemView_TitleStartDate" xml:space="preserve">
+    <value>tervezett</value>
+  </data>
+  <data name="SystemView_TitleToday" xml:space="preserve">
+    <value>mai</value>
+  </data>
+  <data name="SystemView_TitleTomorrow" xml:space="preserve">
+    <value>holnapi</value>
+  </data>
+  <data name="SystemView_TitleWeek" xml:space="preserve">
+    <value>heti</value>
+  </data>
+  <data name="SystemView_Today_EmptyHeader" xml:space="preserve">
+    <value>Nincs több feladat mára</value>
+  </data>
+  <data name="SystemView_Today_EmptyHint" xml:space="preserve">
+    <value>Élvezze a nap hátralévő részét! :-)</value>
+  </data>
+  <data name="SystemView_Tomorrow_EmptyHeader" xml:space="preserve">
+    <value>Nincs feladat holnapra</value>
+  </data>
+  <data name="SystemView_Tomorrow_EmptyHint" xml:space="preserve">
+    <value>A holnapi nap nyugalmasnak ígérkezik. :-)</value>
+  </data>
+  <data name="SystemView_Week_EmptyHeader" xml:space="preserve">
+    <value>Nincs feladat a következő hétre.</value>
+  </data>
+  <data name="SystemView_Week_EmptyHint" xml:space="preserve">
+    <value>Itt az idő egy kis pihenésre? :-)</value>
+  </data>
+  <data name="TaskDateShifter_ShiftNone" xml:space="preserve">
+    <value>Nincs megadva</value>
+  </data>
+  <data name="TaskDateShifter_ShiftOneMonth" xml:space="preserve">
+    <value>Hónap</value>
+  </data>
+  <data name="TaskDateShifter_ShiftOneWeek" xml:space="preserve">
+    <value>Hét</value>
+  </data>
+  <data name="TaskDateShifter_ShiftToday" xml:space="preserve">
+    <value>Ma</value>
+  </data>
+  <data name="TaskDateShifter_ShiftTomorrow" xml:space="preserve">
+    <value>Holnap</value>
+  </data>
+  <data name="TaskDateShifter_ShiftTwoWeeks" xml:space="preserve">
+    <value>Két hét</value>
+  </data>
+  <data name="TaskGroup_Action" xml:space="preserve">
+    <value>Gyorsművelet</value>
+  </data>
+  <data name="TaskGroup_By" xml:space="preserve">
+    <value>Csoportosítás</value>
+  </data>
+  <data name="TaskGroup_Context" xml:space="preserve">
+    <value>Kategória</value>
+  </data>
+  <data name="TaskGroup_Due" xml:space="preserve">
+    <value>Határidő</value>
+  </data>
+  <data name="TaskGroup_Folder" xml:space="preserve">
+    <value>Mappa</value>
+  </data>
+  <data name="TaskGroup_Priority" xml:space="preserve">
+    <value>Fontosság</value>
+  </data>
+  <data name="TaskGroup_Progress" xml:space="preserve">
+    <value>Készültségi fok</value>
+  </data>
+  <data name="TaskGroup_StartDate" xml:space="preserve">
+    <value>Kezdési idő</value>
+  </data>
+  <data name="TaskGroup_Status" xml:space="preserve">
+    <value>Állapot</value>
+  </data>
+  <data name="TaskList_AddTaskHint" xml:space="preserve">
+    <value>Feladat létrehozása</value>
+  </data>
+  <data name="TaskList_RemoveCompleted" xml:space="preserve">
+    <value>Befejezett feladatok törlése</value>
+  </data>
+  <data name="TaskOrdering_AddedDate" xml:space="preserve">
+    <value>létrehozás időpontja</value>
+  </data>
+  <data name="TaskOrdering_Alphabetical" xml:space="preserve">
+    <value>betűrend</value>
+  </data>
+  <data name="TaskOrdering_Context" xml:space="preserve">
+    <value>kategória</value>
+  </data>
+  <data name="TaskOrdering_DueDate" xml:space="preserve">
+    <value>határidő</value>
+  </data>
+  <data name="TaskOrdering_Folder" xml:space="preserve">
+    <value>mappa</value>
+  </data>
+  <data name="TaskOrdering_ModifiedDate" xml:space="preserve">
+    <value>módosítás időpontja</value>
+  </data>
+  <data name="TaskOrdering_Priority" xml:space="preserve">
+    <value>fontosság</value>
+  </data>
+  <data name="TaskOrdering_StartDate" xml:space="preserve">
+    <value>kezdési idő</value>
+  </data>
+  <data name="TaskPriority_High" xml:space="preserve">
+    <value>Magas</value>
+  </data>
+  <data name="TaskPriority_Low" xml:space="preserve">
+    <value>Alacsony</value>
+  </data>
+  <data name="TaskPriority_Medium" xml:space="preserve">
+    <value>Közepes</value>
+  </data>
+  <data name="TaskPriority_None" xml:space="preserve">
+    <value>Nincs megadva</value>
+  </data>
+  <data name="TaskPriority_Star" xml:space="preserve">
+    <value>Kiemelt</value>
+  </data>
+  <data name="Task_CreationDate" xml:space="preserve">
+    <value>Létrehozva</value>
+  </data>
+  <data name="Task_ModificationDate" xml:space="preserve">
+    <value>Módosítva</value>
+  </data>
+  <data name="Tile_QuickAdd" xml:space="preserve">
+    <value>Feladat azonnali létrehozása</value>
+  </data>
+  <data name="WelcomePage_ValueProposition1" xml:space="preserve">
+    <value>A fejét új ötletek megalkotására, és ne azok tárolására használja!</value>
+  </data>
+  <data name="WelcomePage_ValueProposition2" xml:space="preserve">
+    <value>Alakítsa ki és tökéletesítse a saját feladatkezelési rendszerét a Windows-on elérhető legfejlettebb tennivaló-kezelő alkalmazás segítségével.</value>
+  </data>
+  <data name="TaskOrdering_Reminder" xml:space="preserve">
+    <value>emlékeztető</value>
+  </data>
+  <data name="Notification_Deleted" xml:space="preserve">
+    <value>Törölve</value>
+  </data>
+  <data name="Notification_Cancel" xml:space="preserve">
+    <value>Mégse</value>
+  </data>
+  <data name="BootstrapSlideTaskTitle" xml:space="preserve">
+    <value>Pöccintse jobbra a befejezéshez</value>
+  </data>
+  <data name="Notification_NewTaskCreatedWithDueDateFormat" xml:space="preserve">
+    <value>Task "{0}" létrehozni, mert {1}</value>
+  </data>
+  <data name="Notification_TaskCompletedFormat" xml:space="preserve">
+    <value>"{0}" feladat befejezve!</value>
+  </data>
+  <data name="Notification_NewTaskCreatedNoDueDateFormat" xml:space="preserve">
+    <value>"{0}" feladat létrehozva</value>
+  </data>
+  <data name="Notification_SnoozeHour" xml:space="preserve">
+    <value>Óra</value>
+  </data>
+  <data name="Notification_SnoozeMinutes" xml:space="preserve">
+    <value>Perc</value>
+  </data>
+  <data name="BootstrapSlideTaskNote" xml:space="preserve">
+    <value>Pöccintse balra a további lehetőségekhez</value>
+  </data>
+  <data name="Dialog_CancelSyncConfirm" xml:space="preserve">
+    <value>Megszakítja a szinkronizálást?</value>
+  </data>
+  <data name="SmartView_Days" xml:space="preserve">
+    <value>nap múlva</value>
+  </data>
+  <data name="SmartView_DaysAgo" xml:space="preserve">
+    <value>nappal ezelőtt</value>
+  </data>
+  <data name="SmartView_DaysPeriod" xml:space="preserve">
+    <value>napon belül</value>
+  </data>
+  <data name="Misc_CreateBackup" xml:space="preserve">
+    <value>Biztonsági mentés</value>
+  </data>
+  <data name="Misc_RestoreBackup" xml:space="preserve">
+    <value>Visszaállítás</value>
+  </data>
+  <data name="SmartView_FilterIsLate" xml:space="preserve">
+    <value>Lejárt</value>
+  </data>
+  <data name="SmartView_FilterIsToday" xml:space="preserve">
+    <value>ma</value>
+  </data>
+  <data name="SmartView_FilterIsTomorrow" xml:space="preserve">
+    <value>holnap</value>
+  </data>
+  <data name="SmartView_FilterIsYesterday" xml:space="preserve">
+    <value>tegnap volt</value>
+  </data>
+  <data name="TaskGroup_Completed" xml:space="preserve">
+    <value>Befejezett</value>
+  </data>
+  <data name="Message_LoadingTasks" xml:space="preserve">
+    <value>A feladatok betöltése...</value>
+  </data>
+  <data name="Exchange_InvalidSyncKeyWorkaround" xml:space="preserve">
+    <value>Érvénytelen szinkronizációs kulcs. Nyissa meg a szinkronizálási beállítások hibakeresés elemét, majd koppintson/kattinston a "Csere" gombra.</value>
+  </data>
+  <data name="Settings_NoBadgeValue" xml:space="preserve">
+    <value>Nincs megadva</value>
+  </data>
+  <data name="Action_Save_Tooltip" xml:space="preserve">
+    <value>Mentés (CTRL + S)</value>
+  </data>
+  <data name="Action_SaveAndContinue_Tooltip" xml:space="preserve">
+    <value>Mentés és létrehozás (CTRL + Enter)</value>
+  </data>
+  <data name="TaskGroup_Modified" xml:space="preserve">
+    <value>Módosítás ideje</value>
+  </data>
+  <data name="Misc_SmartViews" xml:space="preserve">
+    <value>Egyéni nézetek</value>
+  </data>
+  <data name="Misc_Folders" xml:space="preserve">
+    <value>Mappák</value>
+  </data>
+  <data name="Misc_Contexts" xml:space="preserve">
+    <value>Kategóriák</value>
+  </data>
+  <data name="Misc_Tags" xml:space="preserve">
+    <value>Címke</value>
+  </data>
+  <data name="OptionSettingsPage_SectionHelp" xml:space="preserve">
+    <value>Súgó</value>
+  </data>
+  <data name="Notification_TasksUpdated" xml:space="preserve">
+    <value>feladatok frissítve</value>
+  </data>
+  <data name="Notification_TaskUpdated" xml:space="preserve">
+    <value>feladat frissítve</value>
+  </data>
+  <data name="Action_Uncomplete" xml:space="preserve">
+    <value>Nem teljes</value>
+  </data>
+  <data name="Action_AddTask_Tooltip" xml:space="preserve">
+    <value>Új feladat (CTRL + N)</value>
+  </data>
+  <data name="Action_Cancel_Toolip" xml:space="preserve">
+    <value>Mégsem (Escape)</value>
+  </data>
+  <data name="Action_QuickAddTask_Tooltip" xml:space="preserve">
+    <value>Gyors hozzáadás feladat (CTRL + Q)</value>
+  </data>
+  <data name="Action_Speech_Tooltip" xml:space="preserve">
+    <value>Beszédfelismerés (CTRL + E)</value>
+  </data>
+  <data name="Notification_SnoozeHours" xml:space="preserve">
+    <value>órák</value>
+  </data>
+  <data name="Dialog_RestartInfo" xml:space="preserve">
+    <value>2Day újra kell indítani, hogy ezt a változást.</value>
+  </data>
+  <data name="SystemView_TitleToSync" xml:space="preserve">
+    <value>szinkronizálni</value>
+  </data>
+  <data name="Message_LiveTileRemoveMe" xml:space="preserve">
+    <value>távolíts el engem</value>
+  </data>
+  <data name="Notification_NewTaskCreatedWithStartDateFormat" xml:space="preserve">
+    <value>Task "{0}" teremtett, kezdő dátum: {1}</value>
+  </data>
+  <data name="Action_Sync_Tooltip" xml:space="preserve">
+    <value>Szinkronizálás (CTRL + U)</value>
+  </data>
+  <data name="Message_DeleteNoSyncIdFormat" xml:space="preserve">
+    <value>{0} feladat, hogy úgy tűnik, hogy csak a 2Day és nincs szinkronizálva. Mindez elveszhet, ha nem szinkronizált megfelelően. Folytatni ?</value>
+  </data>
+  <data name="Misc_DangerZone" xml:space="preserve">
+    <value>Veszélyes területet</value>
+  </data>
+  <data name="OptionSettingsPage_SectionHelpFormat" xml:space="preserve">
+    <value>Online súgó</value>
+  </data>
+  <data name="Misc_ShowBackgroundExecutionDetails" xml:space="preserve">
+    <value>Háttér megjelenítése végrehajtásának részletei</value>
+  </data>
+  <data name="Misc_SortByNames" xml:space="preserve">
+    <value>Rendezés nevek</value>
+  </data>
+  <data name="SystemView_ToSync_EmptyHeader" xml:space="preserve">
+    <value>Minden feladatok szinkronizált</value>
+  </data>
+  <data name="SmartView_PreviewCount" xml:space="preserve">
+    <value>A feladatok száma, melyek megfelelnek a SmartView:</value>
+  </data>
+  <data name="Sync_FixProblems" xml:space="preserve">
+    <value>Kérjen segítséget rögzítő szinkronizálási problémák</value>
+  </data>
+  <data name="Message_TapToContinue" xml:space="preserve">
+    <value>Érintse meg itt, hogy továbbra is 2Day</value>
+  </data>
+  <data name="SystemView_ToSync_EmptyHint" xml:space="preserve">
+    <value>Pihenjen és élvezze a napot :-)</value>
+  </data>
+  <data name="MainPage_SearchDescriptionFormat" xml:space="preserve">
+    <value>Keresés '{0}'</value>
+  </data>
+  <data name="Message_AppUpdatedMessage" xml:space="preserve">
+    <value>2Day frissítve érintse ide a release note :-)</value>
+  </data>
+  <data name="Message_AppUpdatedTitle" xml:space="preserve">
+    <value>App frissítve!</value>
+  </data>
+  <data name="MainPage_SearchPlaceHolder" xml:space="preserve">
+    <value>Keresés</value>
+  </data>
+  <data name="General_LabelDate" xml:space="preserve">
+    <value>Dátum</value>
+  </data>
+  <data name="General_LabelTime" xml:space="preserve">
+    <value>Idő</value>
+  </data>
+  <data name="General_LabelDone" xml:space="preserve">
+    <value>Kész</value>
+  </data>
+  <data name="CustomFrequency_EveryDay" xml:space="preserve">
+    <value>Minden nap</value>
+  </data>
+  <data name="CustomFrequency_EveryMonth" xml:space="preserve">
+    <value>Minden hónap</value>
+  </data>
+  <data name="CustomFrequency_EveryWeek" xml:space="preserve">
+    <value>Minden héten</value>
+  </data>
+  <data name="CustomFrequency_EveryYear" xml:space="preserve">
+    <value>Minden évben</value>
+  </data>
+  <data name="CustomFrequency_None" xml:space="preserve">
+    <value>Egyik sem</value>
+  </data>
+  <data name="TaskPage_Context" xml:space="preserve">
+    <value>Kontextus</value>
+  </data>
+  <data name="TaskPage_DueDate" xml:space="preserve">
+    <value>Az esedékesség napja</value>
+  </data>
+  <data name="TaskPage_Frequency" xml:space="preserve">
+    <value>Frekvencia</value>
+  </data>
+  <data name="TaskPage_Progress" xml:space="preserve">
+    <value>Haladás</value>
+  </data>
+  <data name="TaskPage_Reminder" xml:space="preserve">
+    <value>Emlékeztető</value>
+  </data>
+  <data name="TaskPage_StartDate" xml:space="preserve">
+    <value>Kezdő dátum</value>
+  </data>
+  <data name="TaskPage_SubTask" xml:space="preserve">
+    <value>Részfeladat</value>
+  </data>
+  <data name="TaskPage_Tag" xml:space="preserve">
+    <value>Címkék</value>
+  </data>
+  <data name="Notification_SnoozeDay" xml:space="preserve">
+    <value>Nap</value>
+  </data>
+  <data name="TaskPage_SubTasks" xml:space="preserve">
+    <value>Résztevékenységek</value>
+  </data>
+  <data name="TaskPage_TaskNamePlaceholder" xml:space="preserve">
+    <value>A feladat neve...</value>
+  </data>
+  <data name="SmartView_FilterHasSubtasks" xml:space="preserve">
+    <value>A részfeladatok</value>
+  </data>
+</root>

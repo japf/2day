@@ -1,0 +1,389 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <MinimumVisualStudioVersion>10.0</MinimumVisualStudioVersion>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{292F47A9-07BA-489A-9EB6-6C72C41D277F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Chartreuse.Today.Exchange</RootNamespace>
+    <AssemblyName>2Day.Exchange.Shared</AssemblyName>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Profile44</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{786C830F-07A1-408B-BD7F-6EE04809D6DB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>4.0</OldToolsVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+    <NoWarn>4014;1998</NoWarn>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <NoWarn>4014;1998</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'ReleaseNoApp'">
+    <OutputPath>bin\ReleaseNoApp\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <NoWarn>4014;1998</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="ActiveSync\ASResponseParserBase.cs" />
+    <Compile Include="ActiveSync\ASWebRequestBuilder.cs" />
+    <Compile Include="ActiveSync\ASWebXmlHelper.cs" />
+    <Compile Include="ActiveSync\Commands\ProvisionCommand.cs" />
+    <Compile Include="ActiveSync\Commands\ProvisionCommandParameter.cs" />
+    <Compile Include="ActiveSync\Commands\ProvisionCommandResult.cs" />
+    <Compile Include="ActiveSync\Encoder\ASWBXML.cs" />
+    <Compile Include="ActiveSync\Encoder\ASWBXMLByteQueue.cs" />
+    <Compile Include="ActiveSync\Encoder\ASWBXMLCodePage.cs" />
+    <Compile Include="ActiveSync\Exceptions\CommandException.cs" />
+    <Compile Include="ActiveSync\Exceptions\WbXmlDecodingException.cs" />
+    <Compile Include="ActiveSync\Exceptions\WbXmlEncodingException.cs" />
+    <Compile Include="Ews\AutoDiscover\AutoDiscoverCommand.cs" />
+    <Compile Include="Ews\AutoDiscover\AutoDiscoverEngine.cs" />
+    <Compile Include="Ews\AutoDiscover\AutoDiscoverEngineResult.cs" />
+    <Compile Include="Ews\AutoDiscover\AutoDiscoverParameter.cs" />
+    <Compile Include="Ews\AutoDiscover\AutoDiscoverRequestBuilder.cs" />
+    <Compile Include="Ews\AutoDiscover\AutoDiscoverResult.cs" />
+    <Compile Include="Ews\Commands\CreateEmailCommand.cs" />
+    <Compile Include="Ews\Commands\CreateEmailParameter.cs" />
+    <Compile Include="Ews\Commands\CreateEmailResult.cs" />
+    <Compile Include="Ews\Commands\CreateFolderCommand.cs" />
+    <Compile Include="Ews\Commands\CreateFolderParameter.cs" />
+    <Compile Include="Ews\Commands\CreateFolderResult.cs" />
+    <Compile Include="Ews\Commands\CreateSearchFolderCommand.cs" />
+    <Compile Include="Ews\Commands\CreateSearchFolderParameter.cs" />
+    <Compile Include="Ews\Commands\DeleteFolderCommand.cs" />
+    <Compile Include="Ews\Commands\DeleteFolderParameter.cs" />
+    <Compile Include="Ews\Commands\DeleteFolderResult.cs" />
+    <Compile Include="Ews\Commands\DeleteHardItemsCommand.cs" />
+    <Compile Include="Ews\Commands\DeleteHardItemsParameter.cs" />
+    <Compile Include="Ews\Commands\DeleteItemsParameter.cs" />
+    <Compile Include="Ews\Commands\FindFolderCommand.cs" />
+    <Compile Include="Ews\Commands\FindFolderParameter.cs" />
+    <Compile Include="Ews\Commands\FindFolderResult.cs" />
+    <Compile Include="Ews\Commands\DeleteHardItemsResult.cs" />
+    <Compile Include="Ews\EwsModelHelper.cs" />
+    <Compile Include="Ews\EwsResponseMessage.cs" />
+    <Compile Include="Ews\Exceptions\CommandAuthorizationException.cs" />
+    <Compile Include="Ews\Model\EwsBodyType.cs" />
+    <Compile Include="Ews\Model\EwsFault.cs" />
+    <Compile Include="Ews\EwsRequestParameterBuilderBase.cs" />
+    <Compile Include="Ews\Exceptions\CommandResponseException.cs" />
+    <Compile Include="Ews\Model\EwsItemIdentifierBase.cs" />
+    <Compile Include="Ews\Model\EwsKnownFolderIdentifiers.cs" />
+    <Compile Include="Ews\Model\EwsRecurrence.cs" />
+    <Compile Include="Ews\Model\EwsResponseClass.cs" />
+    <Compile Include="Ews\EwsResponseParserBase.cs" />
+    <Compile Include="Ews\Exceptions\CommandCannotExecuteException.cs" />
+    <Compile Include="Ews\Exceptions\CommandRequestXmlException.cs" />
+    <Compile Include="Ews\Exceptions\CommandResponseXmlException.cs" />
+    <Compile Include="Ews\Schema\EwsAttributes.cs" />
+    <Compile Include="Ews\Schema\EwsSimpleArrayPropertyDefinition.cs" />
+    <Compile Include="Ews\Schema\EwsTagIconIndex.cs" />
+    <Compile Include="Model\ExchangeAuthorizationResult.cs" />
+    <Compile Include="Model\ExchangeAuthorizationStatus.cs" />
+    <Compile Include="Model\ExchangeChangeSet.cs" />
+    <Compile Include="Model\ExchangeConnectionInfo.cs" />
+    <Compile Include="Model\ExchangeDayOfWeek.cs" />
+    <Compile Include="Model\ExchangeDayOfWeekIndex.cs" />
+    <Compile Include="Model\ExchangeFolder.cs" />
+    <Compile Include="Model\ExchangeFolderChangeSet.cs" />
+    <Compile Include="Model\ExchangeMapId.cs" />
+    <Compile Include="Model\ExchangeRecurrencePattern.cs" />
+    <Compile Include="Model\ExchangeResultBase.cs" />
+    <Compile Include="Model\ExchangeServerVersion.cs" />
+    <Compile Include="Model\ExchangeSyncRequest.cs" />
+    <Compile Include="Model\ExchangeSyncResult.cs" />
+    <Compile Include="Model\ExchangeTask.cs" />
+    <Compile Include="Model\ExchangeTaskImportance.cs" />
+    <Compile Include="Model\ExchangeTaskProperties.cs" />
+    <Compile Include="Model\ExchangeUpdateResult.cs" />
+    <Compile Include="Model\ServerDeletedAsset.cs" />
+    <Compile Include="Model\ServiceOperationResult.cs" />
+    <Compile Include="Providers\ActiveSyncSynchronizationProvider.cs" />
+    <Compile Include="Providers\OutlookActiveSyncSynchronizationProvider.cs" />
+    <Compile Include="Providers\SyncService\ActiveSyncErrorHelper.cs" />
+    <Compile Include="Providers\SyncService\ActiveSyncServer.cs" />
+    <Compile Include="ActiveSync\ASCommandBase.cs" />
+    <Compile Include="ActiveSync\ASCommandResponseBase.cs" />
+    <Compile Include="ActiveSync\Commands\FolderSyncCommand.cs" />
+    <Compile Include="ActiveSync\Commands\FolderSyncCommandParameter.cs" />
+    <Compile Include="ActiveSync\Commands\FolderSyncCommandResult.cs" />
+    <Compile Include="ActiveSync\Commands\SyncCommand.cs" />
+    <Compile Include="ActiveSync\Commands\SyncCommandParameter.cs" />
+    <Compile Include="ActiveSync\Commands\SyncCommandResult.cs" />
+    <Compile Include="Ews\Commands\CreateItemsCommand.cs" />
+    <Compile Include="Ews\Commands\CreateItemsParameter.cs" />
+    <Compile Include="Ews\Commands\CreateItemsResult.cs" />
+    <Compile Include="Ews\Commands\DeleteItemsCommand.cs" />
+    <Compile Include="Ews\Commands\MoveItemsCommand.cs" />
+    <Compile Include="Ews\Commands\EnumerateFolderContentCommand.cs" />
+    <Compile Include="Ews\Commands\EnumerateFolderContentParameter.cs" />
+    <Compile Include="Ews\Commands\EnumerateFolderContentResult.cs" />
+    <Compile Include="Ews\Commands\MoveItemsParameter.cs" />
+    <Compile Include="Ews\Commands\MoveItemsResult.cs" />
+    <Compile Include="Ews\Commands\UpdateItems.cs" />
+    <Compile Include="Ews\Commands\UpdateItemsParameter.cs" />
+    <Compile Include="Ews\Commands\UpdateItemsResult.cs" />
+    <Compile Include="Ews\EwsDateTimeHelper.cs" />
+    <Compile Include="Ews\Model\EwsFields.cs" />
+    <Compile Include="Ews\Model\EwsImportance.cs" />
+    <Compile Include="Ews\Model\EwsItemType.cs" />
+    <Compile Include="Ews\Model\EwsTaskStatus.cs" />
+    <Compile Include="Ews\Schema\EwsDistinguishedPropertyDefinition.cs" />
+    <Compile Include="Ews\Schema\EwsExtendedPropertyIds.cs" />
+    <Compile Include="Ews\Schema\EwsExtendedPropertyDefinition.cs" />
+    <Compile Include="Ews\Schema\EwsFieldType.cs" />
+    <Compile Include="Ews\Schema\EwsFieldUri.cs" />
+    <Compile Include="Ews\Schema\EwsPropertyDefinition.cs" />
+    <Compile Include="Ews\Schema\EwsPropertySet.cs" />
+    <Compile Include="Ews\Schema\EwsSimplePropertyDefinition.cs" />
+    <Compile Include="Ews\Schema\EwsTaskBuilder.cs" />
+    <Compile Include="Ews\Schema\EwsTaskSchema.cs" />
+    <Compile Include="Ews\Model\EwsTask.cs" />
+    <Compile Include="Ews\Commands\GetItemCommand.cs" />
+    <Compile Include="Ews\Commands\GetItemParameter.cs" />
+    <Compile Include="Ews\Commands\GetItemResult.cs" />
+    <Compile Include="Ews\Model\EwsFolderIdentifier.cs" />
+    <Compile Include="Ews\EwsXmlHelper.cs" />
+    <Compile Include="Ews\EwsRequestParameter.cs" />
+    <Compile Include="Ews\EwsRequestSettings.cs" />
+    <Compile Include="Ews\Model\EwsItemIdentifier.cs" />
+    <Compile Include="Providers\ExchangeEwsSynchronizationProvider.cs" />
+    <Compile Include="Providers\SyncService\EwsSyncServer.cs" />
+    <Compile Include="Providers\SyncService\EwsSyncService.cs" />
+    <Compile Include="Shared\Commands\CommandParameterBase.cs" />
+    <Compile Include="Shared\Commands\IRequestParameterBuilder.cs" />
+    <Compile Include="Shared\Commands\IWebCommandBase.cs" />
+    <Compile Include="Shared\IResponseParser.cs" />
+    <Compile Include="ActiveSync\ASRequestParameter.cs" />
+    <Compile Include="ActiveSync\ASRequestSettings.cs" />
+    <Compile Include="Shared\Commands\ResponseResult.cs" />
+    <Compile Include="ActiveSync\XmlExtensions.cs" />
+    <Compile Include="Providers\ActiveSyncSynchronizationProviderBase.cs" />
+    <Compile Include="Providers\SyncService\ActiveSyncService.cs" />
+    <Compile Include="Ews\Commands\EwsCommandBase.cs" />
+    <Compile Include="Ews\Commands\GetFolderIdentifiersCommand.cs" />
+    <Compile Include="Ews\Commands\GetFolderIdentifiersParameter.cs" />
+    <Compile Include="Ews\Commands\GetFolderIdentifiersResult.cs" />
+    <Compile Include="Ews\EwsWebRequestBuilder.cs" />
+    <Compile Include="ExchangeAuthMessagesHelper.cs" />
+    <Compile Include="ExchangeHelper.cs" />
+    <Compile Include="ExchangeSettings.cs" />
+    <Compile Include="Providers\ExchangeSynchronizationProvider.cs" />
+    <Compile Include="Providers\ExchangeSynchronizationProviderBase.cs" />
+    <Compile Include="Providers\SyncService\IExchangeSyncService.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resources\ExchangeResources.cs-CZ.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ExchangeResources.cs-CZ.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\ExchangeResources.pl-PL.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ExchangeResources.pl-PL.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\ExchangeResources.pt-BR.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ExchangeResources.pt-BR.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\ExchangeResources.ru-RU.Designer.cs">
+      <DependentUpon>ExchangeResources.ru-RU.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Resources\ExchangeResources.de-DE.Designer.cs">
+      <DependentUpon>ExchangeResources.de-DE.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Resources\ExchangeResources.Designer.cs">
+      <DependentUpon>ExchangeResources.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Resources\ExchangeResources.es-ES.Designer.cs">
+      <DependentUpon>ExchangeResources.es-ES.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Resources\ExchangeResources.fr-FR.Designer.cs">
+      <DependentUpon>ExchangeResources.fr-FR.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Resources\ExchangeResources.it-IT.Designer.cs">
+      <DependentUpon>ExchangeResources.it-IT.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Resources\ExchangeResources.pt-PT.Designer.cs">
+      <DependentUpon>ExchangeResources.pt-PT.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Providers\SyncService\ExchangeSyncService.cs" />
+    <Compile Include="Resources\ExchangeResources.zh-CN.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ExchangeResources.zh-CN.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Shared\Commands\WebCommandBase.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Model\ClassDiagram.cd" />
+    <None Include="packages.config" />
+    <None Include="Properties\DataSources\Japf.Exchange.Model.ExchangeAuthorizationResult.datasource" />
+    <None Include="Properties\DataSources\Japf.Exchange.Model.ExchangeSyncResult.datasource" />
+    <None Include="Properties\ServiceReferences.Designer.ClientConfig" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\ExchangeResources.cs-CZ.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ExchangeResources.cs-CZ.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\ExchangeResources.hu-HU.resx" />
+    <EmbeddedResource Include="Resources\ExchangeResources.pl-PL.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ExchangeResources.pl-PL.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\ExchangeResources.pt-BR.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ExchangeResources.pt-BR.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\ExchangeResources.sv-SE.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\ExchangeResources.ru-RU.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ExchangeResources.ru-RU.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\ExchangeResources.de-DE.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ExchangeResources.de-DE.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\ExchangeResources.es-ES.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ExchangeResources.es-ES.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\ExchangeResources.fr-FR.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ExchangeResources.fr-FR.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\ExchangeResources.it-IT.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ExchangeResources.it-IT.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\ExchangeResources.pt-PT.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ExchangeResources.pt-PT.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\ExchangeResources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>ExchangeResources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\2Day.Core.Shared\2Day.Core.Shared.csproj">
+      <Project>{552731f9-5444-41d5-b3b9-d3817154e349}</Project>
+      <Name>2Day.Core.Shared</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\ExchangeResources.zh-CN.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ExchangeResources.zh-CN.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ServerPublicKey.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ServerPublicKey.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.10.0.2\lib\portable-net45+win8+wpa81+wp8\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

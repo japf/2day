@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>7b5aae5a-f57b-4c24-8731-07cc4764a90f</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>2Day.Sync.Shared.Test</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)TestCaseBase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)TestRunnerBase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Test\ContextTest.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Test\ExchangeTest.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Test\FolderTest.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Test\InitialSyncTest.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Test\LoginTest.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Test\RecurrenceAdvancedTest.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Test\RecurrenceTest.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Test\SimpleFolderScenarioTest.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Test\SimpleTaskScenarioTest.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Test\SubTaskTest.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Test\TaskTest.cs" />
+  </ItemGroup>
+</Project>

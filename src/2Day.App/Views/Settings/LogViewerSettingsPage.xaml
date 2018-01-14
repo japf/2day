@@ -1,0 +1,71 @@
+﻿<Page
+    x:Class="Chartreuse.Today.App.Views.Settings.LogViewerSettingsPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:controls="using:Chartreuse.Today.App.Controls"
+    mc:Ignorable="d">
+
+    <controls:FlyoutHost x:Uid="LogViewerSettingsPage_Title" Text="LogViewerSettingsPage_Title" VerticalScrollBarVisibility="Disabled ">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            
+            <ScrollViewer 
+                x:Name="scrollViewer"
+                Grid.Row="0" 
+                VerticalScrollBarVisibility="Visible">
+                <RichTextBlock 
+                    x:Name="rtbLog" 
+                    FontSize="11"/>
+            </ScrollViewer>
+
+            <Border 
+                Grid.Row="1" 
+                Background="{StaticResource NavMenuSecondaryBackgroundBrush}" 
+                BorderThickness="0,1,0,0"
+                Height="35"
+                Margin="-20,0,-20,-20"
+                BorderBrush="{StaticResource NavMenuBorderBrush}">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <AppBarButton
+                        Grid.Column="0"
+                        Style="{StaticResource ModernAppBarButtonStyle}"
+                        Click="OnBtnClearLogs"
+                        ToolTipService.ToolTip="{Binding Path=SharedStrings.LogViewer_Clear, Source={StaticResource Resources}}"
+                        Width="Auto"
+                        Height="Auto"
+                        Margin="0"
+                        HorizontalAlignment="Stretch"
+                        Icon="Delete"/>
+                    <AppBarButton
+                        Grid.Column="1"
+                        Style="{StaticResource ModernAppBarButtonStyle}"
+                        Click="OnBtnGoEnd"
+                        Width="Auto"
+                        Height="Auto"
+                        Margin="0"
+                        HorizontalAlignment="Stretch"
+                        Icon="Download"/>
+                    <AppBarButton
+                        Grid.Column="2"
+                        Style="{StaticResource ModernAppBarButtonStyle}"
+                        Click="OnBtnMail"
+                        Width="Auto"
+                        Height="Auto"
+                        Margin="0"
+                        HorizontalAlignment="Stretch"
+                        Icon="Mail"/>
+                </Grid>
+            </Border>
+        </Grid>
+    </controls:FlyoutHost>
+</Page>

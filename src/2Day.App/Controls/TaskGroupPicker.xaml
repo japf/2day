@@ -1,0 +1,142 @@
+﻿<UserControl
+    x:Class="Chartreuse.Today.App.Controls.TaskGroupPicker"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:viewModel1="using:Chartreuse.Today.App.ViewModel"
+    xmlns:controls="using:Chartreuse.Today.App.Controls"
+    xmlns:app="using:Chartreuse.Today.App"
+    xmlns:viewModel="using:Chartreuse.Today.App.Shared.ViewModel"
+    mc:Ignorable="d"
+    d:DesignHeight="800"
+    d:DesignWidth="400" 
+    d:DataContext="{d:DesignInstance viewModel:FolderViewModelBase}">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <TextBlock 
+            Grid.Row="0"
+            Grid.Column="0"
+            x:Uid="FolderGroup_Group"
+            Text="FolderGroup_Group" 
+            Margin="0,10,0,0"
+            Style="{StaticResource DescriptionTextBlockStyle}"/>
+
+        <controls:RadioIconButton  
+            x:Name="buttonDue"
+            x:Uid="FolderGroup_GroupDue"
+            Grid.Row="1"
+            Grid.Column="0"
+            IsChecked="{Binding IsGroupDueDate, Mode=TwoWay}"            
+            Icon="GroupDueDate"/>
+
+        <controls:RadioIconButton  
+            x:Name="buttonPriority"
+            x:Uid="FolderGroup_GroupPriority"
+            Grid.Row="1"
+            Grid.Column="1"                
+            IsChecked="{Binding IsGroupPriority, Mode=TwoWay}"            
+            Icon="GroupPriority"/>
+        
+        <controls:RadioIconButton  
+            x:Name="buttonStatus"
+            x:Uid="FolderGroup_GroupStatus"
+            Grid.Row="1"
+            Grid.Column="2"    
+            BorderThickness="1,1,1,1"
+            IsChecked="{Binding IsGroupStatus, Mode=TwoWay}"
+            Icon="GroupStatus"/>
+
+        <controls:RadioIconButton  
+            x:Name="buttonContext"
+            x:Uid="FolderGroup_GroupContext"
+            Grid.Row="2"
+            Grid.Column="0"                
+            IsChecked="{Binding IsGroupContext, Mode=TwoWay}"
+            Icon="GroupContext"/>
+
+        <controls:RadioIconButton  
+            x:Name="buttonFolder"
+            x:Uid="FolderGroup_GroupFolder"
+            Grid.Row="2"
+            Grid.Column="1"                
+            IsChecked="{Binding IsGroupFolder, Mode=TwoWay}"
+            Icon="GroupFolder"/>
+
+        <controls:RadioIconButton  
+            x:Name="buttonStartDate"
+            x:Uid="FolderGroup_GroupStartDate"
+            Grid.Row="2"
+            Grid.Column="2"                
+            BorderThickness="1,1,1,1"
+            IsChecked="{Binding IsGroupStartDate, Mode=TwoWay}"
+            Icon="GroupStartDate"/>
+
+        <controls:RadioIconButton  
+            x:Name="buttonCompleted"
+            x:Uid="FolderGroup_GroupCompleted"
+            Grid.Row="3"
+            Grid.Column="0"                
+            IsChecked="{Binding IsGroupCompleted, Mode=TwoWay}"
+            Icon="GroupCompleted"/>
+
+        <controls:RadioIconButton  
+            x:Name="buttonProgress"
+            x:Uid="FolderGroup_GroupProgress"
+            Grid.Row="3"
+            Grid.Column="1"                
+            IsChecked="{Binding IsGroupProgress, Mode=TwoWay}"
+            Icon="GroupProgress"/>
+
+        <controls:RadioIconButton  
+            x:Name="buttonModified"
+            x:Uid="FolderGroup_GroupModified"
+            Grid.Row="3"
+            Grid.Column="2"                
+            BorderThickness="1,1,1,1"
+            IsChecked="{Binding IsGroupModified, Mode=TwoWay}"
+            Icon="GroupModified"/>
+
+        <TextBlock 
+            Grid.Row="4"
+            Grid.Column="0"
+            x:Uid="FolderGroup_Order"
+            Text="FolderGroup_Order" 
+            Margin="0,10,0,0"
+            Style="{StaticResource DescriptionTextBlockStyle}"/>
+
+        <controls:RadioIconButton 
+            Grid.Row="5"
+            Grid.Column="0"
+            x:Name="buttonAscending"
+            x:Uid="FolderGroup_Ascending"
+            GroupName="order"
+            IsChecked="{Binding IsAscending, Mode=TwoWay}"
+            Icon="GroupAscending"/>
+        <controls:RadioIconButton  
+            Grid.Row="5"
+            Grid.Column="1"
+            x:Name="buttonDescending"
+            x:Uid="FolderGroup_Descending"
+            GroupName="order"            
+            Content="FolderGroup_Descending"
+            IsChecked="{Binding IsDescending, Mode=TwoWay}"
+            Icon="GroupDescending"/>
+
+    </Grid>
+
+</UserControl>

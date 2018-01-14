@@ -1,0 +1,26 @@
+﻿<UserControl
+    x:Class="Chartreuse.Today.App.Controls.ListViewActionBar"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Chartreuse.Today.App.Controls"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    d:DesignHeight="40"
+    d:DesignWidth="400">
+
+    <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+        <Button x:Name="btnComplete" Visibility="Collapsed" Click="OnBtnCompleteClick" VerticalAlignment="Stretch" Width="64" Margin="0" Background="{StaticResource ListViewActionBarCompleteBrush}">
+            <local:IconText Foreground="White" FontSize="26" Icon="CommonAppBarAdd" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        </Button>
+        <Button Click="OnBtnDeleteClick" VerticalAlignment="Stretch" Width="64" Margin="0" Background="{StaticResource ListViewActionBarDeleteBrush}">
+            <local:IconText Foreground="White" FontSize="26" Icon="CommonDelete" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        </Button>
+        <Button Click="OnBtnMoveClick" VerticalAlignment="Stretch" Width="64" Margin="0" Background="{StaticResource ListViewActionBarMoveBrush}">
+            <local:IconText Foreground="White" FontSize="26" Icon="CommonEdit" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        </Button>
+        <Button Click="OnBtnPostponeClick" VerticalAlignment="Stretch" Width="64" Margin="0" Background="{StaticResource ListViewActionBarPostponeBrush}">
+            <local:IconText Foreground="White" FontSize="26" Icon="LinkCalendar" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        </Button>
+    </StackPanel>
+</UserControl>

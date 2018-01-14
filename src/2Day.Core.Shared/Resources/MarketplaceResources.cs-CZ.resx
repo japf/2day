@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Feature1" xml:space="preserve">
+    <value>Složky s ikonami a barvami k organizaci vašich úkolů</value>
+  </data>
+  <data name="Feature2" xml:space="preserve">
+    <value>Úkoly s prioritami, termíny splnění, poznámkami, připomenutím a opakováním</value>
+  </data>
+  <data name="Feature3" xml:space="preserve">
+    <value>Pokročilá uživatelská nastavení lépe splní vaše potřeby</value>
+  </data>
+  <data name="Feature4" xml:space="preserve">
+    <value>Synchronizace všech vašich zařízení pod Windows!</value>
+  </data>
+  <data name="Feature5" xml:space="preserve">
+    <value>Synchronizace s MS Exchange, s ToodleDo, s Účtem Microsoft nebo zcela novým 2Day Cloudem</value>
+  </data>
+  <data name="Feature6" xml:space="preserve">
+    <value>Podpora GTD (souvislosti, štítky a počáteční datum)</value>
+  </data>
+  <data name="Feature7" xml:space="preserve">
+    <value>Podpora rozpoznávání hlasu</value>
+  </data>
+  <data name="Feature8" xml:space="preserve">
+    <value>Funkce rychlého zadání</value>
+  </data>
+  <data name="Intro1" xml:space="preserve">
+    <value>Slavný správce Windows Phone úkolů 2Day je nyní k dispozici pro vaše Windows 8 zařízení!</value>
+  </data>
+  <data name="Intro2" xml:space="preserve">
+    <value>Vyzkoušejte 2Day zdarma po dobu 30 dnů a zamilujete si ho :-)</value>
+  </data>
+  <data name="Keyword1" xml:space="preserve">
+    <value>plánování</value>
+  </data>
+  <data name="Keyword2" xml:space="preserve">
+    <value>úkol</value>
+  </data>
+  <data name="Keyword3" xml:space="preserve">
+    <value>gtd</value>
+  </data>
+  <data name="Keyword4" xml:space="preserve">
+    <value>exchange</value>
+  </data>
+  <data name="Keyword5" xml:space="preserve">
+    <value>toodledo</value>
+  </data>
+  <data name="Screen1" xml:space="preserve">
+    <value>Hlavní obrazovka</value>
+  </data>
+  <data name="Screen2" xml:space="preserve">
+    <value>Nastavení synchronizace</value>
+  </data>
+  <data name="Screen3" xml:space="preserve">
+    <value>Podpora táhni a pust</value>
+  </data>
+  <data name="Screen4" xml:space="preserve">
+    <value>Rychlá aktualizace úkolu</value>
+  </data>
+  <data name="Screen5" xml:space="preserve">
+    <value>Nastavení seskupování</value>
+  </data>
+  <data name="Screen6" xml:space="preserve">
+    <value>Nový úkol</value>
+  </data>
+  <data name="Screen7" xml:space="preserve">
+    <value>Rozpoznání hlasu</value>
+  </data>
+  <data name="Screen9" xml:space="preserve">
+    <value>Uvítací obrazovka</value>
+  </data>
+</root>

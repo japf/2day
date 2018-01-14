@@ -1,0 +1,1587 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="About_ContactUs" xml:space="preserve">
+    <value>Contacte-nos</value>
+  </data>
+  <data name="About_Facebook" xml:space="preserve">
+    <value>Página no Facebook</value>
+  </data>
+  <data name="About_FollowUs" xml:space="preserve">
+    <value>Siga-nos</value>
+  </data>
+  <data name="About_Help" xml:space="preserve">
+    <value>Ajuda</value>
+  </data>
+  <data name="About_HelpDetail" xml:space="preserve">
+    <value>consultar a ajuda online</value>
+  </data>
+  <data name="About_ReviewTheApp" xml:space="preserve">
+    <value>analisar 2Day</value>
+  </data>
+  <data name="About_ShareEnthousiasm" xml:space="preserve">
+    <value>Partilhe o seu entusiasmo</value>
+  </data>
+  <data name="About_SubmitIdeas" xml:space="preserve">
+    <value>Apresente as suas ideias</value>
+  </data>
+  <data name="About_Updates" xml:space="preserve">
+    <value>Atualizações</value>
+  </data>
+  <data name="About_UpdatesDetail" xml:space="preserve">
+    <value>ver o histórico de atualizações</value>
+  </data>
+  <data name="About_WindowsStoreDesktop" xml:space="preserve">
+    <value>Veja a versão Windows para desktop e tablet!</value>
+  </data>
+  <data name="About_WindowsStorePhone" xml:space="preserve">
+    <value>Veja a versão Windows Phone!</value>
+  </data>
+  <data name="Action_Cancel" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="Action_Complete" xml:space="preserve">
+    <value>Concluído</value>
+  </data>
+  <data name="Action_Delete" xml:space="preserve">
+    <value>Apagar</value>
+  </data>
+  <data name="Action_Pin" xml:space="preserve">
+    <value>Afixar</value>
+  </data>
+  <data name="Action_Postpone" xml:space="preserve">
+    <value>Adiar</value>
+  </data>
+  <data name="Action_Save" xml:space="preserve">
+    <value>Salvar</value>
+  </data>
+  <data name="Action_SaveAndContinue" xml:space="preserve">
+    <value>Guardar + adicionar</value>
+  </data>
+  <data name="Action_Unpin" xml:space="preserve">
+    <value>Desfixar</value>
+  </data>
+  <data name="AddContext_Title" xml:space="preserve">
+    <value>Criar contexto</value>
+  </data>
+  <data name="Analytics_Comments" xml:space="preserve">
+    <value>Comentários</value>
+  </data>
+  <data name="Analytics_DisableQuestion" xml:space="preserve">
+    <value>Não apresentar perguntas sobre a tua utilização da 2Day</value>
+  </data>
+  <data name="Analytics_DoNoShowAgain" xml:space="preserve">
+    <value>Não me mostrem este tipo de mensagens no futuro :-(</value>
+  </data>
+  <data name="Analytics_Email" xml:space="preserve">
+    <value>Email (opcional)</value>
+  </data>
+  <data name="Analytics_NotificationTest" xml:space="preserve">
+    <value>Por favor, disponibiliza 30s para responderes a uma pergunta rápida</value>
+  </data>
+  <data name="Analytics_Title" xml:space="preserve">
+    <value>Pergunta rápida para ajudar a melhorar a 2Day!</value>
+  </data>
+  <data name="AppBar_EditContext" xml:space="preserve">
+    <value>Editar o contexto</value>
+  </data>
+  <data name="AppBar_EditFolder" xml:space="preserve">
+    <value>Editar a pasta</value>
+  </data>
+  <data name="AppBar_EditView" xml:space="preserve">
+    <value>Editar a vista</value>
+  </data>
+  <data name="AppMenu_ContextMenu_Folder_Delete" xml:space="preserve">
+    <value>Apagar</value>
+  </data>
+  <data name="AppMenu_ContextMenu_Folder_Edit" xml:space="preserve">
+    <value>Editar</value>
+  </data>
+  <data name="AppMenu_ContextMenu_Folder_Pin" xml:space="preserve">
+    <value>Afixar</value>
+  </data>
+  <data name="AppMenu_ContextMenu_Folder_Share" xml:space="preserve">
+    <value>Partilhar</value>
+  </data>
+  <data name="AppMenu_ContextMenu_Folder_Unpin" xml:space="preserve">
+    <value>Desfixar</value>
+  </data>
+  <data name="AppMenu_ContextMenu_Hide" xml:space="preserve">
+    <value>Esconder</value>
+  </data>
+  <data name="AutoDelete_Never" xml:space="preserve">
+    <value>Nunca</value>
+  </data>
+  <data name="AutoDelete_OneDay" xml:space="preserve">
+    <value>1 dia</value>
+  </data>
+  <data name="AutoDelete_OneMonth" xml:space="preserve">
+    <value>1 mês</value>
+  </data>
+  <data name="AutoDelete_OneWeek" xml:space="preserve">
+    <value>1 semana</value>
+  </data>
+  <data name="AutoDelete_ThreeDays" xml:space="preserve">
+    <value>3 dias</value>
+  </data>
+  <data name="AutoDelete_ThreeMonths" xml:space="preserve">
+    <value>3 meses</value>
+  </data>
+  <data name="AutoDelete_TwoWeeks" xml:space="preserve">
+    <value>2 semanas</value>
+  </data>
+  <data name="BootstrapDragTaskNote" xml:space="preserve">
+    <value>Mova esta tarefa no menu à esquerda ou em outro grupo</value>
+  </data>
+  <data name="BootstrapDragTaskTitle" xml:space="preserve">
+    <value>Tente arrastar e soltar</value>
+  </data>
+  <data name="BootstrapSlideTaskNote" xml:space="preserve">
+    <value>Deslizar para a esquerda para mais opções</value>
+  </data>
+  <data name="BootstrapSlideTaskTitle" xml:space="preserve">
+    <value>Deslizar para a direita para completar uma tarefa</value>
+  </data>
+  <data name="BootstrapVoiceCommandTaskNote" xml:space="preserve">
+    <value>Sabia que você pode adicionar tarefas e lembretes, utilizando a sua voz? Na tela do seu Windows Phone casa, mantenha pressionado o botão do Windows e dizer, por exemplo: "2Day, adicione uma tarefa para amanhã." Se você tocar no botão "?" Durante o reconhecimento de voz, você será capaz de ver todos os comandos suportados pelo 2Day.</value>
+  </data>
+  <data name="BootstrapVoiceCommandTaskTitle" xml:space="preserve">
+    <value>Experimente os comandos de voz</value>
+  </data>
+  <data name="BootstrapWelcomeTaskNote" xml:space="preserve">
+    <value>Desfrute 2Day para o Windows !</value>
+  </data>
+  <data name="BootstrapWelcomeTaskTitle" xml:space="preserve">
+    <value>Seja bem-vindo ao 2Day</value>
+  </data>
+  <data name="CompletedTaskMode_Group" xml:space="preserve">
+    <value>Fim da lista</value>
+  </data>
+  <data name="CompletedTaskMode_Hide" xml:space="preserve">
+    <value>Esconder</value>
+  </data>
+  <data name="CompletedTaskMode_Show" xml:space="preserve">
+    <value>Mostrar</value>
+  </data>
+  <data name="Context_EmptyHeader" xml:space="preserve">
+    <value>O contexo está vazio</value>
+  </data>
+  <data name="Context_EmptyHint" xml:space="preserve">
+    <value>Definir uma tarefa para este contexto para começar</value>
+  </data>
+  <data name="ConverterAction_Call" xml:space="preserve">
+    <value>Chamar</value>
+  </data>
+  <data name="ConverterAction_Email" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="ConverterAction_None" xml:space="preserve">
+    <value>Nenhuma</value>
+  </data>
+  <data name="ConverterAction_Sms" xml:space="preserve">
+    <value>Sms</value>
+  </data>
+  <data name="ConverterAction_Visit" xml:space="preserve">
+    <value>Visitar</value>
+  </data>
+  <data name="ConverterContext_None" xml:space="preserve">
+    <value>Nenhum</value>
+  </data>
+  <data name="ConverterDate_Future" xml:space="preserve">
+    <value>Futuro</value>
+  </data>
+  <data name="ConverterDate_Late" xml:space="preserve">
+    <value>Atrasado</value>
+  </data>
+  <data name="ConverterDate_Next7Days" xml:space="preserve">
+    <value>Próximos 7 dias</value>
+  </data>
+  <data name="ConverterDate_NoDate" xml:space="preserve">
+    <value>Sem prazo</value>
+  </data>
+  <data name="ConverterDate_Today" xml:space="preserve">
+    <value>Hoje</value>
+  </data>
+  <data name="ConverterDate_Tomorrow" xml:space="preserve">
+    <value>Amanhã</value>
+  </data>
+  <data name="ConverterDate_Yesterday" xml:space="preserve">
+    <value>Ontém</value>
+  </data>
+  <data name="ConverterPriority_High" xml:space="preserve">
+    <value>Alta</value>
+  </data>
+  <data name="ConverterPriority_Low" xml:space="preserve">
+    <value>Baixa</value>
+  </data>
+  <data name="ConverterPriority_Medium" xml:space="preserve">
+    <value>Média</value>
+  </data>
+  <data name="ConverterPriority_Star" xml:space="preserve">
+    <value>Estrela</value>
+  </data>
+  <data name="ConverterProgress_None" xml:space="preserve">
+    <value>Nenhum</value>
+  </data>
+  <data name="ConverterStatus_Completed" xml:space="preserve">
+    <value>Concluída</value>
+  </data>
+  <data name="ConverterStatus_Todo" xml:space="preserve">
+    <value>A fazer</value>
+  </data>
+  <data name="Crash_MessageContent" xml:space="preserve">
+    <value>Lamentamos porque 2Day tinha um erro. Você quer enviar os detalhes para a equipe de desenvolvimento?</value>
+  </data>
+  <data name="CreateEditFolder_FolderNameAlreadyUsedNotification" xml:space="preserve">
+    <value>Nome de pasta já em utilização</value>
+  </data>
+  <data name="CreateEditTaskPage_NotifyFormat" xml:space="preserve">
+    <value>Tarefa '{0}' adicionada na pasta {1}</value>
+  </data>
+  <data name="CreateEditTaskPage_NotifyWithDueDateFormat" xml:space="preserve">
+    <value>Tarefa '{0}' adicionada na pasta {1} devido em {2}</value>
+  </data>
+  <data name="CreateEditTask_TagAlreadyExists" xml:space="preserve">
+    <value>Este tag já existe</value>
+  </data>
+  <data name="CreateEditTask_TagCannotBeEmptyMsg" xml:space="preserve">
+    <value>Tag não pode ser vazio</value>
+  </data>
+  <data name="CreateFolderPage_Title" xml:space="preserve">
+    <value>Criar pasta</value>
+  </data>
+  <data name="CreateTaskPage_Title" xml:space="preserve">
+    <value>Criar tarefa</value>
+  </data>
+  <data name="CustomFrequency_Custom" xml:space="preserve">
+    <value>Personalizada</value>
+  </data>
+  <data name="CustomFrequency_Daily" xml:space="preserve">
+    <value>Diariamente</value>
+  </data>
+  <data name="CustomFrequency_Day" xml:space="preserve">
+    <value>dia</value>
+  </data>
+  <data name="CustomFrequency_Days" xml:space="preserve">
+    <value>dias</value>
+  </data>
+  <data name="CustomFrequency_DaysOfWeekTitle" xml:space="preserve">
+    <value>Dias específicos...</value>
+  </data>
+  <data name="CustomFrequency_Each" xml:space="preserve">
+    <value>cada {0}</value>
+    <comment>{0} = frequency scale (day,week,month,year)</comment>
+  </data>
+  <data name="CustomFrequency_Every" xml:space="preserve">
+    <value>todos(as) {0}</value>
+    <comment>{0} = (X days, days of the week...)</comment>
+  </data>
+  <data name="CustomFrequency_EveryXPeriodTitle" xml:space="preserve">
+    <value>Cada…</value>
+  </data>
+  <data name="CustomFrequency_First" xml:space="preserve">
+    <value>primeiro</value>
+  </data>
+  <data name="CustomFrequency_Fourth" xml:space="preserve">
+    <value>quarto</value>
+  </data>
+  <data name="CustomFrequency_Last" xml:space="preserve">
+    <value>passado</value>
+  </data>
+  <data name="CustomFrequency_Month" xml:space="preserve">
+    <value>mês</value>
+  </data>
+  <data name="CustomFrequency_Monthly" xml:space="preserve">
+    <value>Mensalmente</value>
+  </data>
+  <data name="CustomFrequency_Months" xml:space="preserve">
+    <value>mêses</value>
+  </data>
+  <data name="CustomFrequency_Once" xml:space="preserve">
+    <value>Única</value>
+  </data>
+  <data name="CustomFrequency_Second" xml:space="preserve">
+    <value>segundo</value>
+  </data>
+  <data name="CustomFrequency_Third" xml:space="preserve">
+    <value>terceiro</value>
+  </data>
+  <data name="CustomFrequency_Week" xml:space="preserve">
+    <value>semana</value>
+  </data>
+  <data name="CustomFrequency_Weekday" xml:space="preserve">
+    <value>expedientes</value>
+  </data>
+  <data name="CustomFrequency_Weekend" xml:space="preserve">
+    <value>fim de semana</value>
+  </data>
+  <data name="CustomFrequency_Weekly" xml:space="preserve">
+    <value>Semanalmente</value>
+  </data>
+  <data name="CustomFrequency_Weeks" xml:space="preserve">
+    <value>semanas</value>
+  </data>
+  <data name="CustomFrequency_XthDayOfTheMonth" xml:space="preserve">
+    <value>{0} {1} do mês</value>
+    <comment>{0} = First,Second, ..., Last - {1} = Monday, Tuesday...</comment>
+  </data>
+  <data name="CustomFrequency_XthDayOfTheMonthTitle" xml:space="preserve">
+    <value>Dia do mês...</value>
+  </data>
+  <data name="CustomFrequency_Year" xml:space="preserve">
+    <value>ano</value>
+  </data>
+  <data name="CustomFrequency_Yearly" xml:space="preserve">
+    <value>Anualmente</value>
+  </data>
+  <data name="CustomFrequency_Years" xml:space="preserve">
+    <value>anos</value>
+  </data>
+  <data name="DefaultDate_None" xml:space="preserve">
+    <value>Nenhuma</value>
+  </data>
+  <data name="DefaultDate_Today" xml:space="preserve">
+    <value>Hoje</value>
+  </data>
+  <data name="DefaultDate_Tomorrow" xml:space="preserve">
+    <value>Amanhã</value>
+  </data>
+  <data name="DefaultFolderName_Personal" xml:space="preserve">
+    <value>Pessoal</value>
+  </data>
+  <data name="DefaultFolderName_Work" xml:space="preserve">
+    <value>Trabalho</value>
+  </data>
+  <data name="Dialog_AreYouSure" xml:space="preserve">
+    <value>Tem a certeza?</value>
+  </data>
+  <data name="Dialog_CancelSyncConfirm" xml:space="preserve">
+    <value>Cancelar sincronização?</value>
+  </data>
+  <data name="Dialog_DeleteContextText" xml:space="preserve">
+    <value>Tem a certeza que deseja apagar esta pasta? todas as tarefas associadas serão perdidas e não é possível desfazer esta operação.</value>
+  </data>
+  <data name="Dialog_DeleteFolderText" xml:space="preserve">
+    <value>Tem a certeza que deseja apagar esta pasta? todas as tarefas associadas serão perdidas e não é possível desfazer esta operação.</value>
+  </data>
+  <data name="Dialog_DeleteSmartViewText" xml:space="preserve">
+    <value>Tem a certeza que quer eliminar esta vista inteligente ?</value>
+  </data>
+  <data name="Dialog_DeleteTagText" xml:space="preserve">
+    <value>Tem a certeza de que quer apagar esta etiqueta?</value>
+  </data>
+  <data name="Dialog_DeleteTask" xml:space="preserve">
+    <value>Tem a certeza de que quer apagar esta tarefa?</value>
+  </data>
+  <data name="Dialog_LooseChangesContent" xml:space="preserve">
+    <value>Você está prestes a perder as suas alterações, continuar?</value>
+  </data>
+  <data name="Dialog_RemindersUpdated" xml:space="preserve">
+    <value>Lembretes atualizados</value>
+  </data>
+  <data name="Dialog_ReminderUpdatedDateFormat" xml:space="preserve">
+    <value>Lembrete atualizado: {0}</value>
+  </data>
+  <data name="Dialog_RestartToApply" xml:space="preserve">
+    <value>O 2Day deve ser reiniciado para aplicar esta alteração. Sair do 2Day agora ?</value>
+  </data>
+  <data name="Dialog_StartingApp" xml:space="preserve">
+    <value>A iniciar a 2Day</value>
+  </data>
+  <data name="Dialog_SyncContextsNotSupported" xml:space="preserve">
+    <value>Está a utilizar um modo de sincronização que não suporta contextos. Os contextos não serão sincronizados com o seu dispositivo. Quer saber mais ?</value>
+  </data>
+  <data name="Dialog_TitleConfirmation" xml:space="preserve">
+    <value>Confirmação</value>
+  </data>
+  <data name="EditContext_Add" xml:space="preserve">
+    <value>Adicionar contexto</value>
+  </data>
+  <data name="EditContext_Placeholder" xml:space="preserve">
+    <value>Nome do contexto</value>
+  </data>
+  <data name="EditContext_Title" xml:space="preserve">
+    <value>Editar o contexto</value>
+  </data>
+  <data name="EditFolderPage_ColorUsageCount" xml:space="preserve">
+    <value>Número de vezes em que esta cor é utilizada</value>
+  </data>
+  <data name="EditFolderPage_Title" xml:space="preserve">
+    <value>Editar a pasta</value>
+  </data>
+  <data name="EditTag_Placeholder" xml:space="preserve">
+    <value>Nome do tag</value>
+  </data>
+  <data name="EditTag_Title" xml:space="preserve">
+    <value>Editar etiqueta</value>
+  </data>
+  <data name="EditTaskPage_Title" xml:space="preserve">
+    <value>Editar tarefa</value>
+  </data>
+  <data name="EditViewPage_Title" xml:space="preserve">
+    <value>Editar a vista</value>
+  </data>
+  <data name="FocusFilter_NoDue" xml:space="preserve">
+    <value>Sem prazo</value>
+  </data>
+  <data name="FocusFilter_Starred" xml:space="preserve">
+    <value>Favoritos</value>
+  </data>
+  <data name="FocusFilter_ThisWeek" xml:space="preserve">
+    <value>Próximos 7 dias</value>
+  </data>
+  <data name="FocusFilter_Today" xml:space="preserve">
+    <value>Hoje</value>
+  </data>
+  <data name="FocusFilter_TodayNoDue" xml:space="preserve">
+    <value>Hoje ou Sem prazo</value>
+  </data>
+  <data name="FocusFilter_TodayTomorrow" xml:space="preserve">
+    <value>Hoje ou Amanhã</value>
+  </data>
+  <data name="FocusFilter_TodayTomorrowStarPriority" xml:space="preserve">
+    <value>Hoje, Amanhã ou Favoritos</value>
+  </data>
+  <data name="FolderDisplayMode_Icon" xml:space="preserve">
+    <value>ícone</value>
+  </data>
+  <data name="FolderDisplayMode_None" xml:space="preserve">
+    <value>nenhum</value>
+  </data>
+  <data name="FolderDisplayMode_Text" xml:space="preserve">
+    <value>texto</value>
+  </data>
+  <data name="FolderDisplayMode_TextAndIcon" xml:space="preserve">
+    <value>texto e ícone</value>
+  </data>
+  <data name="Folder_EmptyHeader" xml:space="preserve">
+    <value>Pasta vazia</value>
+  </data>
+  <data name="Folder_EmptyHint" xml:space="preserve">
+    <value>Adicione uma tarefa para começar</value>
+  </data>
+  <data name="Frequency_First" xml:space="preserve">
+    <value>primeiro</value>
+  </data>
+  <data name="Frequency_Fourth" xml:space="preserve">
+    <value>quarto</value>
+  </data>
+  <data name="Frequency_Last" xml:space="preserve">
+    <value>passado</value>
+  </data>
+  <data name="Frequency_Rate1" xml:space="preserve">
+    <value>cada</value>
+  </data>
+  <data name="Frequency_RateFormat" xml:space="preserve">
+    <value>todos(as) {0}</value>
+  </data>
+  <data name="Frequency_Scale_Day" xml:space="preserve">
+    <value>dia(s)</value>
+  </data>
+  <data name="Frequency_Scale_Month" xml:space="preserve">
+    <value>mês(es)</value>
+  </data>
+  <data name="Frequency_Scale_Week" xml:space="preserve">
+    <value>semana(s)</value>
+  </data>
+  <data name="Frequency_Scale_Year" xml:space="preserve">
+    <value>ano(s)</value>
+  </data>
+  <data name="Frequency_Second" xml:space="preserve">
+    <value>segundo</value>
+  </data>
+  <data name="Frequency_Third" xml:space="preserve">
+    <value>terceiro</value>
+  </data>
+  <data name="General_LabelCancel" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="General_LabelDetails" xml:space="preserve">
+    <value>Pormenores</value>
+  </data>
+  <data name="General_LabelError" xml:space="preserve">
+    <value>Erro</value>
+  </data>
+  <data name="General_LabelNo" xml:space="preserve">
+    <value>Não</value>
+  </data>
+  <data name="General_LabelOk" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="General_LabelYes" xml:space="preserve">
+    <value>Sim</value>
+  </data>
+  <data name="HomePage_SyncCompletedSystrayMessage" xml:space="preserve">
+    <value>Sincronização concluída!</value>
+  </data>
+  <data name="LogViewer_Clear" xml:space="preserve">
+    <value>Limpar</value>
+  </data>
+  <data name="MessageReview_AlreadyDone" xml:space="preserve">
+    <value>Já feito :-)</value>
+  </data>
+  <data name="MessageReview_Body" xml:space="preserve">
+    <value>Parece estar a desfrutar do 2Day, deseja ajudar-nos analisando a nossa aplicação?</value>
+  </data>
+  <data name="MessageReview_CreateTask" xml:space="preserve">
+    <value>Criar uma tarefa para mim</value>
+  </data>
+  <data name="MessageReview_Later" xml:space="preserve">
+    <value>Lembrar-me mais tarde</value>
+  </data>
+  <data name="MessageReview_No" xml:space="preserve">
+    <value>Não, obrigado</value>
+  </data>
+  <data name="MessageReview_TaskNote" xml:space="preserve">
+    <value>Obrigado por nos ajudar :-)</value>
+  </data>
+  <data name="MessageReview_TaskTitle" xml:space="preserve">
+    <value>Escrever uma resenha para</value>
+  </data>
+  <data name="MessageReview_Title" xml:space="preserve">
+    <value>Avaliar</value>
+  </data>
+  <data name="MessageReview_Yes" xml:space="preserve">
+    <value>Sim, certeza !</value>
+  </data>
+  <data name="Message_CannotCreateTaskNoFolderMessage" xml:space="preserve">
+    <value>Você deve ter pelo menos uma pasta para criar uma tarefa. Você quer criar uma pasta agora?</value>
+  </data>
+  <data name="Message_CleanupTaskConfirmationFormat" xml:space="preserve">
+    <value>Pronto a apagar {0} tarefa(s). Continuar?</value>
+  </data>
+  <data name="Message_CleanupTaskNoRemove" xml:space="preserve">
+    <value>Nenhuma tarefa concluída para remoção</value>
+  </data>
+  <data name="Message_DeleteAllMessage" xml:space="preserve">
+    <value>Você quer excluir todas as tarefas, pastas e contextos (desfazer impossível)?</value>
+  </data>
+  <data name="Message_Information" xml:space="preserve">
+    <value>Informação</value>
+  </data>
+  <data name="Message_Recommended" xml:space="preserve">
+    <value>recomendado</value>
+  </data>
+  <data name="Message_SpeechExceptionFormat" xml:space="preserve">
+    <value>Houve um erro ao usar o reconhecimento de voz ({0})</value>
+  </data>
+  <data name="Message_TitleCannotBeEmpty" xml:space="preserve">
+    <value>O título não pode ser deixado em branco</value>
+  </data>
+  <data name="Message_Warning" xml:space="preserve">
+    <value>Aviso</value>
+  </data>
+  <data name="MiscClearSearchHistory" xml:space="preserve">
+    <value>Eliminar histórico de procura</value>
+  </data>
+  <data name="MiscCompleteTasks" xml:space="preserve">
+    <value>Completar todas as tarefas</value>
+  </data>
+  <data name="MiscDeleteAll" xml:space="preserve">
+    <value>Excluir todas as tarefas, pastas e contextos</value>
+  </data>
+  <data name="MiscDeleteCompletedTasks" xml:space="preserve">
+    <value>Apagar tarefas concluídas</value>
+  </data>
+  <data name="MiscDeleteTasks" xml:space="preserve">
+    <value>Eliminar todas as tarefas</value>
+  </data>
+  <data name="MiscOpenWelcomeScreen" xml:space="preserve">
+    <value>Abrir tela de boas vindas</value>
+  </data>
+  <data name="Notification_Cancel" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="Notification_Deleted" xml:space="preserve">
+    <value>Eliminado</value>
+  </data>
+  <data name="Notification_Done" xml:space="preserve">
+    <value>Pronto</value>
+  </data>
+  <data name="Notification_DueCannotBeNull" xml:space="preserve">
+    <value>Para tarefas recorrentes deve estar definida a data de vencimento ou a data de início</value>
+  </data>
+  <data name="Notification_DueDateRemoved" xml:space="preserve">
+    <value>Data estimada removida</value>
+  </data>
+  <data name="Notification_DueDateUpdatedFormat" xml:space="preserve">
+    <value>Nova data estimada definida para {0}</value>
+  </data>
+  <data name="Notification_Edit" xml:space="preserve">
+    <value>Editar</value>
+  </data>
+  <data name="Notification_FolderNameAlreadyUsed" xml:space="preserve">
+    <value>Nome de pasta já em utilização</value>
+  </data>
+  <data name="Notification_FolderPinnedFormat" xml:space="preserve">
+    <value>Pasta {0} fixada</value>
+  </data>
+  <data name="Notification_FolderUnpinnedFormat" xml:space="preserve">
+    <value>A pasta {0} foi desfixada do menu inicial.</value>
+  </data>
+  <data name="Notification_InvalidSelection" xml:space="preserve">
+    <value>Seleção inválida</value>
+  </data>
+  <data name="Notification_NewTaskCreatedNoDueDateFormat" xml:space="preserve">
+    <value>Tarefa "{0}", adicionada</value>
+  </data>
+  <data name="Notification_NewTaskCreatedWithDueDateFormat" xml:space="preserve">
+    <value>Uma nova tarefa "{0}" foi criada em {1}</value>
+  </data>
+  <data name="Notification_SearchHistoryCleared" xml:space="preserve">
+    <value>Histórico de procura eliminado</value>
+  </data>
+  <data name="Notification_TagAlreadyExists" xml:space="preserve">
+    <value>Este tag já existe</value>
+  </data>
+  <data name="Notification_TagCannotBeEmptyMsg" xml:space="preserve">
+    <value>Tag não pode ser vazio</value>
+  </data>
+  <data name="Notification_TaskCompletedFormat" xml:space="preserve">
+    <value>Tarefa "{0}" completada!</value>
+  </data>
+  <data name="Notification_TaskPinnedFormat" xml:space="preserve">
+    <value>Tarefa {0} fixada</value>
+  </data>
+  <data name="Notification_TaskUnpinnedFormat" xml:space="preserve">
+    <value>A tarefa '{0} foi desfixada do menu inicial.</value>
+  </data>
+  <data name="Notification_TitleCannotBeEmpty" xml:space="preserve">
+    <value>O título não pode ser deixado em branco</value>
+  </data>
+  <data name="OptionSettingsPage_DescriptionOff" xml:space="preserve">
+    <value>off</value>
+  </data>
+  <data name="OptionSettingsPage_DescriptionOn" xml:space="preserve">
+    <value>on</value>
+  </data>
+  <data name="OptionSettingsPage_DescriptionTasksFormat" xml:space="preserve">
+    <value>auto excluir depois de {0} dia (s), tarefas concluídas {1}</value>
+  </data>
+  <data name="OptionSettingsPage_SectionAbout" xml:space="preserve">
+    <value>Sobre</value>
+  </data>
+  <data name="OptionSettingsPage_SectionBackup" xml:space="preserve">
+    <value>Cópias de segurança</value>
+  </data>
+  <data name="OptionSettingsPage_SectionContexts" xml:space="preserve">
+    <value>Contextos</value>
+  </data>
+  <data name="OptionSettingsPage_SectionContextsFormat" xml:space="preserve">
+    <value>{0} contexto (s) disponível (s)</value>
+  </data>
+  <data name="OptionSettingsPage_SectionDisplay" xml:space="preserve">
+    <value>Exibição</value>
+  </data>
+  <data name="OptionSettingsPage_SectionFolders" xml:space="preserve">
+    <value>Pastas</value>
+  </data>
+  <data name="OptionSettingsPage_SectionFoldersFormat" xml:space="preserve">
+    <value>{0} pastas</value>
+  </data>
+  <data name="OptionSettingsPage_SectionGeneral" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="OptionSettingsPage_SectionMisc" xml:space="preserve">
+    <value>Diversos</value>
+  </data>
+  <data name="OptionSettingsPage_SectionMiscFormat" xml:space="preserve">
+    <value>outras opções</value>
+  </data>
+  <data name="OptionSettingsPage_SectionOrderingFormat" xml:space="preserve">
+    <value>ordenação por {0} em seguida, por {1} e por {2}</value>
+  </data>
+  <data name="OptionSettingsPage_SectionSync" xml:space="preserve">
+    <value>Sincronização</value>
+  </data>
+  <data name="OptionSettingsPage_SectionTaskOrder" xml:space="preserve">
+    <value>Ordenando as tarefas</value>
+  </data>
+  <data name="OptionSettingsPage_SectionVersionFormat" xml:space="preserve">
+    <value>2Day {0}</value>
+  </data>
+  <data name="OptionSettingsPage_SectionViews" xml:space="preserve">
+    <value>Vistas</value>
+  </data>
+  <data name="OptionSettingsPage_SectionViewsFormat" xml:space="preserve">
+    <value>{0} vistas habilitadas em {1}</value>
+  </data>
+  <data name="OptionSettingsPage_SyncConfiguredFormat" xml:space="preserve">
+    <value>{0} configurada, última sincronização {1}</value>
+  </data>
+  <data name="OptionSettingsPage_SyncNoConfigured" xml:space="preserve">
+    <value>Sincronização não configurada</value>
+  </data>
+  <data name="ReminderDisplayMode_Icon" xml:space="preserve">
+    <value>ícone</value>
+  </data>
+  <data name="ReminderDisplayMode_IconAndTime" xml:space="preserve">
+    <value>ícone e hora</value>
+  </data>
+  <data name="ReminderDisplayMode_None" xml:space="preserve">
+    <value>nenhum</value>
+  </data>
+  <data name="ReminderDisplayMode_Time" xml:space="preserve">
+    <value>hora</value>
+  </data>
+  <data name="SampleData_FolderHobbies" xml:space="preserve">
+    <value>passatempos</value>
+  </data>
+  <data name="SampleData_FolderHobbies_Task1" xml:space="preserve">
+    <value>marcação de ténis</value>
+  </data>
+  <data name="SampleData_FolderHobbies_Task2" xml:space="preserve">
+    <value>experimentar novo restaurante</value>
+  </data>
+  <data name="SampleData_FolderHobbies_Task3" xml:space="preserve">
+    <value>comprar bilhetes para concerto de rock</value>
+  </data>
+  <data name="SampleData_FolderPersonal_Task1" xml:space="preserve">
+    <value>ligar ao canalizador</value>
+  </data>
+  <data name="SampleData_FolderPersonal_Task1_Note" xml:space="preserve">
+    <value>fuga de água na casa-de-banho</value>
+  </data>
+  <data name="SampleData_FolderPersonal_Task2" xml:space="preserve">
+    <value>mudar lâmpada na cozinha</value>
+  </data>
+  <data name="SampleData_FolderPersonal_Task3" xml:space="preserve">
+    <value>pagar a conta do telefone</value>
+  </data>
+  <data name="SampleData_FolderShopping" xml:space="preserve">
+    <value>compras</value>
+  </data>
+  <data name="SampleData_FolderShopping_Task1" xml:space="preserve">
+    <value>prenda para a Ju</value>
+  </data>
+  <data name="SampleData_FolderShopping_Task2" xml:space="preserve">
+    <value>par de calças de ganga</value>
+  </data>
+  <data name="SampleData_FolderWork_Task1" xml:space="preserve">
+    <value>relatório da reunião</value>
+  </data>
+  <data name="SampleData_FolderWork_Task2" xml:space="preserve">
+    <value>revisão de documento</value>
+  </data>
+  <data name="SampleData_FolderWork_Task2_Description" xml:space="preserve">
+    <value>páginas 12-38</value>
+  </data>
+  <data name="SampleData_FolderWork_Task3" xml:space="preserve">
+    <value>sessão de formação</value>
+  </data>
+  <data name="SampleData_FolderWork_Task4" xml:space="preserve">
+    <value>preparação da demo</value>
+  </data>
+  <data name="SampleDate_FolderMovies" xml:space="preserve">
+    <value>filmes</value>
+  </data>
+  <data name="Settings_OptionTheme" xml:space="preserve">
+    <value>Tema</value>
+  </data>
+  <data name="Settings_SmartView_DescriptionFormat" xml:space="preserve">
+    <value>{0} vista(s) inteligente(s) disponível(is)</value>
+  </data>
+  <data name="Settings_ThemeDark" xml:space="preserve">
+    <value>Escuro</value>
+  </data>
+  <data name="Settings_ThemeLight" xml:space="preserve">
+    <value>Claro</value>
+  </data>
+  <data name="Settings_TitleAbout" xml:space="preserve">
+    <value>Acerca</value>
+  </data>
+  <data name="Settings_TitleHelp" xml:space="preserve">
+    <value>Ajuda</value>
+  </data>
+  <data name="Settings_TitleOptions" xml:space="preserve">
+    <value>Opções</value>
+  </data>
+  <data name="Settings_TitlePrivacy" xml:space="preserve">
+    <value>Política de Privacidade</value>
+  </data>
+  <data name="Settings_TitleSync" xml:space="preserve">
+    <value>Sincronização</value>
+  </data>
+  <data name="SmartView_AddBlock" xml:space="preserve">
+    <value>adicionar grupo</value>
+  </data>
+  <data name="SmartView_AddRule" xml:space="preserve">
+    <value>adicionar regra</value>
+  </data>
+  <data name="SmartView_And" xml:space="preserve">
+    <value>e</value>
+  </data>
+  <data name="SmartView_Create" xml:space="preserve">
+    <value>Criar vista inteligente</value>
+  </data>
+  <data name="SmartView_Edit" xml:space="preserve">
+    <value>Editar vista inteligente</value>
+  </data>
+  <data name="SmartView_EmptyHeader" xml:space="preserve">
+    <value>A vista inteligente não corresponde com nenhuma tarefa</value>
+  </data>
+  <data name="SmartView_EmptyHint" xml:space="preserve">
+    <value>Ajuste a opção da vista inteligente ou adicione uma tarefa que se encaixe nas regras da vista inteligente</value>
+  </data>
+  <data name="SmartView_FieldTitle" xml:space="preserve">
+    <value>Título</value>
+  </data>
+  <data name="SmartView_FilterAdded" xml:space="preserve">
+    <value>Adicionado/a</value>
+  </data>
+  <data name="SmartView_FilterBeginsWith" xml:space="preserve">
+    <value>Começa com</value>
+  </data>
+  <data name="SmartView_FilterCompleted" xml:space="preserve">
+    <value>Completo/a</value>
+  </data>
+  <data name="SmartView_FilterContains" xml:space="preserve">
+    <value>Contém</value>
+  </data>
+  <data name="SmartView_FilterContext" xml:space="preserve">
+    <value>Contexto</value>
+  </data>
+  <data name="SmartView_FilterDoesNotContains" xml:space="preserve">
+    <value>Não contém</value>
+  </data>
+  <data name="SmartView_FilterDoesNotExist" xml:space="preserve">
+    <value>Não existe</value>
+  </data>
+  <data name="SmartView_FilterDue" xml:space="preserve">
+    <value>Estimado/a</value>
+  </data>
+  <data name="SmartView_FilterEndsWith" xml:space="preserve">
+    <value>Termina com</value>
+  </data>
+  <data name="SmartView_FilterExists" xml:space="preserve">
+    <value>Existe</value>
+  </data>
+  <data name="SmartView_FilterFolder" xml:space="preserve">
+    <value>Pasta</value>
+  </data>
+  <data name="SmartView_FilterHasAlarm" xml:space="preserve">
+    <value>Tem alarme</value>
+  </data>
+  <data name="SmartView_FilterHasRecurrence" xml:space="preserve">
+    <value>É recorrente</value>
+  </data>
+  <data name="SmartView_FilterIs" xml:space="preserve">
+    <value>É</value>
+  </data>
+  <data name="SmartView_FilterIsAfter" xml:space="preserve">
+    <value>É depois</value>
+  </data>
+  <data name="SmartView_FilterIsBefore" xml:space="preserve">
+    <value>É antes</value>
+  </data>
+  <data name="SmartView_FilterIsIn" xml:space="preserve">
+    <value>É em</value>
+  </data>
+  <data name="SmartView_FilterIsInTheNext" xml:space="preserve">
+    <value>É no/a próximo/a</value>
+  </data>
+  <data name="SmartView_FilterIsLessThan" xml:space="preserve">
+    <value>E menos de</value>
+  </data>
+  <data name="SmartView_FilterIsMoreThan" xml:space="preserve">
+    <value>É mais de</value>
+  </data>
+  <data name="SmartView_FilterIsNot" xml:space="preserve">
+    <value>Não é</value>
+  </data>
+  <data name="SmartView_FilterIsNotIn" xml:space="preserve">
+    <value>Não é em</value>
+  </data>
+  <data name="SmartView_FilterIsNotInTheNext" xml:space="preserve">
+    <value>Não é no/a próximo/a</value>
+  </data>
+  <data name="SmartView_FilterModified" xml:space="preserve">
+    <value>Modificado/a</value>
+  </data>
+  <data name="SmartView_FilterNo" xml:space="preserve">
+    <value>Não</value>
+  </data>
+  <data name="SmartView_FilterNote" xml:space="preserve">
+    <value>Nota</value>
+  </data>
+  <data name="SmartView_FilterPriority" xml:space="preserve">
+    <value>Prioridade</value>
+  </data>
+  <data name="SmartView_FilterProgress" xml:space="preserve">
+    <value>Progresso</value>
+  </data>
+  <data name="SmartView_FilterStart" xml:space="preserve">
+    <value>Início</value>
+  </data>
+  <data name="SmartView_FilterTags" xml:space="preserve">
+    <value>Etiquetas</value>
+  </data>
+  <data name="SmartView_FilterWas" xml:space="preserve">
+    <value>Foi</value>
+  </data>
+  <data name="SmartView_FilterWasInTheLast" xml:space="preserve">
+    <value>Foi no/a último/a</value>
+  </data>
+  <data name="SmartView_FilterWasNot" xml:space="preserve">
+    <value>Não foi</value>
+  </data>
+  <data name="SmartView_FilterWasNotInTheLast" xml:space="preserve">
+    <value>Não foi no/a último/a</value>
+  </data>
+  <data name="SmartView_FilterYes" xml:space="preserve">
+    <value>Sim</value>
+  </data>
+  <data name="SmartView_HelpReadMore" xml:space="preserve">
+    <value>Leia mais sobre vistas inteligentes</value>
+  </data>
+  <data name="SmartView_IntroDescription" xml:space="preserve">
+    <value>A vista inteligente ajuda-o a concentrar-se na tarefa que interessa. Defina regras para configurar a forma como as tarefas são filtradas e concentre-se no que mais importa.</value>
+  </data>
+  <data name="SmartView_LabelName" xml:space="preserve">
+    <value>Nome</value>
+  </data>
+  <data name="SmartView_LabelRules" xml:space="preserve">
+    <value>Regras</value>
+  </data>
+  <data name="SmartView_LabelSmartView" xml:space="preserve">
+    <value>Vistas inteligentes</value>
+  </data>
+  <data name="SmartView_MatchAll" xml:space="preserve">
+    <value>tudo</value>
+  </data>
+  <data name="SmartView_MatchAny" xml:space="preserve">
+    <value>qualquer</value>
+  </data>
+  <data name="SmartView_MessageCannotLoadFormat" xml:space="preserve">
+    <value>Houve um erro ao carregar esta vista inteligente ({0})</value>
+  </data>
+  <data name="SmartView_MessageCannotSave" xml:space="preserve">
+    <value>A vista inteligente contém regras inválidas</value>
+  </data>
+  <data name="SmartView_Or" xml:space="preserve">
+    <value>ou</value>
+  </data>
+  <data name="SmartView_Warning_OneBlockMin" xml:space="preserve">
+    <value>A vista inteligente deve ter, pelo menos, 1 bloco de regras</value>
+  </data>
+  <data name="SmartView_Warning_OneRuleMin" xml:space="preserve">
+    <value>A vista inteligente deve ter, pelo menos, uma regra</value>
+  </data>
+  <data name="SortOrder_Ascending" xml:space="preserve">
+    <value>Ascendente</value>
+  </data>
+  <data name="SortOrder_Descending" xml:space="preserve">
+    <value>Descendente</value>
+  </data>
+  <data name="Speech_ErrorDuringRecognitionFormat" xml:space="preserve">
+    <value>Ocorreu um erro durante o reconhecimento de voz ({0})</value>
+  </data>
+  <data name="Speech_NoAudioDevice" xml:space="preserve">
+    <value>Não foram encontrados dispositivos de captura de áudio</value>
+  </data>
+  <data name="Speech_ReviewPermission" xml:space="preserve">
+    <value>A autorização para aceder ao microfone encontra-se desativada. Por favor, atualiza as configurações do Windows.</value>
+  </data>
+  <data name="StartDate_FirstTimeMessage" xml:space="preserve">
+    <value>Quando você define uma data de início para a tarefa, a tarefa é completamente escondida até a data de início é atingida. Você pode ver todas as tarefas com uma data de início, permitindo que a vista "programadas" nas configurações.</value>
+  </data>
+  <data name="StartDate_FirstTimeTitle" xml:space="preserve">
+    <value>Informação</value>
+  </data>
+  <data name="Startup_DefaultContextHome" xml:space="preserve">
+    <value>@casa</value>
+  </data>
+  <data name="Startup_DefaultContextPhone" xml:space="preserve">
+    <value>@telefone</value>
+  </data>
+  <data name="Startup_DefaultContextQuick" xml:space="preserve">
+    <value>@rápido</value>
+  </data>
+  <data name="Startup_DefaultFolderName_Personal" xml:space="preserve">
+    <value>pessoal</value>
+  </data>
+  <data name="Startup_DefaultFolderName_Work" xml:space="preserve">
+    <value>trabalho</value>
+  </data>
+  <data name="SyncAdvanced_CollectLogFirst" xml:space="preserve">
+    <value>Por favor ative primeiro o registo e tente usar a sincronização para recolher o conteúdo de diagnóstico.</value>
+  </data>
+  <data name="SyncAdvanced_DeleteAccountDescription" xml:space="preserve">
+    <value>Eliminar a conta no serviço de sincronização e remover as definições de sincronização.</value>
+  </data>
+  <data name="SyncAdvanced_DeleteAccountTitle" xml:space="preserve">
+    <value>Excluir conta</value>
+  </data>
+  <data name="SyncAdvanced_DiagnosticsDescription" xml:space="preserve">
+    <value>Verificar o estado de sincronização e preparar um e-mail para enviar à equipa de suporte.</value>
+  </data>
+  <data name="SyncAdvanced_DiagnosticsTitle" xml:space="preserve">
+    <value>Diagnósticos</value>
+  </data>
+  <data name="SyncAdvanced_EmailDetail" xml:space="preserve">
+    <value>Por favor forneça o máximo possível de detalhes sobre o problema de sincronização no e-mail.</value>
+  </data>
+  <data name="SyncAdvanced_MergeDescription" xml:space="preserve">
+    <value>Obter todo o conteúdo remoto a partir de uma sincronização completa. Depois fazer uma fusão entre os conteúdos local e remoto. Usar datas de modificação para descobrir que versão é utilizada.</value>
+  </data>
+  <data name="SyncAdvanced_MergeTitle" xml:space="preserve">
+    <value>Fundir</value>
+  </data>
+  <data name="SyncAdvanced_ReplaceDescription" xml:space="preserve">
+    <value>Remover todo o conteúdo do 2Day (pastas, contextos, tarefas). Depois fazer uma sincronização completa do seu serviço para o 2Day.</value>
+  </data>
+  <data name="SyncAdvanced_ReplaceTitle" xml:space="preserve">
+    <value>Repor</value>
+  </data>
+  <data name="SyncAdvanced_Title" xml:space="preserve">
+    <value>Opções de sincronização avançadas</value>
+  </data>
+  <data name="SyncFeatures_Color" xml:space="preserve">
+    <value>Cor</value>
+  </data>
+  <data name="SyncFeatures_Context" xml:space="preserve">
+    <value>Contexto</value>
+  </data>
+  <data name="SyncFeatures_DueDate" xml:space="preserve">
+    <value>Prazo</value>
+  </data>
+  <data name="SyncFeatures_Folder" xml:space="preserve">
+    <value>Pasta</value>
+  </data>
+  <data name="SyncFeatures_Icon" xml:space="preserve">
+    <value>Ícone</value>
+  </data>
+  <data name="SyncFeatures_Note" xml:space="preserve">
+    <value>Nota</value>
+  </data>
+  <data name="SyncFeatures_Priority" xml:space="preserve">
+    <value>Prioridade</value>
+  </data>
+  <data name="SyncFeatures_Progress" xml:space="preserve">
+    <value>Progresso</value>
+  </data>
+  <data name="SyncFeatures_Recurrence" xml:space="preserve">
+    <value>Ocorrência</value>
+  </data>
+  <data name="SyncFeatures_Reminder" xml:space="preserve">
+    <value>Lembrete</value>
+  </data>
+  <data name="SyncFeatures_StartDate" xml:space="preserve">
+    <value>Data de início</value>
+  </data>
+  <data name="SyncFeatures_Title" xml:space="preserve">
+    <value>Título</value>
+  </data>
+  <data name="SyncProgress_AddingContextFormat" xml:space="preserve">
+    <value>Adicionando o contexto {0}...</value>
+  </data>
+  <data name="SyncProgress_AddingFolderFormat" xml:space="preserve">
+    <value>Adicionando a pasta {0}...</value>
+  </data>
+  <data name="SyncProgress_AddingSmartViewFormat" xml:space="preserve">
+    <value>A adicionar a vista inteligente {0}...</value>
+  </data>
+  <data name="SyncProgress_AddingTaskFormat" xml:space="preserve">
+    <value>Adicionando a tarefa {0}...</value>
+  </data>
+  <data name="SyncProgress_DeletingContext" xml:space="preserve">
+    <value>Excluindo o contexto...</value>
+  </data>
+  <data name="SyncProgress_DeletingFolder" xml:space="preserve">
+    <value>Excluindo a pasta...</value>
+  </data>
+  <data name="SyncProgress_DeletingSmartView" xml:space="preserve">
+    <value>A eliminar vista inteligente...</value>
+  </data>
+  <data name="SyncProgress_DeletingTaskFormat" xml:space="preserve">
+    <value>Excluindo tarefa {0}...</value>
+  </data>
+  <data name="SyncProgress_GettingContexts" xml:space="preserve">
+    <value>Obtenção dos conatextos...</value>
+  </data>
+  <data name="SyncProgress_GettingFolders" xml:space="preserve">
+    <value>Obtenção das pastas...</value>
+  </data>
+  <data name="SyncProgress_GettingSmartViews" xml:space="preserve">
+    <value>A obter vistas inteligentes...</value>
+  </data>
+  <data name="SyncProgress_GettingTasks" xml:space="preserve">
+    <value>Obtenção das tarefas...</value>
+  </data>
+  <data name="SyncProgress_SignInIn" xml:space="preserve">
+    <value>Connectando...</value>
+  </data>
+  <data name="SyncProgress_SyncInProgress" xml:space="preserve">
+    <value>Sincronização...</value>
+  </data>
+  <data name="SyncProgress_UpdatingContextFormat" xml:space="preserve">
+    <value>Atualização do contexto {0}...</value>
+  </data>
+  <data name="SyncProgress_UpdatingFolderFormat" xml:space="preserve">
+    <value>Atualizando a pasta {0}...</value>
+  </data>
+  <data name="SyncProgress_UpdatingSmartViewFormat" xml:space="preserve">
+    <value>A atualizar a vista inteligente {0}...</value>
+  </data>
+  <data name="SyncProgress_UpdatingTaskFormat" xml:space="preserve">
+    <value>Atualizando a tarefa {0}...</value>
+  </data>
+  <data name="SyncProgress_UpdatingTasks" xml:space="preserve">
+    <value>Atualizando as tarefa...</value>
+  </data>
+  <data name="SyncSettingsPage_ConfirmDeleteMessage" xml:space="preserve">
+    <value>Deseja apagar as suas definições de sincronização?</value>
+  </data>
+  <data name="SyncSettingsPage_LastSyncNever" xml:space="preserve">
+    <value>Nunca</value>
+  </data>
+  <data name="Sync_Cancelled" xml:space="preserve">
+    <value>Sincronização cancelada</value>
+  </data>
+  <data name="Sync_DeleteAccount_ErrorFormat" xml:space="preserve">
+    <value>Ocorreu um erro durante a exclusão de sua conta ({0})</value>
+  </data>
+  <data name="Sync_DeleteAccount_Message" xml:space="preserve">
+    <value>Tem certeza de que deseja excluir a sua conta?</value>
+  </data>
+  <data name="Sync_DeleteAccount_Success" xml:space="preserve">
+    <value>Conta apagada com sucesso</value>
+  </data>
+  <data name="Sync_FailedMessage" xml:space="preserve">
+    <value>Sincronização falhou</value>
+  </data>
+  <data name="Sync_Misconfigured" xml:space="preserve">
+    <value>Sincronização mal configurada</value>
+  </data>
+  <data name="Sync_NoNetworkConnectivity" xml:space="preserve">
+    <value>Sem ligação de rede</value>
+  </data>
+  <data name="Sync_PreparingSync" xml:space="preserve">
+    <value>A preparar sincronização…</value>
+  </data>
+  <data name="Sync_ViewLogs" xml:space="preserve">
+    <value>Registos de visitas</value>
+  </data>
+  <data name="SystemView_All_EmptyHeader" xml:space="preserve">
+    <value>Nenhuma tarefa</value>
+  </data>
+  <data name="SystemView_All_EmptyHint" xml:space="preserve">
+    <value>Adicionar uma tarefa a uma pasta para começar</value>
+  </data>
+  <data name="SystemView_Completed_EmptyHeader" xml:space="preserve">
+    <value>Nenhuma tarefa concluída</value>
+  </data>
+  <data name="SystemView_Completed_EmptyHint" xml:space="preserve">
+    <value>Volte ao trabalho e terminz algumas tarefas :-)</value>
+  </data>
+  <data name="SystemView_Late_EmptyHeader" xml:space="preserve">
+    <value>Nenhuma tarefa atrasada</value>
+  </data>
+  <data name="SystemView_Late_EmptyHint" xml:space="preserve">
+    <value>Todas as suas tarefas estão sob controle :-)</value>
+  </data>
+  <data name="SystemView_NoDate_EmptyHeader" xml:space="preserve">
+    <value>Nenhuma tarefa sem data</value>
+  </data>
+  <data name="SystemView_NoDate_EmptyHint" xml:space="preserve">
+    <value>Todas as suas tarefas são agendadas</value>
+  </data>
+  <data name="SystemView_Reminder_EmptyHeader" xml:space="preserve">
+    <value>Nenhuma tarefa com lembrete</value>
+  </data>
+  <data name="SystemView_Reminder_EmptyHint" xml:space="preserve">
+    <value>Adicionar um lembrete para uma tarefa para exibi-lo aqui</value>
+  </data>
+  <data name="SystemView_Starred_EmptyHeader" xml:space="preserve">
+    <value>Nenhuma tarefa nos favoritos</value>
+  </data>
+  <data name="SystemView_Starred_EmptyHint" xml:space="preserve">
+    <value>Definir a prioridade das tarefas com uma "estrela" para exibi-las aqui</value>
+  </data>
+  <data name="SystemView_StartDate_EmptyHeader" xml:space="preserve">
+    <value>Nenhuma tarefa agendada</value>
+  </data>
+  <data name="SystemView_StartDate_EmptyHint" xml:space="preserve">
+    <value>Defina a data de início de uma tarefa para exibi-la aqui</value>
+  </data>
+  <data name="SystemView_TitleAll" xml:space="preserve">
+    <value>todos</value>
+  </data>
+  <data name="SystemView_TitleCompleted" xml:space="preserve">
+    <value>concluído</value>
+  </data>
+  <data name="SystemView_TitleLate" xml:space="preserve">
+    <value>atrasado</value>
+  </data>
+  <data name="SystemView_TitleNoDate" xml:space="preserve">
+    <value>sem prazo</value>
+  </data>
+  <data name="SystemView_TitleNonCompleted" xml:space="preserve">
+    <value>a fazer</value>
+  </data>
+  <data name="SystemView_TitleReminder" xml:space="preserve">
+    <value>lembretes</value>
+  </data>
+  <data name="SystemView_TitleStarred" xml:space="preserve">
+    <value>favoritos</value>
+  </data>
+  <data name="SystemView_TitleStartDate" xml:space="preserve">
+    <value>programadas</value>
+  </data>
+  <data name="SystemView_TitleToday" xml:space="preserve">
+    <value>hoje</value>
+  </data>
+  <data name="SystemView_TitleTomorrow" xml:space="preserve">
+    <value>amanhã</value>
+  </data>
+  <data name="SystemView_TitleWeek" xml:space="preserve">
+    <value>semana</value>
+  </data>
+  <data name="SystemView_Today_EmptyHeader" xml:space="preserve">
+    <value>Não há mais tarefas hoje</value>
+  </data>
+  <data name="SystemView_Today_EmptyHint" xml:space="preserve">
+    <value>Aproveite o seu dia :-)</value>
+  </data>
+  <data name="SystemView_Tomorrow_EmptyHeader" xml:space="preserve">
+    <value>Nenhuma tarefa para amanhã</value>
+  </data>
+  <data name="SystemView_Tomorrow_EmptyHint" xml:space="preserve">
+    <value>Amanhã parece tranquilo :-)</value>
+  </data>
+  <data name="SystemView_Week_EmptyHeader" xml:space="preserve">
+    <value>Nenhuma tarefa para a próxima semana</value>
+  </data>
+  <data name="SystemView_Week_EmptyHint" xml:space="preserve">
+    <value>Hora de ir para fora para férias?</value>
+  </data>
+  <data name="TaskDateShifter_ShiftNone" xml:space="preserve">
+    <value>Nenhum</value>
+  </data>
+  <data name="TaskDateShifter_ShiftOneMonth" xml:space="preserve">
+    <value>Mês</value>
+  </data>
+  <data name="TaskDateShifter_ShiftOneWeek" xml:space="preserve">
+    <value>Semana</value>
+  </data>
+  <data name="TaskDateShifter_ShiftToday" xml:space="preserve">
+    <value>Hoje</value>
+  </data>
+  <data name="TaskDateShifter_ShiftTomorrow" xml:space="preserve">
+    <value>Amanhã</value>
+  </data>
+  <data name="TaskDateShifter_ShiftTwoWeeks" xml:space="preserve">
+    <value>Semanas</value>
+  </data>
+  <data name="TaskGroup_Action" xml:space="preserve">
+    <value>Ação</value>
+  </data>
+  <data name="TaskGroup_By" xml:space="preserve">
+    <value>Agrupar por</value>
+  </data>
+  <data name="TaskGroup_Context" xml:space="preserve">
+    <value>Contexto</value>
+  </data>
+  <data name="TaskGroup_Due" xml:space="preserve">
+    <value>Prazo</value>
+  </data>
+  <data name="TaskGroup_Folder" xml:space="preserve">
+    <value>Pasta</value>
+  </data>
+  <data name="TaskGroup_Priority" xml:space="preserve">
+    <value>Prioridade</value>
+  </data>
+  <data name="TaskGroup_Progress" xml:space="preserve">
+    <value>Progresso</value>
+  </data>
+  <data name="TaskGroup_StartDate" xml:space="preserve">
+    <value>Data de Início</value>
+  </data>
+  <data name="TaskGroup_Status" xml:space="preserve">
+    <value>Estado</value>
+  </data>
+  <data name="TaskList_AddTaskHint" xml:space="preserve">
+    <value>Adicionar tarefa</value>
+  </data>
+  <data name="TaskList_RemoveCompleted" xml:space="preserve">
+    <value>remover tarefas concluídas</value>
+  </data>
+  <data name="TaskOrdering_AddedDate" xml:space="preserve">
+    <value>data adicionada</value>
+  </data>
+  <data name="TaskOrdering_Alphabetical" xml:space="preserve">
+    <value>alfabético</value>
+  </data>
+  <data name="TaskOrdering_Context" xml:space="preserve">
+    <value>contexto</value>
+  </data>
+  <data name="TaskOrdering_DueDate" xml:space="preserve">
+    <value>data de vencimento</value>
+  </data>
+  <data name="TaskOrdering_Folder" xml:space="preserve">
+    <value>pasta</value>
+  </data>
+  <data name="TaskOrdering_ModifiedDate" xml:space="preserve">
+    <value>data modificada</value>
+  </data>
+  <data name="TaskOrdering_Priority" xml:space="preserve">
+    <value>prioridade</value>
+  </data>
+  <data name="TaskOrdering_StartDate" xml:space="preserve">
+    <value>data de início</value>
+  </data>
+  <data name="TaskPriority_High" xml:space="preserve">
+    <value>Alta</value>
+  </data>
+  <data name="TaskPriority_Low" xml:space="preserve">
+    <value>Baixa</value>
+  </data>
+  <data name="TaskPriority_Medium" xml:space="preserve">
+    <value>Média</value>
+  </data>
+  <data name="TaskPriority_None" xml:space="preserve">
+    <value>Nenhuma</value>
+  </data>
+  <data name="TaskPriority_Star" xml:space="preserve">
+    <value>Estrela</value>
+  </data>
+  <data name="Task_CreationDate" xml:space="preserve">
+    <value>Criado</value>
+  </data>
+  <data name="Task_ModificationDate" xml:space="preserve">
+    <value>Última alteração</value>
+  </data>
+  <data name="Tile_QuickAdd" xml:space="preserve">
+    <value>Adicionar rapidamente</value>
+  </data>
+  <data name="WelcomePage_ValueProposition1" xml:space="preserve">
+    <value>O teu cérebro é feito para conceber ideias, e não para as armazenar</value>
+  </data>
+  <data name="WelcomePage_ValueProposition2" xml:space="preserve">
+    <value>Desenvolve e otimiza o teu sistema perfeito de gestão de tarefas, com a mais avançada lista de afazeres para Windows</value>
+  </data>
+  <data name="TaskOrdering_Reminder" xml:space="preserve">
+    <value>lembrete</value>
+  </data>
+  <data name="SmartView_Days" xml:space="preserve">
+    <value>dias</value>
+  </data>
+  <data name="SmartView_DaysAgo" xml:space="preserve">
+    <value>dias</value>
+  </data>
+  <data name="Notification_SnoozeMinutes" xml:space="preserve">
+    <value>Minutos</value>
+  </data>
+  <data name="Notification_SnoozeHour" xml:space="preserve">
+    <value>Hora</value>
+  </data>
+  <data name="Notification_SnoozeHours" xml:space="preserve">
+    <value>Horas</value>
+  </data>
+  <data name="Dialog_RestartInfo" xml:space="preserve">
+    <value>O 2Day deve ser reiniciado para aplicar esta alteração.</value>
+  </data>
+  <data name="Misc_CreateBackup" xml:space="preserve">
+    <value>Criar backup</value>
+  </data>
+  <data name="Misc_RestoreBackup" xml:space="preserve">
+    <value>Restaurar backup</value>
+  </data>
+  <data name="SmartView_DaysPeriod" xml:space="preserve">
+    <value>dias</value>
+  </data>
+  <data name="SmartView_FilterIsLate" xml:space="preserve">
+    <value>Atrasado</value>
+  </data>
+  <data name="SmartView_FilterIsToday" xml:space="preserve">
+    <value>É hoje</value>
+  </data>
+  <data name="SmartView_FilterIsTomorrow" xml:space="preserve">
+    <value>É amanhã</value>
+  </data>
+  <data name="SmartView_FilterIsYesterday" xml:space="preserve">
+    <value>Foi ontem</value>
+  </data>
+  <data name="TaskGroup_Completed" xml:space="preserve">
+    <value>Concluído</value>
+  </data>
+  <data name="Message_LoadingTasks" xml:space="preserve">
+    <value>Carregar suas tarefas...</value>
+  </data>
+  <data name="Exchange_InvalidSyncKeyWorkaround" xml:space="preserve">
+    <value>Chave de sincronização inválida. A alternativa recomendada é fazer uma sincronização de 'substituição'.</value>
+  </data>
+  <data name="Settings_NoBadgeValue" xml:space="preserve">
+    <value>Nenhuma</value>
+  </data>
+  <data name="Action_Save_Tooltip" xml:space="preserve">
+    <value>Salvar (CTRL + S)</value>
+  </data>
+  <data name="Action_SaveAndContinue_Tooltip" xml:space="preserve">
+    <value>Guardar + adicionar (CTRL + Enter)</value>
+  </data>
+  <data name="TaskGroup_Modified" xml:space="preserve">
+    <value>Modificado/a</value>
+  </data>
+  <data name="Misc_SmartViews" xml:space="preserve">
+    <value>Vistas inteligentes</value>
+  </data>
+  <data name="Misc_Folders" xml:space="preserve">
+    <value>Pastas</value>
+  </data>
+  <data name="Misc_Contexts" xml:space="preserve">
+    <value>Contextos</value>
+  </data>
+  <data name="Misc_Tags" xml:space="preserve">
+    <value>Etiquetas</value>
+  </data>
+  <data name="OptionSettingsPage_SectionHelp" xml:space="preserve">
+    <value>Ajuda</value>
+  </data>
+  <data name="Action_Uncomplete" xml:space="preserve">
+    <value>Uncomplete</value>
+  </data>
+  <data name="Notification_TasksUpdated" xml:space="preserve">
+    <value>Tarefas actualizado</value>
+  </data>
+  <data name="Notification_TaskUpdated" xml:space="preserve">
+    <value>Tarefa atualizada</value>
+  </data>
+  <data name="Notification_NewTaskCreatedWithStartDateFormat" xml:space="preserve">
+    <value>Tarefa "{0}" criar start {1}</value>
+  </data>
+  <data name="Action_AddTask_Tooltip" xml:space="preserve">
+    <value>Adicionar tarefas (CTRL + N)</value>
+  </data>
+  <data name="Action_Cancel_Toolip" xml:space="preserve">
+    <value>Anular (Escape)</value>
+  </data>
+  <data name="Action_QuickAddTask_Tooltip" xml:space="preserve">
+    <value>Tarefa add rápida (CTRL + Q)</value>
+  </data>
+  <data name="Action_Speech_Tooltip" xml:space="preserve">
+    <value>O reconhecimento de voz (CTRL + E)</value>
+  </data>
+  <data name="Action_Sync_Tooltip" xml:space="preserve">
+    <value>Sync (CTRL + U)</value>
+  </data>
+  <data name="Message_LiveTileRemoveMe" xml:space="preserve">
+    <value>me remova</value>
+  </data>
+  <data name="Message_DeleteNoSyncIdFormat" xml:space="preserve">
+    <value>Existem {0} tarefa (s) que parece estar apenas em 2Day e não sincronizada. Eles podem ser perdidos se eles não estavam sincronizados corretamente. Continuar?</value>
+  </data>
+  <data name="SystemView_TitleToSync" xml:space="preserve">
+    <value>para sincronizar</value>
+  </data>
+  <data name="SystemView_ToSync_EmptyHeader" xml:space="preserve">
+    <value>Todas as tarefas são sincronizados</value>
+  </data>
+  <data name="SystemView_ToSync_EmptyHint" xml:space="preserve">
+    <value>Relaxe e aproveite o seu dia :-)</value>
+  </data>
+  <data name="Message_TapToContinue" xml:space="preserve">
+    <value>Toque aqui para continuar no 2Day</value>
+  </data>
+  <data name="Sync_FixProblems" xml:space="preserve">
+    <value>Obtenha ajuda problemas de fixação de sincronização</value>
+  </data>
+  <data name="SmartView_PreviewCount" xml:space="preserve">
+    <value>Número de tarefas que correspondam ao SmartView:</value>
+  </data>
+  <data name="Misc_DangerZone" xml:space="preserve">
+    <value>Zona de perigo</value>
+  </data>
+  <data name="Misc_SortByNames" xml:space="preserve">
+    <value>Ordenar por nomes</value>
+  </data>
+  <data name="Misc_ShowBackgroundExecutionDetails" xml:space="preserve">
+    <value>Detalhes de execução show de fundo</value>
+  </data>
+  <data name="OptionSettingsPage_SectionHelpFormat" xml:space="preserve">
+    <value>obter ajuda on-line</value>
+  </data>
+  <data name="MainPage_SearchDescriptionFormat" xml:space="preserve">
+    <value>Pesquisando '{0}'</value>
+  </data>
+  <data name="Message_AppUpdatedMessage" xml:space="preserve">
+    <value>2day foi atualizado, toque aqui para ver a nota de lançamento :-)</value>
+  </data>
+  <data name="Message_AppUpdatedTitle" xml:space="preserve">
+    <value>App atualizado!</value>
+  </data>
+  <data name="MainPage_SearchPlaceHolder" xml:space="preserve">
+    <value>Pesquisa</value>
+  </data>
+  <data name="General_LabelTime" xml:space="preserve">
+    <value>Hora</value>
+  </data>
+  <data name="General_LabelDate" xml:space="preserve">
+    <value>Encontro</value>
+  </data>
+  <data name="General_LabelDone" xml:space="preserve">
+    <value>Feito</value>
+  </data>
+  <data name="CustomFrequency_EveryDay" xml:space="preserve">
+    <value>Todo dia</value>
+  </data>
+  <data name="CustomFrequency_EveryMonth" xml:space="preserve">
+    <value>Todo mês</value>
+  </data>
+  <data name="CustomFrequency_EveryWeek" xml:space="preserve">
+    <value>Toda semana</value>
+  </data>
+  <data name="CustomFrequency_EveryYear" xml:space="preserve">
+    <value>Todo ano</value>
+  </data>
+  <data name="CustomFrequency_None" xml:space="preserve">
+    <value>Nenhum</value>
+  </data>
+  <data name="TaskPage_Context" xml:space="preserve">
+    <value>Contexto</value>
+  </data>
+  <data name="TaskPage_DueDate" xml:space="preserve">
+    <value>Prazo</value>
+  </data>
+  <data name="TaskPage_Frequency" xml:space="preserve">
+    <value>Frequência</value>
+  </data>
+  <data name="TaskPage_Progress" xml:space="preserve">
+    <value>Progresso</value>
+  </data>
+  <data name="TaskPage_Reminder" xml:space="preserve">
+    <value>Lembrete</value>
+  </data>
+  <data name="TaskPage_StartDate" xml:space="preserve">
+    <value>Data de início</value>
+  </data>
+  <data name="TaskPage_Tag" xml:space="preserve">
+    <value>Etiquetas</value>
+  </data>
+  <data name="TaskPage_SubTask" xml:space="preserve">
+    <value>Subtarefa</value>
+  </data>
+  <data name="Notification_SnoozeDay" xml:space="preserve">
+    <value>Dia</value>
+  </data>
+  <data name="TaskPage_SubTasks" xml:space="preserve">
+    <value>Subtarefas</value>
+  </data>
+  <data name="TaskPage_TaskNamePlaceholder" xml:space="preserve">
+    <value>Nome da tarefa...</value>
+  </data>
+  <data name="SmartView_FilterHasSubtasks" xml:space="preserve">
+    <value>Com subtasks</value>
+  </data>
+</root>

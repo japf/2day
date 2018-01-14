@@ -1,0 +1,243 @@
+﻿<Page
+    x:Class="Chartreuse.Today.App.Views.Settings.MiscSettingsPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:controls="using:Chartreuse.Today.App.Controls"
+    xmlns:viewModel="using:Chartreuse.Today.App.ViewModel"
+    mc:Ignorable="d" d:DataContext="{d:DesignInstance viewModel:MiscSettingsPageViewModel}"
+    d:DesignHeight="800">
+
+    <controls:FlyoutHost 
+        x:Uid="MiscSettingsPage_Title" 
+        Text="MiscSettingsPage_Title">
+        <StackPanel>
+            <Grid Margin="0,20,0,0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Button  
+                    Style="{StaticResource ModernButtonStyle}"
+                    Grid.Column="0"
+                    Command="{x:Bind Path=ViewModel.CreateBackupCommand}"
+                    VerticalAlignment="Stretch">
+                    <Grid HorizontalAlignment="Center">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <controls:IconText 
+                            Icon="CommonExport"
+                            FontSize="32"
+                            Margin="0,-2,3,0"/>
+                        <TextBlock 
+                            Grid.Column="1"
+                            Margin="5,0,0,0"
+                            VerticalAlignment="Center"
+                            TextWrapping="Wrap"
+                            Text="{x:Bind Path=Strings.Misc_CreateBackup}"/>
+                    </Grid>
+                </Button>
+                <Button  
+                    Style="{StaticResource ModernButtonStyle}"
+                    BorderThickness="0,1,1,1"
+                    Grid.Column="1"
+                    Command="{x:Bind Path=ViewModel.RestoreBackupCommand}"
+                    VerticalAlignment="Stretch">
+                    <Grid HorizontalAlignment="Center">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <controls:IconText 
+                            Icon="CommonImport"
+                            FontSize="32"
+                            Margin="0,-2,3,0"/>
+                        <TextBlock 
+                            Grid.Column="1"
+                            Margin="5,0,0,0"
+                            VerticalAlignment="Center"
+                            TextWrapping="Wrap"                            
+                            Text="{x:Bind Path=Strings.Misc_RestoreBackup}"/>
+                    </Grid>
+                </Button>
+            </Grid>
+            
+            <TextBlock
+                Text="{x:Bind Path=Strings.Misc_SortByNames}"
+                FontSize="12"
+                Margin="0,20,10,0"/>
+            <Grid Margin="0,10,0,0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Button  
+                    Grid.Column="0"
+                    Style="{StaticResource ModernButtonTextStyle}"
+                    BorderThickness="1,1,0,1"
+                    HorizontalContentAlignment="Center"
+                    VerticalAlignment="Stretch"
+                    FontSize="12"
+                    Content="{x:Bind Path=Strings.Misc_Folders}"
+                    ToolTipService.ToolTip="{x:Bind Path=Strings.Misc_Folders}"                    
+                    Command="{x:Bind Path=ViewModel.SortFoldersCommand}"/>
+                <Button  
+                    Grid.Column="1"
+                    Style="{StaticResource ModernButtonTextStyle}"
+                    BorderThickness="1,1,0,1"
+                    HorizontalContentAlignment="Center"
+                    VerticalAlignment="Stretch"
+                    FontSize="12"
+                    Content="{x:Bind Path=Strings.Misc_SmartViews}"
+                    ToolTipService.ToolTip="{x:Bind Path=Strings.Misc_SmartViews}"                    
+                    Command="{x:Bind Path=ViewModel.SortSmartViewsCommand}"/>
+                <Button  
+                    Grid.Column="2"
+                    Style="{StaticResource ModernButtonTextStyle}"
+                    BorderThickness="1,1,0,1"
+                    HorizontalContentAlignment="Center"
+                    VerticalAlignment="Stretch"
+                    FontSize="12"
+                    Content="{x:Bind Path=Strings.Misc_Contexts}"
+                    ToolTipService.ToolTip="{x:Bind Path=Strings.Misc_Contexts}"                    
+                    Command="{x:Bind Path=ViewModel.SortContextsCommand}"/>
+                <Button  
+                    Grid.Column="3"
+                    BorderThickness="1,1,1,1"
+                    HorizontalContentAlignment="Center"
+                    Style="{StaticResource ModernButtonTextStyle}"
+                    VerticalAlignment="Stretch"
+                    FontSize="12"
+                    Content="{x:Bind Path=Strings.Misc_Tags}"
+                    ToolTipService.ToolTip="{x:Bind Path=Strings.Misc_Tags}"                    
+                    Command="{x:Bind Path=ViewModel.SortTagsCommand}"/>
+            </Grid>
+            
+            <Button
+                Content="{x:Bind Path=Strings.MiscOpenWelcomeScreen}"
+                Margin="0,30,0,0"
+                Command="{x:Bind Path=ViewModel.OpenWelcomeScreenCommand}"
+                Style="{StaticResource ModernButtonTextStyle}"/>
+
+            <StackPanel Visibility="{x:Bind Path=ViewModel.CanChangeLanguage, Mode=OneTime, Converter={StaticResource BooleanToVisibilityConverter}}">
+                <TextBlock
+                    x:Uid="MiscSettingsPage_Language"
+                    Text="MiscSettingsPage_Language"
+                    TextWrapping="Wrap"
+                    FontSize="12"
+                    Margin="0,30,0,5"/>
+                <ComboBox 
+                    ItemsSource="{x:Bind Path=ViewModel.Languages}"
+                    SelectedItem="{x:Bind Path=ViewModel.SelectedLanguage, Mode=TwoWay}"
+                    Margin="0,0,3,0"
+                    HorizontalAlignment="Stretch"
+                    MinWidth="200">
+                    <ComboBox.ItemTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding}"/>
+                        </DataTemplate>
+                    </ComboBox.ItemTemplate>
+                </ComboBox>
+            </StackPanel>
+            
+            <!-- analytics -->
+            <ToggleSwitch 
+                x:Uid="MiscSettingsPage_SendAnalytics"
+                Header="MiscSettingsPage_SendAnalytics"
+                FontSize="13"
+                IsOn="{x:Bind Path=ViewModel.SendAnalytics, Mode=TwoWay}"
+                Margin="0,30,0,0"/>
+           
+            <!-- log -->
+            <ToggleSwitch                
+                x:Uid="MiscSettingsPage_Log"
+                Header="MiscSettingsPage_Log"
+                FontSize="13"
+                IsOn="{x:Bind Path=ViewModel.IsLogEnabled, Mode=TwoWay}"
+                Margin="0,30,0,0"/>
+
+            <Button
+                Content="{x:Bind Path=Strings.Sync_ViewLogs}"
+                Margin="0,15,0,15"
+                Command="{x:Bind Path=ViewModel.ShowLogCommand}"
+                Style="{StaticResource ModernButtonTextStyle}"/>
+            
+            <!-- background tasks -->
+            <ToggleButton 
+                x:Name="tbShowBackgroundDetails"
+                Margin="0,20,0,20"
+                Style="{StaticResource ModernToggleButtonStyle}"
+                Content="{x:Bind Path=Strings.Misc_ShowBackgroundExecutionDetails}"/>
+            <StackPanel Visibility="{Binding ElementName=tbShowBackgroundDetails, Path=IsChecked, Converter={StaticResource BooleanToVisibilityConverter}}">
+                <TextBlock 
+                    Text="Is enabled: "
+                    Margin="20,0,0,0"
+                    FontSize="12"                
+                    Opacity="0.8"/>
+                <TextBlock 
+                    Text="{x:Bind Path=ViewModel.BackgroundHasAccess}"
+                    Margin="20,5,0,0"
+                    FontSize="12"               
+                    Opacity="0.8"/>
+
+                <TextBlock 
+                    Text="Last status: "
+                    Margin="20,10,0,0"
+                    FontSize="12"                
+                    Opacity="0.8"/>
+                <TextBlock 
+                    Text="{x:Bind Path=ViewModel.BackgroundLastStatus}"
+                    Margin="20,5,0,0"
+                    FontSize="12"               
+                    Opacity="0.8"/>
+
+                <TextBlock 
+                    Text="Last execution (start): "
+                    Margin="20,10,0,0"
+                    FontSize="12"
+                    Opacity="0.8"/>
+                <TextBlock 
+                    Text="{x:Bind Path=ViewModel.BackgroundLastStartExecution}"
+                    Margin="20,5,0,0"
+                    FontSize="12"                
+                    Opacity="0.8"/>
+
+                <TextBlock 
+                    Text="Last execution (end): "
+                    Margin="20,10,0,0"
+                    FontSize="12"                
+                    Opacity="0.8"/>
+                <TextBlock 
+                    Text="{x:Bind Path=ViewModel.BackgroundLastEndExecution}"
+                    Margin="20,5,0,20"
+                    FontSize="12"                
+                    Opacity="0.8"/>
+            </StackPanel>
+                
+            <!-- delete stuff -->
+            <Border Background="{StaticResource ApplicationWarningAreaBorderBrush}" Padding="3" Margin="-20,10,-20,20">
+                <TextBlock 
+                    Text="{x:Bind Strings.Misc_DangerZone}"
+                    Margin="20,0,0,0"
+                    Foreground="{StaticResource ApplicationWhiteForegroundBrush}"
+                    VerticalAlignment="Center"/>
+            </Border>
+            <Button
+                Content="{Binding Path=SharedStrings.MiscDeleteTasks, Source={StaticResource Resources}}"
+                Margin="0,10,0,10"
+                Command="{x:Bind Path=ViewModel.DeleteTasksCommand}"
+                Style="{StaticResource ModernButtonTextStyle}"/>
+            <Button
+                Content="{Binding Path=SharedStrings.MiscDeleteAll, Source={StaticResource Resources}}"
+                Margin="0,10,0,20"
+                Command="{x:Bind Path=ViewModel.DeleteAllCommand}"
+                Style="{StaticResource ModernButtonTextStyle}"/>
+
+        </StackPanel>
+    </controls:FlyoutHost>
+</Page>

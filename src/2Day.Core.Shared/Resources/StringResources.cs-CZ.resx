@@ -1,0 +1,1587 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="About_ContactUs" xml:space="preserve">
+    <value>Kontaktujte nás</value>
+  </data>
+  <data name="About_Facebook" xml:space="preserve">
+    <value>Stránka na Facebook</value>
+  </data>
+  <data name="About_FollowUs" xml:space="preserve">
+    <value>Sledujte nás</value>
+  </data>
+  <data name="About_Help" xml:space="preserve">
+    <value>Nápověda</value>
+  </data>
+  <data name="About_HelpDetail" xml:space="preserve">
+    <value>přečíst nápovědu online</value>
+  </data>
+  <data name="About_ReviewTheApp" xml:space="preserve">
+    <value>ohodnotit 2Day</value>
+  </data>
+  <data name="About_ShareEnthousiasm" xml:space="preserve">
+    <value>Sdílejte svoje nadšení</value>
+  </data>
+  <data name="About_SubmitIdeas" xml:space="preserve">
+    <value>Pošlete své nápady</value>
+  </data>
+  <data name="About_Updates" xml:space="preserve">
+    <value>Aktualizace</value>
+  </data>
+  <data name="About_UpdatesDetail" xml:space="preserve">
+    <value>zobrazit historii aktualizací</value>
+  </data>
+  <data name="About_WindowsStoreDesktop" xml:space="preserve">
+    <value>Podívejte verzi pro systém Windows pro počítač a tablet!</value>
+  </data>
+  <data name="About_WindowsStorePhone" xml:space="preserve">
+    <value>Podívejte se na verzi pro systém Windows Phone!</value>
+  </data>
+  <data name="Action_Cancel" xml:space="preserve">
+    <value>Zrušit</value>
+  </data>
+  <data name="Action_Complete" xml:space="preserve">
+    <value>Splněno</value>
+  </data>
+  <data name="Action_Delete" xml:space="preserve">
+    <value>Smazat</value>
+  </data>
+  <data name="Action_Pin" xml:space="preserve">
+    <value>Připnout</value>
+  </data>
+  <data name="Action_Postpone" xml:space="preserve">
+    <value>Odložit</value>
+  </data>
+  <data name="Action_Save" xml:space="preserve">
+    <value>Uložit</value>
+  </data>
+  <data name="Action_SaveAndContinue" xml:space="preserve">
+    <value>Uložit + přidání</value>
+  </data>
+  <data name="Action_Unpin" xml:space="preserve">
+    <value>Zrušit připnutí</value>
+  </data>
+  <data name="AddContext_Title" xml:space="preserve">
+    <value>Vytvořit souvislost</value>
+  </data>
+  <data name="Analytics_Comments" xml:space="preserve">
+    <value>Komentáře</value>
+  </data>
+  <data name="Analytics_DisableQuestion" xml:space="preserve">
+    <value>Nezobrazovat dotazy ohledně vašeho používání 2Day</value>
+  </data>
+  <data name="Analytics_DoNoShowAgain" xml:space="preserve">
+    <value>V budoucnu nezobrazovat tento typ zprávy :-(</value>
+  </data>
+  <data name="Analytics_Email" xml:space="preserve">
+    <value>Email (volitelný)</value>
+  </data>
+  <data name="Analytics_NotificationTest" xml:space="preserve">
+    <value>Prosím, věnujte 30s na zodpovězení krátké otázky</value>
+  </data>
+  <data name="Analytics_Title" xml:space="preserve">
+    <value>Rychlá otázka pro pomoc vylepšit 2Day!</value>
+  </data>
+  <data name="AppBar_EditContext" xml:space="preserve">
+    <value>Upravit souvislost</value>
+  </data>
+  <data name="AppBar_EditFolder" xml:space="preserve">
+    <value>Upravit složku</value>
+  </data>
+  <data name="AppBar_EditView" xml:space="preserve">
+    <value>Upravit zobrazení</value>
+  </data>
+  <data name="AppMenu_ContextMenu_Folder_Delete" xml:space="preserve">
+    <value>Smazat</value>
+  </data>
+  <data name="AppMenu_ContextMenu_Folder_Edit" xml:space="preserve">
+    <value>Upravit</value>
+  </data>
+  <data name="AppMenu_ContextMenu_Folder_Pin" xml:space="preserve">
+    <value>Připnout</value>
+  </data>
+  <data name="AppMenu_ContextMenu_Folder_Share" xml:space="preserve">
+    <value>Sdílet</value>
+  </data>
+  <data name="AppMenu_ContextMenu_Folder_Unpin" xml:space="preserve">
+    <value>Zrušit připnutí</value>
+  </data>
+  <data name="AppMenu_ContextMenu_Hide" xml:space="preserve">
+    <value>Skrýt</value>
+  </data>
+  <data name="AutoDelete_Never" xml:space="preserve">
+    <value>Nikdy</value>
+  </data>
+  <data name="AutoDelete_OneDay" xml:space="preserve">
+    <value>1 den</value>
+  </data>
+  <data name="AutoDelete_OneMonth" xml:space="preserve">
+    <value>1 měsíc</value>
+  </data>
+  <data name="AutoDelete_OneWeek" xml:space="preserve">
+    <value>1 týden</value>
+  </data>
+  <data name="AutoDelete_ThreeDays" xml:space="preserve">
+    <value>3 dny</value>
+  </data>
+  <data name="AutoDelete_ThreeMonths" xml:space="preserve">
+    <value>3 měsíce</value>
+  </data>
+  <data name="AutoDelete_TwoWeeks" xml:space="preserve">
+    <value>2 týdny</value>
+  </data>
+  <data name="BootstrapDragTaskNote" xml:space="preserve">
+    <value>Přesuňte tento úkol na levé menu nebo do jiné skupiny</value>
+  </data>
+  <data name="BootstrapDragTaskTitle" xml:space="preserve">
+    <value>Vyzkoušejte funkci táhni a pust</value>
+  </data>
+  <data name="BootstrapSlideTaskNote" xml:space="preserve">
+    <value>Posuňte doleva a zobrazíte více možností</value>
+  </data>
+  <data name="BootstrapSlideTaskTitle" xml:space="preserve">
+    <value>Posuňte doprava a úkol bude splněn</value>
+  </data>
+  <data name="BootstrapVoiceCommandTaskNote" xml:space="preserve">
+    <value>Věděli jste, že můžete přidávat úkoly a připomenutí pomocí hlasových příkazů? Na úvodní obrazovce na svém Windows Phonu přidržte tlačítko Windows a řekněte např."2Day, add a task for tomorrow". Pokud během rozpoznání hlasu klepnete na “?”, uvidíte všechny příkazy, které 2Day podporuje.</value>
+  </data>
+  <data name="BootstrapVoiceCommandTaskTitle" xml:space="preserve">
+    <value>Vyzkoušejte hlasové příkazy</value>
+  </data>
+  <data name="BootstrapWelcomeTaskNote" xml:space="preserve">
+    <value>Užijte si 2Day pro Windows !</value>
+  </data>
+  <data name="BootstrapWelcomeTaskTitle" xml:space="preserve">
+    <value>Vítejte</value>
+  </data>
+  <data name="CompletedTaskMode_Group" xml:space="preserve">
+    <value>Konec seznamu</value>
+  </data>
+  <data name="CompletedTaskMode_Hide" xml:space="preserve">
+    <value>Skrýt</value>
+  </data>
+  <data name="CompletedTaskMode_Show" xml:space="preserve">
+    <value>Zobrazit</value>
+  </data>
+  <data name="Context_EmptyHeader" xml:space="preserve">
+    <value>Souvislost je prázdná</value>
+  </data>
+  <data name="Context_EmptyHint" xml:space="preserve">
+    <value>Začněte přiřazením úkolu k této souvislosti</value>
+  </data>
+  <data name="ConverterAction_Call" xml:space="preserve">
+    <value>Volat</value>
+  </data>
+  <data name="ConverterAction_Email" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="ConverterAction_None" xml:space="preserve">
+    <value>Nic</value>
+  </data>
+  <data name="ConverterAction_Sms" xml:space="preserve">
+    <value>SMS</value>
+  </data>
+  <data name="ConverterAction_Visit" xml:space="preserve">
+    <value>Navštívit</value>
+  </data>
+  <data name="ConverterContext_None" xml:space="preserve">
+    <value>nic</value>
+  </data>
+  <data name="ConverterDate_Future" xml:space="preserve">
+    <value>Budoucnost</value>
+  </data>
+  <data name="ConverterDate_Late" xml:space="preserve">
+    <value>Opožděno</value>
+  </data>
+  <data name="ConverterDate_Next7Days" xml:space="preserve">
+    <value>Příštích 7 dní</value>
+  </data>
+  <data name="ConverterDate_NoDate" xml:space="preserve">
+    <value>Bez termínu</value>
+  </data>
+  <data name="ConverterDate_Today" xml:space="preserve">
+    <value>Dnes</value>
+  </data>
+  <data name="ConverterDate_Tomorrow" xml:space="preserve">
+    <value>Zítra</value>
+  </data>
+  <data name="ConverterDate_Yesterday" xml:space="preserve">
+    <value>Včera</value>
+  </data>
+  <data name="ConverterPriority_High" xml:space="preserve">
+    <value>Vysoká</value>
+  </data>
+  <data name="ConverterPriority_Low" xml:space="preserve">
+    <value>Nízká</value>
+  </data>
+  <data name="ConverterPriority_Medium" xml:space="preserve">
+    <value>Střední</value>
+  </data>
+  <data name="ConverterPriority_Star" xml:space="preserve">
+    <value>Hvězdička</value>
+  </data>
+  <data name="ConverterProgress_None" xml:space="preserve">
+    <value>žádný</value>
+  </data>
+  <data name="ConverterStatus_Completed" xml:space="preserve">
+    <value>Splněno</value>
+  </data>
+  <data name="ConverterStatus_Todo" xml:space="preserve">
+    <value>Řešit</value>
+  </data>
+  <data name="Crash_MessageContent" xml:space="preserve">
+    <value>Omlouváme se za chybu v 2Day. Chcete odeslat detaily vývojovému týmu?</value>
+  </data>
+  <data name="CreateEditFolder_FolderNameAlreadyUsedNotification" xml:space="preserve">
+    <value>Jméno složky již existuje</value>
+  </data>
+  <data name="CreateEditTaskPage_NotifyFormat" xml:space="preserve">
+    <value>Úkol '{0}' přidán do složky {1}</value>
+  </data>
+  <data name="CreateEditTaskPage_NotifyWithDueDateFormat" xml:space="preserve">
+    <value>Úkol '{0}' přidán do složky {1} v termínu {2}</value>
+  </data>
+  <data name="CreateEditTask_TagAlreadyExists" xml:space="preserve">
+    <value>Tento štítek již existuje</value>
+  </data>
+  <data name="CreateEditTask_TagCannotBeEmptyMsg" xml:space="preserve">
+    <value>Štítek nemůže být prázdný</value>
+  </data>
+  <data name="CreateFolderPage_Title" xml:space="preserve">
+    <value>Vytvořit složku</value>
+  </data>
+  <data name="CreateTaskPage_Title" xml:space="preserve">
+    <value>Vytvořit úkol</value>
+  </data>
+  <data name="CustomFrequency_Custom" xml:space="preserve">
+    <value>Volitelné</value>
+  </data>
+  <data name="CustomFrequency_Daily" xml:space="preserve">
+    <value>Denně</value>
+  </data>
+  <data name="CustomFrequency_Day" xml:space="preserve">
+    <value>den</value>
+  </data>
+  <data name="CustomFrequency_Days" xml:space="preserve">
+    <value>dny</value>
+  </data>
+  <data name="CustomFrequency_DaysOfWeekTitle" xml:space="preserve">
+    <value>Určité dny v týdnu…</value>
+  </data>
+  <data name="CustomFrequency_Each" xml:space="preserve">
+    <value>každý {0}</value>
+    <comment>{0} = frequency scale (day,week,month,year)</comment>
+  </data>
+  <data name="CustomFrequency_Every" xml:space="preserve">
+    <value>vždy {0}</value>
+    <comment>{0} = (X days, days of the week...)</comment>
+  </data>
+  <data name="CustomFrequency_EveryXPeriodTitle" xml:space="preserve">
+    <value>Každý…</value>
+  </data>
+  <data name="CustomFrequency_First" xml:space="preserve">
+    <value>první</value>
+  </data>
+  <data name="CustomFrequency_Fourth" xml:space="preserve">
+    <value>čtvrtý</value>
+  </data>
+  <data name="CustomFrequency_Last" xml:space="preserve">
+    <value>poslední</value>
+  </data>
+  <data name="CustomFrequency_Month" xml:space="preserve">
+    <value>měsíc</value>
+  </data>
+  <data name="CustomFrequency_Monthly" xml:space="preserve">
+    <value>Měsíčně</value>
+  </data>
+  <data name="CustomFrequency_Months" xml:space="preserve">
+    <value>měsíce</value>
+  </data>
+  <data name="CustomFrequency_Once" xml:space="preserve">
+    <value>Jednou</value>
+  </data>
+  <data name="CustomFrequency_Second" xml:space="preserve">
+    <value>druhý</value>
+  </data>
+  <data name="CustomFrequency_Third" xml:space="preserve">
+    <value>třetí</value>
+  </data>
+  <data name="CustomFrequency_Week" xml:space="preserve">
+    <value>týden</value>
+  </data>
+  <data name="CustomFrequency_Weekday" xml:space="preserve">
+    <value>den v týdnu</value>
+  </data>
+  <data name="CustomFrequency_Weekend" xml:space="preserve">
+    <value>víkend</value>
+  </data>
+  <data name="CustomFrequency_Weekly" xml:space="preserve">
+    <value>Týdně</value>
+  </data>
+  <data name="CustomFrequency_Weeks" xml:space="preserve">
+    <value>týdny</value>
+  </data>
+  <data name="CustomFrequency_XthDayOfTheMonth" xml:space="preserve">
+    <value>{0}  {1} v měsíci</value>
+    <comment>{0} = First,Second, ..., Last - {1} = Monday, Tuesday...</comment>
+  </data>
+  <data name="CustomFrequency_XthDayOfTheMonthTitle" xml:space="preserve">
+    <value>Určité dny v měsíci…</value>
+  </data>
+  <data name="CustomFrequency_Year" xml:space="preserve">
+    <value>rok</value>
+  </data>
+  <data name="CustomFrequency_Yearly" xml:space="preserve">
+    <value>Ročně</value>
+  </data>
+  <data name="CustomFrequency_Years" xml:space="preserve">
+    <value>roky</value>
+  </data>
+  <data name="DefaultDate_None" xml:space="preserve">
+    <value>nic</value>
+  </data>
+  <data name="DefaultDate_Today" xml:space="preserve">
+    <value>Dnes</value>
+  </data>
+  <data name="DefaultDate_Tomorrow" xml:space="preserve">
+    <value>Zítra</value>
+  </data>
+  <data name="DefaultFolderName_Personal" xml:space="preserve">
+    <value>Osobní</value>
+  </data>
+  <data name="DefaultFolderName_Work" xml:space="preserve">
+    <value>Pracovní</value>
+  </data>
+  <data name="Dialog_AreYouSure" xml:space="preserve">
+    <value>Jsi si jistý?</value>
+  </data>
+  <data name="Dialog_CancelSyncConfirm" xml:space="preserve">
+    <value>Zrušit synchronizaci?</value>
+  </data>
+  <data name="Dialog_DeleteContextText" xml:space="preserve">
+    <value>Opravdu chcete smazat tuto souvislost? úkoly s touto souvislostí svoji souvislost ztratí.</value>
+  </data>
+  <data name="Dialog_DeleteFolderText" xml:space="preserve">
+    <value>Opravdu chcete smazat tuto složku? všechny přiřazené úkoly se ztratí a tuto operaci nelze vrátit zpět.</value>
+  </data>
+  <data name="Dialog_DeleteSmartViewText" xml:space="preserve">
+    <value>Jste si jisti, že chcete smazat toto chytré zobrazení?</value>
+  </data>
+  <data name="Dialog_DeleteTagText" xml:space="preserve">
+    <value>Opravdu chcete tento štítek odstranit?</value>
+  </data>
+  <data name="Dialog_DeleteTask" xml:space="preserve">
+    <value>Opravdu chcete tento úkol odstranit?</value>
+  </data>
+  <data name="Dialog_LooseChangesContent" xml:space="preserve">
+    <value>Vypadá to, že přijdete o provedené změny, mám pokračovat?</value>
+  </data>
+  <data name="Dialog_RemindersUpdated" xml:space="preserve">
+    <value>Připomenutí byla aktualizována</value>
+  </data>
+  <data name="Dialog_ReminderUpdatedDateFormat" xml:space="preserve">
+    <value>Připomenutí byla aktualizována: {0}</value>
+  </data>
+  <data name="Dialog_RestartToApply" xml:space="preserve">
+    <value>K aplikování této změny je třeba restartovat aplikaci 2Day. Ukončit 2Day nyní?</value>
+  </data>
+  <data name="Dialog_StartingApp" xml:space="preserve">
+    <value>Začít 2Day</value>
+  </data>
+  <data name="Dialog_SyncContextsNotSupported" xml:space="preserve">
+    <value>Používáte režim synchronizace, který nepodporuje kontexty. Kontexty nebudou synchronizovány ve vašem zařízení. Chcete se dozvědět více?</value>
+  </data>
+  <data name="Dialog_TitleConfirmation" xml:space="preserve">
+    <value>Potvrzení</value>
+  </data>
+  <data name="EditContext_Add" xml:space="preserve">
+    <value>Přidat kontext</value>
+  </data>
+  <data name="EditContext_Placeholder" xml:space="preserve">
+    <value>Souvislost</value>
+  </data>
+  <data name="EditContext_Title" xml:space="preserve">
+    <value>Upravit souvislost</value>
+  </data>
+  <data name="EditFolderPage_ColorUsageCount" xml:space="preserve">
+    <value>Jak často je použita tato barva</value>
+  </data>
+  <data name="EditFolderPage_Title" xml:space="preserve">
+    <value>Upravit složku</value>
+  </data>
+  <data name="EditTag_Placeholder" xml:space="preserve">
+    <value>Název štítku</value>
+  </data>
+  <data name="EditTag_Title" xml:space="preserve">
+    <value>Upravit štítek</value>
+  </data>
+  <data name="EditTaskPage_Title" xml:space="preserve">
+    <value>Upravit úkol</value>
+  </data>
+  <data name="EditViewPage_Title" xml:space="preserve">
+    <value>Upravit zobrazení</value>
+  </data>
+  <data name="FocusFilter_NoDue" xml:space="preserve">
+    <value>Žádný termín</value>
+  </data>
+  <data name="FocusFilter_Starred" xml:space="preserve">
+    <value>Oblíbené</value>
+  </data>
+  <data name="FocusFilter_ThisWeek" xml:space="preserve">
+    <value>Příštích 7 dní</value>
+  </data>
+  <data name="FocusFilter_Today" xml:space="preserve">
+    <value>Dnes</value>
+  </data>
+  <data name="FocusFilter_TodayNoDue" xml:space="preserve">
+    <value>Dnes nebo Žádný termín</value>
+  </data>
+  <data name="FocusFilter_TodayTomorrow" xml:space="preserve">
+    <value>Dnes nebo Zítra</value>
+  </data>
+  <data name="FocusFilter_TodayTomorrowStarPriority" xml:space="preserve">
+    <value>Dnes, Zítra nebo Oblíbené</value>
+  </data>
+  <data name="FolderDisplayMode_Icon" xml:space="preserve">
+    <value>ikona</value>
+  </data>
+  <data name="FolderDisplayMode_None" xml:space="preserve">
+    <value>nic</value>
+  </data>
+  <data name="FolderDisplayMode_Text" xml:space="preserve">
+    <value>text</value>
+  </data>
+  <data name="FolderDisplayMode_TextAndIcon" xml:space="preserve">
+    <value>text a ikona</value>
+  </data>
+  <data name="Folder_EmptyHeader" xml:space="preserve">
+    <value>Složka je prázdná</value>
+  </data>
+  <data name="Folder_EmptyHint" xml:space="preserve">
+    <value>Začněte přidáním úkolu</value>
+  </data>
+  <data name="Frequency_First" xml:space="preserve">
+    <value>první</value>
+  </data>
+  <data name="Frequency_Fourth" xml:space="preserve">
+    <value>čtvrtý</value>
+  </data>
+  <data name="Frequency_Last" xml:space="preserve">
+    <value>poslední</value>
+  </data>
+  <data name="Frequency_Rate1" xml:space="preserve">
+    <value>každý</value>
+  </data>
+  <data name="Frequency_RateFormat" xml:space="preserve">
+    <value>každý {0}</value>
+  </data>
+  <data name="Frequency_Scale_Day" xml:space="preserve">
+    <value>den</value>
+  </data>
+  <data name="Frequency_Scale_Month" xml:space="preserve">
+    <value>měsíc</value>
+  </data>
+  <data name="Frequency_Scale_Week" xml:space="preserve">
+    <value>týden</value>
+  </data>
+  <data name="Frequency_Scale_Year" xml:space="preserve">
+    <value>rok</value>
+  </data>
+  <data name="Frequency_Second" xml:space="preserve">
+    <value>druhý</value>
+  </data>
+  <data name="Frequency_Third" xml:space="preserve">
+    <value>třetí</value>
+  </data>
+  <data name="General_LabelCancel" xml:space="preserve">
+    <value>Zrušit</value>
+  </data>
+  <data name="General_LabelDetails" xml:space="preserve">
+    <value>Podrobnosti</value>
+  </data>
+  <data name="General_LabelError" xml:space="preserve">
+    <value>Chyba</value>
+  </data>
+  <data name="General_LabelNo" xml:space="preserve">
+    <value>Ne</value>
+  </data>
+  <data name="General_LabelOk" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="General_LabelYes" xml:space="preserve">
+    <value>Ano</value>
+  </data>
+  <data name="HomePage_SyncCompletedSystrayMessage" xml:space="preserve">
+    <value>Synchronizace dokončena!</value>
+  </data>
+  <data name="LogViewer_Clear" xml:space="preserve">
+    <value>Smazat</value>
+  </data>
+  <data name="MessageReview_AlreadyDone" xml:space="preserve">
+    <value>Hotovo :-)</value>
+  </data>
+  <data name="MessageReview_Body" xml:space="preserve">
+    <value>Zdá se, že si používání 2Day užíváte, nechcete nám pomoci hodnocením naší aplikace?</value>
+  </data>
+  <data name="MessageReview_CreateTask" xml:space="preserve">
+    <value>Vytvořit mi úkol</value>
+  </data>
+  <data name="MessageReview_Later" xml:space="preserve">
+    <value>Připomenout později</value>
+  </data>
+  <data name="MessageReview_No" xml:space="preserve">
+    <value>Ne, díky</value>
+  </data>
+  <data name="MessageReview_TaskNote" xml:space="preserve">
+    <value>Díky za pomoc :-)</value>
+  </data>
+  <data name="MessageReview_TaskTitle" xml:space="preserve">
+    <value>Napište recenzi na 2Day</value>
+  </data>
+  <data name="MessageReview_Title" xml:space="preserve">
+    <value>Recenze</value>
+  </data>
+  <data name="MessageReview_Yes" xml:space="preserve">
+    <value>Ano jistě!</value>
+  </data>
+  <data name="Message_CannotCreateTaskNoFolderMessage" xml:space="preserve">
+    <value>Je nutné mít alespoň jednu složku, aby bylo možné vytvořit úkol. Chcete vytvořit složku nyní?</value>
+  </data>
+  <data name="Message_CleanupTaskConfirmationFormat" xml:space="preserve">
+    <value>Opravdu chcete smazat {0} úkolů?</value>
+  </data>
+  <data name="Message_CleanupTaskNoRemove" xml:space="preserve">
+    <value>Žádné splněné úkoly k odstranění</value>
+  </data>
+  <data name="Message_DeleteAllMessage" xml:space="preserve">
+    <value>Chcete opravdu smazat všechny úkoly, složky a souvislosti (nevratná akce)?</value>
+  </data>
+  <data name="Message_Information" xml:space="preserve">
+    <value>Informace</value>
+  </data>
+  <data name="Message_Recommended" xml:space="preserve">
+    <value>doporučeno</value>
+  </data>
+  <data name="Message_SpeechExceptionFormat" xml:space="preserve">
+    <value>Chyba při rozpoznání řeči ({0})</value>
+  </data>
+  <data name="Message_TitleCannotBeEmpty" xml:space="preserve">
+    <value>Název nemůže být prázdný</value>
+  </data>
+  <data name="Message_Warning" xml:space="preserve">
+    <value>Upozornění</value>
+  </data>
+  <data name="MiscClearSearchHistory" xml:space="preserve">
+    <value>Vymazat historii vyhledávání</value>
+  </data>
+  <data name="MiscCompleteTasks" xml:space="preserve">
+    <value>Dokončit všechny úkoly</value>
+  </data>
+  <data name="MiscDeleteAll" xml:space="preserve">
+    <value>Smazat všechny úkoly, složky a souvislosti</value>
+  </data>
+  <data name="MiscDeleteCompletedTasks" xml:space="preserve">
+    <value>Smazat splněné úkoly</value>
+  </data>
+  <data name="MiscDeleteTasks" xml:space="preserve">
+    <value>Smazat všechny úkoly</value>
+  </data>
+  <data name="MiscOpenWelcomeScreen" xml:space="preserve">
+    <value>Otevři uvítací obrazovku</value>
+  </data>
+  <data name="Notification_Cancel" xml:space="preserve">
+    <value>Zrušit</value>
+  </data>
+  <data name="Notification_Deleted" xml:space="preserve">
+    <value>Smazáno</value>
+  </data>
+  <data name="Notification_Done" xml:space="preserve">
+    <value>Hotovo</value>
+  </data>
+  <data name="Notification_DueCannotBeNull" xml:space="preserve">
+    <value>Konečné nebo začáteční datum musí být definováno pro opakující se úlohy</value>
+  </data>
+  <data name="Notification_DueDateRemoved" xml:space="preserve">
+    <value>Datum splatnosti odstraněno</value>
+  </data>
+  <data name="Notification_DueDateUpdatedFormat" xml:space="preserve">
+    <value>Nové datum splatnosti určeno na {0}</value>
+  </data>
+  <data name="Notification_Edit" xml:space="preserve">
+    <value>Upravit</value>
+  </data>
+  <data name="Notification_FolderNameAlreadyUsed" xml:space="preserve">
+    <value>Jméno složky již existuje</value>
+  </data>
+  <data name="Notification_FolderPinnedFormat" xml:space="preserve">
+    <value>Složka {0} připnuta</value>
+  </data>
+  <data name="Notification_FolderUnpinnedFormat" xml:space="preserve">
+    <value>Úkol {0} byl odepnut z úvodní obrazovky.</value>
+  </data>
+  <data name="Notification_InvalidSelection" xml:space="preserve">
+    <value>Špatný výběr</value>
+  </data>
+  <data name="Notification_NewTaskCreatedNoDueDateFormat" xml:space="preserve">
+    <value>Přidán úkol "{0}"</value>
+  </data>
+  <data name="Notification_NewTaskCreatedWithDueDateFormat" xml:space="preserve">
+    <value>Nový úkol "{0}" byl vytvořen na {1}</value>
+  </data>
+  <data name="Notification_SearchHistoryCleared" xml:space="preserve">
+    <value>Historie vyhledávání vymazána</value>
+  </data>
+  <data name="Notification_TagAlreadyExists" xml:space="preserve">
+    <value>Tento štítek již existuje</value>
+  </data>
+  <data name="Notification_TagCannotBeEmptyMsg" xml:space="preserve">
+    <value>Štítek nemůže být prázdný</value>
+  </data>
+  <data name="Notification_TaskCompletedFormat" xml:space="preserve">
+    <value>Úkol {0} splněn!</value>
+  </data>
+  <data name="Notification_TaskPinnedFormat" xml:space="preserve">
+    <value>Úkol {0} připnut</value>
+  </data>
+  <data name="Notification_TaskUnpinnedFormat" xml:space="preserve">
+    <value>Úkol {0} byl odepnut z úvodní obrazovky.</value>
+  </data>
+  <data name="Notification_TitleCannotBeEmpty" xml:space="preserve">
+    <value>Název nemůže být prázdný</value>
+  </data>
+  <data name="OptionSettingsPage_DescriptionOff" xml:space="preserve">
+    <value>vypnuto</value>
+  </data>
+  <data name="OptionSettingsPage_DescriptionOn" xml:space="preserve">
+    <value>zapnuto</value>
+  </data>
+  <data name="OptionSettingsPage_DescriptionTasksFormat" xml:space="preserve">
+    <value>automaticky smazat po {0} dnech, dokončené úkoly {1}</value>
+  </data>
+  <data name="OptionSettingsPage_SectionAbout" xml:space="preserve">
+    <value>O aplikaci</value>
+  </data>
+  <data name="OptionSettingsPage_SectionBackup" xml:space="preserve">
+    <value>Záloha</value>
+  </data>
+  <data name="OptionSettingsPage_SectionContexts" xml:space="preserve">
+    <value>Souvislost</value>
+  </data>
+  <data name="OptionSettingsPage_SectionContextsFormat" xml:space="preserve">
+    <value>{0} souvislosti k dispozici</value>
+  </data>
+  <data name="OptionSettingsPage_SectionDisplay" xml:space="preserve">
+    <value>Zobrazit</value>
+  </data>
+  <data name="OptionSettingsPage_SectionFolders" xml:space="preserve">
+    <value>Složky</value>
+  </data>
+  <data name="OptionSettingsPage_SectionFoldersFormat" xml:space="preserve">
+    <value>{0} složek</value>
+  </data>
+  <data name="OptionSettingsPage_SectionGeneral" xml:space="preserve">
+    <value>Obecné</value>
+  </data>
+  <data name="OptionSettingsPage_SectionMisc" xml:space="preserve">
+    <value>Různé</value>
+  </data>
+  <data name="OptionSettingsPage_SectionMiscFormat" xml:space="preserve">
+    <value>jiné možnosti</value>
+  </data>
+  <data name="OptionSettingsPage_SectionOrderingFormat" xml:space="preserve">
+    <value>seřadit podle {0} poté podle {1} a pak podle {2}</value>
+  </data>
+  <data name="OptionSettingsPage_SectionSync" xml:space="preserve">
+    <value>Synchronizace</value>
+  </data>
+  <data name="OptionSettingsPage_SectionTaskOrder" xml:space="preserve">
+    <value>Řazení úkolů</value>
+  </data>
+  <data name="OptionSettingsPage_SectionVersionFormat" xml:space="preserve">
+    <value>2Day {0}</value>
+  </data>
+  <data name="OptionSettingsPage_SectionViews" xml:space="preserve">
+    <value>Zobrazení</value>
+  </data>
+  <data name="OptionSettingsPage_SectionViewsFormat" xml:space="preserve">
+    <value>{0} zobrazení povoleno z  {1}</value>
+  </data>
+  <data name="OptionSettingsPage_SyncConfiguredFormat" xml:space="preserve">
+    <value>{0} konfigurováno, poslední synchronizace {1}</value>
+  </data>
+  <data name="OptionSettingsPage_SyncNoConfigured" xml:space="preserve">
+    <value>Synchronizace není konfigurovaná</value>
+  </data>
+  <data name="ReminderDisplayMode_Icon" xml:space="preserve">
+    <value>ikona</value>
+  </data>
+  <data name="ReminderDisplayMode_IconAndTime" xml:space="preserve">
+    <value>ikona a čas</value>
+  </data>
+  <data name="ReminderDisplayMode_None" xml:space="preserve">
+    <value>nic</value>
+  </data>
+  <data name="ReminderDisplayMode_Time" xml:space="preserve">
+    <value>čas</value>
+  </data>
+  <data name="SampleData_FolderHobbies" xml:space="preserve">
+    <value>záliby</value>
+  </data>
+  <data name="SampleData_FolderHobbies_Task1" xml:space="preserve">
+    <value>rezervovat tenis</value>
+  </data>
+  <data name="SampleData_FolderHobbies_Task2" xml:space="preserve">
+    <value>vyzkoušet novou restauraci</value>
+  </data>
+  <data name="SampleData_FolderHobbies_Task3" xml:space="preserve">
+    <value>koupit lístky na rockový koncert</value>
+  </data>
+  <data name="SampleData_FolderPersonal_Task1" xml:space="preserve">
+    <value>zavolat instalatéra</value>
+  </data>
+  <data name="SampleData_FolderPersonal_Task1_Note" xml:space="preserve">
+    <value>v koupelně teče voda</value>
+  </data>
+  <data name="SampleData_FolderPersonal_Task2" xml:space="preserve">
+    <value>v kuchyni vyměnit žárovku</value>
+  </data>
+  <data name="SampleData_FolderPersonal_Task3" xml:space="preserve">
+    <value>zaplatit účet za telefon</value>
+  </data>
+  <data name="SampleData_FolderShopping" xml:space="preserve">
+    <value>nákupy</value>
+  </data>
+  <data name="SampleData_FolderShopping_Task1" xml:space="preserve">
+    <value>dárek pro Janu</value>
+  </data>
+  <data name="SampleData_FolderShopping_Task2" xml:space="preserve">
+    <value>džíny</value>
+  </data>
+  <data name="SampleData_FolderWork_Task1" xml:space="preserve">
+    <value>zápis ze schůze</value>
+  </data>
+  <data name="SampleData_FolderWork_Task2" xml:space="preserve">
+    <value>kontrola dokumentu</value>
+  </data>
+  <data name="SampleData_FolderWork_Task2_Description" xml:space="preserve">
+    <value>strany 12-38</value>
+  </data>
+  <data name="SampleData_FolderWork_Task3" xml:space="preserve">
+    <value>školení</value>
+  </data>
+  <data name="SampleData_FolderWork_Task4" xml:space="preserve">
+    <value>připravit demo</value>
+  </data>
+  <data name="SampleDate_FolderMovies" xml:space="preserve">
+    <value>filmy</value>
+  </data>
+  <data name="Settings_OptionTheme" xml:space="preserve">
+    <value>Téma</value>
+  </data>
+  <data name="Settings_SmartView_DescriptionFormat" xml:space="preserve">
+    <value>{0} chytrých zobrazení k dispozici</value>
+  </data>
+  <data name="Settings_ThemeDark" xml:space="preserve">
+    <value>Tmavá</value>
+  </data>
+  <data name="Settings_ThemeLight" xml:space="preserve">
+    <value>Světlá</value>
+  </data>
+  <data name="Settings_TitleAbout" xml:space="preserve">
+    <value>O aplikaci</value>
+  </data>
+  <data name="Settings_TitleHelp" xml:space="preserve">
+    <value>Nápověda</value>
+  </data>
+  <data name="Settings_TitleOptions" xml:space="preserve">
+    <value>Možnosti</value>
+  </data>
+  <data name="Settings_TitlePrivacy" xml:space="preserve">
+    <value>Ochrana soukromých údajů</value>
+  </data>
+  <data name="Settings_TitleSync" xml:space="preserve">
+    <value>Synchronizovat</value>
+  </data>
+  <data name="SmartView_AddBlock" xml:space="preserve">
+    <value>Přidat skupinu</value>
+  </data>
+  <data name="SmartView_AddRule" xml:space="preserve">
+    <value>Přidat pravidlo</value>
+  </data>
+  <data name="SmartView_And" xml:space="preserve">
+    <value>a</value>
+  </data>
+  <data name="SmartView_Create" xml:space="preserve">
+    <value>Vytvořit chytré zobrazení</value>
+  </data>
+  <data name="SmartView_Edit" xml:space="preserve">
+    <value>Upravit chytré zobrazení</value>
+  </data>
+  <data name="SmartView_EmptyHeader" xml:space="preserve">
+    <value>Chytré zobrazení neodpovídá žádnému úkolu</value>
+  </data>
+  <data name="SmartView_EmptyHint" xml:space="preserve">
+    <value>Nastavte možnost chytrého zobrazení nebo přidejte úkol, který bude odpovídat pravidlům chytrého zobrazení</value>
+  </data>
+  <data name="SmartView_FieldTitle" xml:space="preserve">
+    <value>Název</value>
+  </data>
+  <data name="SmartView_FilterAdded" xml:space="preserve">
+    <value>Přidáno</value>
+  </data>
+  <data name="SmartView_FilterBeginsWith" xml:space="preserve">
+    <value>Začíná</value>
+  </data>
+  <data name="SmartView_FilterCompleted" xml:space="preserve">
+    <value>Hotový</value>
+  </data>
+  <data name="SmartView_FilterContains" xml:space="preserve">
+    <value>Obsahuje</value>
+  </data>
+  <data name="SmartView_FilterContext" xml:space="preserve">
+    <value>Kontext</value>
+  </data>
+  <data name="SmartView_FilterDoesNotContains" xml:space="preserve">
+    <value>Neobsahuje</value>
+  </data>
+  <data name="SmartView_FilterDoesNotExist" xml:space="preserve">
+    <value>Neexistuje</value>
+  </data>
+  <data name="SmartView_FilterDue" xml:space="preserve">
+    <value>Splatný</value>
+  </data>
+  <data name="SmartView_FilterEndsWith" xml:space="preserve">
+    <value>Končí</value>
+  </data>
+  <data name="SmartView_FilterExists" xml:space="preserve">
+    <value>Existuje</value>
+  </data>
+  <data name="SmartView_FilterFolder" xml:space="preserve">
+    <value>Složka</value>
+  </data>
+  <data name="SmartView_FilterHasAlarm" xml:space="preserve">
+    <value>Má alarm</value>
+  </data>
+  <data name="SmartView_FilterHasRecurrence" xml:space="preserve">
+    <value>Opakuje se</value>
+  </data>
+  <data name="SmartView_FilterIs" xml:space="preserve">
+    <value>Je</value>
+  </data>
+  <data name="SmartView_FilterIsAfter" xml:space="preserve">
+    <value>Je po</value>
+  </data>
+  <data name="SmartView_FilterIsBefore" xml:space="preserve">
+    <value>Je před</value>
+  </data>
+  <data name="SmartView_FilterIsIn" xml:space="preserve">
+    <value>Je v</value>
+  </data>
+  <data name="SmartView_FilterIsInTheNext" xml:space="preserve">
+    <value>Je v dalším</value>
+  </data>
+  <data name="SmartView_FilterIsLessThan" xml:space="preserve">
+    <value>Je menší, než</value>
+  </data>
+  <data name="SmartView_FilterIsMoreThan" xml:space="preserve">
+    <value>Je větší, než</value>
+  </data>
+  <data name="SmartView_FilterIsNot" xml:space="preserve">
+    <value>Není</value>
+  </data>
+  <data name="SmartView_FilterIsNotIn" xml:space="preserve">
+    <value>Není v</value>
+  </data>
+  <data name="SmartView_FilterIsNotInTheNext" xml:space="preserve">
+    <value>Není v textu</value>
+  </data>
+  <data name="SmartView_FilterModified" xml:space="preserve">
+    <value>Upraveno</value>
+  </data>
+  <data name="SmartView_FilterNo" xml:space="preserve">
+    <value>Ne</value>
+  </data>
+  <data name="SmartView_FilterNote" xml:space="preserve">
+    <value>Poznámka</value>
+  </data>
+  <data name="SmartView_FilterPriority" xml:space="preserve">
+    <value>Priorita</value>
+  </data>
+  <data name="SmartView_FilterProgress" xml:space="preserve">
+    <value>Postup</value>
+  </data>
+  <data name="SmartView_FilterStart" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="SmartView_FilterTags" xml:space="preserve">
+    <value>Štítky</value>
+  </data>
+  <data name="SmartView_FilterWas" xml:space="preserve">
+    <value>Byl</value>
+  </data>
+  <data name="SmartView_FilterWasInTheLast" xml:space="preserve">
+    <value>Byl v poslední</value>
+  </data>
+  <data name="SmartView_FilterWasNot" xml:space="preserve">
+    <value>Nebyl</value>
+  </data>
+  <data name="SmartView_FilterWasNotInTheLast" xml:space="preserve">
+    <value>Nebyl v poslední</value>
+  </data>
+  <data name="SmartView_FilterYes" xml:space="preserve">
+    <value>Ano</value>
+  </data>
+  <data name="SmartView_HelpReadMore" xml:space="preserve">
+    <value>Přečtěte si více o chytrých zobrazení</value>
+  </data>
+  <data name="SmartView_IntroDescription" xml:space="preserve">
+    <value>Chytrá zobrazení pomáhají se zaměřením na úkoly, na kterých záleží. Nastavte pravidla ke konfiguraci filtrování úkolů a zaměřte se na to nejdůležitější.</value>
+  </data>
+  <data name="SmartView_LabelName" xml:space="preserve">
+    <value>Jméno</value>
+  </data>
+  <data name="SmartView_LabelRules" xml:space="preserve">
+    <value>Pravidla</value>
+  </data>
+  <data name="SmartView_LabelSmartView" xml:space="preserve">
+    <value>Chytrá zobrazení</value>
+  </data>
+  <data name="SmartView_MatchAll" xml:space="preserve">
+    <value>vše</value>
+  </data>
+  <data name="SmartView_MatchAny" xml:space="preserve">
+    <value>jakýkoliv</value>
+  </data>
+  <data name="SmartView_MessageCannotLoadFormat" xml:space="preserve">
+    <value>Při načítání tohoto chytrého zobrazení došlo k chybě. ({0})</value>
+  </data>
+  <data name="SmartView_MessageCannotSave" xml:space="preserve">
+    <value>Toto chytré zobrazení obsahuje neplatná pravidla</value>
+  </data>
+  <data name="SmartView_Or" xml:space="preserve">
+    <value>nebo</value>
+  </data>
+  <data name="SmartView_Warning_OneBlockMin" xml:space="preserve">
+    <value>Chytrý náhled musí mít alespoň 1 blok pravidel</value>
+  </data>
+  <data name="SmartView_Warning_OneRuleMin" xml:space="preserve">
+    <value>Chytrý náhled musí mít alespoň 1 pravidlo</value>
+  </data>
+  <data name="SortOrder_Ascending" xml:space="preserve">
+    <value>Vzestupně</value>
+  </data>
+  <data name="SortOrder_Descending" xml:space="preserve">
+    <value>Sestupně</value>
+  </data>
+  <data name="Speech_ErrorDuringRecognitionFormat" xml:space="preserve">
+    <value>Vyskytla se chyba při rozpoznávání hlasu ({0})</value>
+  </data>
+  <data name="Speech_NoAudioDevice" xml:space="preserve">
+    <value>Nenalezena žádná zařízení k zachycení zvuku</value>
+  </data>
+  <data name="Speech_ReviewPermission" xml:space="preserve">
+    <value>Povolení pro přístup k mikrofonu je zakázáno, prosím, aktualizujte nastavení Windows</value>
+  </data>
+  <data name="StartDate_FirstTimeMessage" xml:space="preserve">
+    <value>Změnit zobrazení úkolů s definovaným začátkem lze v obecném nastavení.</value>
+  </data>
+  <data name="StartDate_FirstTimeTitle" xml:space="preserve">
+    <value>Informace</value>
+  </data>
+  <data name="Startup_DefaultContextHome" xml:space="preserve">
+    <value>doma</value>
+  </data>
+  <data name="Startup_DefaultContextPhone" xml:space="preserve">
+    <value>telefon</value>
+  </data>
+  <data name="Startup_DefaultContextQuick" xml:space="preserve">
+    <value>rychle</value>
+  </data>
+  <data name="Startup_DefaultFolderName_Personal" xml:space="preserve">
+    <value>osobní</value>
+  </data>
+  <data name="Startup_DefaultFolderName_Work" xml:space="preserve">
+    <value>pracovní</value>
+  </data>
+  <data name="SyncAdvanced_CollectLogFirst" xml:space="preserve">
+    <value>Nejdříve povolte přihlášení a zkuste použít synchronizace ke sběru diagnostického obsahu.</value>
+  </data>
+  <data name="SyncAdvanced_DeleteAccountDescription" xml:space="preserve">
+    <value>Odstranit účet v synchronizační službě a odstranit synchronizační nastavení.</value>
+  </data>
+  <data name="SyncAdvanced_DeleteAccountTitle" xml:space="preserve">
+    <value>Smazat účet</value>
+  </data>
+  <data name="SyncAdvanced_DiagnosticsDescription" xml:space="preserve">
+    <value>Zkontrolujte synchronizaci stavu a připravte email k odeslání podpůrnému týmu.</value>
+  </data>
+  <data name="SyncAdvanced_DiagnosticsTitle" xml:space="preserve">
+    <value>Diagnostika</value>
+  </data>
+  <data name="SyncAdvanced_EmailDetail" xml:space="preserve">
+    <value>Prosím, zadejte v emailu maximální množství detailů o problému se synchronizací.</value>
+  </data>
+  <data name="SyncAdvanced_MergeDescription" xml:space="preserve">
+    <value>Získejte všechen vzdálený obsah z úplné synchronizace. Potom proveďte sloučení mezi místním a vzdáleným obsahem. Použijte data modifikace k zjištění stávající verze.</value>
+  </data>
+  <data name="SyncAdvanced_MergeTitle" xml:space="preserve">
+    <value>Sloučit</value>
+  </data>
+  <data name="SyncAdvanced_ReplaceDescription" xml:space="preserve">
+    <value>Odstraňte všechen obsah z 2Day (složky, kontexty, úkoly). Poté proveďte úplnou synchronizaci z vaší služby na 2Day.</value>
+  </data>
+  <data name="SyncAdvanced_ReplaceTitle" xml:space="preserve">
+    <value>Vyměnit</value>
+  </data>
+  <data name="SyncAdvanced_Title" xml:space="preserve">
+    <value>Rozšířené možnosti synchronizace</value>
+  </data>
+  <data name="SyncFeatures_Color" xml:space="preserve">
+    <value>Barva</value>
+  </data>
+  <data name="SyncFeatures_Context" xml:space="preserve">
+    <value>Souvislost</value>
+  </data>
+  <data name="SyncFeatures_DueDate" xml:space="preserve">
+    <value>Termín splnění</value>
+  </data>
+  <data name="SyncFeatures_Folder" xml:space="preserve">
+    <value>Složka</value>
+  </data>
+  <data name="SyncFeatures_Icon" xml:space="preserve">
+    <value>Ikona</value>
+  </data>
+  <data name="SyncFeatures_Note" xml:space="preserve">
+    <value>Poznámka</value>
+  </data>
+  <data name="SyncFeatures_Priority" xml:space="preserve">
+    <value>Priorita</value>
+  </data>
+  <data name="SyncFeatures_Progress" xml:space="preserve">
+    <value>Pokrok</value>
+  </data>
+  <data name="SyncFeatures_Recurrence" xml:space="preserve">
+    <value>Opakování</value>
+  </data>
+  <data name="SyncFeatures_Reminder" xml:space="preserve">
+    <value>Připomenutí</value>
+  </data>
+  <data name="SyncFeatures_StartDate" xml:space="preserve">
+    <value>Počáteční datum</value>
+  </data>
+  <data name="SyncFeatures_Title" xml:space="preserve">
+    <value>Název</value>
+  </data>
+  <data name="SyncProgress_AddingContextFormat" xml:space="preserve">
+    <value>Přídávám souvislost {0}...</value>
+  </data>
+  <data name="SyncProgress_AddingFolderFormat" xml:space="preserve">
+    <value>Přídávám složku {0}...</value>
+  </data>
+  <data name="SyncProgress_AddingSmartViewFormat" xml:space="preserve">
+    <value>Přidávám chytré zobrazení {0} ...</value>
+  </data>
+  <data name="SyncProgress_AddingTaskFormat" xml:space="preserve">
+    <value>Přidávám úkol {0}...</value>
+  </data>
+  <data name="SyncProgress_DeletingContext" xml:space="preserve">
+    <value>Mažu souvislost…</value>
+  </data>
+  <data name="SyncProgress_DeletingFolder" xml:space="preserve">
+    <value>Mažu složku…</value>
+  </data>
+  <data name="SyncProgress_DeletingSmartView" xml:space="preserve">
+    <value>Mazání chytrého zobrazení...</value>
+  </data>
+  <data name="SyncProgress_DeletingTaskFormat" xml:space="preserve">
+    <value>Mažu úkol {0}...</value>
+  </data>
+  <data name="SyncProgress_GettingContexts" xml:space="preserve">
+    <value>Načítám souvislosti…</value>
+  </data>
+  <data name="SyncProgress_GettingFolders" xml:space="preserve">
+    <value>Načítám složky…</value>
+  </data>
+  <data name="SyncProgress_GettingSmartViews" xml:space="preserve">
+    <value>Získávání chytrého zobrazení...</value>
+  </data>
+  <data name="SyncProgress_GettingTasks" xml:space="preserve">
+    <value>Načítám úkoly…</value>
+  </data>
+  <data name="SyncProgress_SignInIn" xml:space="preserve">
+    <value>Přihlašování...</value>
+  </data>
+  <data name="SyncProgress_SyncInProgress" xml:space="preserve">
+    <value>Sychronizace…</value>
+  </data>
+  <data name="SyncProgress_UpdatingContextFormat" xml:space="preserve">
+    <value>Aktualizuji souvislost {0}…</value>
+  </data>
+  <data name="SyncProgress_UpdatingFolderFormat" xml:space="preserve">
+    <value>Aktualizuji složku {0}…</value>
+  </data>
+  <data name="SyncProgress_UpdatingSmartViewFormat" xml:space="preserve">
+    <value>Aktualizuji chytré zobrazení {0} ...</value>
+  </data>
+  <data name="SyncProgress_UpdatingTaskFormat" xml:space="preserve">
+    <value>Aktualizuji úkoly {0}...</value>
+  </data>
+  <data name="SyncProgress_UpdatingTasks" xml:space="preserve">
+    <value>Aktualizuji úkoly…</value>
+  </data>
+  <data name="SyncSettingsPage_ConfirmDeleteMessage" xml:space="preserve">
+    <value>Chcete smazat nastavení sychronizace?</value>
+  </data>
+  <data name="SyncSettingsPage_LastSyncNever" xml:space="preserve">
+    <value>Nikdy</value>
+  </data>
+  <data name="Sync_Cancelled" xml:space="preserve">
+    <value>Synchronizace zrušena</value>
+  </data>
+  <data name="Sync_DeleteAccount_ErrorFormat" xml:space="preserve">
+    <value>Vyskytla se chyba během mazání vašeho účtu ({0})</value>
+  </data>
+  <data name="Sync_DeleteAccount_Message" xml:space="preserve">
+    <value>Opravdu chcete smazat svůj účet?</value>
+  </data>
+  <data name="Sync_DeleteAccount_Success" xml:space="preserve">
+    <value>Účet byl úspěšně smazán.</value>
+  </data>
+  <data name="Sync_FailedMessage" xml:space="preserve">
+    <value>Synchronizace selhala</value>
+  </data>
+  <data name="Sync_Misconfigured" xml:space="preserve">
+    <value>Synchronizace špatně nastavena</value>
+  </data>
+  <data name="Sync_NoNetworkConnectivity" xml:space="preserve">
+    <value>Není připojení k síti</value>
+  </data>
+  <data name="Sync_PreparingSync" xml:space="preserve">
+    <value>Připravuji sychronizaci…</value>
+  </data>
+  <data name="Sync_ViewLogs" xml:space="preserve">
+    <value>Zobrazení protokolů</value>
+  </data>
+  <data name="SystemView_All_EmptyHeader" xml:space="preserve">
+    <value>Žádný úkol</value>
+  </data>
+  <data name="SystemView_All_EmptyHint" xml:space="preserve">
+    <value>Začněte vložením úkolu do složky</value>
+  </data>
+  <data name="SystemView_Completed_EmptyHeader" xml:space="preserve">
+    <value>Žádný splněný úkol</value>
+  </data>
+  <data name="SystemView_Completed_EmptyHint" xml:space="preserve">
+    <value>Zapracujte a dokončete nějaké úkoly :-)</value>
+  </data>
+  <data name="SystemView_Late_EmptyHeader" xml:space="preserve">
+    <value>Žádný úkol není opožděn</value>
+  </data>
+  <data name="SystemView_Late_EmptyHint" xml:space="preserve">
+    <value>Všechny úkoly máte pod kontrolou :-)</value>
+  </data>
+  <data name="SystemView_NoDate_EmptyHeader" xml:space="preserve">
+    <value>Žádný úkol nená bez termínu splnění</value>
+  </data>
+  <data name="SystemView_NoDate_EmptyHint" xml:space="preserve">
+    <value>Všechny úkoly jsou naplánovány</value>
+  </data>
+  <data name="SystemView_Reminder_EmptyHeader" xml:space="preserve">
+    <value>Žádný úkol s připomenutím</value>
+  </data>
+  <data name="SystemView_Reminder_EmptyHint" xml:space="preserve">
+    <value>Přidejte k nějaké úloze připomenutí a zobrazí se zde</value>
+  </data>
+  <data name="SystemView_Starred_EmptyHeader" xml:space="preserve">
+    <value>Žádná úloha není s hvězdičkou</value>
+  </data>
+  <data name="SystemView_Starred_EmptyHint" xml:space="preserve">
+    <value>Nastavte prioritu na "hvězdičku" a úkol se zde objeví</value>
+  </data>
+  <data name="SystemView_StartDate_EmptyHeader" xml:space="preserve">
+    <value>Žádná naplánovaná úloha</value>
+  </data>
+  <data name="SystemView_StartDate_EmptyHint" xml:space="preserve">
+    <value>Nastavte počáteční datum úkolu a objeví se zde</value>
+  </data>
+  <data name="SystemView_TitleAll" xml:space="preserve">
+    <value>všechno</value>
+  </data>
+  <data name="SystemView_TitleCompleted" xml:space="preserve">
+    <value>splněno</value>
+  </data>
+  <data name="SystemView_TitleLate" xml:space="preserve">
+    <value>opožděno</value>
+  </data>
+  <data name="SystemView_TitleNoDate" xml:space="preserve">
+    <value>žádný termín</value>
+  </data>
+  <data name="SystemView_TitleNonCompleted" xml:space="preserve">
+    <value>řešit</value>
+  </data>
+  <data name="SystemView_TitleReminder" xml:space="preserve">
+    <value>připomenutí</value>
+  </data>
+  <data name="SystemView_TitleStarred" xml:space="preserve">
+    <value>oblíbené</value>
+  </data>
+  <data name="SystemView_TitleStartDate" xml:space="preserve">
+    <value>naplánováno</value>
+  </data>
+  <data name="SystemView_TitleToday" xml:space="preserve">
+    <value>dnes</value>
+  </data>
+  <data name="SystemView_TitleTomorrow" xml:space="preserve">
+    <value>zítra</value>
+  </data>
+  <data name="SystemView_TitleWeek" xml:space="preserve">
+    <value>týden</value>
+  </data>
+  <data name="SystemView_Today_EmptyHeader" xml:space="preserve">
+    <value>Žádné další úkoly na dnešek</value>
+  </data>
+  <data name="SystemView_Today_EmptyHint" xml:space="preserve">
+    <value>Užijte si den :-)</value>
+  </data>
+  <data name="SystemView_Tomorrow_EmptyHeader" xml:space="preserve">
+    <value>Žádné úkoly na zítřek</value>
+  </data>
+  <data name="SystemView_Tomorrow_EmptyHint" xml:space="preserve">
+    <value>Zítra to vypadá v klidu :-)</value>
+  </data>
+  <data name="SystemView_Week_EmptyHeader" xml:space="preserve">
+    <value>Žádný úkol pro nadcházející týden</value>
+  </data>
+  <data name="SystemView_Week_EmptyHint" xml:space="preserve">
+    <value>Že by čas udělat si volno?</value>
+  </data>
+  <data name="TaskDateShifter_ShiftNone" xml:space="preserve">
+    <value>Nic</value>
+  </data>
+  <data name="TaskDateShifter_ShiftOneMonth" xml:space="preserve">
+    <value>Měsíc</value>
+  </data>
+  <data name="TaskDateShifter_ShiftOneWeek" xml:space="preserve">
+    <value>Týden</value>
+  </data>
+  <data name="TaskDateShifter_ShiftToday" xml:space="preserve">
+    <value>Dnes</value>
+  </data>
+  <data name="TaskDateShifter_ShiftTomorrow" xml:space="preserve">
+    <value>Zítra</value>
+  </data>
+  <data name="TaskDateShifter_ShiftTwoWeeks" xml:space="preserve">
+    <value>Týdny</value>
+  </data>
+  <data name="TaskGroup_Action" xml:space="preserve">
+    <value>Akce</value>
+  </data>
+  <data name="TaskGroup_By" xml:space="preserve">
+    <value>Seskupit podle</value>
+  </data>
+  <data name="TaskGroup_Context" xml:space="preserve">
+    <value>Souvislost</value>
+  </data>
+  <data name="TaskGroup_Due" xml:space="preserve">
+    <value>Termin splnění</value>
+  </data>
+  <data name="TaskGroup_Folder" xml:space="preserve">
+    <value>Složka</value>
+  </data>
+  <data name="TaskGroup_Priority" xml:space="preserve">
+    <value>Priorita</value>
+  </data>
+  <data name="TaskGroup_Progress" xml:space="preserve">
+    <value>Pokrok</value>
+  </data>
+  <data name="TaskGroup_StartDate" xml:space="preserve">
+    <value>Termín zahájení</value>
+  </data>
+  <data name="TaskGroup_Status" xml:space="preserve">
+    <value>Stav</value>
+  </data>
+  <data name="TaskList_AddTaskHint" xml:space="preserve">
+    <value>Přidat úkol</value>
+  </data>
+  <data name="TaskList_RemoveCompleted" xml:space="preserve">
+    <value>Odstranit splněné úkoly</value>
+  </data>
+  <data name="TaskOrdering_AddedDate" xml:space="preserve">
+    <value>datum vložení</value>
+  </data>
+  <data name="TaskOrdering_Alphabetical" xml:space="preserve">
+    <value>abecední</value>
+  </data>
+  <data name="TaskOrdering_Context" xml:space="preserve">
+    <value>souvislost</value>
+  </data>
+  <data name="TaskOrdering_DueDate" xml:space="preserve">
+    <value>termín splnění</value>
+  </data>
+  <data name="TaskOrdering_Folder" xml:space="preserve">
+    <value>složka</value>
+  </data>
+  <data name="TaskOrdering_ModifiedDate" xml:space="preserve">
+    <value>datum úpravy</value>
+  </data>
+  <data name="TaskOrdering_Priority" xml:space="preserve">
+    <value>priorita</value>
+  </data>
+  <data name="TaskOrdering_StartDate" xml:space="preserve">
+    <value>počáteční datum</value>
+  </data>
+  <data name="TaskPriority_High" xml:space="preserve">
+    <value>Vysoká</value>
+  </data>
+  <data name="TaskPriority_Low" xml:space="preserve">
+    <value>Nízká</value>
+  </data>
+  <data name="TaskPriority_Medium" xml:space="preserve">
+    <value>Střední</value>
+  </data>
+  <data name="TaskPriority_None" xml:space="preserve">
+    <value>Žádná</value>
+  </data>
+  <data name="TaskPriority_Star" xml:space="preserve">
+    <value>Hvězdička</value>
+  </data>
+  <data name="Task_CreationDate" xml:space="preserve">
+    <value>Vytvořeno</value>
+  </data>
+  <data name="Task_ModificationDate" xml:space="preserve">
+    <value>Poslední úprava</value>
+  </data>
+  <data name="Tile_QuickAdd" xml:space="preserve">
+    <value>Rychle přidání</value>
+  </data>
+  <data name="WelcomePage_ValueProposition1" xml:space="preserve">
+    <value>Váš mozek by měl nápady vytvářet, ne je skladovat</value>
+  </data>
+  <data name="WelcomePage_ValueProposition2" xml:space="preserve">
+    <value>Rozvíjejte a dolaďte si váš perfektní systém pro splnění úkolů v nejpokročilejším todo-listu pro Windows</value>
+  </data>
+  <data name="TaskOrdering_Reminder" xml:space="preserve">
+    <value>připomenutí</value>
+  </data>
+  <data name="SmartView_Days" xml:space="preserve">
+    <value>dny</value>
+  </data>
+  <data name="SmartView_DaysAgo" xml:space="preserve">
+    <value>dny</value>
+  </data>
+  <data name="Notification_SnoozeMinutes" xml:space="preserve">
+    <value>Minut</value>
+  </data>
+  <data name="Notification_SnoozeHour" xml:space="preserve">
+    <value>Hodina</value>
+  </data>
+  <data name="Notification_SnoozeHours" xml:space="preserve">
+    <value>Hodiny</value>
+  </data>
+  <data name="Dialog_RestartInfo" xml:space="preserve">
+    <value>K aplikování této změny je třeba restartovat aplikaci 2Day.</value>
+  </data>
+  <data name="Misc_CreateBackup" xml:space="preserve">
+    <value>Vytvořit záložní kopii</value>
+  </data>
+  <data name="Misc_RestoreBackup" xml:space="preserve">
+    <value>Obnovení zálohy</value>
+  </data>
+  <data name="SmartView_DaysPeriod" xml:space="preserve">
+    <value>dny</value>
+  </data>
+  <data name="SmartView_FilterIsLate" xml:space="preserve">
+    <value>Opožděno</value>
+  </data>
+  <data name="SmartView_FilterIsToday" xml:space="preserve">
+    <value>Dnes je</value>
+  </data>
+  <data name="SmartView_FilterIsTomorrow" xml:space="preserve">
+    <value>Zítra je</value>
+  </data>
+  <data name="SmartView_FilterIsYesterday" xml:space="preserve">
+    <value>Včera byla</value>
+  </data>
+  <data name="TaskGroup_Completed" xml:space="preserve">
+    <value>Splněno</value>
+  </data>
+  <data name="Message_LoadingTasks" xml:space="preserve">
+    <value>Načítání úkolů...</value>
+  </data>
+  <data name="Exchange_InvalidSyncKeyWorkaround" xml:space="preserve">
+    <value>Neplatný synchronizační klíč. Doporučeným řešením je "nahradit" synchronizaci.</value>
+  </data>
+  <data name="Settings_NoBadgeValue" xml:space="preserve">
+    <value>Žádná</value>
+  </data>
+  <data name="Action_Save_Tooltip" xml:space="preserve">
+    <value>Uložit (CTRL + S)</value>
+  </data>
+  <data name="Action_SaveAndContinue_Tooltip" xml:space="preserve">
+    <value>Uložit + přidání (CTRL + Enter)</value>
+  </data>
+  <data name="TaskGroup_Modified" xml:space="preserve">
+    <value>Upraveno</value>
+  </data>
+  <data name="Misc_SmartViews" xml:space="preserve">
+    <value>Chytrá zobrazení</value>
+  </data>
+  <data name="Misc_Folders" xml:space="preserve">
+    <value>Složky</value>
+  </data>
+  <data name="Misc_Contexts" xml:space="preserve">
+    <value>Souvislost</value>
+  </data>
+  <data name="Misc_Tags" xml:space="preserve">
+    <value>Štítky</value>
+  </data>
+  <data name="OptionSettingsPage_SectionHelp" xml:space="preserve">
+    <value>Nápověda</value>
+  </data>
+  <data name="Notification_TaskUpdated" xml:space="preserve">
+    <value>aktualizováno úkol</value>
+  </data>
+  <data name="SmartView_PreviewCount" xml:space="preserve">
+    <value>Počet úloh, které odpovídají SmartView:</value>
+  </data>
+  <data name="OptionSettingsPage_SectionHelpFormat" xml:space="preserve">
+    <value>získat pomoc on-line</value>
+  </data>
+  <data name="Misc_ShowBackgroundExecutionDetails" xml:space="preserve">
+    <value>Show pozadí Detail exekuční</value>
+  </data>
+  <data name="Misc_SortByNames" xml:space="preserve">
+    <value>Třídit podle jména</value>
+  </data>
+  <data name="Misc_DangerZone" xml:space="preserve">
+    <value>Nebezpečná zóna</value>
+  </data>
+  <data name="Sync_FixProblems" xml:space="preserve">
+    <value>Získejte pomoc otázek, kterým se synchronizací</value>
+  </data>
+  <data name="Message_TapToContinue" xml:space="preserve">
+    <value>Klepnutím sem pokračovat v 2Day</value>
+  </data>
+  <data name="SystemView_ToSync_EmptyHint" xml:space="preserve">
+    <value>Relaxovat a užívat si den :-)</value>
+  </data>
+  <data name="SystemView_ToSync_EmptyHeader" xml:space="preserve">
+    <value>Všechny úkoly jsou synchronizovány</value>
+  </data>
+  <data name="SystemView_TitleToSync" xml:space="preserve">
+    <value>synchronizovat</value>
+  </data>
+  <data name="Message_DeleteNoSyncIdFormat" xml:space="preserve">
+    <value>Existuje {0} úkol (y), která se zdá být pouze v 2Day a nikoli synchronizovat. pokud nebyly správně synchronizovány by mohly být ztraceny. Pokračovat?</value>
+  </data>
+  <data name="Message_LiveTileRemoveMe" xml:space="preserve">
+    <value>odstraň mě</value>
+  </data>
+  <data name="Action_Sync_Tooltip" xml:space="preserve">
+    <value>Sync (CTRL + U)</value>
+  </data>
+  <data name="Action_Speech_Tooltip" xml:space="preserve">
+    <value>Rozpoznávání řeči (CTRL + E)</value>
+  </data>
+  <data name="Action_QuickAddTask_Tooltip" xml:space="preserve">
+    <value>Quick úkol add (CTRL + Q)</value>
+  </data>
+  <data name="Action_Cancel_Toolip" xml:space="preserve">
+    <value>Zrušit (Escape)</value>
+  </data>
+  <data name="Action_AddTask_Tooltip" xml:space="preserve">
+    <value>Přidat úkol (CTRL + N)</value>
+  </data>
+  <data name="Notification_TasksUpdated" xml:space="preserve">
+    <value>úkoly aktualizováno</value>
+  </data>
+  <data name="Notification_NewTaskCreatedWithStartDateFormat" xml:space="preserve">
+    <value>Úkol "{0}" vytvořil, datum začátku {1}</value>
+  </data>
+  <data name="Action_Uncomplete" xml:space="preserve">
+    <value>nekompletní</value>
+  </data>
+  <data name="MainPage_SearchDescriptionFormat" xml:space="preserve">
+    <value>Vyhledávání '{0}'</value>
+  </data>
+  <data name="Message_AppUpdatedMessage" xml:space="preserve">
+    <value>2Day byl aktualizován, klepněte sem pro zobrazení poznámka k vydání :-)</value>
+  </data>
+  <data name="Message_AppUpdatedTitle" xml:space="preserve">
+    <value>App aktualizováno!</value>
+  </data>
+  <data name="MainPage_SearchPlaceHolder" xml:space="preserve">
+    <value>Vyhledávání</value>
+  </data>
+  <data name="General_LabelTime" xml:space="preserve">
+    <value>Čas</value>
+  </data>
+  <data name="General_LabelDate" xml:space="preserve">
+    <value>Datum</value>
+  </data>
+  <data name="General_LabelDone" xml:space="preserve">
+    <value>Hotovo</value>
+  </data>
+  <data name="CustomFrequency_EveryDay" xml:space="preserve">
+    <value>Každý den</value>
+  </data>
+  <data name="CustomFrequency_EveryMonth" xml:space="preserve">
+    <value>Každý měsíc</value>
+  </data>
+  <data name="CustomFrequency_EveryWeek" xml:space="preserve">
+    <value>Každý týden</value>
+  </data>
+  <data name="CustomFrequency_EveryYear" xml:space="preserve">
+    <value>Každý rok</value>
+  </data>
+  <data name="CustomFrequency_None" xml:space="preserve">
+    <value>Žádný</value>
+  </data>
+  <data name="TaskPage_Context" xml:space="preserve">
+    <value>Kontext</value>
+  </data>
+  <data name="TaskPage_DueDate" xml:space="preserve">
+    <value>Termín splnění</value>
+  </data>
+  <data name="TaskPage_Frequency" xml:space="preserve">
+    <value>Četnost</value>
+  </data>
+  <data name="TaskPage_Progress" xml:space="preserve">
+    <value>Postup</value>
+  </data>
+  <data name="TaskPage_Reminder" xml:space="preserve">
+    <value>Připomenutí</value>
+  </data>
+  <data name="TaskPage_StartDate" xml:space="preserve">
+    <value>Počáteční datum</value>
+  </data>
+  <data name="TaskPage_Tag" xml:space="preserve">
+    <value>Štítky</value>
+  </data>
+  <data name="TaskPage_SubTask" xml:space="preserve">
+    <value>Podúkol</value>
+  </data>
+  <data name="Notification_SnoozeDay" xml:space="preserve">
+    <value>Den</value>
+  </data>
+  <data name="TaskPage_SubTasks" xml:space="preserve">
+    <value>Dílčí úkoly</value>
+  </data>
+  <data name="TaskPage_TaskNamePlaceholder" xml:space="preserve">
+    <value>Název úkolu...</value>
+  </data>
+  <data name="SmartView_FilterHasSubtasks" xml:space="preserve">
+    <value>S dílčích úkolů</value>
+  </data>
+</root>

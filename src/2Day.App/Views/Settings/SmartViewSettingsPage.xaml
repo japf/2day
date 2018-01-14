@@ -1,0 +1,51 @@
+﻿<Page
+    x:Class="Chartreuse.Today.App.Views.Settings.SmartViewSettingsPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:controls="using:Chartreuse.Today.App.Controls"
+    xmlns:behavior="using:Chartreuse.Today.App.Tools.Behavior"
+    mc:Ignorable="d">
+
+    <controls:FlyoutHost Text="{x:Bind Path=Strings.SmartView_LabelSmartView}">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+
+            <Grid Grid.Row="0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0">
+                    <TextBlock
+                        Text="{x:Bind Path=Strings.SmartView_IntroDescription}"
+                        FontSize="14"
+                        TextWrapping="Wrap"
+                        VerticalAlignment="Center"/>
+                    <Button 
+                        Content="{x:Bind Path=Strings.SmartView_HelpReadMore}"
+                        Style="{StaticResource HyperlinkButtonStyle}"
+                        Margin="-5,0,0,0"
+                        behavior:OpenHyperlinkOnTap.Target="{x:Bind Path=HyperlinkResources.HelpPageSmartViews}"/>
+                </StackPanel>
+                <controls:IconButton
+                    Grid.Column="1"
+                    Icon="CommonAdd"
+                    Margin="5,0,-7,0"
+                    Style="{StaticResource TransparentIconButtonStyle}"
+                    Command="{x:Bind Path=ViewModel.CreateItemCommand}"/>
+            </Grid>
+
+            <ListView
+                x:Name="listview"
+                Grid.Row="1"
+                Style="{StaticResource FlyoutListViewStyle}"
+                ItemsSource="{x:Bind Path=ViewModel.CollectionView}"
+                ItemTemplate="{StaticResource SettingsFolderBaseItemTemplate}"/>
+        </Grid>
+    </controls:FlyoutHost>
+</Page>

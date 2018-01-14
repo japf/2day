@@ -1,0 +1,151 @@
+﻿<Page
+    x:Class="Chartreuse.Today.App.Views.Sync.ExchangeSettingsPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:controls="using:Chartreuse.Today.App.Controls"
+    xmlns:app="using:Chartreuse.Today.App"
+    mc:Ignorable="d"
+    d:DesignHeight="1000">
+
+    <controls:FlyoutHost x:Name="flyoutHost" x:Uid="ExchangeSettingsPage_Title" Text="ExchangeSettingsPage_Title">
+        <StackPanel> 
+            
+            <TextBlock
+                x:Uid="ExchangeSettingsPage_Email"
+                Text="ExchangeSettingsPage_Email"
+                Margin="0,0,0,5"/>
+            <TextBox
+                Style="{StaticResource ModernTextBoxSettingsStyle}"
+                Text="{Binding Path=Email, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                InputScope="EmailSmtpAddress"/>
+
+            <TextBlock
+                x:Uid="ExchangeSettingsPage_Password"
+                Text="ExchangeSettingsPage_Password"
+                Margin="0,10,0,5"/>
+            <PasswordBox
+                Style="{StaticResource ModernPasswordBoxSettingsStyle}"
+                PasswordRevealMode="Peek"/>
+
+            <controls:HintTextBlock 
+                x:Uid="ExchangeSettingsPage_SetupMicrosoftAccount"
+                Text="ExchangeSettingsPage_SetupMicrosoftAccount"                
+                AnimatedVisibility="{x:Bind Path=ViewModel.ShowMicrosoftHelp, Mode=OneWay, Converter={StaticResource BooleanToVisibilityConverter}}"/>                 
+
+            <Grid Margin="0,40,0,5">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <TextBlock 
+                    Grid.Column="0"
+                    x:Uid="ExchangeSettingsPage_Advanced"
+                    VerticalAlignment="Center"
+                    Text="ExchangeSettingsPage_Advanced"/>
+                <Button 
+                    Grid.Column="1"
+                    x:Uid="ExchangeSettingsPage_Help"
+                    Content="ExchangeSettingsPage_Help"
+                    Tapped="OnHelpTapped"
+                    Style="{StaticResource HyperlinkButtonStyle}"
+                    Padding="5,5,0,5"
+                    HorizontalAlignment="Right"/>
+            </Grid>
+
+            <TextBlock
+                x:Uid="ExchangeSettingsPage_Version"
+                Text="ExchangeSettingsPage_Version"
+                Margin="0,10,0,5"/>
+            <ComboBox
+                ItemsSource="{x:Bind Path=ViewModel.ExchangeVersions, Mode=OneTime}"
+                SelectedItem="{x:Bind Path=ViewModel.ExchangeVersion, Mode=TwoWay}"/>
+            
+            <TextBlock
+                x:Uid="ExchangeSettingsPage_UserName"
+                Text="ExchangeSettingsPage_UserName"
+                Margin="0,10,0,5"/>
+            <TextBox
+                Style="{StaticResource ModernTextBoxSettingsStyle}"
+                Text="{x:Bind Path=ViewModel.Username, Mode=TwoWay}"/>
+            
+            <TextBlock
+                x:Uid="ExchangeSettingsPage_Domain"
+                Text="ExchangeSettingsPage_Domain"
+                Margin="0,10,0,5"/>
+            <TextBox
+                Style="{StaticResource ModernTextBoxSettingsStyle}"
+                Text="{x:Bind Path=ViewModel.Domain, Mode=TwoWay}"/>   
+            
+            <TextBlock
+                x:Uid="ExchangeSettingsPage_ServerUri"
+                Text="ExchangeSettingsPage_ServerUri"
+                Margin="0,10,0,5"/>
+            <TextBox
+                Style="{StaticResource ModernTextBoxSettingsStyle}"
+                Text="{x:Bind Path=ViewModel.ServerUri, Mode=TwoWay}"
+                InputScope="Url"
+                Height="Auto"/>               
+            
+            <ToggleSwitch                
+                IsOn="{x:Bind Path=ViewModel.UseSSL, Mode=TwoWay}"
+                Margin="0,10,0,5">
+                <ToggleSwitch.HeaderTemplate>
+                    <DataTemplate>
+                        <TextBlock
+                            x:Uid="ExchangeSettingsPage_UseSSL"
+                            Text="ExchangeSettingsPage_UseSSL"
+                            Margin="-5,0,0,0"
+                            FontSize="11"
+                            FontWeight="Normal"/>
+                    </DataTemplate>
+                </ToggleSwitch.HeaderTemplate>
+            </ToggleSwitch>
+
+            <ToggleSwitch                
+                IsOn="{x:Bind Path=ViewModel.SyncFlaggedItems, Mode=TwoWay}"
+                Margin="0,10,0,5">
+                <ToggleSwitch.HeaderTemplate>
+                    <DataTemplate>
+                        <TextBlock
+                            x:Uid="ExchangeSettingsPage_SyncFlaggedItems"
+                            Text="ExchangeSettingsPage_SyncFlaggedItems"
+                            Margin="-5,0,0,0"
+                            FontSize="11"
+                            FontWeight="Normal"/>
+                    </DataTemplate>
+                </ToggleSwitch.HeaderTemplate>
+            </ToggleSwitch>
+
+            <Button 
+                Command="{x:Bind Path=ViewModel.CheckSettingsCommand}"
+                Padding="6,6"
+                Margin="-3,20,-3,0"
+                MinHeight="50"
+                HorizontalAlignment="Stretch">
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock 
+                        Text="{x:Bind Path=Strings.General_LabelOk}"
+                        Visibility="{x:Bind Path=ViewModel.IsBusy, Converter={StaticResource BooleanToInvertVisibilityConverter}, Mode=OneWay}"
+                        Foreground="{StaticResource ApplicationForegroundThemeBrush}"
+                        VerticalAlignment="Center"/>
+                    
+                    <ProgressRing
+                        Visibility="{x:Bind Path=ViewModel.IsBusy, Converter={StaticResource BooleanToVisibilityConverter}, Mode=OneWay}"
+                        Foreground="{StaticResource ApplicationForegroundThemeBrush}"
+                        Width="30"
+                        Height="30"
+                        Margin="0,0,10,0"
+                        IsActive="True"/>
+                    <TextBlock 
+                        Visibility="{x:Bind Path=ViewModel.IsBusy, Converter={StaticResource BooleanToVisibilityConverter}, Mode=OneWay}"
+                        Text="{x:Bind Path=ViewModel.BusyText, Mode=OneWay}"
+                        TextWrapping="Wrap"
+                        Foreground="{StaticResource ApplicationForegroundThemeBrush}"
+                        VerticalAlignment="Center"/>
+                </StackPanel>
+            </Button>
+        </StackPanel>
+    </controls:FlyoutHost>
+</Page>

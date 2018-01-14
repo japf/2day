@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <MinimumVisualStudioVersion>10.0</MinimumVisualStudioVersion>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{04A4D692-538D-44ED-B304-B0A299A5026E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Chartreuse.Today.App.Shared</RootNamespace>
+    <AssemblyName>2Day.App.Shared</AssemblyName>
+    <DefaultLanguage>en-US</DefaultLanguage>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{786C830F-07A1-408B-BD7F-6EE04809D6DB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkProfile>Profile44</TargetFrameworkProfile>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <NoWarn>4014;1998</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <!-- A reference to the entire .NET Framework is automatically included -->
+    <None Include="app.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ViewModel\Sync\ActiveSyncSettingsViewModel.cs" />
+    <Compile Include="ViewModel\Sync\OutlookActiveSyncSettingsViewModel.cs" />
+    <Compile Include="ViewModel\Sync\AdvancedSyncModeItem.cs" />
+    <Compile Include="ViewModel\Sync\AdvancedSyncSettingsPageViewModel.cs" />
+    <Compile Include="ViewModel\Sync\ExchangeSettingsViewModel.cs" />
+    <Compile Include="ViewModel\Sync\SyncSettingsViewModelBase.cs" />
+    <Compile Include="ViewModel\Sync\SyncWarningChecker.cs" />
+    <Compile Include="ViewModel\Sync\ToodleDoSettingsViewModel.cs" />
+    <Compile Include="ViewModel\Sync\VercorsSettingsViewModel.cs" />
+    <Compile Include="ViewModel\CreateFolderViewModel.cs" />
+    <Compile Include="ViewModel\CreateSmartViewViewModel.cs" />
+    <Compile Include="ViewModel\CreateTaskViewModel.cs" />
+    <Compile Include="ViewModel\DebugItemViewModel.cs" />
+    <Compile Include="ViewModel\DebugPageViewModel.cs" />
+    <Compile Include="ViewModel\EditFolderViewModel.cs" />
+    <Compile Include="ViewModel\EditSmartViewViewModel.cs" />
+    <Compile Include="ViewModel\EditTaskViewModel.cs" />
+    <Compile Include="ViewModel\EditViewViewModel.cs" />
+    <Compile Include="ViewModel\FolderItemViewModel.cs" />
+    <Compile Include="ViewModel\FolderViewModelBase.cs" />
+    <Compile Include="ViewModel\IMainPageViewModel.cs" />
+    <Compile Include="ViewModel\IPageViewModel.cs" />
+    <Compile Include="ViewModel\ItemCountViewModel.cs" />
+    <Compile Include="ViewModel\MainPageViewModelBase.cs" />
+    <Compile Include="ViewModel\MenuItemViewModel.cs" />
+    <Compile Include="ViewModel\PageViewModelBase.cs" />
+    <Compile Include="ViewModel\QuickAddTaskViewModel.cs" />
+    <Compile Include="ViewModel\RelayCommand.cs" />
+    <Compile Include="ViewModel\SeparatorItemViewModel.cs" />
+    <Compile Include="ViewModel\Settings\HeadedSettingItemViewModel.cs" />
+    <Compile Include="ViewModel\Settings\AboutPageViewModel.cs" />
+    <Compile Include="ViewModel\Settings\BackupSettingsPageViewModel.cs" />
+    <Compile Include="ViewModel\Settings\CollectionViewSourceSettingsViewModel.cs" />
+    <Compile Include="ViewModel\Settings\ContextSettingsPageViewModel.cs" />
+    <Compile Include="ViewModel\Settings\DisplaySettingsPageViewModel.cs" />
+    <Compile Include="ViewModel\Settings\FolderSettingsPageViewModel.cs" />
+    <Compile Include="ViewModel\Settings\GeneralSettingsPageViewModel.cs" />
+    <Compile Include="ViewModel\Settings\IViewSettingsPageViewModel.cs" />
+    <Compile Include="ViewModel\Settings\MiscSettingsPageViewModelBase.cs" />
+    <Compile Include="ViewModel\Settings\SettingsItemViewModel.cs" />
+    <Compile Include="ViewModel\Settings\SettingsPageViewModel.cs" />
+    <Compile Include="ViewModel\Settings\SmartViewSettingsPageViewModel.cs" />
+    <Compile Include="ViewModel\Settings\SyncProviderViewModel.cs" />
+    <Compile Include="ViewModel\Settings\SyncSettingsPageViewModel.cs" />
+    <Compile Include="ViewModel\Settings\TaskOrderSettingsPageViewModel.cs" />
+    <Compile Include="ViewModel\Settings\ViewSettingsPageViewModel.cs" />
+    <Compile Include="ViewModel\SmartViewBlockViewModel.cs" />
+    <Compile Include="ViewModel\SmartViewRuleValueViewModel.cs" />
+    <Compile Include="ViewModel\SmartViewRuleViewModel.cs" />
+    <Compile Include="ViewModel\SmartViewViewModelBase.cs" />
+    <Compile Include="ViewModel\TaskViewModelBase.cs" />
+    <Compile Include="ViewModel\ViewLocator.cs" />
+    <Compile Include="ViewModel\ViewModelBase.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\2Day.Core.Shared\2Day.Core.Shared.csproj">
+      <Project>{552731F9-5444-41D5-B3B9-D3817154E349}</Project>
+      <Name>2Day.Core.Shared</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\2Day.Exchange.Shared\2Day.Exchange.Shared.csproj">
+      <Project>{292F47A9-07BA-489A-9EB6-6C72C41D277F}</Project>
+      <Name>2Day.Exchange.Shared</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\2Day.ToodleDo.Shared\2Day.ToodleDo.Shared.csproj">
+      <Project>{9B806CF2-AA50-4E17-A7A2-012E1E5B7B93}</Project>
+      <Name>2Day.ToodleDo.Shared</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\2Day.Vercors.Shared\2Day.Vercors.Shared.csproj">
+      <Project>{76C78F22-5489-4B14-8544-A5A5E6D92491}</Project>
+      <Name>2Day.Vercors.Shared</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="MvvmCross.Core, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MvvmCross.Core.4.4.0\lib\portable-net45+win+wpa81+wp80\MvvmCross.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MvvmCross.Platform, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MvvmCross.Platform.4.4.0\lib\portable-net45+win+wpa81+wp80\MvvmCross.Platform.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
+  <Import Project="..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets" Condition="Exists('..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

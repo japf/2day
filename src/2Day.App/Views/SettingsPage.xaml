@@ -1,0 +1,45 @@
+﻿<Page
+    x:Class="Chartreuse.Today.App.Views.SettingsPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:controls="using:Chartreuse.Today.App.Controls"
+    xmlns:settings="using:Chartreuse.Today.App.Shared.ViewModel.Settings"
+    mc:Ignorable="d" 
+    d:DataContext="{d:DesignInstance settings:SettingsPageViewModel}">
+
+    <controls:FlyoutHost x:Uid="SettingsPage_Title" Text="SettingsPage_Title" Background="{StaticResource AppFlyoutBackgroundBrush}">
+        <ListView 
+            ItemsSource="{x:Bind Path=ViewModel.Items}" 
+            Style="{StaticResource FlyoutListViewStyle}" 
+            CanDrag="False" CanReorderItems="False">
+            <ListView.ItemTemplate>
+                <DataTemplate x:DataType="settings:SettingsItemViewModel">
+                    <Grid Background="Transparent" Tapped="OnSettingItemTapped" Margin="5">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <Border Grid.Column="0" Margin="5" Background="{StaticResource ApplicationAccentBrush}" Width="48" Height="48">
+                            <controls:IconText
+                                Icon="{x:Bind Path=Icon}"
+                                Foreground="{StaticResource ApplicationWhiteForegroundBrush}"/>
+                        </Border>
+                        <StackPanel Grid.Column="1" VerticalAlignment="Center" Margin="6,0,0,0">
+                            <TextBlock 
+                                Text="{x:Bind Path=Headline}"
+                                TextWrapping="WrapWholeWords"/>
+                            <TextBlock 
+                                Text="{x:Bind Path=Description, Mode=OneWay}" 
+                                Opacity="0.7" 
+                                FontSize="12" 
+                                Margin="7,0,0,0"
+                                TextWrapping="WrapWholeWords"/>
+                        </StackPanel>
+                    </Grid>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </controls:FlyoutHost>
+</Page>

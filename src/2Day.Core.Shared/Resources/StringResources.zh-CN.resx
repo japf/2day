@@ -1,0 +1,1587 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="About_ContactUs" xml:space="preserve">
+    <value>联系我们</value>
+  </data>
+  <data name="About_Facebook" xml:space="preserve">
+    <value>关注我们Facebook</value>
+  </data>
+  <data name="About_FollowUs" xml:space="preserve">
+    <value>关注我们Twitter</value>
+  </data>
+  <data name="About_Help" xml:space="preserve">
+    <value>帮助</value>
+  </data>
+  <data name="About_HelpDetail" xml:space="preserve">
+    <value>阅读在线帮助</value>
+  </data>
+  <data name="About_ReviewTheApp" xml:space="preserve">
+    <value>回顾2Day</value>
+  </data>
+  <data name="About_ShareEnthousiasm" xml:space="preserve">
+    <value>分享您的热情</value>
+  </data>
+  <data name="About_SubmitIdeas" xml:space="preserve">
+    <value>提交您的意见</value>
+  </data>
+  <data name="About_Updates" xml:space="preserve">
+    <value>更新</value>
+  </data>
+  <data name="About_UpdatesDetail" xml:space="preserve">
+    <value>查看更新历史</value>
+  </data>
+  <data name="About_WindowsStoreDesktop" xml:space="preserve">
+    <value>查看台式电脑和平板电脑的Windows版本！</value>
+  </data>
+  <data name="About_WindowsStorePhone" xml:space="preserve">
+    <value>查看Windows Phone版本！</value>
+  </data>
+  <data name="Action_Cancel" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="Action_Complete" xml:space="preserve">
+    <value>完成</value>
+  </data>
+  <data name="Action_Delete" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="Action_Pin" xml:space="preserve">
+    <value>固定</value>
+  </data>
+  <data name="Action_Postpone" xml:space="preserve">
+    <value>推迟</value>
+  </data>
+  <data name="Action_Save" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="Action_SaveAndContinue" xml:space="preserve">
+    <value>保存 + 添加</value>
+  </data>
+  <data name="Action_Unpin" xml:space="preserve">
+    <value>解除固定</value>
+  </data>
+  <data name="AddContext_Title" xml:space="preserve">
+    <value>创建情景</value>
+  </data>
+  <data name="Analytics_Comments" xml:space="preserve">
+    <value>评论</value>
+  </data>
+  <data name="Analytics_DisableQuestion" xml:space="preserve">
+    <value>不显示有关 2Day 使用的问题</value>
+  </data>
+  <data name="Analytics_DoNoShowAgain" xml:space="preserve">
+    <value>以后不再显示此类消息 :-(</value>
+  </data>
+  <data name="Analytics_Email" xml:space="preserve">
+    <value>电子邮件（可选）</value>
+  </data>
+  <data name="Analytics_NotificationTest" xml:space="preserve">
+    <value>请用 30 秒时间回答一个快速提问</value>
+  </data>
+  <data name="Analytics_Title" xml:space="preserve">
+    <value>快速提问以帮助改进 2Day！</value>
+  </data>
+  <data name="AppBar_EditContext" xml:space="preserve">
+    <value>编辑情景</value>
+  </data>
+  <data name="AppBar_EditFolder" xml:space="preserve">
+    <value>编辑文件夹</value>
+  </data>
+  <data name="AppBar_EditView" xml:space="preserve">
+    <value>编辑视图</value>
+  </data>
+  <data name="AppMenu_ContextMenu_Folder_Delete" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="AppMenu_ContextMenu_Folder_Edit" xml:space="preserve">
+    <value>编辑</value>
+  </data>
+  <data name="AppMenu_ContextMenu_Folder_Pin" xml:space="preserve">
+    <value>固定</value>
+  </data>
+  <data name="AppMenu_ContextMenu_Folder_Share" xml:space="preserve">
+    <value>共享</value>
+  </data>
+  <data name="AppMenu_ContextMenu_Folder_Unpin" xml:space="preserve">
+    <value>解除固定</value>
+  </data>
+  <data name="AppMenu_ContextMenu_Hide" xml:space="preserve">
+    <value>隐藏</value>
+  </data>
+  <data name="AutoDelete_Never" xml:space="preserve">
+    <value>从不</value>
+  </data>
+  <data name="AutoDelete_OneDay" xml:space="preserve">
+    <value>一天</value>
+  </data>
+  <data name="AutoDelete_OneMonth" xml:space="preserve">
+    <value>一个月</value>
+  </data>
+  <data name="AutoDelete_OneWeek" xml:space="preserve">
+    <value>一周</value>
+  </data>
+  <data name="AutoDelete_ThreeDays" xml:space="preserve">
+    <value>三天</value>
+  </data>
+  <data name="AutoDelete_ThreeMonths" xml:space="preserve">
+    <value>三个月</value>
+  </data>
+  <data name="AutoDelete_TwoWeeks" xml:space="preserve">
+    <value>两周</value>
+  </data>
+  <data name="BootstrapDragTaskNote" xml:space="preserve">
+    <value>将这一任务移动到左侧菜单或到其他组</value>
+  </data>
+  <data name="BootstrapDragTaskTitle" xml:space="preserve">
+    <value>请尝试向下拖动</value>
+  </data>
+  <data name="BootstrapSlideTaskNote" xml:space="preserve">
+    <value>向左滑动以获取更多选项</value>
+  </data>
+  <data name="BootstrapSlideTaskTitle" xml:space="preserve">
+    <value>向右滑动以完成一项任务</value>
+  </data>
+  <data name="BootstrapVoiceCommandTaskNote" xml:space="preserve">
+    <value>您知道您可以添加任务或使用您的语音设置提醒吗？在Windows Phone“开始”屏幕中按住Windows按钮并录入语音，譬如说：“2Day，添加一个明天的任务”。如果您在录入语音期间点击“？”按钮，您将能够看到由2Day支持的所有语音指令。</value>
+  </data>
+  <data name="BootstrapVoiceCommandTaskTitle" xml:space="preserve">
+    <value>试用语音指令</value>
+  </data>
+  <data name="BootstrapWelcomeTaskNote" xml:space="preserve">
+    <value>享受 Windows 版的 2Day 吧！</value>
+  </data>
+  <data name="BootstrapWelcomeTaskTitle" xml:space="preserve">
+    <value>欢迎</value>
+  </data>
+  <data name="CompletedTaskMode_Group" xml:space="preserve">
+    <value>列表的末尾</value>
+  </data>
+  <data name="CompletedTaskMode_Hide" xml:space="preserve">
+    <value>隐藏</value>
+  </data>
+  <data name="CompletedTaskMode_Show" xml:space="preserve">
+    <value>显示</value>
+  </data>
+  <data name="Context_EmptyHeader" xml:space="preserve">
+    <value>情景为空</value>
+  </data>
+  <data name="Context_EmptyHint" xml:space="preserve">
+    <value>给这个情景设置一个任务以开始</value>
+  </data>
+  <data name="ConverterAction_Call" xml:space="preserve">
+    <value>呼叫</value>
+  </data>
+  <data name="ConverterAction_Email" xml:space="preserve">
+    <value>电子邮件</value>
+  </data>
+  <data name="ConverterAction_None" xml:space="preserve">
+    <value>无</value>
+  </data>
+  <data name="ConverterAction_Sms" xml:space="preserve">
+    <value>短信</value>
+  </data>
+  <data name="ConverterAction_Visit" xml:space="preserve">
+    <value>访问</value>
+  </data>
+  <data name="ConverterContext_None" xml:space="preserve">
+    <value>无</value>
+  </data>
+  <data name="ConverterDate_Future" xml:space="preserve">
+    <value>将来</value>
+  </data>
+  <data name="ConverterDate_Late" xml:space="preserve">
+    <value>推迟</value>
+  </data>
+  <data name="ConverterDate_Next7Days" xml:space="preserve">
+    <value>接下来的7天</value>
+  </data>
+  <data name="ConverterDate_NoDate" xml:space="preserve">
+    <value>没有日期</value>
+  </data>
+  <data name="ConverterDate_Today" xml:space="preserve">
+    <value>今天</value>
+  </data>
+  <data name="ConverterDate_Tomorrow" xml:space="preserve">
+    <value>明天</value>
+  </data>
+  <data name="ConverterDate_Yesterday" xml:space="preserve">
+    <value>昨天</value>
+  </data>
+  <data name="ConverterPriority_High" xml:space="preserve">
+    <value>高级</value>
+  </data>
+  <data name="ConverterPriority_Low" xml:space="preserve">
+    <value>低级</value>
+  </data>
+  <data name="ConverterPriority_Medium" xml:space="preserve">
+    <value>中级</value>
+  </data>
+  <data name="ConverterPriority_Star" xml:space="preserve">
+    <value>星级</value>
+  </data>
+  <data name="ConverterProgress_None" xml:space="preserve">
+    <value>无</value>
+  </data>
+  <data name="ConverterStatus_Completed" xml:space="preserve">
+    <value>已完成</value>
+  </data>
+  <data name="ConverterStatus_Todo" xml:space="preserve">
+    <value>待办事项</value>
+  </data>
+  <data name="Crash_MessageContent" xml:space="preserve">
+    <value>我们很抱歉 2Day 遇到错误。您愿意向开发团队发送问题的详细报告吗？</value>
+  </data>
+  <data name="CreateEditFolder_FolderNameAlreadyUsedNotification" xml:space="preserve">
+    <value>该文件夹名称已使用</value>
+  </data>
+  <data name="CreateEditTaskPage_NotifyFormat" xml:space="preserve">
+    <value>添加任务 '{0}' 到文件夹 {1}</value>
+  </data>
+  <data name="CreateEditTaskPage_NotifyWithDueDateFormat" xml:space="preserve">
+    <value>在 {2} 向文件夹 {1} 中添加任务 '{0}'</value>
+  </data>
+  <data name="CreateEditTask_TagAlreadyExists" xml:space="preserve">
+    <value>此标记已存在</value>
+  </data>
+  <data name="CreateEditTask_TagCannotBeEmptyMsg" xml:space="preserve">
+    <value>标记不能为空</value>
+  </data>
+  <data name="CreateFolderPage_Title" xml:space="preserve">
+    <value>创建文件夹</value>
+  </data>
+  <data name="CreateTaskPage_Title" xml:space="preserve">
+    <value>创建任务</value>
+  </data>
+  <data name="CustomFrequency_Custom" xml:space="preserve">
+    <value>自定义</value>
+  </data>
+  <data name="CustomFrequency_Daily" xml:space="preserve">
+    <value>每天</value>
+  </data>
+  <data name="CustomFrequency_Day" xml:space="preserve">
+    <value>一天</value>
+  </data>
+  <data name="CustomFrequency_Days" xml:space="preserve">
+    <value>几天</value>
+  </data>
+  <data name="CustomFrequency_DaysOfWeekTitle" xml:space="preserve">
+    <value>特定的星期几…</value>
+  </data>
+  <data name="CustomFrequency_Each" xml:space="preserve">
+    <value>每 {0}</value>
+    <comment>{0} = frequency scale (day,week,month,year)</comment>
+  </data>
+  <data name="CustomFrequency_Every" xml:space="preserve">
+    <value>每 {0}</value>
+    <comment>{0} = (X days, days of the week...)</comment>
+  </data>
+  <data name="CustomFrequency_EveryXPeriodTitle" xml:space="preserve">
+    <value>每…</value>
+  </data>
+  <data name="CustomFrequency_First" xml:space="preserve">
+    <value>第一个</value>
+  </data>
+  <data name="CustomFrequency_Fourth" xml:space="preserve">
+    <value>第四个</value>
+  </data>
+  <data name="CustomFrequency_Last" xml:space="preserve">
+    <value>最后一个</value>
+  </data>
+  <data name="CustomFrequency_Month" xml:space="preserve">
+    <value>一个月</value>
+  </data>
+  <data name="CustomFrequency_Monthly" xml:space="preserve">
+    <value>每个月</value>
+  </data>
+  <data name="CustomFrequency_Months" xml:space="preserve">
+    <value>几个月</value>
+  </data>
+  <data name="CustomFrequency_Once" xml:space="preserve">
+    <value>只一次</value>
+  </data>
+  <data name="CustomFrequency_Second" xml:space="preserve">
+    <value>第两个</value>
+  </data>
+  <data name="CustomFrequency_Third" xml:space="preserve">
+    <value>第三个</value>
+  </data>
+  <data name="CustomFrequency_Week" xml:space="preserve">
+    <value>一周</value>
+  </data>
+  <data name="CustomFrequency_Weekday" xml:space="preserve">
+    <value>工作日</value>
+  </data>
+  <data name="CustomFrequency_Weekend" xml:space="preserve">
+    <value>周末</value>
+  </data>
+  <data name="CustomFrequency_Weekly" xml:space="preserve">
+    <value>每周</value>
+  </data>
+  <data name="CustomFrequency_Weeks" xml:space="preserve">
+    <value>几周</value>
+  </data>
+  <data name="CustomFrequency_XthDayOfTheMonth" xml:space="preserve">
+    <value>每月的 {0} {1}</value>
+    <comment>{0} = First,Second, ..., Last - {1} = Monday, Tuesday...</comment>
+  </data>
+  <data name="CustomFrequency_XthDayOfTheMonthTitle" xml:space="preserve">
+    <value>特定的几月几日…</value>
+  </data>
+  <data name="CustomFrequency_Year" xml:space="preserve">
+    <value>一年</value>
+  </data>
+  <data name="CustomFrequency_Yearly" xml:space="preserve">
+    <value>每年</value>
+  </data>
+  <data name="CustomFrequency_Years" xml:space="preserve">
+    <value>几年</value>
+  </data>
+  <data name="DefaultDate_None" xml:space="preserve">
+    <value>无</value>
+  </data>
+  <data name="DefaultDate_Today" xml:space="preserve">
+    <value>今天</value>
+  </data>
+  <data name="DefaultDate_Tomorrow" xml:space="preserve">
+    <value>明天</value>
+  </data>
+  <data name="DefaultFolderName_Personal" xml:space="preserve">
+    <value>个人</value>
+  </data>
+  <data name="DefaultFolderName_Work" xml:space="preserve">
+    <value>工作</value>
+  </data>
+  <data name="Dialog_AreYouSure" xml:space="preserve">
+    <value>你确定吗？</value>
+  </data>
+  <data name="Dialog_CancelSyncConfirm" xml:space="preserve">
+    <value>取消同步？</value>
+  </data>
+  <data name="Dialog_DeleteContextText" xml:space="preserve">
+    <value>您确定要删除这个情景吗？如此做法您在此情景中的所有任务将丢失它的情景。</value>
+  </data>
+  <data name="Dialog_DeleteFolderText" xml:space="preserve">
+    <value>您确定要删除这个文件夹吗？如此做法您将永久丢失与之所有关联的任务，该操作无法撤销。</value>
+  </data>
+  <data name="Dialog_DeleteSmartViewText" xml:space="preserve">
+    <value>你确定要删除这个智能视图吗?</value>
+  </data>
+  <data name="Dialog_DeleteTagText" xml:space="preserve">
+    <value>你确定你想要删除这个标签吗？</value>
+  </data>
+  <data name="Dialog_DeleteTask" xml:space="preserve">
+    <value>你确定你想要删除这个任务吗？</value>
+  </data>
+  <data name="Dialog_LooseChangesContent" xml:space="preserve">
+    <value>您将失去您当前的更改设置，要继续吗？</value>
+  </data>
+  <data name="Dialog_RemindersUpdated" xml:space="preserve">
+    <value>提醒已更新</value>
+  </data>
+  <data name="Dialog_ReminderUpdatedDateFormat" xml:space="preserve">
+    <value>提醒已更新：{0}</value>
+  </data>
+  <data name="Dialog_RestartToApply" xml:space="preserve">
+    <value>2Day必须重启完成更改。现在退出2Day？</value>
+  </data>
+  <data name="Dialog_StartingApp" xml:space="preserve">
+    <value>启动 2Day</value>
+  </data>
+  <data name="Dialog_SyncContextsNotSupported" xml:space="preserve">
+    <value>你正在使用同步模式，不支持背景。背景不会同步到你的设备中。想要了解更多？</value>
+  </data>
+  <data name="Dialog_TitleConfirmation" xml:space="preserve">
+    <value>确认</value>
+  </data>
+  <data name="EditContext_Add" xml:space="preserve">
+    <value>添加上下文</value>
+  </data>
+  <data name="EditContext_Placeholder" xml:space="preserve">
+    <value>情景名称</value>
+  </data>
+  <data name="EditContext_Title" xml:space="preserve">
+    <value>编辑情景</value>
+  </data>
+  <data name="EditFolderPage_ColorUsageCount" xml:space="preserve">
+    <value>此颜色的使用次数</value>
+  </data>
+  <data name="EditFolderPage_Title" xml:space="preserve">
+    <value>编辑文件夹</value>
+  </data>
+  <data name="EditTag_Placeholder" xml:space="preserve">
+    <value>标签名</value>
+  </data>
+  <data name="EditTag_Title" xml:space="preserve">
+    <value>编辑标记</value>
+  </data>
+  <data name="EditTaskPage_Title" xml:space="preserve">
+    <value>编辑任务</value>
+  </data>
+  <data name="EditViewPage_Title" xml:space="preserve">
+    <value>编辑视图</value>
+  </data>
+  <data name="FocusFilter_NoDue" xml:space="preserve">
+    <value>没有截止日期</value>
+  </data>
+  <data name="FocusFilter_Starred" xml:space="preserve">
+    <value>最喜爱的</value>
+  </data>
+  <data name="FocusFilter_ThisWeek" xml:space="preserve">
+    <value>接下来的7天</value>
+  </data>
+  <data name="FocusFilter_Today" xml:space="preserve">
+    <value>今天</value>
+  </data>
+  <data name="FocusFilter_TodayNoDue" xml:space="preserve">
+    <value>今天或没有截止日期</value>
+  </data>
+  <data name="FocusFilter_TodayTomorrow" xml:space="preserve">
+    <value>今天或明天</value>
+  </data>
+  <data name="FocusFilter_TodayTomorrowStarPriority" xml:space="preserve">
+    <value>今天、明天或最喜爱的</value>
+  </data>
+  <data name="FolderDisplayMode_Icon" xml:space="preserve">
+    <value>图标</value>
+  </data>
+  <data name="FolderDisplayMode_None" xml:space="preserve">
+    <value>无</value>
+  </data>
+  <data name="FolderDisplayMode_Text" xml:space="preserve">
+    <value>文本</value>
+  </data>
+  <data name="FolderDisplayMode_TextAndIcon" xml:space="preserve">
+    <value>文本和图标</value>
+  </data>
+  <data name="Folder_EmptyHeader" xml:space="preserve">
+    <value>文件夹为空</value>
+  </data>
+  <data name="Folder_EmptyHint" xml:space="preserve">
+    <value>添加一个任务以开始</value>
+  </data>
+  <data name="Frequency_First" xml:space="preserve">
+    <value>第一个</value>
+  </data>
+  <data name="Frequency_Fourth" xml:space="preserve">
+    <value>第四个</value>
+  </data>
+  <data name="Frequency_Last" xml:space="preserve">
+    <value>最后一个</value>
+  </data>
+  <data name="Frequency_Rate1" xml:space="preserve">
+    <value>每</value>
+  </data>
+  <data name="Frequency_RateFormat" xml:space="preserve">
+    <value>每 {0}</value>
+  </data>
+  <data name="Frequency_Scale_Day" xml:space="preserve">
+    <value>日</value>
+  </data>
+  <data name="Frequency_Scale_Month" xml:space="preserve">
+    <value>月</value>
+  </data>
+  <data name="Frequency_Scale_Week" xml:space="preserve">
+    <value>周</value>
+  </data>
+  <data name="Frequency_Scale_Year" xml:space="preserve">
+    <value>年</value>
+  </data>
+  <data name="Frequency_Second" xml:space="preserve">
+    <value>第二个</value>
+  </data>
+  <data name="Frequency_Third" xml:space="preserve">
+    <value>第三个</value>
+  </data>
+  <data name="General_LabelCancel" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="General_LabelDetails" xml:space="preserve">
+    <value>详细信息</value>
+  </data>
+  <data name="General_LabelError" xml:space="preserve">
+    <value>错误</value>
+  </data>
+  <data name="General_LabelNo" xml:space="preserve">
+    <value>否</value>
+  </data>
+  <data name="General_LabelOk" xml:space="preserve">
+    <value>好的</value>
+  </data>
+  <data name="General_LabelYes" xml:space="preserve">
+    <value>是</value>
+  </data>
+  <data name="HomePage_SyncCompletedSystrayMessage" xml:space="preserve">
+    <value>同步已完成！</value>
+  </data>
+  <data name="LogViewer_Clear" xml:space="preserve">
+    <value>清除</value>
+  </data>
+  <data name="MessageReview_AlreadyDone" xml:space="preserve">
+    <value>已完成</value>
+  </data>
+  <data name="MessageReview_Body" xml:space="preserve">
+    <value>看起来您很喜欢2Day，您愿意评论我们的应用程序来帮助我们做得更好吗？</value>
+  </data>
+  <data name="MessageReview_CreateTask" xml:space="preserve">
+    <value>为我创建一个任务</value>
+  </data>
+  <data name="MessageReview_Later" xml:space="preserve">
+    <value>以后提醒我</value>
+  </data>
+  <data name="MessageReview_No" xml:space="preserve">
+    <value>不，谢谢</value>
+  </data>
+  <data name="MessageReview_TaskNote" xml:space="preserve">
+    <value>感谢您对我们的帮助！</value>
+  </data>
+  <data name="MessageReview_TaskTitle" xml:space="preserve">
+    <value>为2Day写下评价</value>
+  </data>
+  <data name="MessageReview_Title" xml:space="preserve">
+    <value>评价</value>
+  </data>
+  <data name="MessageReview_Yes" xml:space="preserve">
+    <value>是的，没错！</value>
+  </data>
+  <data name="Message_CannotCreateTaskNoFolderMessage" xml:space="preserve">
+    <value>您必须拥有至少一个文件夹以创建一个任务。您想要现在创建一个文件夹吗？</value>
+  </data>
+  <data name="Message_CleanupTaskConfirmationFormat" xml:space="preserve">
+    <value>将要删除 {0} 个任务，是否继续？</value>
+  </data>
+  <data name="Message_CleanupTaskNoRemove" xml:space="preserve">
+    <value>没有要删除的已完成任务</value>
+  </data>
+  <data name="Message_DeleteAllMessage" xml:space="preserve">
+    <value>您想清除所有任务、文件夹及情景吗？（该操作不可恢复）</value>
+  </data>
+  <data name="Message_Information" xml:space="preserve">
+    <value>信息</value>
+  </data>
+  <data name="Message_Recommended" xml:space="preserve">
+    <value>推荐</value>
+  </data>
+  <data name="Message_SpeechExceptionFormat" xml:space="preserve">
+    <value>使用语言识别时遇到错误 ({0})</value>
+  </data>
+  <data name="Message_TitleCannotBeEmpty" xml:space="preserve">
+    <value>标题不能为空</value>
+  </data>
+  <data name="Message_Warning" xml:space="preserve">
+    <value>警告</value>
+  </data>
+  <data name="MiscClearSearchHistory" xml:space="preserve">
+    <value>清除搜索历史记录</value>
+  </data>
+  <data name="MiscCompleteTasks" xml:space="preserve">
+    <value>完成所有的任务</value>
+  </data>
+  <data name="MiscDeleteAll" xml:space="preserve">
+    <value>删除所有任务、文件夹及情景</value>
+  </data>
+  <data name="MiscDeleteCompletedTasks" xml:space="preserve">
+    <value>删除已完成任务</value>
+  </data>
+  <data name="MiscDeleteTasks" xml:space="preserve">
+    <value>删除所有的任务</value>
+  </data>
+  <data name="MiscOpenWelcomeScreen" xml:space="preserve">
+    <value>打开欢迎屏幕</value>
+  </data>
+  <data name="Notification_Cancel" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="Notification_Deleted" xml:space="preserve">
+    <value>已删除</value>
+  </data>
+  <data name="Notification_Done" xml:space="preserve">
+    <value>完成</value>
+  </data>
+  <data name="Notification_DueCannotBeNull" xml:space="preserve">
+    <value>周期性任务的到期日与开始日必须明确</value>
+  </data>
+  <data name="Notification_DueDateRemoved" xml:space="preserve">
+    <value>截止日期清除</value>
+  </data>
+  <data name="Notification_DueDateUpdatedFormat" xml:space="preserve">
+    <value>新的截止日期设定到{0}</value>
+  </data>
+  <data name="Notification_Edit" xml:space="preserve">
+    <value>编辑</value>
+  </data>
+  <data name="Notification_FolderNameAlreadyUsed" xml:space="preserve">
+    <value>该文件夹名称已使用</value>
+  </data>
+  <data name="Notification_FolderPinnedFormat" xml:space="preserve">
+    <value>已固定文件夹 {0}</value>
+  </data>
+  <data name="Notification_FolderUnpinnedFormat" xml:space="preserve">
+    <value>文件夹 {0} 已解除固定到“开始”屏幕</value>
+  </data>
+  <data name="Notification_InvalidSelection" xml:space="preserve">
+    <value>无效的选择</value>
+  </data>
+  <data name="Notification_NewTaskCreatedNoDueDateFormat" xml:space="preserve">
+    <value>任务"{0}"已添加</value>
+  </data>
+  <data name="Notification_NewTaskCreatedWithDueDateFormat" xml:space="preserve">
+    <value>新任务 "{0}" 已创建到 {1}</value>
+  </data>
+  <data name="Notification_SearchHistoryCleared" xml:space="preserve">
+    <value>搜索历史记录已清除</value>
+  </data>
+  <data name="Notification_TagAlreadyExists" xml:space="preserve">
+    <value>此标记已存在</value>
+  </data>
+  <data name="Notification_TagCannotBeEmptyMsg" xml:space="preserve">
+    <value>标记不能为空</value>
+  </data>
+  <data name="Notification_TaskCompletedFormat" xml:space="preserve">
+    <value>任务“{0}”已完成！</value>
+  </data>
+  <data name="Notification_TaskPinnedFormat" xml:space="preserve">
+    <value>已固定任务 {0}</value>
+  </data>
+  <data name="Notification_TaskUnpinnedFormat" xml:space="preserve">
+    <value>任务'{0}'没有被固定到“开始”屏幕</value>
+  </data>
+  <data name="Notification_TitleCannotBeEmpty" xml:space="preserve">
+    <value>标题不能为空</value>
+  </data>
+  <data name="OptionSettingsPage_DescriptionOff" xml:space="preserve">
+    <value>关</value>
+  </data>
+  <data name="OptionSettingsPage_DescriptionOn" xml:space="preserve">
+    <value>开</value>
+  </data>
+  <data name="OptionSettingsPage_DescriptionTasksFormat" xml:space="preserve">
+    <value>自动在 {0} 天后删除，已完成的任务 {1}</value>
+  </data>
+  <data name="OptionSettingsPage_SectionAbout" xml:space="preserve">
+    <value>关于</value>
+  </data>
+  <data name="OptionSettingsPage_SectionBackup" xml:space="preserve">
+    <value>备份</value>
+  </data>
+  <data name="OptionSettingsPage_SectionContexts" xml:space="preserve">
+    <value>情景</value>
+  </data>
+  <data name="OptionSettingsPage_SectionContextsFormat" xml:space="preserve">
+    <value>{0} 个情景可用</value>
+  </data>
+  <data name="OptionSettingsPage_SectionDisplay" xml:space="preserve">
+    <value>显示</value>
+  </data>
+  <data name="OptionSettingsPage_SectionFolders" xml:space="preserve">
+    <value>文件夹</value>
+  </data>
+  <data name="OptionSettingsPage_SectionFoldersFormat" xml:space="preserve">
+    <value>{0} 个文件夹</value>
+  </data>
+  <data name="OptionSettingsPage_SectionGeneral" xml:space="preserve">
+    <value>常规</value>
+  </data>
+  <data name="OptionSettingsPage_SectionMisc" xml:space="preserve">
+    <value>杂项</value>
+  </data>
+  <data name="OptionSettingsPage_SectionMiscFormat" xml:space="preserve">
+    <value>其他选项</value>
+  </data>
+  <data name="OptionSettingsPage_SectionOrderingFormat" xml:space="preserve">
+    <value>由 {0} 排序，然后由 {1} 和 {2}</value>
+  </data>
+  <data name="OptionSettingsPage_SectionSync" xml:space="preserve">
+    <value>同步</value>
+  </data>
+  <data name="OptionSettingsPage_SectionTaskOrder" xml:space="preserve">
+    <value>任务排序</value>
+  </data>
+  <data name="OptionSettingsPage_SectionVersionFormat" xml:space="preserve">
+    <value>2Day {0}</value>
+  </data>
+  <data name="OptionSettingsPage_SectionViews" xml:space="preserve">
+    <value>视图</value>
+  </data>
+  <data name="OptionSettingsPage_SectionViewsFormat" xml:space="preserve">
+    <value>{1} 个已启用 {0} 视图</value>
+  </data>
+  <data name="OptionSettingsPage_SyncConfiguredFormat" xml:space="preserve">
+    <value>{0} 个配置，最后一次同步为 {1}</value>
+  </data>
+  <data name="OptionSettingsPage_SyncNoConfigured" xml:space="preserve">
+    <value>配置不同步</value>
+  </data>
+  <data name="ReminderDisplayMode_Icon" xml:space="preserve">
+    <value>图标</value>
+  </data>
+  <data name="ReminderDisplayMode_IconAndTime" xml:space="preserve">
+    <value>图标和时间</value>
+  </data>
+  <data name="ReminderDisplayMode_None" xml:space="preserve">
+    <value>无</value>
+  </data>
+  <data name="ReminderDisplayMode_Time" xml:space="preserve">
+    <value>时间</value>
+  </data>
+  <data name="SampleData_FolderHobbies" xml:space="preserve">
+    <value>兴趣爱好</value>
+  </data>
+  <data name="SampleData_FolderHobbies_Task1" xml:space="preserve">
+    <value>看书，打网球</value>
+  </data>
+  <data name="SampleData_FolderHobbies_Task2" xml:space="preserve">
+    <value>尝试新的餐厅</value>
+  </data>
+  <data name="SampleData_FolderHobbies_Task3" xml:space="preserve">
+    <value>买一张摇滚表演的门票</value>
+  </data>
+  <data name="SampleData_FolderPersonal_Task1" xml:space="preserve">
+    <value>打电话给水管工</value>
+  </data>
+  <data name="SampleData_FolderPersonal_Task1_Note" xml:space="preserve">
+    <value>卫生间漏水</value>
+  </data>
+  <data name="SampleData_FolderPersonal_Task2" xml:space="preserve">
+    <value>更换厨房里的灯泡</value>
+  </data>
+  <data name="SampleData_FolderPersonal_Task3" xml:space="preserve">
+    <value>支付话费账单</value>
+  </data>
+  <data name="SampleData_FolderShopping" xml:space="preserve">
+    <value>购物</value>
+  </data>
+  <data name="SampleData_FolderShopping_Task1" xml:space="preserve">
+    <value>给小铭的礼物</value>
+  </data>
+  <data name="SampleData_FolderShopping_Task2" xml:space="preserve">
+    <value>一条牛仔裤</value>
+  </data>
+  <data name="SampleData_FolderWork_Task1" xml:space="preserve">
+    <value>会议报告</value>
+  </data>
+  <data name="SampleData_FolderWork_Task2" xml:space="preserve">
+    <value>文件审查</value>
+  </data>
+  <data name="SampleData_FolderWork_Task2_Description" xml:space="preserve">
+    <value>页码 12-38</value>
+  </data>
+  <data name="SampleData_FolderWork_Task3" xml:space="preserve">
+    <value>培训会议</value>
+  </data>
+  <data name="SampleData_FolderWork_Task4" xml:space="preserve">
+    <value>演示准备</value>
+  </data>
+  <data name="SampleDate_FolderMovies" xml:space="preserve">
+    <value>电影</value>
+  </data>
+  <data name="Settings_OptionTheme" xml:space="preserve">
+    <value>主题</value>
+  </data>
+  <data name="Settings_SmartView_DescriptionFormat" xml:space="preserve">
+    <value>{0}智能视图可用</value>
+  </data>
+  <data name="Settings_ThemeDark" xml:space="preserve">
+    <value>暗</value>
+  </data>
+  <data name="Settings_ThemeLight" xml:space="preserve">
+    <value>亮</value>
+  </data>
+  <data name="Settings_TitleAbout" xml:space="preserve">
+    <value>关于我们</value>
+  </data>
+  <data name="Settings_TitleHelp" xml:space="preserve">
+    <value>帮助</value>
+  </data>
+  <data name="Settings_TitleOptions" xml:space="preserve">
+    <value>选项</value>
+  </data>
+  <data name="Settings_TitlePrivacy" xml:space="preserve">
+    <value>隐私政策</value>
+  </data>
+  <data name="Settings_TitleSync" xml:space="preserve">
+    <value>同步</value>
+  </data>
+  <data name="SmartView_AddBlock" xml:space="preserve">
+    <value>添加块</value>
+  </data>
+  <data name="SmartView_AddRule" xml:space="preserve">
+    <value>添加规则</value>
+  </data>
+  <data name="SmartView_And" xml:space="preserve">
+    <value>和</value>
+  </data>
+  <data name="SmartView_Create" xml:space="preserve">
+    <value>创建智能视图</value>
+  </data>
+  <data name="SmartView_Edit" xml:space="preserve">
+    <value>编辑智能视图</value>
+  </data>
+  <data name="SmartView_EmptyHeader" xml:space="preserve">
+    <value>智能视图不能和任何任务匹配</value>
+  </data>
+  <data name="SmartView_EmptyHint" xml:space="preserve">
+    <value>调整智能视图选择或者加入可以配合智能视图规定的任务</value>
+  </data>
+  <data name="SmartView_FieldTitle" xml:space="preserve">
+    <value>标题</value>
+  </data>
+  <data name="SmartView_FilterAdded" xml:space="preserve">
+    <value>已加</value>
+  </data>
+  <data name="SmartView_FilterBeginsWith" xml:space="preserve">
+    <value>开始</value>
+  </data>
+  <data name="SmartView_FilterCompleted" xml:space="preserve">
+    <value>完成</value>
+  </data>
+  <data name="SmartView_FilterContains" xml:space="preserve">
+    <value>包括</value>
+  </data>
+  <data name="SmartView_FilterContext" xml:space="preserve">
+    <value>背景</value>
+  </data>
+  <data name="SmartView_FilterDoesNotContains" xml:space="preserve">
+    <value>不包括</value>
+  </data>
+  <data name="SmartView_FilterDoesNotExist" xml:space="preserve">
+    <value>不存在</value>
+  </data>
+  <data name="SmartView_FilterDue" xml:space="preserve">
+    <value>截止</value>
+  </data>
+  <data name="SmartView_FilterEndsWith" xml:space="preserve">
+    <value>结束</value>
+  </data>
+  <data name="SmartView_FilterExists" xml:space="preserve">
+    <value>退出</value>
+  </data>
+  <data name="SmartView_FilterFolder" xml:space="preserve">
+    <value>文件夹</value>
+  </data>
+  <data name="SmartView_FilterHasAlarm" xml:space="preserve">
+    <value>有提醒</value>
+  </data>
+  <data name="SmartView_FilterHasRecurrence" xml:space="preserve">
+    <value>重复发生</value>
+  </data>
+  <data name="SmartView_FilterIs" xml:space="preserve">
+    <value>是</value>
+  </data>
+  <data name="SmartView_FilterIsAfter" xml:space="preserve">
+    <value>在……之后</value>
+  </data>
+  <data name="SmartView_FilterIsBefore" xml:space="preserve">
+    <value>在……之前</value>
+  </data>
+  <data name="SmartView_FilterIsIn" xml:space="preserve">
+    <value>在……里</value>
+  </data>
+  <data name="SmartView_FilterIsInTheNext" xml:space="preserve">
+    <value>在……旁边</value>
+  </data>
+  <data name="SmartView_FilterIsLessThan" xml:space="preserve">
+    <value>比……少</value>
+  </data>
+  <data name="SmartView_FilterIsMoreThan" xml:space="preserve">
+    <value>比……多</value>
+  </data>
+  <data name="SmartView_FilterIsNot" xml:space="preserve">
+    <value>不是</value>
+  </data>
+  <data name="SmartView_FilterIsNotIn" xml:space="preserve">
+    <value>不在……里</value>
+  </data>
+  <data name="SmartView_FilterIsNotInTheNext" xml:space="preserve">
+    <value>不在……旁边</value>
+  </data>
+  <data name="SmartView_FilterModified" xml:space="preserve">
+    <value>修改</value>
+  </data>
+  <data name="SmartView_FilterNo" xml:space="preserve">
+    <value>不是</value>
+  </data>
+  <data name="SmartView_FilterNote" xml:space="preserve">
+    <value>记录</value>
+  </data>
+  <data name="SmartView_FilterPriority" xml:space="preserve">
+    <value>优先</value>
+  </data>
+  <data name="SmartView_FilterProgress" xml:space="preserve">
+    <value>进程</value>
+  </data>
+  <data name="SmartView_FilterStart" xml:space="preserve">
+    <value>开始</value>
+  </data>
+  <data name="SmartView_FilterTags" xml:space="preserve">
+    <value>标签</value>
+  </data>
+  <data name="SmartView_FilterWas" xml:space="preserve">
+    <value>是</value>
+  </data>
+  <data name="SmartView_FilterWasInTheLast" xml:space="preserve">
+    <value>过去是</value>
+  </data>
+  <data name="SmartView_FilterWasNot" xml:space="preserve">
+    <value>不是</value>
+  </data>
+  <data name="SmartView_FilterWasNotInTheLast" xml:space="preserve">
+    <value>过去不是</value>
+  </data>
+  <data name="SmartView_FilterYes" xml:space="preserve">
+    <value>是的</value>
+  </data>
+  <data name="SmartView_HelpReadMore" xml:space="preserve">
+    <value>阅读更多关于智能视图</value>
+  </data>
+  <data name="SmartView_IntroDescription" xml:space="preserve">
+    <value>智能视图帮助关注重要任务。设定规则来配置如何过滤任务以及关注在重要的任务上。</value>
+  </data>
+  <data name="SmartView_LabelName" xml:space="preserve">
+    <value>名字</value>
+  </data>
+  <data name="SmartView_LabelRules" xml:space="preserve">
+    <value>规则</value>
+  </data>
+  <data name="SmartView_LabelSmartView" xml:space="preserve">
+    <value>智能视图</value>
+  </data>
+  <data name="SmartView_MatchAll" xml:space="preserve">
+    <value>所有</value>
+  </data>
+  <data name="SmartView_MatchAny" xml:space="preserve">
+    <value>任何</value>
+  </data>
+  <data name="SmartView_MessageCannotLoadFormat" xml:space="preserve">
+    <value>加载智能视图出现错误{0}</value>
+  </data>
+  <data name="SmartView_MessageCannotSave" xml:space="preserve">
+    <value>智能视图包含无效规则</value>
+  </data>
+  <data name="SmartView_Or" xml:space="preserve">
+    <value>或</value>
+  </data>
+  <data name="SmartView_Warning_OneBlockMin" xml:space="preserve">
+    <value>智能视图必须至少有一个规则块</value>
+  </data>
+  <data name="SmartView_Warning_OneRuleMin" xml:space="preserve">
+    <value>智能视图必须至少有一条规则</value>
+  </data>
+  <data name="SortOrder_Ascending" xml:space="preserve">
+    <value>升序</value>
+  </data>
+  <data name="SortOrder_Descending" xml:space="preserve">
+    <value>降序</value>
+  </data>
+  <data name="Speech_ErrorDuringRecognitionFormat" xml:space="preserve">
+    <value>在语音识别过程中出错 ({0})</value>
+  </data>
+  <data name="Speech_NoAudioDevice" xml:space="preserve">
+    <value>未找到录音设备</value>
+  </data>
+  <data name="Speech_ReviewPermission" xml:space="preserve">
+    <value>已禁止访问麦克风。请更新 Windows 设置</value>
+  </data>
+  <data name="StartDate_FirstTimeMessage" xml:space="preserve">
+    <value>当您为一项任务设置开始日期时，直到到达它的开始日期该项目才会完全隐藏。您可以通过启用设置中的“计划”视图来查看所有任务的开始日期。</value>
+  </data>
+  <data name="StartDate_FirstTimeTitle" xml:space="preserve">
+    <value>信息</value>
+  </data>
+  <data name="Startup_DefaultContextHome" xml:space="preserve">
+    <value>家庭</value>
+  </data>
+  <data name="Startup_DefaultContextPhone" xml:space="preserve">
+    <value>手机</value>
+  </data>
+  <data name="Startup_DefaultContextQuick" xml:space="preserve">
+    <value>快捷</value>
+  </data>
+  <data name="Startup_DefaultFolderName_Personal" xml:space="preserve">
+    <value>个人</value>
+  </data>
+  <data name="Startup_DefaultFolderName_Work" xml:space="preserve">
+    <value>工作</value>
+  </data>
+  <data name="SyncAdvanced_CollectLogFirst" xml:space="preserve">
+    <value>请先启用日志记录功能，并尝试使用同步收集诊断内容。</value>
+  </data>
+  <data name="SyncAdvanced_DeleteAccountDescription" xml:space="preserve">
+    <value>在同步服务中删除账务并且取消同步设定</value>
+  </data>
+  <data name="SyncAdvanced_DeleteAccountTitle" xml:space="preserve">
+    <value>删除账号</value>
+  </data>
+  <data name="SyncAdvanced_DiagnosticsDescription" xml:space="preserve">
+    <value>检查同步状态并且准备邮件给服务支持团队</value>
+  </data>
+  <data name="SyncAdvanced_DiagnosticsTitle" xml:space="preserve">
+    <value>诊断</value>
+  </data>
+  <data name="SyncAdvanced_EmailDetail" xml:space="preserve">
+    <value>请在邮件中尽可能多地提供关于同步的问题。</value>
+  </data>
+  <data name="SyncAdvanced_MergeDescription" xml:space="preserve">
+    <value>从完成的同步文件中获得所有的远程内容。然后把本地和远程文件合并。用修改日期找出试用版本。</value>
+  </data>
+  <data name="SyncAdvanced_MergeTitle" xml:space="preserve">
+    <value>合并</value>
+  </data>
+  <data name="SyncAdvanced_ReplaceDescription" xml:space="preserve">
+    <value>从2Day清除所有内容（文件夹、背景、任务）。然后从你的服务器把所有内容同步到2Day。</value>
+  </data>
+  <data name="SyncAdvanced_ReplaceTitle" xml:space="preserve">
+    <value>代替</value>
+  </data>
+  <data name="SyncAdvanced_Title" xml:space="preserve">
+    <value>优化同步选择</value>
+  </data>
+  <data name="SyncFeatures_Color" xml:space="preserve">
+    <value>颜色</value>
+  </data>
+  <data name="SyncFeatures_Context" xml:space="preserve">
+    <value>情景</value>
+  </data>
+  <data name="SyncFeatures_DueDate" xml:space="preserve">
+    <value>截止日期</value>
+  </data>
+  <data name="SyncFeatures_Folder" xml:space="preserve">
+    <value>文件夹</value>
+  </data>
+  <data name="SyncFeatures_Icon" xml:space="preserve">
+    <value>图标</value>
+  </data>
+  <data name="SyncFeatures_Note" xml:space="preserve">
+    <value>备注</value>
+  </data>
+  <data name="SyncFeatures_Priority" xml:space="preserve">
+    <value>优先</value>
+  </data>
+  <data name="SyncFeatures_Progress" xml:space="preserve">
+    <value>进度</value>
+  </data>
+  <data name="SyncFeatures_Recurrence" xml:space="preserve">
+    <value>循环</value>
+  </data>
+  <data name="SyncFeatures_Reminder" xml:space="preserve">
+    <value>提醒</value>
+  </data>
+  <data name="SyncFeatures_StartDate" xml:space="preserve">
+    <value>开始日期</value>
+  </data>
+  <data name="SyncFeatures_Title" xml:space="preserve">
+    <value>标题</value>
+  </data>
+  <data name="SyncProgress_AddingContextFormat" xml:space="preserve">
+    <value>正在添加情景 {0}…</value>
+  </data>
+  <data name="SyncProgress_AddingFolderFormat" xml:space="preserve">
+    <value>正在添加文件夹 {0}…</value>
+  </data>
+  <data name="SyncProgress_AddingSmartViewFormat" xml:space="preserve">
+    <value>加入智能视图中{0}……</value>
+  </data>
+  <data name="SyncProgress_AddingTaskFormat" xml:space="preserve">
+    <value>正在添加任务 {0}…</value>
+  </data>
+  <data name="SyncProgress_DeletingContext" xml:space="preserve">
+    <value>正在删除情景…</value>
+  </data>
+  <data name="SyncProgress_DeletingFolder" xml:space="preserve">
+    <value>正在删除文件夹…</value>
+  </data>
+  <data name="SyncProgress_DeletingSmartView" xml:space="preserve">
+    <value>删除智能视图</value>
+  </data>
+  <data name="SyncProgress_DeletingTaskFormat" xml:space="preserve">
+    <value>正在删除任务 {0}…</value>
+  </data>
+  <data name="SyncProgress_GettingContexts" xml:space="preserve">
+    <value>正在获取情景…</value>
+  </data>
+  <data name="SyncProgress_GettingFolders" xml:space="preserve">
+    <value>正在获取文件夹…</value>
+  </data>
+  <data name="SyncProgress_GettingSmartViews" xml:space="preserve">
+    <value>获得智能视图</value>
+  </data>
+  <data name="SyncProgress_GettingTasks" xml:space="preserve">
+    <value>正在获取任务…</value>
+  </data>
+  <data name="SyncProgress_SignInIn" xml:space="preserve">
+    <value>正在登录…</value>
+  </data>
+  <data name="SyncProgress_SyncInProgress" xml:space="preserve">
+    <value>正在同步…</value>
+  </data>
+  <data name="SyncProgress_UpdatingContextFormat" xml:space="preserve">
+    <value>正在更新情景 {0}…</value>
+  </data>
+  <data name="SyncProgress_UpdatingFolderFormat" xml:space="preserve">
+    <value>正在更新文件夹 {0}…</value>
+  </data>
+  <data name="SyncProgress_UpdatingSmartViewFormat" xml:space="preserve">
+    <value>更新智能视图{0}……</value>
+  </data>
+  <data name="SyncProgress_UpdatingTaskFormat" xml:space="preserve">
+    <value>正在更新任务 {0}…</value>
+  </data>
+  <data name="SyncProgress_UpdatingTasks" xml:space="preserve">
+    <value>正在更新任务…</value>
+  </data>
+  <data name="SyncSettingsPage_ConfirmDeleteMessage" xml:space="preserve">
+    <value>您想要删除您的同步设置吗？</value>
+  </data>
+  <data name="SyncSettingsPage_LastSyncNever" xml:space="preserve">
+    <value>从不</value>
+  </data>
+  <data name="Sync_Cancelled" xml:space="preserve">
+    <value>同步已取消</value>
+  </data>
+  <data name="Sync_DeleteAccount_ErrorFormat" xml:space="preserve">
+    <value>删除账号时遇到错误 ({0})</value>
+  </data>
+  <data name="Sync_DeleteAccount_Message" xml:space="preserve">
+    <value>您确定要删除您的账号吗？</value>
+  </data>
+  <data name="Sync_DeleteAccount_Success" xml:space="preserve">
+    <value>账号已成功删除</value>
+  </data>
+  <data name="Sync_FailedMessage" xml:space="preserve">
+    <value>同步失败</value>
+  </data>
+  <data name="Sync_Misconfigured" xml:space="preserve">
+    <value>同步配置错误</value>
+  </data>
+  <data name="Sync_NoNetworkConnectivity" xml:space="preserve">
+    <value>没有网络连接</value>
+  </data>
+  <data name="Sync_PreparingSync" xml:space="preserve">
+    <value>同步准备中…</value>
+  </data>
+  <data name="Sync_ViewLogs" xml:space="preserve">
+    <value>查看日志</value>
+  </data>
+  <data name="SystemView_All_EmptyHeader" xml:space="preserve">
+    <value>没有任务</value>
+  </data>
+  <data name="SystemView_All_EmptyHint" xml:space="preserve">
+    <value>在文件夹中添加一个任务以开始</value>
+  </data>
+  <data name="SystemView_Completed_EmptyHeader" xml:space="preserve">
+    <value>没有已完成的任务</value>
+  </data>
+  <data name="SystemView_Completed_EmptyHint" xml:space="preserve">
+    <value>回去工作并完成一些任务吧！</value>
+  </data>
+  <data name="SystemView_Late_EmptyHeader" xml:space="preserve">
+    <value>没有推迟的任务</value>
+  </data>
+  <data name="SystemView_Late_EmptyHint" xml:space="preserve">
+    <value>您所有的任务都在掌控之中！</value>
+  </data>
+  <data name="SystemView_NoDate_EmptyHeader" xml:space="preserve">
+    <value>没有无日期的任务</value>
+  </data>
+  <data name="SystemView_NoDate_EmptyHint" xml:space="preserve">
+    <value>您所有的任务都已被计划</value>
+  </data>
+  <data name="SystemView_Reminder_EmptyHeader" xml:space="preserve">
+    <value>没有提醒的任务</value>
+  </data>
+  <data name="SystemView_Reminder_EmptyHint" xml:space="preserve">
+    <value>这里将显示您要添加任务的提醒</value>
+  </data>
+  <data name="SystemView_Starred_EmptyHeader" xml:space="preserve">
+    <value>没有星级任务</value>
+  </data>
+  <data name="SystemView_Starred_EmptyHint" xml:space="preserve">
+    <value>这里将显示您要设置优先级为“星级”的任务</value>
+  </data>
+  <data name="SystemView_StartDate_EmptyHeader" xml:space="preserve">
+    <value>没有计划的任务</value>
+  </data>
+  <data name="SystemView_StartDate_EmptyHint" xml:space="preserve">
+    <value>这里将显示您要设置任务的开始日期</value>
+  </data>
+  <data name="SystemView_TitleAll" xml:space="preserve">
+    <value>所有</value>
+  </data>
+  <data name="SystemView_TitleCompleted" xml:space="preserve">
+    <value>已完成</value>
+  </data>
+  <data name="SystemView_TitleLate" xml:space="preserve">
+    <value>推迟</value>
+  </data>
+  <data name="SystemView_TitleNoDate" xml:space="preserve">
+    <value>没有截止日期</value>
+  </data>
+  <data name="SystemView_TitleNonCompleted" xml:space="preserve">
+    <value>待办事项</value>
+  </data>
+  <data name="SystemView_TitleReminder" xml:space="preserve">
+    <value>提醒</value>
+  </data>
+  <data name="SystemView_TitleStarred" xml:space="preserve">
+    <value>最喜爱的</value>
+  </data>
+  <data name="SystemView_TitleStartDate" xml:space="preserve">
+    <value>计划</value>
+  </data>
+  <data name="SystemView_TitleToday" xml:space="preserve">
+    <value>今天</value>
+  </data>
+  <data name="SystemView_TitleTomorrow" xml:space="preserve">
+    <value>明天</value>
+  </data>
+  <data name="SystemView_TitleWeek" xml:space="preserve">
+    <value>一周</value>
+  </data>
+  <data name="SystemView_Today_EmptyHeader" xml:space="preserve">
+    <value>今天没有更多的任务了</value>
+  </data>
+  <data name="SystemView_Today_EmptyHint" xml:space="preserve">
+    <value>享受您的一天！</value>
+  </data>
+  <data name="SystemView_Tomorrow_EmptyHeader" xml:space="preserve">
+    <value>明天没有任务</value>
+  </data>
+  <data name="SystemView_Tomorrow_EmptyHint" xml:space="preserve">
+    <value>看起来明天很平静！</value>
+  </data>
+  <data name="SystemView_Week_EmptyHeader" xml:space="preserve">
+    <value>未来一周没有任务</value>
+  </data>
+  <data name="SystemView_Week_EmptyHint" xml:space="preserve">
+    <value>到了去度假的时间吗？</value>
+  </data>
+  <data name="TaskDateShifter_ShiftNone" xml:space="preserve">
+    <value>无</value>
+  </data>
+  <data name="TaskDateShifter_ShiftOneMonth" xml:space="preserve">
+    <value>一个月</value>
+  </data>
+  <data name="TaskDateShifter_ShiftOneWeek" xml:space="preserve">
+    <value>一周</value>
+  </data>
+  <data name="TaskDateShifter_ShiftToday" xml:space="preserve">
+    <value>今天</value>
+  </data>
+  <data name="TaskDateShifter_ShiftTomorrow" xml:space="preserve">
+    <value>明天</value>
+  </data>
+  <data name="TaskDateShifter_ShiftTwoWeeks" xml:space="preserve">
+    <value>两周</value>
+  </data>
+  <data name="TaskGroup_Action" xml:space="preserve">
+    <value>操作</value>
+  </data>
+  <data name="TaskGroup_By" xml:space="preserve">
+    <value>分组为</value>
+  </data>
+  <data name="TaskGroup_Context" xml:space="preserve">
+    <value>情景</value>
+  </data>
+  <data name="TaskGroup_Due" xml:space="preserve">
+    <value>到期</value>
+  </data>
+  <data name="TaskGroup_Folder" xml:space="preserve">
+    <value>文件夹</value>
+  </data>
+  <data name="TaskGroup_Priority" xml:space="preserve">
+    <value>优先</value>
+  </data>
+  <data name="TaskGroup_Progress" xml:space="preserve">
+    <value>进程</value>
+  </data>
+  <data name="TaskGroup_StartDate" xml:space="preserve">
+    <value>开始日期</value>
+  </data>
+  <data name="TaskGroup_Status" xml:space="preserve">
+    <value>状态</value>
+  </data>
+  <data name="TaskList_AddTaskHint" xml:space="preserve">
+    <value>添加任务</value>
+  </data>
+  <data name="TaskList_RemoveCompleted" xml:space="preserve">
+    <value>删除完成的任务</value>
+  </data>
+  <data name="TaskOrdering_AddedDate" xml:space="preserve">
+    <value>已添加的日期</value>
+  </data>
+  <data name="TaskOrdering_Alphabetical" xml:space="preserve">
+    <value>按字母顺序排列</value>
+  </data>
+  <data name="TaskOrdering_Context" xml:space="preserve">
+    <value>情景</value>
+  </data>
+  <data name="TaskOrdering_DueDate" xml:space="preserve">
+    <value>截止日期</value>
+  </data>
+  <data name="TaskOrdering_Folder" xml:space="preserve">
+    <value>文件夹</value>
+  </data>
+  <data name="TaskOrdering_ModifiedDate" xml:space="preserve">
+    <value>已修改的日期</value>
+  </data>
+  <data name="TaskOrdering_Priority" xml:space="preserve">
+    <value>优先</value>
+  </data>
+  <data name="TaskOrdering_StartDate" xml:space="preserve">
+    <value>开始日期</value>
+  </data>
+  <data name="TaskPriority_High" xml:space="preserve">
+    <value>高级</value>
+  </data>
+  <data name="TaskPriority_Low" xml:space="preserve">
+    <value>低级</value>
+  </data>
+  <data name="TaskPriority_Medium" xml:space="preserve">
+    <value>中级</value>
+  </data>
+  <data name="TaskPriority_None" xml:space="preserve">
+    <value>无</value>
+  </data>
+  <data name="TaskPriority_Star" xml:space="preserve">
+    <value>星级</value>
+  </data>
+  <data name="Task_CreationDate" xml:space="preserve">
+    <value>已创建</value>
+  </data>
+  <data name="Task_ModificationDate" xml:space="preserve">
+    <value>上次修改</value>
+  </data>
+  <data name="Tile_QuickAdd" xml:space="preserve">
+    <value>快速添加</value>
+  </data>
+  <data name="WelcomePage_ValueProposition1" xml:space="preserve">
+    <value>您的大脑是用来产生想法的，不是用于保存想法的</value>
+  </data>
+  <data name="WelcomePage_ValueProposition2" xml:space="preserve">
+    <value>用最先进的 Windows 待办事项列表，开发和优化完美的任务管理系统</value>
+  </data>
+  <data name="TaskOrdering_Reminder" xml:space="preserve">
+    <value>提醒</value>
+  </data>
+  <data name="SmartView_Days" xml:space="preserve">
+    <value>几天</value>
+  </data>
+  <data name="SmartView_DaysAgo" xml:space="preserve">
+    <value>几天</value>
+  </data>
+  <data name="Notification_SnoozeMinutes" xml:space="preserve">
+    <value>分钟</value>
+  </data>
+  <data name="Notification_SnoozeHour" xml:space="preserve">
+    <value>小时</value>
+  </data>
+  <data name="Notification_SnoozeHours" xml:space="preserve">
+    <value>个小时</value>
+  </data>
+  <data name="Dialog_RestartInfo" xml:space="preserve">
+    <value>2Day必须重启完成更改。</value>
+  </data>
+  <data name="Misc_CreateBackup" xml:space="preserve">
+    <value>创建备份</value>
+  </data>
+  <data name="Misc_RestoreBackup" xml:space="preserve">
+    <value>还原备份</value>
+  </data>
+  <data name="SmartView_DaysPeriod" xml:space="preserve">
+    <value>几天</value>
+  </data>
+  <data name="SmartView_FilterIsLate" xml:space="preserve">
+    <value>推迟</value>
+  </data>
+  <data name="SmartView_FilterIsToday" xml:space="preserve">
+    <value>今天是</value>
+  </data>
+  <data name="SmartView_FilterIsTomorrow" xml:space="preserve">
+    <value>明天是</value>
+  </data>
+  <data name="SmartView_FilterIsYesterday" xml:space="preserve">
+    <value>昨天</value>
+  </data>
+  <data name="TaskGroup_Completed" xml:space="preserve">
+    <value>已完成</value>
+  </data>
+  <data name="Message_LoadingTasks" xml:space="preserve">
+    <value>正在加载您的任务...</value>
+  </data>
+  <data name="Exchange_InvalidSyncKeyWorkaround" xml:space="preserve">
+    <value>无效的同步键。建议的解决方法是执行'取代'同步。</value>
+  </data>
+  <data name="Settings_NoBadgeValue" xml:space="preserve">
+    <value>无</value>
+  </data>
+  <data name="Action_Save_Tooltip" xml:space="preserve">
+    <value>保存 (CTRL + S)</value>
+  </data>
+  <data name="Action_SaveAndContinue_Tooltip" xml:space="preserve">
+    <value>保存 + 添加 (CTRL + Enter)</value>
+  </data>
+  <data name="TaskGroup_Modified" xml:space="preserve">
+    <value>修改</value>
+  </data>
+  <data name="Misc_SmartViews" xml:space="preserve">
+    <value>智能视图</value>
+  </data>
+  <data name="Misc_Folders" xml:space="preserve">
+    <value>文件夹</value>
+  </data>
+  <data name="Misc_Contexts" xml:space="preserve">
+    <value>情景</value>
+  </data>
+  <data name="Misc_Tags" xml:space="preserve">
+    <value>标签</value>
+  </data>
+  <data name="OptionSettingsPage_SectionHelp" xml:space="preserve">
+    <value>帮助</value>
+  </data>
+  <data name="Misc_SortByNames" xml:space="preserve">
+    <value>按名称排序</value>
+  </data>
+  <data name="Misc_DangerZone" xml:space="preserve">
+    <value>危险区</value>
+  </data>
+  <data name="SmartView_PreviewCount" xml:space="preserve">
+    <value>与智能视图匹配的任务数：</value>
+  </data>
+  <data name="Sync_FixProblems" xml:space="preserve">
+    <value>获取解决同步问题的帮助</value>
+  </data>
+  <data name="Message_TapToContinue" xml:space="preserve">
+    <value>点击此处继续2Day</value>
+  </data>
+  <data name="SystemView_ToSync_EmptyHint" xml:space="preserve">
+    <value>放松和享受你的一天:-)</value>
+  </data>
+  <data name="SystemView_TitleToSync" xml:space="preserve">
+    <value>同步</value>
+  </data>
+  <data name="Message_DeleteNoSyncIdFormat" xml:space="preserve">
+    <value>有{0}个任务似乎只在2Day而不是同步。 如果未正确同步，它们可能会丢失。 继续？</value>
+  </data>
+  <data name="Misc_ShowBackgroundExecutionDetails" xml:space="preserve">
+    <value>显示后台执行详细信息</value>
+  </data>
+  <data name="Message_LiveTileRemoveMe" xml:space="preserve">
+    <value>删除我</value>
+  </data>
+  <data name="Action_Speech_Tooltip" xml:space="preserve">
+    <value>语音识别（CTRL + E）</value>
+  </data>
+  <data name="Action_QuickAddTask_Tooltip" xml:space="preserve">
+    <value>快速添加任务（CTRL + Q）</value>
+  </data>
+  <data name="Action_Cancel_Toolip" xml:space="preserve">
+    <value>取消（Escape）</value>
+  </data>
+  <data name="Action_AddTask_Tooltip" xml:space="preserve">
+    <value>添加任务（CTRL + N）</value>
+  </data>
+  <data name="Notification_NewTaskCreatedWithStartDateFormat" xml:space="preserve">
+    <value>已创建任务“{0}”，开始日期为{1}</value>
+  </data>
+  <data name="Notification_TaskUpdated" xml:space="preserve">
+    <value>任务已更新</value>
+  </data>
+  <data name="Notification_TasksUpdated" xml:space="preserve">
+    <value>任务已更新</value>
+  </data>
+  <data name="Action_Uncomplete" xml:space="preserve">
+    <value>未完成</value>
+  </data>
+  <data name="OptionSettingsPage_SectionHelpFormat" xml:space="preserve">
+    <value>同步（CTRL + U）</value>
+  </data>
+  <data name="Action_Sync_Tooltip" xml:space="preserve">
+    <value>同步（CTRL + U）</value>
+  </data>
+  <data name="SystemView_ToSync_EmptyHeader" xml:space="preserve">
+    <value>所有任务都已同步</value>
+  </data>
+  <data name="MainPage_SearchDescriptionFormat" xml:space="preserve">
+    <value>搜索“{0}”</value>
+  </data>
+  <data name="Message_AppUpdatedMessage" xml:space="preserve">
+    <value>二天进行了更新，请点击这里查看发行说明:-)</value>
+  </data>
+  <data name="Message_AppUpdatedTitle" xml:space="preserve">
+    <value>应用程序更新！</value>
+  </data>
+  <data name="MainPage_SearchPlaceHolder" xml:space="preserve">
+    <value>搜索</value>
+  </data>
+  <data name="General_LabelTime" xml:space="preserve">
+    <value>时间</value>
+  </data>
+  <data name="General_LabelDate" xml:space="preserve">
+    <value>日期</value>
+  </data>
+  <data name="General_LabelDone" xml:space="preserve">
+    <value>做</value>
+  </data>
+  <data name="CustomFrequency_EveryDay" xml:space="preserve">
+    <value>每天</value>
+  </data>
+  <data name="CustomFrequency_EveryMonth" xml:space="preserve">
+    <value>每个月</value>
+  </data>
+  <data name="CustomFrequency_EveryWeek" xml:space="preserve">
+    <value>每周</value>
+  </data>
+  <data name="CustomFrequency_EveryYear" xml:space="preserve">
+    <value>每年</value>
+  </data>
+  <data name="CustomFrequency_None" xml:space="preserve">
+    <value>没有</value>
+  </data>
+  <data name="TaskPage_Context" xml:space="preserve">
+    <value>背景</value>
+  </data>
+  <data name="TaskPage_DueDate" xml:space="preserve">
+    <value>截止日期</value>
+  </data>
+  <data name="TaskPage_Frequency" xml:space="preserve">
+    <value>频率</value>
+  </data>
+  <data name="TaskPage_Progress" xml:space="preserve">
+    <value>进程</value>
+  </data>
+  <data name="TaskPage_Reminder" xml:space="preserve">
+    <value>提醒</value>
+  </data>
+  <data name="TaskPage_StartDate" xml:space="preserve">
+    <value>开始日期</value>
+  </data>
+  <data name="TaskPage_Tag" xml:space="preserve">
+    <value>标签</value>
+  </data>
+  <data name="TaskPage_SubTask" xml:space="preserve">
+    <value>子任务</value>
+  </data>
+  <data name="Notification_SnoozeDay" xml:space="preserve">
+    <value>天</value>
+  </data>
+  <data name="TaskPage_SubTasks" xml:space="preserve">
+    <value>子任务</value>
+  </data>
+  <data name="TaskPage_TaskNamePlaceholder" xml:space="preserve">
+    <value>任务名称…</value>
+  </data>
+  <data name="SmartView_FilterHasSubtasks" xml:space="preserve">
+    <value>随着子任务</value>
+  </data>
+</root>

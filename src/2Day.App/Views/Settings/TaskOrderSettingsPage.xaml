@@ -1,0 +1,107 @@
+﻿<Page
+    x:Class="Chartreuse.Today.App.Views.Settings.TaskOrderSettingsPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:controls="using:Chartreuse.Today.App.Controls"
+    mc:Ignorable="d">
+
+    <Page.Resources>
+        <Style TargetType="ComboBox" BasedOn="{StaticResource SettingsComboBoxStyle}">
+            <Setter Property="Margin" Value="0,10,0,0"/>
+        </Style>
+    </Page.Resources>
+    
+    <controls:FlyoutHost x:Uid="TaskOrderSettingsPage_Title" Text="TaskOrderSettingsPage_Title">
+        <StackPanel>
+
+            <TextBlock 
+                x:Uid="TaskOrderSettingsPage_OrderingType1"
+                Text="TaskOrderSettingsPage_OrderingType1"/>
+            <ComboBox 
+                x:Name="listPickerSort1"
+                ItemsSource="{Binding AvailableSortOptions}"
+                SelectedItem="{Binding SortOption1, Mode=TwoWay}"/>
+            <Grid Margin="0,10,0,0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <controls:RadioIconButton
+                    x:Uid="TaskOrderSettingsPage_Ascending"
+                    Content="TaskOrderSettingsPage_Ascending"
+                    GroupName="order1" 
+                    Grid.Column="0"
+                    IsChecked="{Binding IsAscending1, Mode=TwoWay}"
+                    Icon="GroupAscending"/>
+                <controls:RadioIconButton  
+                    x:Uid="TaskOrderSettingsPage_Descending"
+                    Content="TaskOrderSettingsPage_Descending"
+                    GroupName="order1" 
+                    Grid.Column="1"
+                    IsChecked="{Binding IsAscending1, Mode=TwoWay, Converter={StaticResource BooleanNegationConverter}}"
+                    Icon="GroupDescending"/>
+            </Grid>
+
+            <TextBlock 
+                x:Uid="TaskOrderSettingsPage_OrderingType2"
+                Text="TaskOrderSettingsPage_OrderingType2"
+                Margin="0,30,0,0"/>
+            <ComboBox            
+                x:Name="listPickerSort2"
+                ItemsSource="{Binding AvailableSortOptions}"
+                SelectedItem="{Binding SortOption2, Mode=TwoWay}"/>
+            <Grid Margin="0,10,0,0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <controls:RadioIconButton
+                    x:Uid="TaskOrderSettingsPage_Ascending"
+                    Content="TaskOrderSettingsPage_Ascending"
+                    GroupName="order2" 
+                    Grid.Column="0"
+                    IsChecked="{Binding IsAscending2, Mode=TwoWay}"
+                    Icon="GroupAscending"/>
+                <controls:RadioIconButton  
+                    x:Uid="TaskOrderSettingsPage_Descending"
+                    Content="TaskOrderSettingsPage_Descending"
+                    GroupName="order2" 
+                    Grid.Column="1"
+                    IsChecked="{Binding IsAscending2, Mode=TwoWay, Converter={StaticResource BooleanNegationConverter}}"
+                    Icon="GroupDescending"/>
+            </Grid>
+
+            <TextBlock 
+                x:Uid="TaskOrderSettingsPage_OrderingType3"
+                Text="TaskOrderSettingsPage_OrderingType3"
+                Margin="0,30,0,0"/>
+            <ComboBox            
+                x:Name="listPickerSort3"
+                ItemsSource="{Binding AvailableSortOptions}"
+                SelectedItem="{Binding SortOption3, Mode=TwoWay}"/>
+            <Grid Margin="0,10,0,0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <controls:RadioIconButton
+                    x:Uid="TaskOrderSettingsPage_Ascending"
+                    Content="TaskOrderSettingsPage_Ascending"
+                    GroupName="order3" 
+                    Grid.Column="0"
+                    IsChecked="{Binding IsAscending3, Mode=TwoWay}"
+                    Icon="GroupAscending"/>
+                <controls:RadioIconButton  
+                    x:Uid="TaskOrderSettingsPage_Descending"
+                    Content="TaskOrderSettingsPage_Descending"
+                    GroupName="order3" 
+                    Grid.Column="1"
+                    IsChecked="{Binding IsAscending3, Mode=TwoWay, Converter={StaticResource BooleanNegationConverter}}"
+                    Icon="GroupDescending"/>
+            </Grid>
+
+        </StackPanel>
+    </controls:FlyoutHost>
+</Page>

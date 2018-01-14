@@ -1,0 +1,566 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AboutPage_Title.Text" xml:space="preserve">
+    <value>关于我们</value>
+  </data>
+  <data name="ActiveSyncSettingsPage_AppPassword.Text" xml:space="preserve">
+    <value>如果您使用二维因素身份验证，那么您必须使用应用密码</value>
+  </data>
+  <data name="ActiveSyncSettingsPage_AppPasswordLink.Text" xml:space="preserve">
+    <value>创建应用的密码</value>
+  </data>
+  <data name="ActiveSyncSettingsPage_Email.Text" xml:space="preserve">
+    <value>电子邮箱</value>
+  </data>
+  <data name="ActiveSyncSettingsPage_Password.Text" xml:space="preserve">
+    <value>密码</value>
+  </data>
+  <data name="ActiveSyncSettingsPage_ServerUri.Text" xml:space="preserve">
+    <value>服务器url</value>
+  </data>
+  <data name="ActiveSyncSettingsPage_ServerUriExplanation.Text" xml:space="preserve">
+    <value>如果您想让应用程序自动检测您的服务器，请将此栏为空</value>
+  </data>
+  <data name="OutlookSyncSettingsPage_Title.Text" xml:space="preserve">
+    <value>Outlook.com</value>
+  </data>
+  <data name="AddContext_Title" xml:space="preserve">
+    <value>创建情景</value>
+  </data>
+  <data name="AppBar_Add.Label" xml:space="preserve">
+    <value>添加</value>
+  </data>
+  <data name="AppBar_AddContext.Text" xml:space="preserve">
+    <value>情景</value>
+  </data>
+  <data name="AppBar_AddEdit.Label" xml:space="preserve">
+    <value>编辑</value>
+  </data>
+  <data name="AppBar_AddFolder.Text" xml:space="preserve">
+    <value>文件夹</value>
+  </data>
+  <data name="AppBar_AddSmartView.Text" xml:space="preserve">
+    <value>智能浏览</value>
+  </data>
+  <data name="AppBar_AddTask.Text" xml:space="preserve">
+    <value>任务</value>
+  </data>
+  <data name="AppBar_AddView.Text" xml:space="preserve">
+    <value>视图</value>
+  </data>
+  <data name="AppBar_Complete.Label" xml:space="preserve">
+    <value>已完成</value>
+  </data>
+  <data name="AppBar_Delete.Label" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="AppBar_Filter.Label" xml:space="preserve">
+    <value>次序</value>
+  </data>
+  <data name="AppBar_NoDueDate.Content" xml:space="preserve">
+    <value>没有截止日期</value>
+  </data>
+  <data name="AppBar_Postpone.Label" xml:space="preserve">
+    <value>推迟</value>
+  </data>
+  <data name="AppBar_Print.Text" xml:space="preserve">
+    <value>打印</value>
+  </data>
+  <data name="AppBar_Priority.Label" xml:space="preserve">
+    <value>优先</value>
+  </data>
+  <data name="AppBar_Priority_High.Text" xml:space="preserve">
+    <value>高</value>
+  </data>
+  <data name="AppBar_Priority_Low.Text" xml:space="preserve">
+    <value>低</value>
+  </data>
+  <data name="AppBar_Priority_Medium.Text" xml:space="preserve">
+    <value>中</value>
+  </data>
+  <data name="AppBar_Priority_None.Text" xml:space="preserve">
+    <value>无</value>
+  </data>
+  <data name="AppBar_Priority_Star.Text" xml:space="preserve">
+    <value>星级</value>
+  </data>
+  <data name="AppBar_QuickAdd.Label" xml:space="preserve">
+    <value>快速添加</value>
+  </data>
+  <data name="AppBar_Settings.Label" xml:space="preserve">
+    <value>设置</value>
+  </data>
+  <data name="AppBar_Share.Text" xml:space="preserve">
+    <value>共享</value>
+  </data>
+  <data name="AppBar_Speech.Label" xml:space="preserve">
+    <value>语音</value>
+  </data>
+  <data name="AppBar_Sync.Label" xml:space="preserve">
+    <value>同步</value>
+  </data>
+  <data name="AppMenu_ContextMenu_Folder_Delete" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="AppMenu_ContextMenu_Folder_Edit" xml:space="preserve">
+    <value>编辑</value>
+  </data>
+  <data name="AppMenu_ContextMenu_Folder_Pin" xml:space="preserve">
+    <value>固定</value>
+  </data>
+  <data name="AppMenu_ContextMenu_Folder_Share" xml:space="preserve">
+    <value>共享</value>
+  </data>
+  <data name="AppMenu_ContextMenu_Folder_Unpin" xml:space="preserve">
+    <value>解除固定</value>
+  </data>
+  <data name="AppMenu_ContextMenu_Hide" xml:space="preserve">
+    <value>隐藏</value>
+  </data>
+  <data name="ChooseSyncPage_Title.Title" xml:space="preserve">
+    <value>请选择您要同步的提供方</value>
+  </data>
+  <data name="ContextSettingsPage_Intro.Text" xml:space="preserve">
+    <value>情景将通过确定您在哪里和您在做什么来帮助您组织任务。</value>
+  </data>
+  <data name="ContextSettingsPage_Title.Text" xml:space="preserve">
+    <value>情景</value>
+  </data>
+  <data name="ContextSettings_ContextName.PlaceholderText" xml:space="preserve">
+    <value>情景名称</value>
+  </data>
+  <data name="CreateEditFolderPage_FolderNamePlaceholder.PlaceholderText" xml:space="preserve">
+    <value>文件夹名称</value>
+  </data>
+  <data name="CreateEditFolder_Color.Header" xml:space="preserve">
+    <value>颜色</value>
+  </data>
+  <data name="CreateEditFolder_General.Header" xml:space="preserve">
+    <value>常规</value>
+  </data>
+  <data name="CreateEditFolder_Options.Header" xml:space="preserve">
+    <value>选项</value>
+  </data>
+  <data name="CreateEditFolder_ShowInViews.Text" xml:space="preserve">
+    <value>在所有视图中显示</value>
+  </data>
+  <data name="CreateEditTaskPage_Context.Text" xml:space="preserve">
+    <value>情景</value>
+  </data>
+  <data name="CreateEditTaskPage_Due.Text" xml:space="preserve">
+    <value>到期</value>
+  </data>
+  <data name="CreateEditTaskPage_DueNone.Content" xml:space="preserve">
+    <value>无</value>
+  </data>
+  <data name="CreateEditTaskPage_DueOther.Content" xml:space="preserve">
+    <value>其他</value>
+  </data>
+  <data name="CreateEditTaskPage_DueToday.Content" xml:space="preserve">
+    <value>今天</value>
+  </data>
+  <data name="CreateEditTaskPage_DueTomorrow.Content" xml:space="preserve">
+    <value>明天</value>
+  </data>
+  <data name="CreateEditTaskPage_EditHtmlNote.Text" xml:space="preserve">
+    <value>备注包含 HTML 格式设置，您可以编辑它但是这将删除这种格式设置。点击这里以进入编辑模式。</value>
+  </data>
+  <data name="CreateEditTaskPage_Folder.Text" xml:space="preserve">
+    <value>文件夹</value>
+  </data>
+  <data name="CreateEditTaskPage_Frequency.Text" xml:space="preserve">
+    <value>频率</value>
+  </data>
+  <data name="CreateEditTaskPage_HeaderAdvanced.Header" xml:space="preserve">
+    <value>高级别</value>
+  </data>
+  <data name="CreateEditTaskPage_HeaderGeneral.Header" xml:space="preserve">
+    <value>常规</value>
+  </data>
+  <data name="CreateEditTaskPage_HeaderNotes.Header" xml:space="preserve">
+    <value>备注</value>
+  </data>
+  <data name="CreateEditTaskPage_Notes.Text" xml:space="preserve">
+    <value>备注</value>
+  </data>
+  <data name="CreateEditTaskPage_NotesPlaceholder.PlaceholderText" xml:space="preserve">
+    <value>备注…</value>
+  </data>
+  <data name="CreateEditTaskPage_Priority.Text" xml:space="preserve">
+    <value>优先</value>
+  </data>
+  <data name="CreateEditTaskPage_Progress.Text" xml:space="preserve">
+    <value>进度</value>
+  </data>
+  <data name="CreateEditTaskPage_Reminder.Text" xml:space="preserve">
+    <value>提醒</value>
+  </data>
+  <data name="CreateEditTaskPage_StartDate.Text" xml:space="preserve">
+    <value>开始日期</value>
+  </data>
+  <data name="CreateEditTaskPage_TagPlaceholder.Watermark" xml:space="preserve">
+    <value>标记名称…</value>
+  </data>
+  <data name="CreateEditTaskPage_Tags.Text" xml:space="preserve">
+    <value>标记</value>
+  </data>
+  <data name="CreateEditTaskPage_TaskNamePlaceholder.PlaceholderText" xml:space="preserve">
+    <value>任务名称…</value>
+  </data>
+  <data name="CreateEditTaskPage_Title.Text" xml:space="preserve">
+    <value>标题</value>
+  </data>
+  <data name="DisplaySettingsPage_BackgroundImage.Content" xml:space="preserve">
+    <value>图像</value>
+  </data>
+  <data name="DisplaySettingsPage_BackgroundNone.Content" xml:space="preserve">
+    <value>无</value>
+  </data>
+  <data name="DisplaySettingsPage_BackgroundPattern.Content" xml:space="preserve">
+    <value>模式</value>
+  </data>
+  <data name="DisplaySettingsPage_Image.Text" xml:space="preserve">
+    <value>图像</value>
+  </data>
+  <data name="DisplaySettingsPage_ImagePreview.Text" xml:space="preserve">
+    <value>预览</value>
+  </data>
+  <data name="DisplaySettingsPage_Opacity.Text" xml:space="preserve">
+    <value>透明度</value>
+  </data>
+  <data name="DisplaySettingsPage_Pattern.Text" xml:space="preserve">
+    <value>模式</value>
+  </data>
+  <data name="DisplaySettingsPage_PickImage.Content" xml:space="preserve">
+    <value>选择图像</value>
+  </data>
+  <data name="DisplaySettingsPage_Title.Text" xml:space="preserve">
+    <value>显示</value>
+  </data>
+  <data name="EditBox_Ok.Content" xml:space="preserve">
+    <value>好的</value>
+  </data>
+  <data name="ExchangeSettingsPage_Advanced.Text" xml:space="preserve">
+    <value>高级别</value>
+  </data>
+  <data name="ExchangeSettingsPage_Domain.Text" xml:space="preserve">
+    <value>域</value>
+  </data>
+  <data name="ExchangeSettingsPage_Email.Text" xml:space="preserve">
+    <value>电子邮箱</value>
+  </data>
+  <data name="ExchangeSettingsPage_Help.Content" xml:space="preserve">
+    <value>帮助</value>
+  </data>
+  <data name="ExchangeSettingsPage_Password.Text" xml:space="preserve">
+    <value>密码</value>
+  </data>
+  <data name="ExchangeSettingsPage_ServerUri.Text" xml:space="preserve">
+    <value>服务器 Uri</value>
+  </data>
+  <data name="ExchangeSettingsPage_Title.Text" xml:space="preserve">
+    <value>交换</value>
+  </data>
+  <data name="ExchangeSettingsPage_UserName.Text" xml:space="preserve">
+    <value>用户名</value>
+  </data>
+  <data name="ExchangeSettingsPage_UseSSL.Text" xml:space="preserve">
+    <value>使用 SSL</value>
+  </data>
+  <data name="ExchangeSettingsPage_Version.Text" xml:space="preserve">
+    <value>版本</value>
+  </data>
+  <data name="FolderGroup_Ascending.Content" xml:space="preserve">
+    <value>升序</value>
+  </data>
+  <data name="FolderGroup_Descending.Content" xml:space="preserve">
+    <value>降序</value>
+  </data>
+  <data name="FolderGroup_Group.Text" xml:space="preserve">
+    <value>由…分组</value>
+  </data>
+  <data name="FolderGroup_GroupAction.Content" xml:space="preserve">
+    <value>动作</value>
+  </data>
+  <data name="FolderGroup_GroupBy.Content" xml:space="preserve">
+    <value>由…分组</value>
+  </data>
+  <data name="FolderGroup_GroupContext.Content" xml:space="preserve">
+    <value>情景</value>
+  </data>
+  <data name="FolderGroup_GroupDue.Content" xml:space="preserve">
+    <value>到期</value>
+  </data>
+  <data name="FolderGroup_GroupFolder.Content" xml:space="preserve">
+    <value>文件夹</value>
+  </data>
+  <data name="FolderGroup_GroupPriority.Content" xml:space="preserve">
+    <value>优先</value>
+  </data>
+  <data name="FolderGroup_GroupProgress.Content" xml:space="preserve">
+    <value>进度</value>
+  </data>
+  <data name="FolderGroup_GroupStartDate.Content" xml:space="preserve">
+    <value>开始日期</value>
+  </data>
+  <data name="FolderGroup_GroupStatus.Content" xml:space="preserve">
+    <value>状态</value>
+  </data>
+  <data name="FolderGroup_Order.Text" xml:space="preserve">
+    <value>次序</value>
+  </data>
+  <data name="FolderSettingsPage_Intro.Text" xml:space="preserve">
+    <value>文件夹可以帮助您组织您的任务。也可以删除现有的或创建新的文件夹。</value>
+  </data>
+  <data name="FolderSettingsPage_Title.Text" xml:space="preserve">
+    <value>文件夹</value>
+  </data>
+  <data name="FrequencyPicker_AsSoonAs.Text" xml:space="preserve">
+    <value>从     创建新任务</value>
+  </data>
+  <data name="FrequencyPicker_DueDateOver.Text" xml:space="preserve">
+    <value>从上一个限定日期</value>
+  </data>
+  <data name="FrequencyPicker_TaskCompleted.Text" xml:space="preserve">
+    <value>任务完成日期</value>
+  </data>
+  <data name="GeneralSettingsPage_AutoDelete.Text" xml:space="preserve">
+    <value>自动删除已完成的任务</value>
+  </data>
+  <data name="GeneralSettingsPage_Background.Text" xml:space="preserve">
+    <value>后台</value>
+  </data>
+  <data name="GeneralSettingsPage_CompletedTasks.Text" xml:space="preserve">
+    <value>已完成的任务</value>
+  </data>
+  <data name="GeneralSettingsPage_DefaultContext.Text" xml:space="preserve">
+    <value>默认语境</value>
+  </data>
+  <data name="GeneralSettingsPage_DefaultDueDate.Text" xml:space="preserve">
+    <value>默认截止日期</value>
+  </data>
+  <data name="GeneralSettingsPage_DefaultStartDate.Text" xml:space="preserve">
+    <value>默认出发日期</value>
+  </data>
+  <data name="GeneralSettingsPage_DefaultTaskPriority.Text" xml:space="preserve">
+    <value>默认优先级</value>
+  </data>
+  <data name="GeneralSettingsPage_FirstDayOfTheWeek.Text" xml:space="preserve">
+    <value>周中的第一天</value>
+  </data>
+  <data name="GeneralSettingsPage_GroupedDateDescription.Text" xml:space="preserve">
+    <value>该选项开启时，所有在任务中的日期将被分组例如“迟到”、“今天”、“7天后”等，而不是每个日期作为单独的组。</value>
+  </data>
+  <data name="GeneralSettingsPage_ShowFutureStartDates.Text" xml:space="preserve">
+    <value>将来显示有开始日期的任务</value>
+  </data>
+  <data name="GeneralSettingsPage_ShowNoDueWithOther.Text" xml:space="preserve">
+    <value>在其他中显示没有截止日期的任务</value>
+  </data>
+  <data name="GeneralSettingsPage_ShowNoDueWithOtherDescription.Text" xml:space="preserve">
+    <value>该选项开启时，没有截止日期的任务将和那些像“今天”、“明天”或“一周”等有截止日期的任务被一同显示。</value>
+  </data>
+  <data name="GeneralSettingsPage_SyncOnStartup.Text" xml:space="preserve">
+    <value>在启动时同步</value>
+  </data>
+  <data name="GeneralSettingsPage_Theme.Text" xml:space="preserve">
+    <value>主题</value>
+  </data>
+  <data name="GeneralSettingsPage_Title.Text" xml:space="preserve">
+    <value>常规</value>
+  </data>
+  <data name="GeneralSettingsPage_UseGroupedDates.Text" xml:space="preserve">
+    <value>使用分组日期</value>
+  </data>
+  <data name="HomePage_AppBarEdit.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>编辑</value>
+  </data>
+  <data name="HomePage_AppBarSettings.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>设置</value>
+  </data>
+  <data name="HomePage_AppBarSync.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>同步</value>
+  </data>
+  <data name="LogViewerSettingsPage_Title.Text" xml:space="preserve">
+    <value>记录</value>
+  </data>
+  <data name="MainPage_SearchBox_QuickAdd.PlaceholderText" xml:space="preserve">
+    <value>任务名称…</value>
+  </data>
+  <data name="MainPage_SearchBox_Search.PlaceholderText" xml:space="preserve">
+    <value>搜索</value>
+  </data>
+  <data name="MiscSettingsPage_Language.Text" xml:space="preserve">
+    <value>语言 （需要重新启动)</value>
+  </data>
+  <data name="MiscSettingsPage_SendAnalytics.Header" xml:space="preserve">
+    <value>发送匿名使用数据</value>
+  </data>
+  <data name="MiscSettingsPage_ShowAnalyticsQuestion.Header" xml:space="preserve">
+    <value>显示关于使用2Day方法的随机问题</value>
+  </data>
+  <data name="MiscSettingsPage_Title.Text" xml:space="preserve">
+    <value>杂项</value>
+  </data>
+  <data name="OptionsSettingsPage_Title.Text" xml:space="preserve">
+    <value>选项</value>
+  </data>
+  <data name="QuickAddTaskPage_Date.Text" xml:space="preserve">
+    <value>日期</value>
+  </data>
+  <data name="QuickAddTaskPage_Folder.Text" xml:space="preserve">
+    <value>文件夹</value>
+  </data>
+  <data name="QuickAddTaskPage_Name.Text" xml:space="preserve">
+    <value>快速添加</value>
+  </data>
+  <data name="QuickAddTaskPage_NamePlaceholder.PlaceholderText" xml:space="preserve">
+    <value>任务名称</value>
+  </data>
+  <data name="QuickAddTaskPage_NoDueDate.Header" xml:space="preserve">
+    <value>没有截止日期</value>
+  </data>
+  <data name="QuickAddTaskPage_Title.Text" xml:space="preserve">
+    <value>标题</value>
+  </data>
+  <data name="SettingsPage_Log.Text" xml:space="preserve">
+    <value>记录</value>
+  </data>
+  <data name="SettingsPage_Log_Detail.Text" xml:space="preserve">
+    <value>同步时获取记录</value>
+  </data>
+  <data name="SettingsPage_SyncAuto.Text" xml:space="preserve">
+    <value>自动同步</value>
+  </data>
+  <data name="SettingsPage_SyncAuto_Detail.Text" xml:space="preserve">
+    <value>在每次更改之后启动背景的同步</value>
+  </data>
+  <data name="SettingsPage_SyncBackground.Text" xml:space="preserve">
+    <value>后台同步</value>
+  </data>
+  <data name="SettingsPage_SyncBackground_Detail.Text" xml:space="preserve">
+    <value>当您不使用 2Day 时进行后台同步</value>
+  </data>
+  <data name="SettingsPage_SyncOnStartup.Text" xml:space="preserve">
+    <value>在启动时同步</value>
+  </data>
+  <data name="SettingsPage_SyncOnStartup_Detail.Text" xml:space="preserve">
+    <value>每次打开应用程序时都进行同步</value>
+  </data>
+  <data name="SyncSettingsPage_AddAccount.Text" xml:space="preserve">
+    <value>添加一个新的账号</value>
+  </data>
+  <data name="SyncSettingsPage_HowToChoose.Content" xml:space="preserve">
+    <value>如何选择您的同步提供方？</value>
+  </data>
+  <data name="SyncSettingsPage_LastSync.Text" xml:space="preserve">
+    <value>上次同步</value>
+  </data>
+  <data name="SyncSettingsPage_LastSyncNever" xml:space="preserve">
+    <value>从不</value>
+  </data>
+  <data name="SyncSettingsPage_Title.Text" xml:space="preserve">
+    <value>同步</value>
+  </data>
+  <data name="TaskOrderSettingsPage_Ascending.Content" xml:space="preserve">
+    <value>升序</value>
+  </data>
+  <data name="TaskOrderSettingsPage_Descending.Content" xml:space="preserve">
+    <value>降序</value>
+  </data>
+  <data name="TaskOrderSettingsPage_OrderingType1.Text" xml:space="preserve">
+    <value>按分类</value>
+  </data>
+  <data name="TaskOrderSettingsPage_OrderingType2.Text" xml:space="preserve">
+    <value>按次序</value>
+  </data>
+  <data name="TaskOrderSettingsPage_OrderingType3.Text" xml:space="preserve">
+    <value>按最终</value>
+  </data>
+  <data name="TaskOrderSettingsPage_Title.Text" xml:space="preserve">
+    <value>任务排序</value>
+  </data>
+  <data name="ToodleDoSettingsPage_Email.Text" xml:space="preserve">
+    <value>电子邮箱</value>
+  </data>
+  <data name="ToodleDoSettingsPage_Password.Text" xml:space="preserve">
+    <value>密码</value>
+  </data>
+  <data name="ToodleDoSettingsPage_Title.Text" xml:space="preserve">
+    <value>Toodledo</value>
+  </data>
+  <data name="VercorsSettingsPage_Title.Text" xml:space="preserve">
+    <value>2Day云端</value>
+  </data>
+  <data name="ViewSettingsPage_Intro.Text" xml:space="preserve">
+    <value>选择您想要显示的视图。</value>
+  </data>
+  <data name="ViewSettingsPage_Title.Text" xml:space="preserve">
+    <value>视图</value>
+  </data>
+  <data name="WelcomePage_LetsGo.Text" xml:space="preserve">
+    <value>好的，让我们开始吧</value>
+  </data>
+  <data name="AppBar_ShareLabel.Label" xml:space="preserve">
+    <value>分享</value>
+  </data>
+  <data name="SettingsPage_Title.Text" xml:space="preserve">
+    <value>设置</value>
+  </data>
+  <data name="GeneralSettingsPage_SecondaryQuickAddTile.Text" xml:space="preserve">
+    <value>设置磁贴以快速添加任务</value>
+  </data>
+  <data name="FolderGroup_GroupCompleted.Content" xml:space="preserve">
+    <value>已完成</value>
+  </data>
+  <data name="FolderGroup_GroupModified.Content" xml:space="preserve">
+    <value>修改</value>
+  </data>
+  <data name="ActiveSyncSyncSettingsPage_Title.Text" xml:space="preserve">
+    <value>ActiveSync</value>
+  </data>
+  <data name="ExchangeSettingsPage_UseLegacyEngine.Text" xml:space="preserve">
+    <value>使用旧的同步引擎</value>
+  </data>
+  <data name="GeneralSettingsPage_BadgeValue.Text" xml:space="preserve">
+    <value>平铺徽章值</value>
+  </data>
+  <data name="GeneralSettingsPage_AutoDeleteTags.Text" xml:space="preserve">
+    <value>自动删除标签</value>
+  </data>
+  <data name="GeneralSettingsPage_AutoDeleteTagsDescription.Text" xml:space="preserve">
+    <value>启用此选项时，将自动删除不再用于任何任务的标记。</value>
+  </data>
+  <data name="MiscSettingsPage_Log.Header" xml:space="preserve">
+    <value>记录</value>
+  </data>
+  <data name="ExchangeSettingsPage_SetupMicrosoftAccount.Text" xml:space="preserve">
+    <value>微软员工应使用以下配置与他们的企业Microsoft帐户同步2DAY：
+
+ - 电子邮件：完整的电子邮件地址（firstname.lastname@microsoft.com）
+-Username：原来的电子邮件地址（别名或UPN地址知道） - 而不是完整的电子邮件地址
+-Domain：用户域（例如：“欧洲”）
+-version：Office 365的</value>
+  </data>
+  <data name="ExchangeSettingsPage_SyncFlaggedItems.Text" xml:space="preserve">
+    <value>同步标记电子邮件（实验）</value>
+  </data>
+  <data name="MiscSettingsPage_NewTaskUI.Header" xml:space="preserve">
+    <value>使用新的用户界面添加和编辑任务</value>
+  </data>
+  <data name="GeneralSettingsPage_CompleteTaskSetsProgress.Text" xml:space="preserve">
+    <value>当完成任务进度集</value>
+  </data>
+</root>

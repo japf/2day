@@ -1,0 +1,51 @@
+﻿<#@ template language="C#" hostspecific="True"
+#><#@include file="ResourceGenerator.ttinclude"
+#><#@ output extension=".log"
+#><# var manager = Manager.Create(Host, GenerationEnvironment);
+
+foreach(var resource in Resources.Named(new [] { "Resources" }, Path.GetDirectoryName(Host.TemplateFile), ".resw")) {
+    manager.StartNewFile(resource.Name + ".generated.cs");
+#>namespace <#=manager.DefaultProjectNamespace#>
+{
+	using System;
+    
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("T4 based resource generator", "0.1")]
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+    internal class Application<#=resource.Name#>
+    {
+        private static global::Windows.ApplicationModel.Resources.ResourceLoader resourceLoader;
+                
+        /// <summary>
+        ///   Returns the cached ResourceLoader instance used by this class.
+        /// </summary>
+        [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
+        internal static global::Windows.ApplicationModel.Resources.ResourceLoader ResourceLoader {
+            get {
+                if (object.ReferenceEquals(resourceLoader, null)) {
+                    resourceLoader = global::Windows.ApplicationModel.Resources.ResourceLoader.GetForCurrentView();
+                }
+                return resourceLoader;
+            }
+        }
+        
+<#      foreach(var entry in resource.Entries) {
+			string propertyName = entry.PropertyName;
+			propertyName = propertyName.Replace(".", "_");
+			if (entry.PropertyName.Contains('['))
+				continue;
+#>
+        /// <summary>
+        ///   Looks up a localized string similar to <#=entry.Value#>.
+        /// </summary>
+        internal static string <#=propertyName#> { get { return ResourceLoader.GetString("<#=entry.KeyName#>"); } }
+<#      } 
+
+#>
+    }
+}<# manager.EndBlock();
+}
+manager.Process(true); #>
+T4 based resource generator
+<# foreach(var line in manager.GeneratedFileNames) { #>
+    Generated <#=Path.GetFileName(line)#>
+<# } #>

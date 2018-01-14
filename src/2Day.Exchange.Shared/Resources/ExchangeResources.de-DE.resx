@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="OutlookActiveSync_Description" xml:space="preserve">
+    <value>Greifen Sie über Outlook.com oder Office Outlook auf Ihre Aufgaben zu</value>
+  </data>
+  <data name="ExchangeActiveSync_DomainNotSupported" xml:space="preserve">
+    <value>Bitte benutzen Sie "Microsoft Exchange" aus den Synchonisationseinstellungen für Office 365</value>
+  </data>
+  <data name="OutlookActiveSync_Headline" xml:space="preserve">
+    <value>Synchronisierung mit Outlook.com</value>
+  </data>
+  <data name="ExchangeActiveSync_InvalidCredentialsMessage" xml:space="preserve">
+    <value>Entweder sind Ihre Zugangsdaten</value>
+  </data>
+  <data name="ExchangeActiveSync_NoTasksFolder" xml:space="preserve">
+    <value>Es wurde kein Aufgaben Ordner auf</value>
+  </data>
+  <data name="OutlookActiveSync_ProviderName" xml:space="preserve">
+    <value>Outlook.com</value>
+  </data>
+  <data name="Exchange_AuthAutoDiscoveryNotFound" xml:space="preserve">
+    <value>Die Autodiscover Funktion ist nicht verfügbar. Bitte geben Sie die Server-URI an.</value>
+  </data>
+  <data name="Exchange_AuthInvalidCredential" xml:space="preserve">
+    <value>Ungültiges Zertifikat.</value>
+  </data>
+  <data name="Exchange_AuthOk" xml:space="preserve">
+    <value>Gültiges Zertifikat.</value>
+  </data>
+  <data name="Exchange_AuthProblemFormat" xml:space="preserve">
+    <value>Berechtigungsproblem: {0} ({1})</value>
+  </data>
+  <data name="Exchange_AuthServerAccessForbiden" xml:space="preserve">
+    <value>Der Serverzugang wurde verweigert.</value>
+  </data>
+  <data name="Exchange_AuthServerMethodNotAllowed" xml:space="preserve">
+    <value>Die Servermethode is nicht verfügbar.</value>
+  </data>
+  <data name="Exchange_AuthServerUrlNotFound" xml:space="preserve">
+    <value>Server-URI konnte nicht gefunden werden.</value>
+  </data>
+  <data name="Exchange_AuthTrustFailure" xml:space="preserve">
+    <value>Vertrauensfehler</value>
+  </data>
+  <data name="Exchange_AuthUnkown" xml:space="preserve">
+    <value>Unbekannter Status</value>
+  </data>
+  <data name="Exchange_CheckingCredentials" xml:space="preserve">
+    <value>Authentifizierung…</value>
+  </data>
+  <data name="Exchange_Description" xml:space="preserve">
+    <value>2007, 2010 oder 2013</value>
+  </data>
+  <data name="Exchange_EmptyEmail" xml:space="preserve">
+    <value>Leere E-Mail</value>
+  </data>
+  <data name="Exchange_EmptyPassword" xml:space="preserve">
+    <value>Leeres Passwort</value>
+  </data>
+  <data name="Exchange_EmptyUsername" xml:space="preserve">
+    <value>Leerer Benutzername</value>
+  </data>
+  <data name="Exchange_ExceptionFormat" xml:space="preserve">
+    <value>Synchronisierungsfehler ({0})</value>
+  </data>
+  <data name="Exchange_Headline" xml:space="preserve">
+    <value>Sync mit Microsoft Exchange</value>
+  </data>
+  <data name="Exchange_InvalidCredentialsFormat" xml:space="preserve">
+    <value>Verbindung schlug fehl ({0})</value>
+  </data>
+  <data name="Exchange_InvalidServerUri" xml:space="preserve">
+    <value>Ungültige Server URI</value>
+  </data>
+  <data name="Exchange_SyncErrorFormat" xml:space="preserve">
+    <value>Synchronisierungsfehler ({0})</value>
+  </data>
+  <data name="ExchangeOffice365_Headline" xml:space="preserve">
+    <value>Sync mit Microsoft Office 365</value>
+  </data>
+  <data name="ExchangeOffice365_Description" xml:space="preserve">
+    <value>Office 365</value>
+  </data>
+  <data name="ExchangeOffice365_SettingsTitle" xml:space="preserve">
+    <value>Office 365</value>
+  </data>
+  <data name="ActiveSync_ProviderName" xml:space="preserve">
+    <value>ActiveSync</value>
+  </data>
+  <data name="ActiveSync_Description" xml:space="preserve">
+    <value>Verwenden Sie das ActiveSync-Protokoll, um Ihre Aufgaben zu synchronisieren</value>
+  </data>
+  <data name="ActiveSync_Headline" xml:space="preserve">
+    <value>Synchronisierung mit einem ActiveSync-Server</value>
+  </data>
+  <data name="Exchange_RemoveExistingContent" xml:space="preserve">
+    <value>Bitte entfernen Sie alle vorhandenen Inhalte von 2Tag bevor Sie versuchen, Synchronisierung zu konfigurieren.</value>
+  </data>
+</root>

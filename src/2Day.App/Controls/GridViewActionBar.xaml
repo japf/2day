@@ -1,0 +1,113 @@
+﻿<UserControl
+    x:Class="Chartreuse.Today.App.Controls.GridViewActionBar"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Chartreuse.Today.App.Controls"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:behavior="using:Chartreuse.Today.App.Tools.Behavior"
+    mc:Ignorable="d"
+    d:DesignHeight="100"
+    d:DesignWidth="800">
+
+    <Border 
+        Background="{StaticResource NavMenuSecondaryBackgroundBrush}" 
+        BorderBrush="{StaticResource ApplicationAccentBrush}" 
+        BorderThickness="1,1,1,0">
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="8">
+            <Button 
+                Style="{StaticResource ModernButtonStyle}" 
+                Background="{StaticResource NavMenuBackgroundBrush}"
+                BorderThickness="1,1,0,1"
+                Command="{Binding CompleteSelectionCommand}">
+                <StackPanel Orientation="Horizontal">
+                    <local:IconText FontSize="18" FontWeight="ExtraLight" Margin="6,0" Icon="CommonAppBarAdd"/>
+                    <TextBlock Text="{Binding Path=SharedStrings.Action_Complete, Source={StaticResource Resources}}" FontWeight="SemiLight"/>
+                </StackPanel>
+            </Button>
+            <Button 
+                Style="{StaticResource ModernButtonStyle}" 
+                Background="{StaticResource NavMenuBackgroundBrush}"
+                BorderThickness="1,1,0,1"                                    
+                behavior:OpenPopupOnTap.IsEnabled="True"
+                Tapped="OnButtonPostponeTapped">
+                <StackPanel Orientation="Horizontal">
+                    <local:IconText FontSize="18" FontWeight="ExtraLight" Margin="6,0" Icon="Folder07"/>
+                    <TextBlock Text="{Binding Path=SharedStrings.Action_Postpone, Source={StaticResource Resources}}" FontWeight="SemiLight"/>
+                </StackPanel>
+            </Button>
+            <Popup x:Name="popup" IsLightDismissEnabled="True" VerticalOffset="-430" HorizontalOffset="-200" Tag="customPlacement">
+                <local:DateTimePicker
+                    x:DeferLoadStrategy="Lazy"
+                    x:Name="DateTimePicker"
+                    ShowTime="False"
+                    NoDateSelectionOnLoad="True"/>
+            </Popup>
+            <Button
+                x:Name="buttonNone"
+                Style="{StaticResource ModernButtonStyle}" 
+                Background="{StaticResource NavMenuBackgroundBrush}"
+                BorderThickness="1,1,0,1"
+                Command="{Binding SetPrioritySelectionCommand, ConverterParameter='none'}"
+                CommandParameter="None"
+                Height="40"
+                Width="41">
+                    <local:IconText FontSize="18" FontWeight="ExtraLight" Margin="6,0" Icon="PriorityNone"/>
+            </Button>
+            <Button
+                x:Name="buttonLow"
+                Style="{StaticResource ModernButtonStyle}" 
+                Background="{StaticResource NavMenuBackgroundBrush}"
+                BorderThickness="1,1,0,1"
+                Command="{Binding SetPrioritySelectionCommand}"
+                CommandParameter="Low"
+                Height="40"
+                Width="41">
+                <local:IconText FontSize="18" FontWeight="ExtraLight" Icon="PriorityLow"/>
+            </Button>
+            <Button
+                x:Name="buttonMedium"
+                Style="{StaticResource ModernButtonStyle}" 
+                Background="{StaticResource NavMenuBackgroundBrush}"
+                BorderThickness="1,1,0,1"
+                Command="{Binding SetPrioritySelectionCommand}"
+                CommandParameter="Medium"
+                Height="40"
+                Width="41">
+                <local:IconText FontSize="18" FontWeight="ExtraLight" Icon="PriorityMedium"/>
+            </Button>
+            <Button
+                x:Name="buttonHigh"
+                Style="{StaticResource ModernButtonStyle}" 
+                Background="{StaticResource NavMenuBackgroundBrush}"
+                BorderThickness="1,1,0,1"
+                Command="{Binding SetPrioritySelectionCommand}"
+                CommandParameter="High"
+                Height="40"
+                Width="41">
+                <local:IconText FontSize="18" FontWeight="ExtraLight" Icon="PriorityHigh"/>
+            </Button>
+            <Button
+                x:Name="buttonStar"
+                Style="{StaticResource ModernButtonStyle}" 
+                Background="{StaticResource NavMenuBackgroundBrush}"
+                BorderThickness="1,1,1,1"
+                Command="{Binding SetPrioritySelectionCommand}"
+                CommandParameter="Star"
+                Height="40"
+                Width="41">
+                <local:IconText FontSize="18" FontWeight="ExtraLight" Icon="PriorityStar"/>
+            </Button>
+            <Button 
+                Style="{StaticResource ModernButtonStyle}" 
+                Background="{StaticResource NavMenuBackgroundBrush}"
+                Command="{Binding DeleteSelectionCommand}"
+                BorderThickness="0,1,1,1">
+                <StackPanel Orientation="Horizontal">
+                    <local:IconText FontSize="18" FontWeight="ExtraLight" Margin="6,0" Icon="CommonDelete"/>
+                    <TextBlock Text="{Binding Path=SharedStrings.Action_Delete, Source={StaticResource Resources}}" FontWeight="SemiLight"/>
+                </StackPanel>
+            </Button>
+        </StackPanel>
+    </Border>
+</UserControl>

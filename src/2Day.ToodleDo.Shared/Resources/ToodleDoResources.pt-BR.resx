@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AppBar_Cancel" xml:space="preserve">
+    <value>cancelar</value>
+  </data>
+  <data name="AppBar_Save" xml:space="preserve">
+    <value>salvar</value>
+  </data>
+  <data name="ToodleDo_CheckingCredentials" xml:space="preserve">
+    <value>Verificando credenciais...</value>
+  </data>
+  <data name="ToodleDo_Description" xml:space="preserve">
+    <value>Conta grátis em www.toodledo.com</value>
+  </data>
+  <data name="ToodleDo_EmptyPassword" xml:space="preserve">
+    <value>Senha está vazia</value>
+  </data>
+  <data name="ToodleDo_EmptyUsername" xml:space="preserve">
+    <value>Nome do Usuário vazio</value>
+  </data>
+  <data name="ToodleDo_Headline" xml:space="preserve">
+    <value>Sincronização com ToodleDo</value>
+  </data>
+  <data name="ToodleDo_InvalidCredentialsFormat" xml:space="preserve">
+    <value>Credenciais inválidas {{0}}</value>
+  </data>
+  <data name="ToodleDo_LoginInProgress" xml:space="preserve">
+    <value>Login em progresso...</value>
+  </data>
+  <data name="ToodleDo_Progress_ErrorWhileGettingData" xml:space="preserve">
+    <value>Erro enquanto obtinha dados do servidor</value>
+  </data>
+  <data name="ToodleDo_Progress_LoginErrorFormat" xml:space="preserve">
+    <value>Erro de Login {{0}}</value>
+  </data>
+  <data name="ToodleDo_Progress_SyncInProgress" xml:space="preserve">
+    <value>sincronização em progresso</value>
+  </data>
+  <data name="ToodleDo_ProviderName" xml:space="preserve">
+    <value>ToodleDo</value>
+  </data>
+  <data name="ToodleDo_SyncErrorFormat" xml:space="preserve">
+    <value>Erro de sincronização {{0}}</value>
+  </data>
+</root>

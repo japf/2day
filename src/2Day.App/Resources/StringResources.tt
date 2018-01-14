@@ -1,0 +1,69 @@
+﻿<#@ template debug="false" hostspecific="true" language="C#" #>
+<#@ assembly name="System.Core" #>
+<#@ assembly name="System.Xml" #>
+<#@ assembly name="System.Xml.Linq" #>
+<#@ import namespace="System.IO" #>
+<#@ import namespace="System.Linq" #>
+<#@ import namespace="System.Xml.Linq" #>
+<#@ import namespace="System.Collections.Generic" #>
+<#@ import namespace="Microsoft.CSharp" #>
+<#@ output extension=".cs" #>
+<#
+    string namespaceOveride = null;
+     
+    var provider = new CSharpCodeProvider();
+    var className = provider.CreateEscapedIdentifier(Path.GetFileNameWithoutExtension(Host.TemplateFile));
+    Directory.SetCurrentDirectory(Host.ResolvePath(""));
+ 
+#>
+// ReSharper disable InconsistentNaming
+using Chartreuse.Today.Core.Shared.Resources;
+using Chartreuse.Today.Vercors.Shared.Resources;
+using Chartreuse.Today.Exchange.Resources;
+using Chartreuse.Today.ToodleDo.Shared.Resources;
+
+namespace Chartreuse.Today.App.Resources
+{
+    public partial class StringResourcesAccessor 
+    {
+<#
+foreach (string name in GetResourceKeys(@"../../2Day.Core.Shared/Resources/StringResources.resx").Where(n => !n.Contains(".")))
+{
+#>        
+        public string <#= provider.CreateEscapedIdentifier(name) #> { get { return StringResources.<#= provider.CreateEscapedIdentifier(name) #>; } }
+<#
+}
+#>
+<#
+foreach (string name in GetResourceKeys(@"../../2Day.Vercors.Shared/Resources/VercorsResources.resx").Where(n => !n.Contains(".")))
+{
+#>        
+        public string <#= provider.CreateEscapedIdentifier(name) #> { get { return VercorsResources.<#= provider.CreateEscapedIdentifier(name) #>; } }
+<#
+}
+#>
+<#
+foreach (string name in GetResourceKeys(@"../../2Day.Exchange.Shared/Resources/ExchangeResources.resx").Where(n => !n.Contains(".")))
+{
+#>        
+        public string <#= provider.CreateEscapedIdentifier(name) #> { get { return ExchangeResources.<#= provider.CreateEscapedIdentifier(name) #>; } }
+<#
+}
+#>
+<#
+foreach (string name in GetResourceKeys(@"../../2Day.ToodleDo.Shared/Resources/ToodleDoResources.resx").Where(n => !n.Contains(".")))
+{
+#>        
+        public string <#= provider.CreateEscapedIdentifier(name) #> { get { return ToodleDoResources.<#= provider.CreateEscapedIdentifier(name) #>; } }
+<#
+}
+#>
+    }
+}
+<#+
+    static IEnumerable<string> GetResourceKeys(string filePath)
+    {
+        var doc = XDocument.Load(filePath);
+        return doc.Root.Elements("data").Select(e => e.Attribute("name").Value);
+    }
+#>

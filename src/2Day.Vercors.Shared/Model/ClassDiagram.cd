@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Chartreuse.Today.Vercors.Shared.Model.VercorsAccount">
+    <Position X="1" Y="1.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAACAAAAAgIAQAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>Model\VercorsAccount.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Chartreuse.Today.Vercors.Shared.Model.VercorsContext">
+    <Position X="4" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAECAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\VercorsContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Chartreuse.Today.Vercors.Shared.Model.VercorsDeletedTask">
+    <Position X="6" Y="1.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAACAACAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\VercorsDeletedTask.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Chartreuse.Today.Vercors.Shared.Model.VercorsFolder">
+    <Position X="1" Y="4" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAECAAAAAAAAAAAAAAAACAwAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>Model\VercorsFolder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Chartreuse.Today.Vercors.Shared.Model.VercorsTask">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAEAAAAAAAAgAAAAAAAAAAAAAQAEAAAA=</HashCode>
+      <FileName>Model\VercorsTask.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

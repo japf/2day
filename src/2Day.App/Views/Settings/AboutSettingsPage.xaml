@@ -1,0 +1,112 @@
+﻿<Page
+    x:Class="Chartreuse.Today.App.Views.Settings.AboutSettingsPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:controls="using:Chartreuse.Today.App.Controls"
+    xmlns:viewModel="using:Chartreuse.Today.App.ViewModel"
+    xmlns:settings="using:Chartreuse.Today.App.Shared.ViewModel.Settings"
+    mc:Ignorable="d">
+
+    <controls:FlyoutHost x:Uid="AboutPage_Title" Text="AboutPage_Title">
+        <StackPanel> 
+            <StackPanel.Resources>
+                <Style TargetType="TextBlock">
+                    <Setter Property="Foreground" Value="White"/>
+                    <Setter Property="FontSize" Value="16"/>
+                    <Setter Property="Margin" Value="20,0,0,0"/>
+                </Style>
+
+                <Style TargetType="HyperlinkButton">
+                    <Setter Property="Foreground" Value="{StaticResource ApplicationAccentBrush}"/>
+                    <Setter Property="Margin" Value="90,0,0,0"/>
+                    <Setter Property="Padding" Value="-5"/>
+                    <Setter Property="FontSize" Value="14"/>
+                </Style>
+                
+                <Style x:Key="BorderImageContainer" TargetType="Border">
+                    <Setter Property="Background" Value="{StaticResource ApplicationAccentBrush}"/>
+                    <Setter Property="Width" Value="48"/>
+                    <Setter Property="Height" Value="48"/>
+                </Style>
+            </StackPanel.Resources>
+            <Grid>
+                <Grid.ColumnDefinitions> 
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Border 
+                    Grid.Column="0" 
+                    Background="{StaticResource ApplicationAccentBrush}"  
+                    DoubleTapped="OnLogoDoubleTapped"
+                    Width="80" Height="80">
+                    <controls:IconText
+                        Icon="LogoText"
+                        Foreground="{StaticResource ApplicationWhiteForegroundBrush}"
+                        FontSize="60"
+                        VerticalAlignment="Center"
+                        HorizontalAlignment="Center"
+                        Margin="0,10,0,0"/>
+                </Border>
+                <StackPanel 
+                    Grid.Column="1"
+                    VerticalAlignment="Center"
+                    HorizontalAlignment="Right">
+                    <TextBlock 
+                        Text="www.2day-app.com"
+                        Tapped="OnWebLinkTapped"
+                        Foreground="{StaticResource ApplicationAccentBrush}"
+                        FontWeight="SemiBold"
+                        HorizontalAlignment="Right"
+                        FontSize="16"/>
+                    <TextBlock 
+                        HorizontalAlignment="Right"
+                        Foreground="{StaticResource ApplicationForegroundThemeBrush}"
+                        FontSize="12"
+                        Text="{x:Bind Path=ViewModel.Version}"/>
+                </StackPanel>
+            </Grid>
+            <Grid Margin="0,40,0,0">
+                <ListView 
+                    Style="{StaticResource FlyoutListViewStyle}"
+                    ItemsSource="{x:Bind Path=ViewModel.Items}">
+                    <ListView.ItemTemplate>
+                        <DataTemplate x:DataType="settings:HeadedSettingItemViewModel">
+                            <Grid Margin="4,10,0,10" Tapped="OnAboutItemTapped" Background="Transparent">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+                                <Border
+                                    Grid.Column="0"
+                                    Style="{StaticResource BorderImageContainer}">
+                                    <controls:IconText 
+                                        Foreground="{StaticResource ApplicationWhiteForegroundBrush}"
+                                        Icon="{x:Bind Icon}"/> 
+                                </Border>
+                                <StackPanel
+                                    VerticalAlignment="Center"
+                                    Margin="20,0,0,0"
+                                    Grid.Column="1">
+                                    <TextBlock 
+                                        Foreground="{StaticResource ApplicationForegroundThemeBrush}"
+                                        Text="{x:Bind Headline}"
+                                        TextWrapping="Wrap"/>
+                                    <TextBlock 
+                                        Margin="10,0,0,0"
+                                        Text="{x:Bind Description}"
+                                        TextWrapping="Wrap"
+                                        FontWeight="SemiBold"
+                                        Foreground="{StaticResource ApplicationAccentBrush}"/>
+                                </StackPanel>
+                            </Grid>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+                
+            </Grid>
+
+        </StackPanel>
+    </controls:FlyoutHost>
+</Page>

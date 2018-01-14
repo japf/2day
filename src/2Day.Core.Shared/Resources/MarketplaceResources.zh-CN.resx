@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Feature1" xml:space="preserve">
+    <value>利用带有图标和颜色的文件夹来组织您的任务</value>
+  </data>
+  <data name="Feature2" xml:space="preserve">
+    <value>每个任务均可设置优先、截止日期、备注、提醒和重复发生</value>
+  </data>
+  <data name="Feature3" xml:space="preserve">
+    <value>使用高级自定义以更好地适合您的需求</value>
+  </data>
+  <data name="Feature4" xml:space="preserve">
+    <value>可以在您所有 Windows 设备间实现同步！</value>
+  </data>
+  <data name="Feature5" xml:space="preserve">
+    <value>与 Microsoft Exchange、ToodleDo、Microsoft 帐户或新品牌 2Day 云端进行同步</value>
+  </data>
+  <data name="Feature6" xml:space="preserve">
+    <value>支持 GTD（情景、标记和开始日期）</value>
+  </data>
+  <data name="Feature7" xml:space="preserve">
+    <value>支持语言识别</value>
+  </data>
+  <data name="Feature8" xml:space="preserve">
+    <value>快速添加功能</value>
+  </data>
+  <data name="Intro1" xml:space="preserve">
+    <value>Windows Phone 中著名待办事项管理的应用 2Day 现已登陆您的Windows 8 设备！</value>
+  </data>
+  <data name="Intro2" xml:space="preserve">
+    <value>2Day 将提供您免费试用30天，您会爱上它的！</value>
+  </data>
+  <data name="Keyword1" xml:space="preserve">
+    <value>待办事项</value>
+  </data>
+  <data name="Keyword2" xml:space="preserve">
+    <value>任务</value>
+  </data>
+  <data name="Keyword3" xml:space="preserve">
+    <value>gtd</value>
+  </data>
+  <data name="Keyword4" xml:space="preserve">
+    <value>exchange</value>
+  </data>
+  <data name="Keyword5" xml:space="preserve">
+    <value>toodledo</value>
+  </data>
+  <data name="Screen1" xml:space="preserve">
+    <value>主屏幕</value>
+  </data>
+  <data name="Screen2" xml:space="preserve">
+    <value>同步配置</value>
+  </data>
+  <data name="Screen3" xml:space="preserve">
+    <value>支持向下拖动</value>
+  </data>
+  <data name="Screen4" xml:space="preserve">
+    <value>快速更新任务</value>
+  </data>
+  <data name="Screen5" xml:space="preserve">
+    <value>分组配置</value>
+  </data>
+  <data name="Screen6" xml:space="preserve">
+    <value>新任务屏幕</value>
+  </data>
+  <data name="Screen7" xml:space="preserve">
+    <value>语音识别</value>
+  </data>
+  <data name="Screen9" xml:space="preserve">
+    <value>欢迎屏幕</value>
+  </data>
+</root>

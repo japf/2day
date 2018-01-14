@@ -1,0 +1,78 @@
+﻿<UserControl x:Class="Chartreuse.Today.App.Controls.FolderIconPicker"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:controls="using:Chartreuse.Today.App.Controls"
+    xmlns:designTime1="using:Chartreuse.Today.App.ViewModel.DesignTime"
+    mc:Ignorable="d"
+    d:DesignHeight="480" d:DesignWidth="480">
+
+    <UserControl.Resources>
+        <Style x:Key="ListViewNoScrollStyle" TargetType="ListView">
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="Foreground" Value="{StaticResource ListBoxForegroundThemeBrush}"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="BorderBrush" Value="Transparent"/>
+            <Setter Property="Padding" Value="0"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="ListView">
+                        <Border HorizontalAlignment="Center" BorderThickness="8" BorderBrush="BlueViolet">
+                            <ItemsPresenter HorizontalAlignment="Center" Margin="0"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <Style x:Key="SimpleListBoxItem" TargetType="ListViewItem">
+            <Setter Property="MinWidth" Value="0"/>
+            <Setter Property="MinHeight" Value="0"/>
+            <Setter Property="Padding" Value="0"/>
+            <Setter Property="Margin" Value="0"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="ListViewItem">
+                        <ContentPresenter/>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </UserControl.Resources>
+    
+    <Grid d:DataContext="{Binding Source={d:DesignInstance Type=designTime1:DesignTimeFolderViewModel, IsDesignTimeCreatable=True}}">
+        <Border x:Name="overlayHost">
+            <Border 
+                x:Name="iconOverlay" 
+                Margin="5,0,5,0"
+                VerticalAlignment="Top"
+                HorizontalAlignment="Left"
+                Background="{Binding SelectedColor}" 
+                Width="44" 
+                Height="44"/>
+        </Border>
+        <ListView 
+            x:Name="iconListBox"
+            ItemsSource="{Binding AvailableIcons}"
+            SelectedItem="{Binding SelectedIcon, Mode=TwoWay}"
+            HorizontalAlignment="Center"
+            ItemContainerStyle="{StaticResource SimpleListBoxItem}">
+            <ListView.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <WrapGrid Orientation="Horizontal"/>
+                </ItemsPanelTemplate>
+            </ListView.ItemsPanel>
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <Grid Width="44" Height="44" Background="Transparent" Margin="5,0,5,0">
+                        <controls:IconText 
+                            Icon="{Binding Converter={StaticResource FolderToIconConverter}}"
+                            FontSize="26"
+                            Margin="3,6,3,3"/>
+                    </Grid>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </Grid>
+
+</UserControl>

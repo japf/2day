@@ -1,0 +1,1093 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{F684E776-6E5D-441F-89BA-E68785883F1D}</ProjectGuid>
+    <OutputType>AppContainerExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Chartreuse.Today.App</RootNamespace>
+    <AssemblyName>2Day.App</AssemblyName>
+    <DefaultLanguage>en-US</DefaultLanguage>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetPlatformVersion>10.0.10586.0</TargetPlatformVersion>
+    <TargetPlatformMinVersion>10.0.10240.0</TargetPlatformMinVersion>
+    <MinimumVisualStudioVersion>14</MinimumVisualStudioVersion>
+    <EnableDotNetNativeCompatibleProfile>true</EnableDotNetNativeCompatibleProfile>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{A5A43C5B-DE2A-4C0C-9213-0A381AF9435A};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <PackageCertificateKeyFile>2Day.App_StoreKey.pfx</PackageCertificateKeyFile>
+    <ApplicationInsightsResourceId>/subscriptions/fef3c091-249d-45b0-a08d-7138790cdf1a/resourcegroups/Default-ApplicationInsights-CentralUS/providers/microsoft.insights/components/2Day</ApplicationInsightsResourceId>
+    <PackageCertificateThumbprint>5F0F8E63F20901642FB466EFF4FBA04631A4E36E</PackageCertificateThumbprint>
+    <AppxAutoIncrementPackageRevision>False</AppxAutoIncrementPackageRevision>
+    <AppxBundle>Always</AppxBundle>
+    <AppxBundlePlatforms>x86|x64|arm</AppxBundlePlatforms>
+    <AppxSymbolPackageEnabled>True</AppxSymbolPackageEnabled>
+    <PlatformSpecificBundleArtifactsListDir>$(ProjectDir)BundleArtifacts</PlatformSpecificBundleArtifactsListDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\ARM\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|ARM'">
+    <OutputPath>bin\ARM\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+    <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <NoWarn>;2008;4014</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+    <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <NoWarn>4014;1998</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>4014;1998</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+    <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
+  </PropertyGroup>
+  <ItemGroup>
+    <!-- A reference to the entire .Net Framework and Windows SDK are automatically included -->
+    <Content Include="Assets\BadgeLogo.scale-100.png" />
+    <Content Include="Assets\BadgeLogo.scale-125.png" />
+    <Content Include="Assets\BadgeLogo.scale-150.png" />
+    <Content Include="Assets\BadgeLogo.scale-200.png" />
+    <Content Include="Assets\BadgeLogo.scale-400.png" />
+    <Content Include="Assets\JumpList.Add.png" />
+    <Content Include="Assets\JumpList.Sync.png" />
+    <Content Include="Assets\SplashScreen.scale-125.png" />
+    <Content Include="Assets\SplashScreen.scale-150.png" />
+    <Content Include="Assets\SplashScreen.scale-200.png" />
+    <Content Include="Assets\SplashScreen.scale-400.png" />
+    <Content Include="Assets\Square150x150Logo.scale-100.png" />
+    <Content Include="Assets\Square150x150Logo.scale-125.png" />
+    <Content Include="Assets\Square150x150Logo.scale-150.png" />
+    <Content Include="Assets\Square150x150Logo.scale-200.png" />
+    <Content Include="Assets\Square150x150Logo.scale-400.png" />
+    <Content Include="Assets\Square150x150LogoQuickAdd.scale-100.png" />
+    <Content Include="Assets\Square150x150LogoQuickAdd.scale-125.png" />
+    <Content Include="Assets\Square150x150LogoQuickAdd.scale-150.png" />
+    <Content Include="Assets\Square150x150LogoQuickAdd.scale-200.png" />
+    <Content Include="Assets\Square150x150LogoQuickAdd.scale-400.png" />
+    <Content Include="Assets\Square310x310Logo.scale-100.png" />
+    <Content Include="Assets\Square310x310Logo.scale-125.png" />
+    <Content Include="Assets\Square310x310Logo.scale-150.png" />
+    <Content Include="Assets\Square310x310Logo.scale-200.png" />
+    <Content Include="Assets\Square310x310Logo.scale-400.png" />
+    <Content Include="Assets\Square44x44Logo.scale-100.png" />
+    <Content Include="Assets\Square44x44Logo.scale-125.png" />
+    <Content Include="Assets\Square44x44Logo.scale-150.png" />
+    <Content Include="Assets\Square44x44Logo.scale-200.png" />
+    <Content Include="Assets\Square44x44Logo.scale-400.png" />
+    <Content Include="Assets\Square44x44Logo.targetsize-16_altform-unplated.png" />
+    <Content Include="Assets\Square44x44Logo.targetsize-16.png" />
+    <Content Include="Assets\Square44x44Logo.targetsize-24_altform-unplated.png" />
+    <Content Include="Assets\Square44x44Logo.targetsize-24.png" />
+    <Content Include="Assets\Square44x44Logo.targetsize-256_altform-unplated.png" />
+    <Content Include="Assets\Square44x44Logo.targetsize-256.png" />
+    <Content Include="Assets\Square44x44Logo.targetsize-48.png" />
+    <Content Include="Assets\Square44x44Logo.targetsize-48_altform-unplated.png" />
+    <Content Include="Assets\Square71x71Logo.scale-100.png" />
+    <Content Include="Assets\Square71x71Logo.scale-125.png" />
+    <Content Include="Assets\Square71x71Logo.scale-150.png" />
+    <Content Include="Assets\Square71x71Logo.scale-200.png" />
+    <Content Include="Assets\Square71x71Logo.scale-400.png" />
+    <Content Include="Assets\StoreLogo.scale-125.png" />
+    <Content Include="Assets\StoreLogo.scale-150.png" />
+    <Content Include="Assets\StoreLogo.scale-200.png" />
+    <Content Include="Assets\StoreLogo.scale-400.png" />
+    <Content Include="Assets\Wide310x150Logo.scale-100.png" />
+    <Content Include="Assets\Wide310x150Logo.scale-125.png" />
+    <Content Include="Assets\Wide310x150Logo.scale-150.png" />
+    <Content Include="Assets\Wide310x150Logo.scale-200.png" />
+    <Content Include="Assets\Wide310x150Logo.scale-400.png" />
+    <Content Include="Fonts\2Day.ttf" />
+    <Content Include="Fonts\LiveSymbol.ttf" />
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="project.json" />
+    <PRIResource Include="Strings\sv-SE\Resources.resw" />
+    <PRIResource Include="Strings\hu-HU\Resources.resw" />
+    <PRIResource Include="Strings\zh-CN\Resources.resw" />
+    <PRIResource Include="Strings\ru-RU\Resources.resw" />
+    <PRIResource Include="Strings\pt-PT\Resources.resw" />
+    <PRIResource Include="Strings\pt-BR\Resources.resw" />
+    <PRIResource Include="Strings\pl-PL\Resources.resw" />
+    <PRIResource Include="Strings\it-IT\Resources.resw" />
+    <PRIResource Include="Strings\fr-FR\Resources.resw" />
+    <PRIResource Include="Strings\es-ES\Resources.resw" />
+    <PRIResource Include="Strings\en-US\Resources.resw" />
+    <PRIResource Include="Strings\de-DE\Resources.resw" />
+    <PRIResource Include="Strings\cs-CZ\Resources.resw" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\AppFlyout.cs" />
+    <Compile Include="Controls\Clock.cs" />
+    <Compile Include="Controls\ClockButton.cs" />
+    <Compile Include="Controls\ClockItemMember.cs" />
+    <Compile Include="Controls\DateTimePicker2.xaml.cs">
+      <DependentUpon>DateTimePicker2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ExtendedFlyout.cs" />
+    <Compile Include="Controls\FlyoutAppBar.xaml.cs">
+      <DependentUpon>FlyoutAppBar.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\FlyoutHost.cs" />
+    <Compile Include="Controls\FrequencyPicker2.xaml.cs">
+      <DependentUpon>FrequencyPicker2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\HyperlinkPopupContent.xaml.cs">
+      <DependentUpon>HyperlinkPopupContent.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\GridViewPopupContent.cs" />
+    <Compile Include="Controls\IClock.cs" />
+    <Compile Include="Controls\MultiColumnComboBox.cs" />
+    <Compile Include="Controls\QuickNavBar.xaml.cs">
+      <DependentUpon>QuickNavBar.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\SwipableListViewItem.cs" />
+    <Compile Include="Controls\AnimatedDescription.xaml.cs">
+      <DependentUpon>AnimatedDescription.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\AnimatedTextblock.cs" />
+    <Compile Include="Controls\GridViewActionBar.xaml.cs">
+      <DependentUpon>GridViewActionBar.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\DateTimePicker.xaml.cs">
+      <DependentUpon>DateTimePicker.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\EditBox.xaml.cs">
+      <DependentUpon>EditBox.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\EmbeddedQuickAdd.xaml.cs">
+      <DependentUpon>EmbeddedQuickAdd.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\EmptyListHint.xaml.cs">
+      <DependentUpon>EmptyListHint.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\FlyoutControl.cs" />
+    <Compile Include="Controls\FolderIconPicker.xaml.cs">
+      <DependentUpon>FolderIconPicker.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\FrequencyPicker.xaml.cs">
+      <DependentUpon>FrequencyPicker.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\FullScreenDialog.cs" />
+    <Compile Include="Controls\IconButton.cs" />
+    <Compile Include="Controls\IconText.cs" />
+    <Compile Include="Controls\MessageIndicatorHint.xaml.cs">
+      <DependentUpon>MessageIndicatorHint.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ListViewTaskEditorFlyout.xaml.cs">
+      <DependentUpon>ListViewTaskEditorFlyout.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\PriorityPicker.xaml.cs">
+      <DependentUpon>PriorityPicker.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ProgressPicker.xaml.cs">
+      <DependentUpon>ProgressPicker.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\RadioIconButton.cs" />
+    <Compile Include="Controls\ResponsivePivot.cs" />
+    <Compile Include="Controls\ResponsivePivotItem.cs" />
+    <Compile Include="Controls\SmartViewFieldEditor.xaml.cs">
+      <DependentUpon>SmartViewFieldEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\SwipeableSplitView.cs" />
+    <Compile Include="Controls\TagPicker.xaml.cs">
+      <DependentUpon>TagPicker.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\TaskFieldEntry.xaml.cs">
+      <DependentUpon>TaskFieldEntry.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\TaskGroupPicker.xaml.cs">
+      <DependentUpon>TaskGroupPicker.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ListViewActionBar.xaml.cs">
+      <DependentUpon>ListViewActionBar.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\NotesEditor.xaml.cs">
+      <DependentUpon>NotesEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ToastIndicator.xaml.cs">
+      <DependentUpon>ToastIndicator.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\WrapPanel.cs" />
+    <Compile Include="CortanaRuntimeActions.cs" />
+    <None Include="packages.config">
+      <SubType>Designer</SubType>
+    </None>
+    <Compile Include="Controls\HintTextBlock.xaml.cs">
+      <DependentUpon>HintTextBlock.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Manager\BackgroundTaskManager.cs" />
+    <Compile Include="Manager\IBackgroundTaskManager.cs" />
+    <Compile Include="Manager\JumpListManager.cs" />
+    <Compile Include="Manager\KeyboardShortcutManager.cs" />
+    <Compile Include="Manager\Shortcut\AddSubTaskShortcut.cs" />
+    <Compile Include="Manager\Shortcut\CopyPasteShortcut.cs" />
+    <Compile Include="Manager\Shortcut\DebugShorcut.cs" />
+    <Compile Include="Manager\Shortcut\SearchShortcut.cs" />
+    <Compile Include="Manager\Shortcut\PrintShortcut.cs" />
+    <Compile Include="Manager\Shortcut\ToggleNavMenuShortcut.cs" />
+    <Compile Include="Manager\UI\NotificationService.cs" />
+    <Compile Include="Manager\Shortcut\EscapeMainPageShortcut.cs" />
+    <Compile Include="Manager\Shortcut\CreateTaskShortcut.cs" />
+    <Compile Include="Manager\Shortcut\DeleteSelectionShorcut.cs" />
+    <Compile Include="Manager\Shortcut\KeyboardShortcutBase.cs" />
+    <Compile Include="Manager\Shortcut\MenuNavigateShorcut.cs" />
+    <Compile Include="Manager\Shortcut\NavigateBackwardShortcut.cs" />
+    <Compile Include="Manager\Shortcut\SaveAndContinueShortcut.cs" />
+    <Compile Include="Manager\Shortcut\SaveChangesShortcut.cs" />
+    <Compile Include="Manager\Shortcut\SelectAllTasksShortcut.cs" />
+    <Compile Include="Manager\Shortcut\StartSpeechRecognitionShortcut.cs" />
+    <Compile Include="Manager\Shortcut\StartSyncShortcut.cs" />
+    <Compile Include="Manager\SpeechService.cs" />
+    <Compile Include="Manager\UI\DragDropManager.cs" />
+    <Compile Include="Manager\UI\NavigationMenuManager.cs" />
+    <Compile Include="Manager\UI\GridViewSelectionManager.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resources\ApplicationBrushes.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ApplicationBrushes.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\ApplicationResources.cs" />
+    <Compile Include="Resources\HyperlinkResources.cs" />
+    <Compile Include="Resources\StringResources.cs">
+      <DependentUpon>StringResources.tt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Resources\StringResourcesAccessor.cs" />
+    <Compile Include="Services\MessageBoxService.cs" />
+    <Compile Include="Sync\VercorsService.cs" />
+    <Compile Include="Tools\AppJobScheduler.cs" />
+    <Compile Include="Tools\BackupHelper.cs" />
+    <Compile Include="Tools\Behavior\AutoFocusTextBox.cs" />
+    <Compile Include="Tools\Behavior\CloseFlyoutOnTap.cs" />
+    <Compile Include="Tools\Behavior\FilterAutoSuggestBox.cs" />
+    <Compile Include="Tools\Behavior\ListViewHeaderManipulationDispatcher.cs" />
+    <Compile Include="Tools\Converter\BooleanConverter.cs" />
+    <Compile Include="Tools\Converter\ClockAmPmDisplayConverter.cs" />
+    <Compile Include="Tools\Converter\ClockAngleConverter.cs" />
+    <Compile Include="Tools\Converter\CollectionViewConverter.cs" />
+    <Compile Include="Tools\Converter\CompleteTaskConverter.cs" />
+    <Compile Include="Tools\Converter\FolderRealTaskCountConverter.cs" />
+    <Compile Include="Tools\Converter\IsFolderToVisibilityConverter.cs" />
+    <Compile Include="Tools\Converter\LongDateConverter.cs" />
+    <Compile Include="Tools\Converter\StartDateConverter.cs" />
+    <Compile Include="Tools\Converter\StringInvertVisibilityConverter.cs" />
+    <Compile Include="Tools\Converter\StringPlusConverter.cs" />
+    <Compile Include="Tools\Converter\TaskSwipeBackgroundConverter.cs" />
+    <Compile Include="Tools\IListViewAnimationManager.cs" />
+    <Compile Include="Tools\PageExtension.cs" />
+    <Compile Include="Tools\PopupHelper.cs" />
+    <Compile Include="Tools\SuspensionManager.cs" />
+    <Compile Include="Tools\AppointmentHelper.cs" />
+    <Compile Include="Tools\Behavior\OpenPopupOnTap.cs" />
+    <Compile Include="Tools\Export\HtmlExporter.cs" />
+    <Compile Include="Tools\Net\HttpClientHandler.cs" />
+    <Compile Include="Tools\Net\NetHttpInterop.cs" />
+    <Compile Include="Tools\PrintHelper.cs" />
+    <Compile Include="Services\Bootstraper.cs" />
+    <Compile Include="Tools\Behavior\IFlyoutContent.cs" />
+    <Compile Include="Tools\Behavior\MenuItemContextMenuBehavior.cs" />
+    <Compile Include="Tools\Behavior\OpenFlyoutOnTap.cs" />
+    <Compile Include="Tools\Behavior\OpenHyperlinkOnTap.cs" />
+    <Compile Include="Tools\Behavior\SortFlyoutMenuItemBehavior.cs" />
+    <Compile Include="Tools\Behavior\TextBoxSoftKeyboardBehavior.cs" />
+    <Compile Include="Tools\Converter\AlarmIconConverter.cs" />
+    <Compile Include="Tools\Converter\BooleanNegationConverter.cs" />
+    <Compile Include="Tools\Converter\BooleanToForegroundConverter.cs" />
+    <Compile Include="Tools\Converter\BooleanToInvertVisibilityConverter.cs" />
+    <Compile Include="Tools\Converter\BooleanToVisibilityConverter.cs" />
+    <Compile Include="Tools\Converter\ColorContractConverter.cs" />
+    <Compile Include="Tools\Converter\DebugConverter.cs" />
+    <Compile Include="Tools\Converter\EnumConverter.cs" />
+    <Compile Include="Tools\Converter\FolderToIconConverter.cs" />
+    <Compile Include="Tools\Converter\GroupHeaderTitleConverter.cs" />
+    <Compile Include="Tools\Converter\LightToDarkConverter.cs" />
+    <Compile Include="Tools\Converter\MessageWarningForegroundConverter.cs" />
+    <Compile Include="Tools\Converter\NavigationMenuHitTestConverter.cs" />
+    <Compile Include="Tools\Converter\NullableToVisibilityConverter.cs" />
+    <Compile Include="Tools\Converter\NumericConverter.cs" />
+    <Compile Include="Tools\Converter\OpacityMaskConverter.cs" />
+    <Compile Include="Tools\Converter\PinIconConverter.cs" />
+    <Compile Include="Tools\Converter\PriorityToIconConverter.cs" />
+    <Compile Include="Tools\Converter\ShortDateConverter.cs" />
+    <Compile Include="Tools\Converter\SortMenuConverter.cs" />
+    <Compile Include="Tools\Converter\SortOrderConverter.cs" />
+    <Compile Include="Tools\Converter\StringFormatConverter.cs" />
+    <Compile Include="Tools\Converter\StringVisibilityConverter.cs" />
+    <Compile Include="Tools\Converter\TaskForegroundConverter.cs" />
+    <Compile Include="Tools\Converter\TaskGroupConverter.cs" />
+    <Compile Include="Tools\Converter\TaskGroupToIconConverter.cs" />
+    <Compile Include="Tools\Converter\TaskLateConverter.cs" />
+    <Compile Include="Tools\Converter\TaskProgressConverter.cs" />
+    <Compile Include="Tools\Converter\TextUppercaseConverter.cs" />
+    <Compile Include="Tools\Converter\WinRelativeDateConverter.cs" />
+    <Compile Include="Tools\CrashHandler.cs" />
+    <Compile Include="Tools\LauncherHelper.cs" />
+    <Compile Include="Tools\NavigationService.cs" />
+    <Compile Include="Tools\ResponsiveHelper.cs" />
+    <Compile Include="Tools\Settings\ISettingsPage.cs" />
+    <Compile Include="Tools\Settings\SettingsSizeMode.cs" />
+    <Compile Include="Tools\ListViewAnimationManager.cs" />
+    <Compile Include="Tools\UI\MenuItemTemplateSelector.cs" />
+    <Compile Include="Tools\UI\TreeHelper.cs" />
+    <Compile Include="Tools\WaitHandleHelper.cs" />
+    <Compile Include="ViewModel\MainPageViewModel.cs" />
+    <Compile Include="ViewModel\MiscSettingsPageViewModel.cs" />
+    <Compile Include="Views\FolderPage.xaml.cs">
+      <DependentUpon>FolderPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\CustomRichEditBox.cs" />
+    <Compile Include="Views\TaskNotesPage.xaml.cs">
+      <DependentUpon>TaskNotesPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\TaskPage.xaml.cs">
+      <DependentUpon>TaskPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\CreateEditSmartViewPage.xaml.cs">
+      <DependentUpon>CreateEditSmartViewPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\DebugPage.xaml.cs">
+      <DependentUpon>DebugPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\PrintPage.xaml.cs">
+      <DependentUpon>PrintPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\SettingsPage.xaml.cs">
+      <DependentUpon>SettingsPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Settings\AboutSettingsPage.xaml.cs">
+      <DependentUpon>AboutSettingsPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Settings\AdvancedSyncSettingsPage.xaml.cs">
+      <DependentUpon>AdvancedSyncSettingsPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Settings\BackupSettingsPage.xaml.cs">
+      <DependentUpon>BackupSettingsPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Settings\ContextSettingsPage.xaml.cs">
+      <DependentUpon>ContextSettingsPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Settings\DisplaySettingsPage.xaml.cs">
+      <DependentUpon>DisplaySettingsPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Settings\FolderSettingsPage.xaml.cs">
+      <DependentUpon>FolderSettingsPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Settings\GeneralSettingsPage.xaml.cs">
+      <DependentUpon>GeneralSettingsPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Settings\MiscSettingsPage.xaml.cs">
+      <DependentUpon>MiscSettingsPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Settings\SmartViewSettingsPage.xaml.cs">
+      <DependentUpon>SmartViewSettingsPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Settings\SyncSettingsPage.xaml.cs">
+      <DependentUpon>SyncSettingsPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Settings\LogViewerSettingsPage.xaml.cs">
+      <DependentUpon>LogViewerSettingsPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Settings\TaskOrderSettingsPage.xaml.cs">
+      <DependentUpon>TaskOrderSettingsPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Settings\ViewSettingsPage.xaml.cs">
+      <DependentUpon>ViewSettingsPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Sync\ActiveSyncSettingsPage.xaml.cs">
+      <DependentUpon>ActiveSyncSettingsPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Sync\OutlookActiveSyncSettingsPage.xaml.cs">
+      <DependentUpon>OutlookActiveSyncSettingsPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Sync\ExchangeSettingsPage.xaml.cs">
+      <DependentUpon>ExchangeSettingsPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Sync\ToodleDoSettingsPage.xaml.cs">
+      <DependentUpon>ToodleDoSettingsPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Sync\VercorsSettingsPage.xaml.cs">
+      <DependentUpon>VercorsSettingsPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\UniformHorizontalStackPanel.cs" />
+    <Compile Include="Views\WelcomePage.xaml.cs">
+      <DependentUpon>WelcomePage.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest">
+      <SubType>Designer</SubType>
+    </AppxManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\SplashScreen.scale-100.png" />
+    <Content Include="Assets\StoreLogo.scale-100.png" />
+    <Content Include="Properties\Default.rd.xml" />
+    <Content Include="Resources\ApplicationBrushes.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>ApplicationBrushes.cs</LastGenOutput>
+    </Content>
+    <Content Include="Resources\Icons\Folder\img00-hi.png" />
+    <Content Include="Resources\Icons\Folder\img01-hi.png" />
+    <Content Include="Resources\Icons\Folder\img01.png" />
+    <Content Include="Resources\Icons\Folder\img01.svg" />
+    <Content Include="Resources\Icons\Folder\img02-hi.png" />
+    <Content Include="Resources\Icons\Folder\img02.png" />
+    <Content Include="Resources\Icons\Folder\img02.svg" />
+    <Content Include="Resources\Icons\Folder\img03-hi.png" />
+    <Content Include="Resources\Icons\Folder\img03.png" />
+    <Content Include="Resources\Icons\Folder\img03.svg" />
+    <Content Include="Resources\Icons\Folder\img04-hi.png" />
+    <Content Include="Resources\Icons\Folder\img04.png" />
+    <Content Include="Resources\Icons\Folder\img04.svg" />
+    <Content Include="Resources\Icons\Folder\img05-hi.png" />
+    <Content Include="Resources\Icons\Folder\img05.png" />
+    <Content Include="Resources\Icons\Folder\img05.svg" />
+    <Content Include="Resources\Icons\Folder\img06-hi.png" />
+    <Content Include="Resources\Icons\Folder\img06.png" />
+    <Content Include="Resources\Icons\Folder\img06.svg" />
+    <Content Include="Resources\Icons\Folder\img07-hi.png" />
+    <Content Include="Resources\Icons\Folder\img07.png" />
+    <Content Include="Resources\Icons\Folder\img07.svg" />
+    <Content Include="Resources\Icons\Folder\img08-hi.png" />
+    <Content Include="Resources\Icons\Folder\img08.png" />
+    <Content Include="Resources\Icons\Folder\img08.svg" />
+    <Content Include="Resources\Icons\Folder\img09-hi.png" />
+    <Content Include="Resources\Icons\Folder\img09.png" />
+    <Content Include="Resources\Icons\Folder\img09.svg" />
+    <Content Include="Resources\Icons\Folder\img10-hi.png" />
+    <Content Include="Resources\Icons\Folder\img10.png" />
+    <Content Include="Resources\Icons\Folder\img10.svg" />
+    <Content Include="Resources\Icons\Folder\img100-hi.png" />
+    <Content Include="Resources\Icons\Folder\img100.png" />
+    <Content Include="Resources\Icons\Folder\img100.svg" />
+    <Content Include="Resources\Icons\Folder\img101-hi.png" />
+    <Content Include="Resources\Icons\Folder\img101.png" />
+    <Content Include="Resources\Icons\Folder\img101.svg" />
+    <Content Include="Resources\Icons\Folder\img11.png" />
+    <Content Include="Resources\Icons\Folder\img11.svg" />
+    <Content Include="Resources\Icons\Folder\img12-hi.png" />
+    <Content Include="Resources\Icons\Folder\img12.png" />
+    <Content Include="Resources\Icons\Folder\img12.svg" />
+    <Content Include="Resources\Icons\Folder\img13-hi.png" />
+    <Content Include="Resources\Icons\Folder\img13.png" />
+    <Content Include="Resources\Icons\Folder\img13.svg" />
+    <Content Include="Resources\Icons\Folder\img14-hi.png" />
+    <Content Include="Resources\Icons\Folder\img14.png" />
+    <Content Include="Resources\Icons\Folder\img14.svg" />
+    <Content Include="Resources\Icons\Folder\img15-hi.png" />
+    <Content Include="Resources\Icons\Folder\img15.png" />
+    <Content Include="Resources\Icons\Folder\img15.svg" />
+    <Content Include="Resources\Icons\Folder\img16-hi.png" />
+    <Content Include="Resources\Icons\Folder\img16.png" />
+    <Content Include="Resources\Icons\Folder\img16.svg" />
+    <Content Include="Resources\Icons\Folder\img17-hi.png" />
+    <Content Include="Resources\Icons\Folder\img17.png" />
+    <Content Include="Resources\Icons\Folder\img17.svg" />
+    <Content Include="Resources\Icons\Folder\img18-hi.png" />
+    <Content Include="Resources\Icons\Folder\img18.png" />
+    <Content Include="Resources\Icons\Folder\img18.svg" />
+    <Content Include="Resources\Icons\Folder\img19-hi.png" />
+    <Content Include="Resources\Icons\Folder\img19.png" />
+    <Content Include="Resources\Icons\Folder\img19.svg" />
+    <Content Include="Resources\Icons\Folder\img20-hi.png" />
+    <Content Include="Resources\Icons\Folder\img20.png" />
+    <Content Include="Resources\Icons\Folder\img20.svg" />
+    <Content Include="Resources\Icons\Folder\img21-hi.png" />
+    <Content Include="Resources\Icons\Folder\img21.png" />
+    <Content Include="Resources\Icons\Folder\img21.svg" />
+    <Content Include="Resources\Icons\Folder\img22-hi.png" />
+    <Content Include="Resources\Icons\Folder\img22.png" />
+    <Content Include="Resources\Icons\Folder\img22.svg" />
+    <Content Include="Resources\Icons\Folder\img23-hi.png" />
+    <Content Include="Resources\Icons\Folder\img23.png" />
+    <Content Include="Resources\Icons\Folder\img23.svg" />
+    <Content Include="Resources\Icons\Folder\img24-hi.png" />
+    <Content Include="Resources\Icons\Folder\img24.png" />
+    <Content Include="Resources\Icons\Folder\img24.svg" />
+    <Content Include="Resources\Icons\Folder\img25-hi.png" />
+    <Content Include="Resources\Icons\Folder\img25.png" />
+    <Content Include="Resources\Icons\Folder\img25.svg" />
+    <Content Include="Resources\Icons\Folder\img26-hi.png" />
+    <Content Include="Resources\Icons\Folder\img26.png" />
+    <Content Include="Resources\Icons\Folder\img26.svg" />
+    <Content Include="Resources\Icons\Folder\img27-hi.png" />
+    <Content Include="Resources\Icons\Folder\img27.png" />
+    <Content Include="Resources\Icons\Folder\img27.svg" />
+    <Content Include="Resources\Icons\Folder\img28-hi.png" />
+    <Content Include="Resources\Icons\Folder\img28.png" />
+    <Content Include="Resources\Icons\Folder\img28.svg" />
+    <Content Include="Resources\Icons\Folder\img29-hi.png" />
+    <Content Include="Resources\Icons\Folder\img29.png" />
+    <Content Include="Resources\Icons\Folder\img29.svg" />
+    <Content Include="Resources\Icons\Folder\img30-hi.png" />
+    <Content Include="Resources\Icons\Folder\img30.png" />
+    <Content Include="Resources\Icons\Folder\img30.svg" />
+    <Content Include="Resources\Icons\Folder\img31-hi.png" />
+    <Content Include="Resources\Icons\Folder\img31.png" />
+    <Content Include="Resources\Icons\Folder\img31.svg" />
+    <Content Include="Resources\Icons\Folder\img32-hi.png" />
+    <Content Include="Resources\Icons\Folder\img32.png" />
+    <Content Include="Resources\Icons\Folder\img32.svg" />
+    <Content Include="Resources\Icons\Folder\img33-hi.png" />
+    <Content Include="Resources\Icons\Folder\img33.png" />
+    <Content Include="Resources\Icons\Folder\img33.svg" />
+    <Content Include="Resources\Icons\Folder\img34-hi.png" />
+    <Content Include="Resources\Icons\Folder\img34.png" />
+    <Content Include="Resources\Icons\Folder\img34.svg" />
+    <Content Include="Resources\Icons\Folder\img35-hi.png" />
+    <Content Include="Resources\Icons\Folder\img35.png" />
+    <Content Include="Resources\Icons\Folder\img35.svg" />
+    <Content Include="Resources\Icons\Folder\img36-hi.png" />
+    <Content Include="Resources\Icons\Folder\img36.png" />
+    <Content Include="Resources\Icons\Folder\img36.svg" />
+    <Content Include="Resources\Icons\Folder\img37-hi.png" />
+    <Content Include="Resources\Icons\Folder\img37.png" />
+    <Content Include="Resources\Icons\Folder\img37.svg" />
+    <Content Include="Resources\Icons\Folder\img38-hi.png" />
+    <Content Include="Resources\Icons\Folder\img38.png" />
+    <Content Include="Resources\Icons\Folder\img38.svg" />
+    <Content Include="Resources\Icons\Folder\img39-hi.png" />
+    <Content Include="Resources\Icons\Folder\img39.png" />
+    <Content Include="Resources\Icons\Folder\img39.svg" />
+    <Content Include="Resources\Icons\Folder\img40-hi.png" />
+    <Content Include="Resources\Icons\Folder\img40.png" />
+    <Content Include="Resources\Icons\Folder\img40.svg" />
+    <Content Include="Resources\Icons\Folder\img41-hi.png" />
+    <Content Include="Resources\Icons\Folder\img41.png" />
+    <Content Include="Resources\Icons\Folder\img41.svg" />
+    <Content Include="Resources\Icons\Folder\img42-hi.png" />
+    <Content Include="Resources\Icons\Folder\img42.png" />
+    <Content Include="Resources\Icons\Folder\img42.svg" />
+    <Content Include="Resources\Icons\Folder\img90-hi.png" />
+    <Content Include="Resources\Icons\Folder\img90.png" />
+    <Content Include="Resources\Icons\Folder\img90.svg" />
+    <Content Include="Resources\Icons\Folder\img91-hi.png" />
+    <Content Include="Resources\Icons\Folder\img91.png" />
+    <Content Include="Resources\Icons\Folder\img91.svg" />
+    <Content Include="Resources\Icons\Folder\img92-hi.png" />
+    <Content Include="Resources\Icons\Folder\img92.png" />
+    <Content Include="Resources\Icons\Folder\img92.svg" />
+    <Content Include="Resources\Icons\Folder\img93-hi.png" />
+    <Content Include="Resources\Icons\Folder\img93.png" />
+    <Content Include="Resources\Icons\Folder\img93.svg" />
+    <Content Include="Resources\Icons\Folder\img94-hi.png" />
+    <Content Include="Resources\Icons\Folder\img94.png" />
+    <Content Include="Resources\Icons\Folder\img94.svg" />
+    <Content Include="Resources\Icons\Folder\img95-hi.png" />
+    <Content Include="Resources\Icons\Folder\img95.png" />
+    <Content Include="Resources\Icons\Folder\img95.svg" />
+    <Content Include="Resources\Icons\Folder\img96-hi.png" />
+    <Content Include="Resources\Icons\Folder\img96.png" />
+    <Content Include="Resources\Icons\Folder\img96.svg" />
+    <Content Include="Resources\Icons\Folder\img97-hi.png" />
+    <Content Include="Resources\Icons\Folder\img97.png" />
+    <Content Include="Resources\Icons\Folder\img97.svg" />
+    <Content Include="Resources\Icons\Folder\img98-hi.png" />
+    <Content Include="Resources\Icons\Folder\img98.png" />
+    <Content Include="Resources\Icons\Folder\img98.svg" />
+    <Content Include="Resources\Icons\Folder\img99-hi.png" />
+    <Content Include="Resources\Icons\Folder\img99.png" />
+    <Content Include="Resources\Icons\Folder\img99.svg" />
+    <Content Include="Resources\Icons\Patterns\asfalt-light.png" />
+    <Content Include="Resources\Icons\Patterns\asfalt.png" />
+    <Content Include="Resources\Icons\Patterns\assault.png" />
+    <Content Include="Resources\Icons\Patterns\binding_dark-light.png" />
+    <Content Include="Resources\Icons\Patterns\binding_dark.png" />
+    <Content Include="Resources\Icons\Patterns\black-Linen-light.png" />
+    <Content Include="Resources\Icons\Patterns\black-Linen.png" />
+    <Content Include="Resources\Icons\Patterns\broken_noise-light.png" />
+    <Content Include="Resources\Icons\Patterns\broken_noise.png" />
+    <Content Include="Resources\Icons\Patterns\dark_geometric-light.png" />
+    <Content Include="Resources\Icons\Patterns\dark_geometric.png" />
+    <Content Include="Resources\Icons\Patterns\dark_mosaic-light.png" />
+    <Content Include="Resources\Icons\Patterns\dark_mosaic.png" />
+    <Content Include="Resources\Icons\Patterns\debut_dark-light.png" />
+    <Content Include="Resources\Icons\Patterns\debut_dark.png" />
+    <Content Include="Resources\Icons\Patterns\navy_blue-light.png" />
+    <Content Include="Resources\Icons\Patterns\navy_blue.png" />
+    <Content Include="Resources\Icons\Patterns\noisy_net-light.png" />
+    <Content Include="Resources\Icons\Patterns\noisy_net.png" />
+    <Content Include="Resources\Icons\Patterns\office-light.png" />
+    <Content Include="Resources\Icons\Patterns\office.png" />
+    <Content Include="Resources\Icons\Patterns\rebel.png" />
+    <Content Include="Resources\Icons\Patterns\skewed_print-light.png" />
+    <Content Include="Resources\Icons\Patterns\skewed_print.png" />
+    <Content Include="Resources\Icons\Patterns\twinkle_twinkle.png" />
+    <Content Include="Resources\Icons\Patterns\txture-light.png" />
+    <Content Include="Resources\Icons\Patterns\txture.png" />
+    <Content Include="Resources\Icons\Patterns\wild_oliva-light.png" />
+    <Content Include="Resources\Icons\Patterns\wild_oliva.png" />
+    <Content Include="Resources\Icons\Sync\activesync-logo.png" />
+    <Content Include="Resources\Icons\Sync\microsoft-exchange-logo.png" />
+    <Content Include="Resources\Icons\Sync\microsoft-office365-logo.png" />
+    <Content Include="Resources\Icons\Sync\outlook-logo.png" />
+    <Content Include="Resources\Icons\Sync\sync-mode-delete-dark.png" />
+    <Content Include="Resources\Icons\Sync\sync-mode-delete.png" />
+    <Content Include="Resources\Icons\Sync\sync-mode-diagnostic-dark.png" />
+    <Content Include="Resources\Icons\Sync\sync-mode-diagnostic.png" />
+    <Content Include="Resources\Icons\Sync\sync-mode-merge-dark.png" />
+    <Content Include="Resources\Icons\Sync\sync-mode-merge.png" />
+    <Content Include="Resources\Icons\Sync\sync-mode-replace-dark.png" />
+    <Content Include="Resources\Icons\Sync\sync-mode-replace.png" />
+    <Content Include="Resources\Icons\Sync\toodledo-logo.png" />
+    <Content Include="Resources\Icons\Sync\vercors-cloud-overview-dark.png" />
+    <Content Include="Resources\Icons\Sync\vercors-cloud-overview.png" />
+    <Content Include="Resources\Icons\Sync\vercors-cloud.png" />
+    <Content Include="Resources\StringResources.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>StringResources.cs</LastGenOutput>
+    </Content>
+    <Content Include="Tools\Export\HtmlTemplate.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="VoiceCommands.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Page Include="Controls\AnimatedDescription.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Controls\DateTimePicker2.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Controls\FlyoutAppBar.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\FrequencyPicker2.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Controls\GridViewActionBar.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\DateTimePicker.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Controls\EditBox.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Controls\EmbeddedQuickAdd.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\EmptyListHint.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Controls\FolderIconPicker.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Controls\FrequencyPicker.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Controls\HyperlinkPopupContent.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\MessageIndicatorHint.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\ListViewTaskEditorFlyout.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\PriorityPicker.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Controls\ProgressPicker.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Controls\QuickNavBar.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\SmartViewFieldEditor.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Controls\TagPicker.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\TaskFieldEntry.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\TaskGroupPicker.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Controls\ListViewActionBar.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\NotesEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\ToastIndicator.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Controls\HintTextBlock.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Theme\Clock.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Page>
+    <Page Include="Theme\PerDeviceResources.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Page>
+    <Page Include="Theme\PerDeviceResources.DeviceFamily-Desktop.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Page>
+    <Page Include="Theme\PerDeviceResources.DeviceFamily-Mobile.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Page>
+    <Page Include="Theme\CustomControlStyles.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Theme\GeneralControlStyles.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Theme\ItemTemplates.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Theme\MainPageStyles.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Theme\ModernControlStyles.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Theme\Theme.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\FolderPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\CreateEditSmartViewPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\TaskNotesPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\TaskPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\DebugPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\MainPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\PrintPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\SettingsPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\Settings\AboutSettingsPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\Settings\AdvancedSyncSettingsPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\Settings\BackupSettingsPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\Settings\ContextSettingsPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\Settings\DisplaySettingsPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\Settings\FolderSettingsPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\Settings\GeneralSettingsPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\Settings\MiscSettingsPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\Settings\SmartViewSettingsPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\Settings\SyncSettingsPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\Settings\LogViewerSettingsPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\Settings\TaskOrderSettingsPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\Settings\ViewSettingsPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\Sync\ActiveSyncSettingsPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\Sync\OutlookActiveSyncSettingsPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\Sync\ExchangeSettingsPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\Sync\ToodleDoSettingsPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\Sync\VercorsSettingsPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\WelcomePage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\2Day.App.BackgroundService\2Day.App.BackgroundService.csproj">
+      <Project>{818d0d50-4ed2-497f-a577-83545fabeda6}</Project>
+      <Name>2Day.App.BackgroundService</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\2Day.App.Background\2Day.App.Background.csproj">
+      <Project>{AA704EDF-6BC6-4569-830A-5EF44F112296}</Project>
+      <Name>2Day.App.Background</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\2Day.App.Shared\2Day.App.Shared.csproj">
+      <Project>{04a4d692-538d-44ed-b304-b0a299a5026e}</Project>
+      <Name>2Day.App.Shared</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\2Day.App.VoiceCommandService\2Day.App.VoiceCommandService.csproj">
+      <Project>{cd1488bf-7284-4af5-b4fb-72d1b91014c0}</Project>
+      <Name>2Day.App.VoiceCommandService</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\2Day.App.VoiceCommand\2Day.App.VoiceCommand.csproj">
+      <Project>{9FDCF408-D8D6-4389-8B7B-437CA6552D2C}</Project>
+      <Name>2Day.App.VoiceCommand</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\2Day.Core.Shared\2Day.Core.Shared.csproj">
+      <Project>{552731f9-5444-41d5-b3b9-d3817154e349}</Project>
+      <Name>2Day.Core.Shared</Name>
+      <Properties>SkipValidatePackageReferences=true</Properties>
+    </ProjectReference>
+    <ProjectReference Include="..\2Day.Core.Universal\2Day.Core.Universal.csproj">
+      <Project>{ED3F3B43-1150-4AA6-A8AB-52F2D7446868}</Project>
+      <Name>2Day.Core.Universal</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\2Day.Exchange.Shared\2Day.Exchange.Shared.csproj">
+      <Project>{292f47a9-07ba-489a-9eb6-6c72c41d277f}</Project>
+      <Name>2Day.Exchange.Shared</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\2Day.ToodleDo.Shared\2Day.ToodleDo.Shared.csproj">
+      <Project>{9b806cf2-aa50-4e17-a7a2-012e1e5b7b93}</Project>
+      <Name>2Day.ToodleDo.Shared</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\2Day.Vercors.Shared\2Day.Vercors.Shared.csproj">
+      <Project>{76c78f22-5489-4b14-8544-a5a5e6d92491}</Project>
+      <Name>2Day.Vercors.Shared</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <SDKReference Include="Microsoft.VCLibs, Version=14.0">
+      <Name>Visual C++ 2015 Runtime for Universal Windows Platform Apps</Name>
+    </SDKReference>
+    <SDKReference Include="SQLite.UAP.2015, Version=3.8.11.1">
+      <Name>SQLite for Universal App Platform</Name>
+    </SDKReference>
+    <SDKReference Include="WindowsDesktop, Version=10.0.10586.0">
+      <Name>Windows Desktop Extensions for the UWP</Name>
+    </SDKReference>
+    <SDKReference Include="WindowsMobile, Version=10.0.10586.0">
+      <Name>Windows Mobile Extensions for the UWP</Name>
+    </SDKReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Live">
+      <HintPath>..\packages\LiveSDK.5.6.3\WindowsXAML\Microsoft.Live.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
+    <VisualStudioVersion>14.0</VisualStudioVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'ReleaseNoApp|ARM'">
+    <OutputPath>bin\ARM\ReleaseNoApp\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_UWP;CODE_ANALYSIS</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <NoStdLib>true</NoStdLib>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'ReleaseNoApp|x64'">
+    <OutputPath>bin\x64\ReleaseNoApp\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_UWP;CODE_ANALYSIS</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <NoStdLib>true</NoStdLib>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'ReleaseNoApp|x86'">
+    <OutputPath>bin\x86\ReleaseNoApp\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_UWP;CODE_ANALYSIS</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>4014;1998</NoWarn>
+    <NoStdLib>true</NoStdLib>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\WindowsXaml\v$(VisualStudioVersion)\Microsoft.Windows.UI.Xaml.CSharp.targets" />
+  <PropertyGroup>
+    <SDKReferenceDirectoryRoot>$(SolutionDir)Libraries\Microsoft SDKs\;$(SDKReferenceDirectoryRoot)</SDKReferenceDirectoryRoot>
+  </PropertyGroup>
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

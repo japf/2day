@@ -1,0 +1,136 @@
+﻿<Page
+    x:Class="Chartreuse.Today.App.Views.Settings.DisplaySettingsPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:controls="using:Chartreuse.Today.App.Controls"
+    xmlns:tools="using:Chartreuse.Today.Core.Universal.Tools"
+    xmlns:settings="using:Chartreuse.Today.App.Shared.ViewModel.Settings"
+    mc:Ignorable="d" d:DataContext="{d:DesignInstance settings:DisplaySettingsPageViewModel}">
+
+    <controls:FlyoutHost x:Uid="DisplaySettingsPage_Title" Text="DisplaySettingsPage_Title" Background="{StaticResource AppFlyoutBackgroundBrush}">
+        <StackPanel> 
+            
+            <!-- theme -->
+            <TextBlock 
+                x:Uid="GeneralSettingsPage_Theme" 
+                Text="GeneralSettingsPage_Theme"
+                TextWrapping="Wrap"
+                Margin="0,20,0,5"/>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <RadioButton
+                    Style="{StaticResource ModernRadioButtonStyle}"
+                    Content="{Binding Path=SharedStrings.Settings_ThemeDark, Source={StaticResource Resources}}"
+                    GroupName="theme" 
+                    Grid.Column="0"
+                    IsChecked="{Binding UseDarkTheme, Mode=TwoWay}"/>
+                <RadioButton  
+                    Style="{StaticResource ModernRadioButtonStyle}"
+                    BorderThickness="1"
+                    Content="{Binding Path=SharedStrings.Settings_ThemeLight, Source={StaticResource Resources}}"
+                    GroupName="theme" 
+                    Grid.Column="1"
+                    IsChecked="{Binding UseLightTheme, Mode=TwoWay}"/>
+            </Grid>
+                      
+            <TextBlock 
+                x:Uid="GeneralSettingsPage_Background" 
+                Text="GeneralSettingsPage_Background"
+                TextWrapping="Wrap"
+                Margin="0,20,0,5"/>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <controls:RadioIconButton  
+                    x:Uid="DisplaySettingsPage_BackgroundNone"
+                    Content="DisplaySettingsPage_BackgroundNone"
+                    GroupName="background" 
+                    Grid.Column="0"
+                    IsChecked="{Binding UseBackgroundNone, Mode=TwoWay}"
+                    Icon="CommonPictureNone"/>
+                <controls:RadioIconButton  
+                    x:Uid="DisplaySettingsPage_BackgroundPattern"
+                    Content="DisplaySettingsPage_BackgroundPattern"
+                    GroupName="background" 
+                    Grid.Column="1"
+                    IsChecked="{Binding UseBackgroundPattern, Mode=TwoWay}"
+                    Icon="CommonPicturePattern"/>
+                <controls:RadioIconButton  
+                    x:Uid="DisplaySettingsPage_BackgroundImage"
+                    Content="DisplaySettingsPage_BackgroundImage"
+                    BorderThickness="1"
+                    GroupName="background" 
+                    Grid.Column="2"
+                    IsChecked="{Binding UseBackgroundImage, Mode=TwoWay}"
+                    Icon="CommonPictureLandscape"/>
+            </Grid>
+            
+            <Grid 
+                x:Name="BorderPreview"
+                BorderBrush="{StaticResource ButtonBorderThemeBrush}" 
+                HorizontalAlignment="Stretch"
+                Height="{Binding ElementName=BorderPreview, Path=ActualWidth}"
+                BorderThickness="1" 
+                Margin="0,5,0,5">
+                <tools:TileCanvas 
+                    ImageSource="{Binding BackgroundSource}"
+                    ImageOpacity="{Binding Opacity}"/>
+                <TextBlock 
+                    x:Uid="DisplaySettingsPage_ImagePreview"
+                    Text="DisplaySettingsPage_ImagePreview" 
+                    Foreground="{ThemeResource ForegroundBrush}"
+                    VerticalAlignment="Center" 
+                    HorizontalAlignment="Center"/>
+            </Grid>
+            
+            <!-- patterns -->
+            <StackPanel Visibility="{Binding UseBackgroundPattern, Converter={StaticResource BooleanToVisibilityConverter}}">
+                <TextBlock 
+                    x:Uid="DisplaySettingsPage_Pattern" 
+                    Text="DisplaySettingsPage_Pattern"
+                    TextWrapping="Wrap"
+                    Margin="0,20,0,5"/>
+                <ComboBox
+                    Style="{StaticResource SettingsComboBoxStyle}"
+                    ItemsSource="{Binding Patterns}"
+                    SelectedItem="{Binding SelectedPattern, Mode=TwoWay}" />
+            </StackPanel>
+            
+            <!-- custom image -->
+            <StackPanel Visibility="{Binding UseBackgroundImage, Converter={StaticResource BooleanToVisibilityConverter}}">
+                <TextBlock 
+                    x:Uid="DisplaySettingsPage_Image" 
+                    Text="DisplaySettingsPage_Image"
+                    TextWrapping="Wrap"
+                    Margin="0,20,0,5"/>
+                <Button
+                    x:Uid="DisplaySettingsPage_PickImage"
+                    Content="DisplaySettingsPage_PickImage"
+                    Command="{Binding PickCustomImageCommand}"
+                    MinWidth="200"/>
+                <TextBlock 
+                    x:Uid="DisplaySettingsPage_Opacity" 
+                    Text="DisplaySettingsPage_Opacity"
+                    TextWrapping="Wrap"
+                    Margin="0,20,0,5"/>
+                <Slider 
+                    IsEnabled="{Binding UseBackgroundImage}"
+                    Minimum="0" 
+                    Maximum="100" 
+                    Width="200"
+                    HorizontalAlignment="Left"
+                    Value="{Binding Opacity, Mode=TwoWay, Converter={StaticResource OpacityConverter}}"
+                    StepFrequency="5"/>
+            </StackPanel>
+            
+        </StackPanel>
+    </controls:FlyoutHost>
+</Page>

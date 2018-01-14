@@ -1,0 +1,208 @@
+﻿<Page
+    x:Class="Chartreuse.Today.App.Views.Settings.GeneralSettingsPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:controls="using:Chartreuse.Today.App.Controls"
+    xmlns:settings="using:Chartreuse.Today.App.Shared.ViewModel.Settings"
+    mc:Ignorable="d"
+    d:DesignWidth="346" d:DataContext="{d:DesignInstance settings:GeneralSettingsPageViewModel}">
+        
+    <controls:FlyoutHost x:Uid="GeneralSettingsPage_Title" Text="GeneralSettingsPage_Title" Background="{StaticResource AppFlyoutBackgroundBrush}">
+        <StackPanel>
+          
+            <!-- auto delete -->
+            <TextBlock 
+                x:Uid="GeneralSettingsPage_AutoDelete" 
+                Text="GeneralSettingsPage_AutoDelete"
+                Margin="0,0,0,5"/>
+            <ComboBox
+                Style="{StaticResource SettingsComboBoxStyle}"
+                ItemsSource="{x:Bind Path=ViewModel.AutoDeleteChoices}"
+                SelectedItem="{x:Bind Path=ViewModel.SelectedAutoDelete, Mode=TwoWay}" />
+
+            <!-- default task priority -->
+            <TextBlock 
+                x:Uid="GeneralSettingsPage_DefaultTaskPriority" 
+                Text="GeneralSettingsPage_DefaultTaskPriority"
+                TextWrapping="Wrap"
+                Margin="0,20,0,5" />
+            <ComboBox
+                Style="{StaticResource SettingsComboBoxStyle}"
+                ItemsSource="{x:Bind Path=ViewModel.DefaultPriorityChoices}"
+                SelectedItem="{x:Bind Path=ViewModel.SelectedDefaultPriority, Mode=TwoWay}" />
+
+            <!-- default due date -->
+            <TextBlock 
+                x:Uid="GeneralSettingsPage_DefaultDueDate"
+                Text="GeneralSettingsPage_DefaultDueDate"
+                TextWrapping="Wrap"
+                Margin="0,20,0,5" />
+            <ComboBox
+                Style="{StaticResource SettingsComboBoxStyle}"
+                ItemsSource="{x:Bind Path=ViewModel.DefaultDueDates}"
+                SelectedItem="{x:Bind Path=ViewModel.SelectedDefaultDueDate, Mode=TwoWay}" />
+        
+            <!-- default start date -->
+            <TextBlock 
+                x:Uid="GeneralSettingsPage_DefaultStartDate"
+                Text="GeneralSettingsPage_DefaultStartDate"
+                TextWrapping="Wrap"
+                Margin="0,20,0,5" />
+            <ComboBox
+                Style="{StaticResource SettingsComboBoxStyle}"
+                ItemsSource="{x:Bind Path=ViewModel.DefaultStartDates}"
+                SelectedItem="{x:Bind Path=ViewModel.SelectedDefaultStartDate, Mode=TwoWay}" />
+        
+            <!-- default context -->
+            <TextBlock 
+                x:Uid="GeneralSettingsPage_DefaultContext" 
+                Text="GeneralSettingsPage_DefaultContext"
+                TextWrapping="Wrap"
+                Margin="0,20,0,5" />
+            <ComboBox
+                Style="{StaticResource SettingsComboBoxStyle}"
+                ItemsSource="{x:Bind Path=ViewModel.DefaultContextChoices}"
+                DisplayMemberPath="Name"
+                SelectedItem="{Binding SelectedDefaultContext, Mode=TwoWay}" />
+            
+            <!-- first day of the week -->
+            <TextBlock 
+                x:Uid="GeneralSettingsPage_FirstDayOfTheWeek" 
+                Text="GeneralSettingsPage_FirstDayOfTheWeek"
+                TextWrapping="Wrap"
+                Margin="0,20,0,5" />
+            <ComboBox
+                Style="{StaticResource SettingsComboBoxStyle}"
+                ItemsSource="{x:Bind Path=ViewModel.FirstDaysOfTheWeek}"
+                SelectedItem="{x:Bind Path=ViewModel.SelectedFirstDaysOfTheWeek, Mode=TwoWay}" />
+
+            <!-- completed tasks -->
+            <TextBlock 
+                x:Uid="GeneralSettingsPage_CompletedTasks" 
+                Text="GeneralSettingsPage_CompletedTasks"
+                TextWrapping="Wrap"
+                Margin="0,20,0,5" />
+            <ComboBox
+                Style="{StaticResource SettingsComboBoxStyle}"
+                ItemsSource="{x:Bind Path=ViewModel.CompletedTaskModes}"
+                SelectedItem="{x:Bind Path=ViewModel.SelectedCompletedTaskMode, Mode=TwoWay}" />
+
+            <!-- badge value -->
+            <TextBlock 
+                x:Uid="GeneralSettingsPage_BadgeValue" 
+                Text="GeneralSettingsPage_BadgeValue"
+                TextWrapping="Wrap"
+                Margin="0,20,0,5" />
+            <ComboBox
+                Style="{StaticResource SettingsComboBoxStyle}"
+                ItemTemplate="{StaticResource AbstractFolderItemTemplate}"
+                ItemsSource="{x:Bind Path=ViewModel.BadgeValues}"
+                SelectedItem="{Binding Path=SelectedBadgeValue, Mode=TwoWay}"/>
+            
+            <!-- grouped dates -->
+            <TextBlock
+                x:Uid="GeneralSettingsPage_UseGroupedDates"
+                Text="GeneralSettingsPage_UseGroupedDates"
+                TextWrapping="Wrap"
+                Margin="0,20,0,5" />
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <ToggleSwitch
+                    HorizontalAlignment="Left"
+                    IsOn="{x:Bind Path=ViewModel.UseGroupedDates, Mode=TwoWay}" />
+                <controls:IconButton
+                    x:Uid="GeneralSettingsPage_GroupedDateDescription"
+                    Grid.Column="1"
+                    Style="{StaticResource TransparentIconButtonStyle}"
+                    FontSize="18"
+                    Margin="8"
+                    Icon="CommonQuestion"
+                    HorizontalAlignment="Right"/>
+            </Grid>
+            
+            <!-- show task with start date in the future -->
+            <TextBlock
+                x:Uid="GeneralSettingsPage_ShowFutureStartDates"
+                Text="GeneralSettingsPage_ShowFutureStartDates"
+                TextWrapping="Wrap"
+                Margin="0,20,0,5" />
+            <ToggleSwitch
+                HorizontalAlignment="Left"
+                IsOn="{x:Bind Path=ViewModel.ShowFutureStartDates, Mode=TwoWay}" />
+
+            <!-- show no due date tasks with other -->
+            <TextBlock
+                x:Uid="GeneralSettingsPage_ShowNoDueWithOther"
+                Text="GeneralSettingsPage_ShowNoDueWithOther"
+                TextWrapping="Wrap"
+                Margin="0,20,0,5" />
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <ToggleSwitch
+                    HorizontalAlignment="Left"
+                    IsOn="{x:Bind Path=ViewModel.ShowNoDueWithOther, Mode=TwoWay}" />
+                <controls:IconButton
+                    x:Uid="GeneralSettingsPage_ShowNoDueWithOtherDescription"
+                    Grid.Column="1"
+                    Style="{StaticResource TransparentIconButtonStyle}"
+                    FontSize="18"
+                    Margin="8"
+                    Icon="CommonQuestion"
+                    HorizontalAlignment="Right"/>
+            </Grid>
+
+            <!-- auto delete tags -->
+            <TextBlock
+                x:Uid="GeneralSettingsPage_AutoDeleteTags"
+                Text="GeneralSettingsPage_AutoDeleteTags"
+                TextWrapping="Wrap"
+                Margin="0,20,0,5" />
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <ToggleSwitch
+                    HorizontalAlignment="Left"
+                    IsOn="{x:Bind Path=ViewModel.AutoDeleteTags, Mode=TwoWay}" />
+                <controls:IconButton
+                    x:Uid="GeneralSettingsPage_AutoDeleteTagsDescription"
+                    Grid.Column="1"
+                    Style="{StaticResource TransparentIconButtonStyle}"
+                    FontSize="18"
+                    Margin="8"
+                    Icon="CommonQuestion"
+                    HorizontalAlignment="Right"/>
+            </Grid>
+            
+            <!-- secondary quick add tile -->
+            <TextBlock
+                x:Uid="GeneralSettingsPage_SecondaryQuickAddTile"
+                Text="GeneralSettingsPage_SecondaryQuickAddTile"
+                TextWrapping="Wrap"
+                Margin="0,20,0,5" />
+            <ToggleSwitch
+                HorizontalAlignment="Left"
+                IsOn="{x:Bind Path=ViewModel.EnableQuickAddTile, Mode=TwoWay}" />
+
+            <!-- complete task sets progress -->
+            <TextBlock
+                x:Uid="GeneralSettingsPage_CompleteTaskSetsProgress"
+                Text="GeneralSettingsPage_CompleteTaskSetsProgress"
+                TextWrapping="Wrap"
+                Margin="0,20,0,5" />
+            <ToggleSwitch
+                HorizontalAlignment="Left"
+                IsOn="{x:Bind Path=ViewModel.CompleteTaskSetsProgress, Mode=TwoWay}" />
+
+        </StackPanel>
+    </controls:FlyoutHost>
+</Page>

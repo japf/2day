@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="OutlookActiveSync_Description" xml:space="preserve">
+    <value>Přistupte ke svým úkolům z webu outlook.com nebo ze softwaru Outlook</value>
+  </data>
+  <data name="ExchangeActiveSync_DomainNotSupported" xml:space="preserve">
+    <value>Pro aplikaci Office 365 použijte prosím možnost „Microsoft Office“ v nastavení synchronizace</value>
+  </data>
+  <data name="OutlookActiveSync_Headline" xml:space="preserve">
+    <value>Synchronizace s Outlook.com</value>
+  </data>
+  <data name="ExchangeActiveSync_InvalidCredentialsMessage" xml:space="preserve">
+    <value>Pověření nejsou platná nebo server nelze najít</value>
+  </data>
+  <data name="ExchangeActiveSync_NoTasksFolder" xml:space="preserve">
+    <value>Na serveru není nalezena žádná složka s úkoly</value>
+  </data>
+  <data name="OutlookActiveSync_ProviderName" xml:space="preserve">
+    <value>Outlook.com</value>
+  </data>
+  <data name="Exchange_AuthAutoDiscoveryNotFound" xml:space="preserve">
+    <value>Automatická detekce nenalezena. Zkuste zadat uri server ručně.</value>
+  </data>
+  <data name="Exchange_AuthInvalidCredential" xml:space="preserve">
+    <value>Pověření není platné</value>
+  </data>
+  <data name="Exchange_AuthOk" xml:space="preserve">
+    <value>Pověření je platné</value>
+  </data>
+  <data name="Exchange_AuthProblemFormat" xml:space="preserve">
+    <value>Problém s autorizací: {0} ({1})</value>
+  </data>
+  <data name="Exchange_AuthServerAccessForbiden" xml:space="preserve">
+    <value>Přístup na server je zakázán</value>
+  </data>
+  <data name="Exchange_AuthServerMethodNotAllowed" xml:space="preserve">
+    <value>Metoda serveru není povolena</value>
+  </data>
+  <data name="Exchange_AuthServerUrlNotFound" xml:space="preserve">
+    <value>Uri serveru nenalezeno</value>
+  </data>
+  <data name="Exchange_AuthTrustFailure" xml:space="preserve">
+    <value>Selhání důvěryhodnosti</value>
+  </data>
+  <data name="Exchange_AuthUnkown" xml:space="preserve">
+    <value>Neznámý stav</value>
+  </data>
+  <data name="Exchange_CheckingCredentials" xml:space="preserve">
+    <value>Kontrola pověření…</value>
+  </data>
+  <data name="Exchange_Description" xml:space="preserve">
+    <value>2007, 2010 nebo 2013</value>
+  </data>
+  <data name="Exchange_EmptyEmail" xml:space="preserve">
+    <value>Prázný email</value>
+  </data>
+  <data name="Exchange_EmptyPassword" xml:space="preserve">
+    <value>Prázdné heslo</value>
+  </data>
+  <data name="Exchange_EmptyUsername" xml:space="preserve">
+    <value>Prázdné uživatelské jméno</value>
+  </data>
+  <data name="Exchange_ExceptionFormat" xml:space="preserve">
+    <value>Synchronizace selhala ({0})</value>
+  </data>
+  <data name="Exchange_Headline" xml:space="preserve">
+    <value>Synchronizace s Microsoft Exchange</value>
+  </data>
+  <data name="Exchange_InvalidCredentialsFormat" xml:space="preserve">
+    <value>Nebylo možné se přihlásit ({0})</value>
+  </data>
+  <data name="Exchange_InvalidServerUri" xml:space="preserve">
+    <value>Neplatný server Uri</value>
+  </data>
+  <data name="Exchange_SyncErrorFormat" xml:space="preserve">
+    <value>Chyba během synchronizace ({0})</value>
+  </data>
+  <data name="ExchangeOffice365_Description" xml:space="preserve">
+    <value>Office 365</value>
+  </data>
+  <data name="ExchangeOffice365_Headline" xml:space="preserve">
+    <value>Synchronizace s Office 365</value>
+  </data>
+  <data name="ExchangeOffice365_SettingsTitle" xml:space="preserve">
+    <value>Office 365</value>
+  </data>
+  <data name="ActiveSync_ProviderName" xml:space="preserve">
+    <value>ActiveSync</value>
+  </data>
+  <data name="ActiveSync_Description" xml:space="preserve">
+    <value>Použít protokol ActiveSync pro synchronizaci úkolů</value>
+  </data>
+  <data name="ActiveSync_Headline" xml:space="preserve">
+    <value>Synchronizaci se serverem ActiveSync</value>
+  </data>
+  <data name="Exchange_RemoveExistingContent" xml:space="preserve">
+    <value>Prosím, odstraňte všechny stávající obsah z 2Day před pokusem o nastavit synchronizaci.</value>
+  </data>
+</root>

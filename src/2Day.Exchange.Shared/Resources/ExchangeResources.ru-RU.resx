@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="OutlookActiveSync_Description" xml:space="preserve">
+    <value>Просматривайте ваши задачи на outlook.com или через программу Outlook</value>
+  </data>
+  <data name="ExchangeActiveSync_DomainNotSupported" xml:space="preserve">
+    <value>Пожалуйста, используйте "Microsoft Exchange" в настройках синхронизации Office 365</value>
+  </data>
+  <data name="OutlookActiveSync_Headline" xml:space="preserve">
+    <value>Синхронизируйте с Outlook.com</value>
+  </data>
+  <data name="ExchangeActiveSync_InvalidCredentialsMessage" xml:space="preserve">
+    <value>Или ваши учетные данные неверны, или сервер не был найден.</value>
+  </data>
+  <data name="ExchangeActiveSync_NoTasksFolder" xml:space="preserve">
+    <value>Папка задачи не найдена на сервере</value>
+  </data>
+  <data name="OutlookActiveSync_ProviderName" xml:space="preserve">
+    <value>Outlook.com</value>
+  </data>
+  <data name="Exchange_AuthAutoDiscoveryNotFound" xml:space="preserve">
+    <value>Автозаполнение не удалось. Введите данные сервера вручную</value>
+  </data>
+  <data name="Exchange_AuthInvalidCredential" xml:space="preserve">
+    <value>Учетные данные недействительны</value>
+  </data>
+  <data name="Exchange_AuthOk" xml:space="preserve">
+    <value>Учетная запись действительна</value>
+  </data>
+  <data name="Exchange_AuthProblemFormat" xml:space="preserve">
+    <value>Проблема авторизации: {0} ({1})</value>
+  </data>
+  <data name="Exchange_AuthServerAccessForbiden" xml:space="preserve">
+    <value>Доступ к серверу запрещен</value>
+  </data>
+  <data name="Exchange_AuthServerMethodNotAllowed" xml:space="preserve">
+    <value>метод не дозволен</value>
+  </data>
+  <data name="Exchange_AuthServerUrlNotFound" xml:space="preserve">
+    <value>данному Uri соотвествий не найдено</value>
+  </data>
+  <data name="Exchange_AuthTrustFailure" xml:space="preserve">
+    <value>Отказ доступа</value>
+  </data>
+  <data name="Exchange_AuthUnkown" xml:space="preserve">
+    <value>Неизвестный статус</value>
+  </data>
+  <data name="Exchange_CheckingCredentials" xml:space="preserve">
+    <value>Проверка учетных данных...</value>
+  </data>
+  <data name="Exchange_Description" xml:space="preserve">
+    <value>2007, 2010 или 2013</value>
+  </data>
+  <data name="Exchange_EmptyEmail" xml:space="preserve">
+    <value>Не заполнено поле почтового адреса</value>
+  </data>
+  <data name="Exchange_EmptyPassword" xml:space="preserve">
+    <value>Не заполнено поле пароля</value>
+  </data>
+  <data name="Exchange_EmptyUsername" xml:space="preserve">
+    <value>Не заполнено поле имени пользователя</value>
+  </data>
+  <data name="Exchange_ExceptionFormat" xml:space="preserve">
+    <value>Синхронизация не удалась ({0})</value>
+  </data>
+  <data name="Exchange_Headline" xml:space="preserve">
+    <value>Синхронизируйте с Microsoft Exchange</value>
+  </data>
+  <data name="Exchange_InvalidCredentialsFormat" xml:space="preserve">
+    <value>Соединение невозможно ({0})</value>
+  </data>
+  <data name="Exchange_InvalidServerUri" xml:space="preserve">
+    <value>URI сервера недействительна</value>
+  </data>
+  <data name="Exchange_SyncErrorFormat" xml:space="preserve">
+    <value>Ошибка синхронизации ({0})</value>
+  </data>
+  <data name="ExchangeOffice365_Description" xml:space="preserve">
+    <value>Office 365</value>
+  </data>
+  <data name="ExchangeOffice365_Headline" xml:space="preserve">
+    <value>Синхронизируйте с Office 365</value>
+  </data>
+  <data name="ExchangeOffice365_SettingsTitle" xml:space="preserve">
+    <value>Office 365</value>
+  </data>
+  <data name="ActiveSync_ProviderName" xml:space="preserve">
+    <value>ActiveSync</value>
+  </data>
+  <data name="ActiveSync_Description" xml:space="preserve">
+    <value>Используйте протокол ActiveSync для синхронизации задач</value>
+  </data>
+  <data name="ActiveSync_Headline" xml:space="preserve">
+    <value>Синхронизация с сервером ActiveSync</value>
+  </data>
+  <data name="Exchange_RemoveExistingContent" xml:space="preserve">
+    <value>Пожалуйста, удалите все существующие содержимое из 2Day, прежде чем пытаться настроить синхронизацию.</value>
+  </data>
+</root>

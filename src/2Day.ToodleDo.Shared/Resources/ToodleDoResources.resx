@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AppBar_Cancel" xml:space="preserve">
+    <value>cancel</value>
+  </data>
+  <data name="AppBar_Save" xml:space="preserve">
+    <value>save</value>
+  </data>
+  <data name="ToodleDo_CheckingCredentials" xml:space="preserve">
+    <value>Checking credentials...</value>
+  </data>
+  <data name="ToodleDo_Description" xml:space="preserve">
+    <value>Free account at www.toodledo.com</value>
+  </data>
+  <data name="ToodleDo_EmptyPassword" xml:space="preserve">
+    <value>Password is empty</value>
+  </data>
+  <data name="ToodleDo_EmptyUsername" xml:space="preserve">
+    <value>Username is empty</value>
+  </data>
+  <data name="ToodleDo_Headline" xml:space="preserve">
+    <value>Sync with ToodleDo</value>
+  </data>
+  <data name="ToodleDo_InvalidCredentialsFormat" xml:space="preserve">
+    <value>Invalid credentials ({0})</value>
+  </data>
+  <data name="ToodleDo_LoginInProgress" xml:space="preserve">
+    <value>Login in progress...</value>
+  </data>
+  <data name="ToodleDo_Progress_ErrorWhileGettingData" xml:space="preserve">
+    <value>Error while obtaining data from server</value>
+  </data>
+  <data name="ToodleDo_Progress_LoginErrorFormat" xml:space="preserve">
+    <value>Login error ({0})</value>
+  </data>
+  <data name="ToodleDo_Progress_SyncInProgress" xml:space="preserve">
+    <value>Synchronization in progress</value>
+  </data>
+  <data name="ToodleDo_ProviderName" xml:space="preserve">
+    <value>ToodleDo</value>
+  </data>
+  <data name="ToodleDo_SyncErrorFormat" xml:space="preserve">
+    <value>Sync error ({0})</value>
+  </data>
+</root>

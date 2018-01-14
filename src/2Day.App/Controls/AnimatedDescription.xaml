@@ -1,0 +1,34 @@
+﻿<UserControl
+    x:Class="Chartreuse.Today.App.Controls.AnimatedDescription"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:controls="using:Chartreuse.Today.App.Controls"
+    x:Name="userControl"
+    mc:Ignorable="d"
+    d:DesignHeight="100"
+    d:DesignWidth="400">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <TextBlock
+            Grid.Column="0"
+            Text="{Binding ElementName=userControl, Path=Text}" 
+            VerticalAlignment="Center"
+            Style="{StaticResource DescriptionTextBlockStyle2}"/>
+        <controls:AnimatedTextBlock 
+            Grid.Column="1"
+            Margin="10,8,0,0"
+            FontSize="16"
+            VerticalAlignment="Center"
+            HorizontalAlignment="Left"
+            HorizontalContentAlignment="Left"
+            Foreground="{StaticResource ApplicationAccentBrush}"
+            Visibility="{Binding ElementName=userControl, Path=Description, Converter={StaticResource StringVisibilityConverter}}"
+            Text="{Binding ElementName=userControl, Path=Description}"/>
+    </Grid>
+</UserControl>

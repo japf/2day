@@ -1,0 +1,95 @@
+﻿<Page
+    x:Class="Chartreuse.Today.App.Views.Sync.OutlookActiveSyncSettingsPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:controls="using:Chartreuse.Today.App.Controls"
+    mc:Ignorable="d">
+
+    <controls:FlyoutHost x:Uid="OutlookSyncSettingsPage_Title" Text="OutlookSyncSettingsPage_Title">
+        <StackPanel> 
+            
+            <TextBlock
+                x:Uid="ActiveSyncSettingsPage_Email"
+                Text="ActiveSyncSettingsPage_Email"
+                Margin="0,0,0,5"/>
+            <TextBox
+                Style="{StaticResource ModernTextBoxSettingsStyle}"                
+                Text="{x:Bind Path=ViewModel.Email, Mode=TwoWay}"
+                InputScope="EmailSmtpAddress"/>
+
+            <TextBlock
+                x:Uid="ActiveSyncSettingsPage_Password"
+                Text="ActiveSyncSettingsPage_Password"
+                Margin="0,10,0,5"/>
+            <PasswordBox
+                Style="{StaticResource ModernPasswordBoxSettingsStyle}"
+                PasswordRevealMode="Peek"/>
+            <TextBlock 
+                TextWrapping="Wrap"
+                Margin="0,5,0,5"
+                Foreground="DarkGray"
+                Tapped="OnCreateAppPasswordTapped"
+                FontSize="12">
+                <Run
+                    x:Uid="ActiveSyncSettingsPage_AppPassword"
+                    Text="ActiveSyncSettingsPage_AppPassword"/>
+                <Run Text=" "/>
+                <Underline>
+                    <Run 
+                        x:Uid="ActiveSyncSettingsPage_AppPasswordLink"
+                        Text="ActiveSyncSettingsPage_AppPasswordLink"
+                        Foreground="{StaticResource ApplicationAccentBrush}"/>
+                </Underline>
+            </TextBlock>
+            
+            <TextBlock
+                x:Uid="ActiveSyncSettingsPage_ServerUri"
+                Text="ActiveSyncSettingsPage_ServerUri"
+                Margin="0,40,0,5"/>
+            <TextBox
+                Style="{StaticResource ModernTextBoxSettingsStyle}"                
+                Text="{x:Bind Path=ViewModel.ServerUri, Mode=TwoWay}"
+                InputScope="Url"
+                Height="Auto"/>
+            <TextBlock 
+                x:Uid="ActiveSyncSettingsPage_ServerUriExplanation"
+                Text="ActiveSyncSettingsPage_ServerUriExplanation"
+                TextWrapping="Wrap"
+                Margin="0,5,0,5"
+                Foreground="DarkGray"
+                FontSize="12"/>
+
+            <Button 
+                Command="{x:Bind Path=ViewModel.CheckSettingsCommand}"
+                Padding="6,6"
+                Margin="-3,20,-3,0"
+                MinHeight="50"
+                HorizontalAlignment="Stretch">
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock 
+                        Text="{x:Bind Path=Strings.General_LabelOk}"
+                        Visibility="{x:Bind Path=ViewModel.IsBusy, Converter={StaticResource BooleanToInvertVisibilityConverter}, Mode=OneWay}"
+                        Foreground="{StaticResource ApplicationForegroundThemeBrush}"
+                        VerticalAlignment="Center"/>
+                    
+                    <ProgressRing
+                        Visibility="{x:Bind Path=ViewModel.IsBusy, Converter={StaticResource BooleanToVisibilityConverter}, Mode=OneWay}"
+                        Foreground="{StaticResource ApplicationForegroundThemeBrush}"
+                        Width="30"
+                        Height="30"
+                        Margin="0,0,10,0"
+                        IsActive="True"/>
+                    <TextBlock 
+                        Visibility="{x:Bind Path=ViewModel.IsBusy, Converter={StaticResource BooleanToVisibilityConverter}, Mode=OneWay}"
+                        Text="{x:Bind Path=ViewModel.BusyText, Mode=OneWay}"
+                        TextWrapping="Wrap"
+                        Foreground="{StaticResource ApplicationForegroundThemeBrush}"
+                        VerticalAlignment="Center"/>
+                </StackPanel>
+            </Button>
+            
+        </StackPanel>
+    </controls:FlyoutHost>
+</Page>

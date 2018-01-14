@@ -1,0 +1,57 @@
+﻿<UserControl
+    x:Class="Chartreuse.Today.App.Controls.PriorityPicker"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:controls="using:Chartreuse.Today.App.Controls"
+    mc:Ignorable="d"
+    d:DesignHeight="100"
+    d:DesignWidth="400">
+
+    <Grid x:Name="Grid">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <RadioButton
+            x:Name="buttonNone"
+            Grid.Column="0"
+            Click="ButtonPriorityNone_Click"
+            Style="{StaticResource ModernRadioButtonStyle}">
+            <controls:IconText Icon="PriorityNone"/>
+        </RadioButton>
+        <RadioButton 
+            x:Name="buttonLow"
+            Grid.Column="1"
+            Click="ButtonPriorityLow_Click"
+            Style="{StaticResource ModernRadioButtonStyle}">
+            <controls:IconText Icon="PriorityLow"/>
+        </RadioButton>
+        <RadioButton 
+            x:Name="buttonMedium"
+            Grid.Column="2"
+            Click="ButtonPriorityMedium_Click"
+            Style="{StaticResource ModernRadioButtonStyle}">
+            <controls:IconText Icon="PriorityMedium"/>
+        </RadioButton>
+        <RadioButton 
+            x:Name="buttonHigh"
+            Grid.Column="3"
+            Click="ButtonPriorityHigh_Click"
+            Style="{StaticResource ModernRadioButtonStyle}">
+            <controls:IconText Icon="PriorityHigh"/>
+        </RadioButton>
+        <RadioButton 
+            x:Name="buttonStar"
+            Grid.Column="4"
+            Click="ButtonPriorityStar_Click"
+            Style="{StaticResource ModernRadioButtonStyle}"
+            BorderThickness="1">
+            <controls:IconText Icon="PriorityStar"/>
+        </RadioButton>
+    </Grid>
+</UserControl>

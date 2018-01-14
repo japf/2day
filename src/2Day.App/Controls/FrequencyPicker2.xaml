@@ -1,0 +1,292 @@
+﻿<UserControl
+    x:Class="Chartreuse.Today.App.Controls.FrequencyPicker2"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:controls="using:Chartreuse.Today.App.Controls"
+    mc:Ignorable="d"
+    d:DesignHeight="600"
+    d:DesignWidth="400">
+
+    <UserControl.Resources>
+        <Style TargetType="ComboBox" BasedOn="{StaticResource ModernComboBoxStyle}">
+            <Setter Property="Margin" Value="8"/>
+            <Setter Property="DisplayMemberPath" Value="DisplayValue"/>
+        </Style>
+        
+        <Style TargetType="CheckBox">
+            <Setter Property="Margin" Value="3"/>
+            <Setter Property="Foreground" Value="{StaticResource AppFlyoutForegroundBrush}"/>
+        </Style>
+
+        <Style x:Key="SmallModernRadioButtonStyle" BasedOn="{StaticResource ModernRadioButtonStyle}" TargetType="RadioButton">
+            <Setter Property="FontSize" Value="13"/>
+            <Setter Property="Padding" Value="4"/>
+            <Setter Property="Height" Value="30"/>
+        </Style>
+        
+    </UserControl.Resources>
+
+    <Grid MinHeight="300">
+        <VisualStateManager.VisualStateGroups>
+            <VisualStateGroup x:Name="CommonStates">
+                <VisualState x:Name="Normal">
+                    <VisualState.Setters>
+                        <Setter Target="PART_Default.Visibility" Value="Visible"/>
+                        <Setter Target="PART_Each.Visibility" Value="Collapsed"/>
+                        <Setter Target="PART_DaysOfWeek.Visibility" Value="Collapsed"/>
+                        <Setter Target="PART_DayOfMonth.Visibility" Value="Collapsed"/>
+                        <Setter Target="PART_Repeat.Visibility" Value="Collapsed"/>
+                        <Setter Target="PART_GoBack.Visibility" Value="Collapsed"/>
+                    </VisualState.Setters>
+                </VisualState>
+                <VisualState x:Name="Each">
+                    <VisualState.Setters>
+                        <Setter Target="PART_Default.Visibility" Value="Collapsed"/>
+                        <Setter Target="PART_Each.Visibility" Value="Visible"/>
+                        <Setter Target="PART_DaysOfWeek.Visibility" Value="Collapsed"/>
+                        <Setter Target="PART_DayOfMonth.Visibility" Value="Collapsed"/>
+                        <Setter Target="PART_Repeat.Visibility" Value="Visible"/>
+                        <Setter Target="PART_GoBack.Visibility" Value="Visible"/>
+                    </VisualState.Setters>
+                </VisualState>
+                <VisualState x:Name="DaysOfWeek">
+                    <VisualState.Setters>
+                        <Setter Target="PART_Default.Visibility" Value="Collapsed"/>
+                        <Setter Target="PART_Each.Visibility" Value="Collapsed"/>
+                        <Setter Target="PART_DaysOfWeek.Visibility" Value="Visible"/>
+                        <Setter Target="PART_DayOfMonth.Visibility" Value="Collapsed"/>
+                        <Setter Target="PART_Repeat.Visibility" Value="Visible"/>
+                        <Setter Target="PART_GoBack.Visibility" Value="Visible"/>
+                    </VisualState.Setters>
+                </VisualState>
+                <VisualState x:Name="DayOfMonth">
+                    <VisualState.Setters>
+                        <Setter Target="PART_Default.Visibility" Value="Collapsed"/>
+                        <Setter Target="PART_Each.Visibility" Value="Collapsed"/>
+                        <Setter Target="PART_DaysOfWeek.Visibility" Value="Collapsed"/>
+                        <Setter Target="PART_DayOfMonth.Visibility" Value="Visible"/>
+                        <Setter Target="PART_Repeat.Visibility" Value="Visible"/>
+                        <Setter Target="PART_GoBack.Visibility" Value="Visible"/>
+                    </VisualState.Setters>
+                </VisualState>
+            </VisualStateGroup>
+        </VisualStateManager.VisualStateGroups>
+        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel 
+            Grid.Row="0"
+            VerticalAlignment="Center">
+            <Grid 
+                x:Name="PART_GoBack"
+                VerticalAlignment="Center">
+                <controls:IconButton
+                    Tapped="OnBtnGoBackTapped"
+                    Icon="CommonPrevious"
+                    FontSize="24"
+                    Background="Transparent"
+                    BorderBrush="Transparent"
+                    BorderThickness="0"
+                    Foreground="{StaticResource ForegroundBrush}"
+                    Margin="0,0,0,0" />
+            </Grid>
+
+            <Grid 
+                x:Name="PART_Default"
+                VerticalAlignment="Center">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <RadioButton 
+                    Grid.Row="0"
+                    Grid.Column="0"
+                    Style="{StaticResource SmallModernRadioButtonStyle}"
+                    Content="{x:Bind Path=Strings.CustomFrequency_EveryDay}"
+                    Tapped="OnBtnEveryDayTapped"/>
+                <RadioButton 
+                    Grid.Row="0"
+                    Grid.Column="1"
+                    Style="{StaticResource SmallModernRadioButtonStyle}"
+                    BorderThickness="1,1,1,1"
+                    Content="{x:Bind Path=Strings.CustomFrequency_EveryWeek}"
+                    Tapped="OnBtnEveryWeekTapped"/>
+                <RadioButton 
+                    Grid.Row="1"
+                    Grid.Column="0"
+                    Style="{StaticResource SmallModernRadioButtonStyle}"
+                    Content="{x:Bind Path=Strings.CustomFrequency_EveryMonth}"
+                    Tapped="OnBtnEveryMonthTapped"/>
+                <RadioButton 
+                    Grid.Row="1"
+                    Grid.Column="1"
+                    Style="{StaticResource SmallModernRadioButtonStyle}"
+                    BorderThickness="1,1,1,1"
+                    Content="{x:Bind Path=Strings.CustomFrequency_EveryYear}"
+                    Tapped="OnBtnEveryYearTapped"/>
+                <RadioButton 
+                    Grid.Row="2"
+                    Grid.Column="0"
+                    Style="{StaticResource SmallModernRadioButtonStyle}"
+                    Content="{x:Bind Path=Strings.CustomFrequency_EveryXPeriodTitle}"
+                    Tapped="OnBtnEachTapped"/>
+                <RadioButton 
+                    Grid.Row="2"
+                    Grid.Column="1"
+                    Style="{StaticResource SmallModernRadioButtonStyle}"
+                    BorderThickness="1,1,1,1"
+                    Content="{x:Bind Path=Strings.CustomFrequency_DaysOfWeekTitle}"
+                    Tapped="OnBtnDaysOfWeekTapped"/>
+                <RadioButton 
+                    Grid.Row="3"
+                    Grid.Column="0"
+                    Style="{StaticResource SmallModernRadioButtonStyle}"
+                    Content="{x:Bind Path=Strings.CustomFrequency_XthDayOfTheMonthTitle}"
+                    Tapped="OnBtnDayOfMonthTapped"/>
+                <RadioButton 
+                    Grid.Row="3"
+                    Grid.Column="1"
+                    Style="{StaticResource SmallModernRadioButtonStyle}"
+                    BorderThickness="1,1,1,1"
+                    Content="{x:Bind Path=Strings.CustomFrequency_None}"
+                    Tapped="OnBtnNoneTapped"/>
+            </Grid>
+        
+            <Grid 
+                x:Name="PART_Each"
+                VerticalAlignment="Center">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <ComboBox 
+                    x:Name="cbRates"
+                    Grid.Column="0"/>
+                <ComboBox 
+                    x:Name="cbScales"
+                    Grid.Column="1"/>
+            </Grid>
+
+            <Grid 
+                x:Name="PART_DaysOfWeek"
+                VerticalAlignment="Center">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <StackPanel
+                    Grid.Column="0"
+                    VerticalAlignment="Center">
+                    <CheckBox x:Name="cbDay1" Content="{x:Bind Path=Strings.DateMonday}"/>
+                    <CheckBox x:Name="cbDay2" Content="{x:Bind Path=Strings.DateTuesday}"/>
+                    <CheckBox x:Name="cbDay3" Content="{x:Bind Path=Strings.DateWednesday}"/>
+                    <CheckBox x:Name="cbDay4" Content="{x:Bind Path=Strings.DateThursday}"/>
+                    <CheckBox x:Name="cbDay5" Content="{x:Bind Path=Strings.DateFriday}"/>
+                </StackPanel>
+                <StackPanel
+                    Grid.Column="1"
+                    VerticalAlignment="Center">
+                    <CheckBox x:Name="cbDay6" Content="{x:Bind Path=Strings.DateSaturday}"/>
+                    <CheckBox x:Name="cbDay7" Content="{x:Bind Path=Strings.DateSunday}"/>
+                </StackPanel>
+            </Grid>
+        
+            <Grid 
+                x:Name="PART_DayOfMonth"
+                VerticalAlignment="Center">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <ComboBox 
+                    x:Name="cbRankings"
+                    Grid.Column="0"/>
+                <ComboBox 
+                    x:Name="cbDays"
+                    Grid.Column="1"/>
+            </Grid>
+
+            <StackPanel x:Name="PART_Repeat">
+                <TextBlock 
+                    x:Uid="FrequencyPicker_AsSoonAs"
+                    Text="FrequencyPicker_AsSoonAs"
+                    Margin="0,8,0,0"
+                    Foreground="{StaticResource AppFlyoutForegroundBrush}"
+                    FontSize="14"/>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <RadioButton
+                        x:Name="rbRepeatTaskCompletes"
+                        Grid.Column="0"
+                        Style="{StaticResource ModernRadioButtonStyle}">
+                        <TextBlock 
+                            x:Uid="FrequencyPicker_TaskCompleted"
+                            Text="FrequencyPicker_TaskCompleted" 
+                            Margin="-3"
+                            HorizontalAlignment="Center" 
+                            TextWrapping="Wrap"
+                            FontSize="14"/>
+                    </RadioButton>
+                    <RadioButton
+                        x:Name="rbRepeatDueDate"
+                        Grid.Column="1"
+                        Style="{StaticResource ModernRadioButtonStyle}"
+                        BorderThickness="0,1,1,1">
+                        <TextBlock 
+                            x:Uid="FrequencyPicker_DueDateOver"
+                            Text="FrequencyPicker_DueDateOver" 
+                            Margin="-3"
+                            HorizontalAlignment="Center" 
+                            TextWrapping="Wrap"
+                            FontSize="14"/>
+                    </RadioButton>
+                </Grid>
+            </StackPanel>
+        </StackPanel>
+            
+        <Border 
+            Grid.Row="1"
+            Height="45" 
+            Margin="-12,7,-12,-10"
+            VerticalAlignment="Bottom"
+            Background="{StaticResource NavMenuSecondaryBackgroundBrush}" 
+            BorderThickness="0,1,0,0" 
+            BorderBrush="{StaticResource NavMenuBorderBrush}">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <AppBarButton
+                    Style="{StaticResource ModernAppBarButtonStyle}"
+                    Padding="0,12,0,0"
+                    Click="OnBtnValidateClick"
+                    Icon="Accept"
+                    HorizontalAlignment="Stretch"
+                    Width="Auto"/>
+                <AppBarButton
+                    Grid.Column="1"
+                    Style="{StaticResource ModernAppBarButtonStyle}"
+                    Padding="0,12,0,0"
+                    Click="OnBtnCancelClick"
+                    Icon="Cancel"
+                    HorizontalAlignment="Stretch"
+                    Width="Auto"/>
+            </Grid>
+        </Border>
+    </Grid>
+</UserControl>

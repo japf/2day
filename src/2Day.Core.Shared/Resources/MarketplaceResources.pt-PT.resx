@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Feature1" xml:space="preserve">
+    <value>Pastas com ícones e cores para organizar as suas tarefas</value>
+  </data>
+  <data name="Feature2" xml:space="preserve">
+    <value>Tarefas com prioridades, datas programadas, notas, lembretes, eventos periódicos</value>
+  </data>
+  <data name="Feature3" xml:space="preserve">
+    <value>Personalização avançada para melhor se adaptar às suas necessidades</value>
+  </data>
+  <data name="Feature4" xml:space="preserve">
+    <value>Sincronize com todos os seus dispositivos Windows!</value>
+  </data>
+  <data name="Feature5" xml:space="preserve">
+    <value>Sincronize com a Microsoft Exchange, a ToodleDo, a Microsoft Account ou com a nova 2Day Cloud</value>
+  </data>
+  <data name="Feature6" xml:space="preserve">
+    <value>Suporte GTD (contextos, tags e datas de início)</value>
+  </data>
+  <data name="Feature7" xml:space="preserve">
+    <value>Suporte de reconhecimento de discurso</value>
+  </data>
+  <data name="Feature8" xml:space="preserve">
+    <value>Funcionalidade de adição rápida</value>
+  </data>
+  <data name="Intro1" xml:space="preserve">
+    <value>A famosa lista de tarefas da 2Day da Windows Phone está agora disponível para os seus dispositivos Windows 8!</value>
+  </data>
+  <data name="Intro2" xml:space="preserve">
+    <value>Experimente a 2Day gratuitamente durante 30 dias e irá apaixonar-se por ela :-)</value>
+  </data>
+  <data name="Keyword1" xml:space="preserve">
+    <value>todo</value>
+  </data>
+  <data name="Keyword2" xml:space="preserve">
+    <value>task</value>
+  </data>
+  <data name="Keyword3" xml:space="preserve">
+    <value>gtd</value>
+  </data>
+  <data name="Keyword4" xml:space="preserve">
+    <value>exchange</value>
+  </data>
+  <data name="Keyword5" xml:space="preserve">
+    <value>toodledo</value>
+  </data>
+  <data name="Screen1" xml:space="preserve">
+    <value>Écrã principal</value>
+  </data>
+  <data name="Screen2" xml:space="preserve">
+    <value>Configuração de sincronização</value>
+  </data>
+  <data name="Screen3" xml:space="preserve">
+    <value>Suporte drag n' drop</value>
+  </data>
+  <data name="Screen4" xml:space="preserve">
+    <value>Atualização de Tarefa Rápida</value>
+  </data>
+  <data name="Screen5" xml:space="preserve">
+    <value>Configuração de agrupamento</value>
+  </data>
+  <data name="Screen6" xml:space="preserve">
+    <value>Écrã de nova tarefa</value>
+  </data>
+  <data name="Screen7" xml:space="preserve">
+    <value>Reconhecimento de discurso</value>
+  </data>
+  <data name="Screen9" xml:space="preserve">
+    <value>Écrã de acolhimento</value>
+  </data>
+</root>
