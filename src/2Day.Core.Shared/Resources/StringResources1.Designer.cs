@@ -467,6 +467,15 @@ namespace Chartreuse.Today.Core.Shared.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to 18 months.
+        /// </summary>
+        public static string AutoDelete_EighteenMonths {
+            get {
+                return ResourceManager.GetString("AutoDelete_EighteenMonths", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Never.
         /// </summary>
         public static string AutoDelete_Never {
@@ -503,6 +512,15 @@ namespace Chartreuse.Today.Core.Shared.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to 6 months.
+        /// </summary>
+        public static string AutoDelete_SixMonths {
+            get {
+                return ResourceManager.GetString("AutoDelete_SixMonths", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to 3 days.
         /// </summary>
         public static string AutoDelete_ThreeDays {
@@ -517,6 +535,15 @@ namespace Chartreuse.Today.Core.Shared.Resources {
         public static string AutoDelete_ThreeMonths {
             get {
                 return ResourceManager.GetString("AutoDelete_ThreeMonths", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 12 months.
+        /// </summary>
+        public static string AutoDelete_TwelveMonths {
+            get {
+                return ResourceManager.GetString("AutoDelete_TwelveMonths", resourceCulture);
             }
         }
         

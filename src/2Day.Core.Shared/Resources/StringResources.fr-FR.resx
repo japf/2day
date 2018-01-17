@@ -1692,4 +1692,13 @@
   <data name="About_GetTheCode" xml:space="preserve">
     <value>Obtenir le code sur GitHub</value>
   </data>
+  <data name="AutoDelete_EighteenMonths" xml:space="preserve">
+    <value>18 mois</value>
+  </data>
+  <data name="AutoDelete_SixMonths" xml:space="preserve">
+    <value>6 mois</value>
+  </data>
+  <data name="AutoDelete_TwelveMonths" xml:space="preserve">
+    <value>12 mois</value>
+  </data>
 </root>

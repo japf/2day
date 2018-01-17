@@ -9,5 +9,8 @@
         TwoWeeks = 14,
         OneMonths = 30,
         ThreeMonths = 90,
+        SixMonths = 180,
+        TwelveMonths = 360,
+        EighteenMonths = 540,
     }
 }
