@@ -107,7 +107,6 @@
   <ItemGroup>
     <Compile Include="ActiveSyncTestRunner.cs" />
     <Compile Include="MultiDevices\ActiveSyncMultiDevicesTestBase.cs" />
-    <Compile Include="MultiDevices\OutlookActiveSyncMultiDevicesTest.cs" />
     <Compile Include="Eas\ActiveSyncTest.cs" />
     <Compile Include="MultiDevices\Office365ActiveSyncMultiDevicesTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
