@@ -1,6 +1,6 @@
 # 2Day for Windows
 
-![Build Status](https://ci.appveyor.com/api/projects/status/2day/branch/master)
+[App Veyor Build](https://ci.appveyor.com/project/japf/2day): ![Build Status](https://ci.appveyor.com/api/projects/status/2day/branch/master)
 
 [2Day](https://www.2day-app.com) is a todo-list application for Windows devices (Windows 10, Windows 10 Mobile). It's built on top of .Net, C# and XAML. 
 
