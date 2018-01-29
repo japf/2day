@@ -5,13 +5,11 @@ namespace Chartreuse.Today.Core.Shared.Model
 {
     public static class RecurringTaskHelper
     {
-        public static ITask CreateNewTask(ITask source)
+        public static ITask CreateNewTask(ITask source, DateTime now)
         {
             if (source.CustomFrequency == null)
                 return null;
-
-            var now = DateTime.Now;
-
+            
             var task = new Task
             {
                 Action = source.Action,
