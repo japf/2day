@@ -128,14 +128,15 @@ namespace Chartreuse.Today.App.Shared.ViewModel
             // selectedFrequency must map a frequency object contained in the frequencies list
             if (task.CustomFrequency != null && task.FrequencyType.HasValue)
             {
-                this.SelectedFrequency = this.Frequencies.FirstOrDefault(f => f.CustomFrequency.FrequencyType == task.CustomFrequency.FrequencyType);
-                if (this.SelectedFrequency == null)
+                var frequency = this.Frequencies.FirstOrDefault(f => f.CustomFrequency.FrequencyType == task.CustomFrequency.FrequencyType);
+                if (frequency == null)
                 {
                     // create a new instance of ICustomFrequency that will be edited and applied back to the task if user save its changes
                     ICustomFrequency customFrequency = FrequencyFactory.GetCustomFrequency<ICustomFrequency>(task.FrequencyType.Value, task.CustomFrequency.Value);
-                    this.SelectedFrequency = new Frequency(customFrequency);
+                    frequency = new Frequency(customFrequency);
                 }
 
+                this.SelectedFrequency = frequency;
                 this.SelectedFrequency.UseFixedDate = task.UseFixedDate;
             }
             else
