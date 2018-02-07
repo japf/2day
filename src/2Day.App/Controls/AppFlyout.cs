@@ -123,6 +123,21 @@ namespace Chartreuse.Today.App.Controls
                     {
                         dateTimePicker.VerticalAlignment = VerticalAlignment.Center;
                     }
+
+                    //Prevent Frequency Picker Cancel/Accept buttons from appearing under Windows Mobile Nav Bar
+                    var frequencyPicker2 = TreeHelper.FindVisualChild<FrequencyPicker2>(popupChild);
+                    if (frequencyPicker2 != null)
+                    {
+                        var currentMargins = frequencyPicker2.Margin;
+                        var navBarOffset = (bounds.Height - Windows.UI.ViewManagement.ApplicationView.GetForCurrentView().VisibleBounds.Bottom);
+
+                        if (currentMargins.Bottom < navBarOffset)
+                        {
+                            var newMargin = new Thickness(currentMargins.Left, currentMargins.Top, currentMargins.Right, currentMargins.Bottom + navBarOffset);
+                            frequencyPicker2.Margin = newMargin;
+                        }                        
+                    }
+
                 }
             }
             else if (page.Width > 0)

@@ -261,10 +261,10 @@
         <Border 
             Grid.Row="1"
             Height="45" 
-            Margin="-12,7,-12,-10"
+            Margin="-11,7,-11,-11"
             VerticalAlignment="Bottom"
             Background="{StaticResource NavMenuSecondaryBackgroundBrush}" 
-            BorderThickness="0,1,0,0" 
+            BorderThickness="1,1,1,1" 
             BorderBrush="{StaticResource NavMenuBorderBrush}">
             <Grid>
                 <Grid.ColumnDefinitions>
