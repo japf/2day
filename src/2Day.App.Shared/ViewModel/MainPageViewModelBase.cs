@@ -485,11 +485,30 @@ namespace Chartreuse.Today.App.Shared.ViewModel
                 canPerformSync = false;
 
             if (canPerformSync && this.synchronizationManager.CanSyncOnStartup)
+            {
+                await TryWarnVercorsDeprecation();
                 await this.synchronizationManager.Sync();
+            }
         }
 
         public abstract Task RefreshAsync();
         
+        private async Task TryWarnVercorsDeprecation()
+        {
+            if (this.synchronizationManager.ActiveService == SynchronizationService.Vercors)
+            {
+                var result = await this.messageBoxService.ShowAsync(
+                    "Warning",
+                    "2Day Cloud sync will stop working after Sept. 1st 2019. Because 2Day is no longer supported, we recommend you to switch to Microsoft To-Do instead. Do you want to learn more?",
+                    DialogButton.YesNo);
+
+                if (result == DialogResult.Yes)
+                {
+                    this.platformService.OpenWebUri("https://www.microsoft.com/en-us/p/microsoft-to-do-list-task-reminder/9nblggh5r558");
+                }
+            }
+        }
+
         private void OnSettingsChanged(object sender, SettingsKeyChanged e)
         {
             if (e.Key == CoreSettings.BackgroundPattern || e.Key == CoreSettings.BackgroundImage || e.Key == CoreSettings.UseDarkTheme)
@@ -546,6 +565,7 @@ namespace Chartreuse.Today.App.Shared.ViewModel
                         await SyncWarningChecker.CheckWarningBeforeSync(this.Workbook, this.synchronizationManager, this.messageBoxService, this.platformService);
 
                         // sync is configured and not currently running, we can start sync
+                        await TryWarnVercorsDeprecation();
                         await this.synchronizationManager.Sync();
                     }
                 }
