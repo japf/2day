@@ -4,8 +4,6 @@
     {
         WindowsDesktop,
         WindowsMobile,
-        Android,
-        iOS,
         Unkown
     }
 }

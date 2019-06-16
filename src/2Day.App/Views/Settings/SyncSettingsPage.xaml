@@ -21,10 +21,6 @@
                 HorizontalAlignment="Stretch"
                 HorizontalContentAlignment="Stretch">
                 <Grid>
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="*"/>
-                        <RowDefinition Height="Auto"/>
-                    </Grid.RowDefinitions>
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="Auto"/>
                         <ColumnDefinition Width="*"/>
@@ -37,7 +33,7 @@
                             Height="64"
                             HorizontalAlignment="Center"/>
                     </Border>
-                    <StackPanel Grid.Row="0" Grid.Column="1" Margin="10,0,10,0" VerticalAlignment="Center">
+                    <StackPanel Grid.Column="1" Margin="10,0,10,0" VerticalAlignment="Center">
                         <TextBlock 
                             Text="{x:Bind Headline}"
                             TextWrapping="Wrap"
@@ -49,19 +45,8 @@
                             Margin="10,0,0,0"
                             FontSize="10"
                             FontWeight="Normal"
-                            VerticalAlignment="Center"/>    
+                            VerticalAlignment="Center"/>
                     </StackPanel>
-                    <Border 
-                        Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" 
-                        Visibility="{x:Bind IsRecommended, Converter={StaticResource BooleanToVisibilityConverter}}"
-                        Background="{StaticResource ApplicationAccentBrush}">
-                        <TextBlock 
-                            Text="{Binding Path=SharedStrings.Message_Recommended, Source={StaticResource Resources}, Converter={StaticResource TextUppercaseConverter}}" 
-                            FontSize="11"
-                            HorizontalAlignment="Center"
-                            FontWeight="SemiBold"
-                            Foreground="{StaticResource ApplicationWhiteForegroundBrush}"/>
-                    </Border>
                 </Grid>
             </Button>
         </DataTemplate>
