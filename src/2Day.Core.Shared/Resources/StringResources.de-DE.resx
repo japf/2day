@@ -1689,4 +1689,13 @@
   <data name="SmartView_FilterHasSubtasks" xml:space="preserve">
     <value>Mit Subtask</value>
   </data>
+  <data name="AutoDelete_EighteenMonths" xml:space="preserve">
+    <value>18 Monate</value>
+  </data>
+  <data name="AutoDelete_SixMonths" xml:space="preserve">
+    <value>6 Monate</value>
+  </data>
+  <data name="AutoDelete_TwelveMonths" xml:space="preserve">
+    <value>12 Monate</value>
+  </data>
 </root>

@@ -9,6 +9,14 @@ namespace Chartreuse.Today.Core.Shared.Tests.Model.Recurrence
     [TestClass]
     public class RecurringTaskHelperTest
     {
+        private DateTime now;
+
+        [TestInitialize]
+        public void Initialize()
+        {
+            this.now = new DateTime(2018, 1, 1, 21, 30, 0);
+        }
+
         [TestMethod]
         public void Action_field_must_be_copied()
         {
@@ -23,7 +31,7 @@ namespace Chartreuse.Today.Core.Shared.Tests.Model.Recurrence
             };
 
             // act
-            var newTask = RecurringTaskHelper.CreateNewTask(task);
+            var newTask = RecurringTaskHelper.CreateNewTask(task, this.now);
 
             // check
             Assert.AreEqual(task.Action, newTask.Action);
@@ -43,7 +51,7 @@ namespace Chartreuse.Today.Core.Shared.Tests.Model.Recurrence
             };
 
             // act
-            RecurringTaskHelper.CreateNewTask(task);
+            RecurringTaskHelper.CreateNewTask(task, this.now);
 
             // check
             Assert.IsNull(task.Alarm);
@@ -65,7 +73,7 @@ namespace Chartreuse.Today.Core.Shared.Tests.Model.Recurrence
             };
 
             // act
-            var newTask = RecurringTaskHelper.CreateNewTask(task);
+            var newTask = RecurringTaskHelper.CreateNewTask(task, this.now);
 
             // check
             Assert.AreEqual(due.AddMonths(1).Date, newTask.Due.Value.Date);
@@ -88,7 +96,7 @@ namespace Chartreuse.Today.Core.Shared.Tests.Model.Recurrence
             };
 
             // act
-            var newTask = RecurringTaskHelper.CreateNewTask(task);
+            var newTask = RecurringTaskHelper.CreateNewTask(task, this.now);
 
             // check
             Assert.AreEqual(start.AddMonths(1).Date, newTask.Start.Value.Date);
@@ -111,7 +119,7 @@ namespace Chartreuse.Today.Core.Shared.Tests.Model.Recurrence
             };
 
             // act
-            var newTask = RecurringTaskHelper.CreateNewTask(task);
+            var newTask = RecurringTaskHelper.CreateNewTask(task, this.now);
 
             // check
             Assert.AreEqual(start.AddMonths(1), newTask.Start);
@@ -132,17 +140,11 @@ namespace Chartreuse.Today.Core.Shared.Tests.Model.Recurrence
                 UseFixedDate = false
             };
 
-            var nextExpectedStartDate = DateTime.Now.Date.AddDays(1);
-            nextExpectedStartDate = nextExpectedStartDate.AddHours(start.Hour);
-            nextExpectedStartDate = nextExpectedStartDate.AddMinutes(start.Minute);
-            while (nextExpectedStartDate.Day != DateTime.Now.Day)
-                nextExpectedStartDate = nextExpectedStartDate.AddDays(1);
-
             // act
-            var newTask = RecurringTaskHelper.CreateNewTask(task);
+            var newTask = RecurringTaskHelper.CreateNewTask(task, this.now);
 
             // check
-            Assert.AreEqual(nextExpectedStartDate, newTask.Start);
+            Assert.AreEqual(new DateTime(2018, 2, 1, 8, 15, 0), newTask.Start);
         }
 
         [TestMethod]
@@ -158,7 +160,7 @@ namespace Chartreuse.Today.Core.Shared.Tests.Model.Recurrence
             };
 
             // act
-            var newTask = RecurringTaskHelper.CreateNewTask(task);
+            var newTask = RecurringTaskHelper.CreateNewTask(task, this.now);
 
             // check
             Assert.AreEqual(start.AddMonths(1), newTask.Start);
@@ -177,7 +179,7 @@ namespace Chartreuse.Today.Core.Shared.Tests.Model.Recurrence
             };
 
             // act
-            var newTask = RecurringTaskHelper.CreateNewTask(task);
+            var newTask = RecurringTaskHelper.CreateNewTask(task, this.now);
 
             // check
             Assert.AreEqual(new DateTime(2015, 6, 1, 15, 0, 0), newTask.Start);

@@ -17,13 +17,16 @@ namespace Chartreuse.Today.Core.Shared.Model
         {
             descriptions = new Dictionary<AutoDeleteFrequency, string>
                                {
-                                   {AutoDeleteFrequency.Never,         StringResources.AutoDelete_Never},         
-                                   {AutoDeleteFrequency.OneDay,        StringResources.AutoDelete_OneDay},
-                                   {AutoDeleteFrequency.ThreeDays,     StringResources.AutoDelete_ThreeDays},
-                                   {AutoDeleteFrequency.OneWeek,       StringResources.AutoDelete_OneWeek},
-                                   {AutoDeleteFrequency.TwoWeeks,      StringResources.AutoDelete_TwoWeeks},
-                                   {AutoDeleteFrequency.OneMonths,     StringResources.AutoDelete_OneMonth},
-                                   {AutoDeleteFrequency.ThreeMonths,   StringResources.AutoDelete_ThreeMonths},
+                                   {AutoDeleteFrequency.Never,          StringResources.AutoDelete_Never},         
+                                   {AutoDeleteFrequency.OneDay,         StringResources.AutoDelete_OneDay},
+                                   {AutoDeleteFrequency.ThreeDays,      StringResources.AutoDelete_ThreeDays},
+                                   {AutoDeleteFrequency.OneWeek,        StringResources.AutoDelete_OneWeek},
+                                   {AutoDeleteFrequency.TwoWeeks,       StringResources.AutoDelete_TwoWeeks},
+                                   {AutoDeleteFrequency.OneMonths,      StringResources.AutoDelete_OneMonth},
+                                   {AutoDeleteFrequency.ThreeMonths,    StringResources.AutoDelete_ThreeMonths},
+                                   {AutoDeleteFrequency.SixMonths,      StringResources.AutoDelete_SixMonths},
+                                   {AutoDeleteFrequency.TwelveMonths,   StringResources.AutoDelete_TwelveMonths},
+                                   {AutoDeleteFrequency.EighteenMonths, StringResources.AutoDelete_EighteenMonths},
                                };
         }
 

@@ -1,5 +1,7 @@
 # 2Day for Windows
 
+![2Day screenshots on Windows Phone and Windows](https://www.2day-app.com/wp-content/uploads/2014/10/WinWP-1024x467.png)
+
 [2Day](https://www.2day-app.com) is a todo-list application for Windows devices (Windows 10, Windows 10 Mobile). It's built on top of .Net, C# and XAML. 
 
 2Day was created by a single guy as a side project and then turned into a 5+ years experiencing of having and maintaining the app in the Windows Store. As I joined Microsoft in late 2017 I'm no longer developing the app. That's the reason why I decided to put the code on GitHub. Even though I'm not doing active development I will be more than happy to welcome developers who want to hack into the code and/or fix or improve things.

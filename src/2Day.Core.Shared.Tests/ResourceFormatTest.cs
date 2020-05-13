@@ -10,7 +10,7 @@ namespace Chartreuse.Today.Core.Shared.Tests
     [TestClass]
     public class ResourceFormatTest
     {
-        private const string SolutionFilename = "VTDLA.sln";
+        private const string SolutionFilename = "2Day.sln";
         private const string SourceFolderPath = @"src\2Day\src";
 
         [TestMethod]

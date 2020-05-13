@@ -302,7 +302,7 @@ namespace Chartreuse.Today.Core.Shared.Model.Impl
 
                     if (this.IsPeriodic)
                     {
-                        RecurringTaskHelper.CreateNewTask(this);
+                        RecurringTaskHelper.CreateNewTask(this, DateTime.Now);
 
                         // make the current task no more periodic
                         this.CustomFrequency = null;
